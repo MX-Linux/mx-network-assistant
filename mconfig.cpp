@@ -30,6 +30,8 @@ MConfig::MConfig(QWidget* parent)
     setupUi(this);
     setWindowIcon(QApplication::windowIcon());
 
+    hwUnblock->hide();
+
     currentTab = 0;
     tabWidget->setCurrentIndex(0);
 
@@ -183,6 +185,13 @@ void MConfig::refresh() {
         labelRouterIP_2->setText(tr("IP address from router:") + " " + getIPfromRouter());
         labelIP_2->setText(tr("External IP address:") + " " + getIP());
         labelInterface->setText(getCmdOut("route | grep '^default' | grep -o '[^ ]*$'"));
+        if (isWifiEnabled()) {
+            labelWifi->setText(tr("enabled"));
+            hwUnblock->hide();
+        } else {
+            labelWifi->setText(tr("disabled"));
+            hwUnblock->show();
+        }
         break;
     case 1: // Linux drivers
         on_linuxDrvDiagnosePushButton_clicked();
@@ -1090,6 +1099,11 @@ bool MConfig::checkSysFileExists(QDir searchPath, QString fileName, Qt::CaseSens
         ++it;
     }
     return found;
+}
+
+bool MConfig::isWifiEnabled()
+{
+  return (getCmdOut("nmcli -t --fields WIFI r") == "enabled");
 }
 
 void MConfig::on_windowsDrvAddPushButton_clicked()
