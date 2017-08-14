@@ -170,6 +170,8 @@ QString MConfig::getVersion(QString name) {
 // common
 
 void MConfig::refresh() {
+    hwUnblock->hide();
+    groupWifi->hide();
     int i = tabWidget->currentIndex();
     QString out = getCmdOut("rfkill list 2>&1");
     qApp->processEvents();
@@ -185,13 +187,8 @@ void MConfig::refresh() {
         labelRouterIP->setText(tr("IP address from router:") + " " + getIPfromRouter());
         labelIP->setText(tr("External IP address:") + " " + getIP());
         labelInterface->setText(getCmdOut("route | grep '^default' | grep -o '[^ ]*$'"));
-        if (isWifiEnabled()) {
-            labelWifi->setText(tr("enabled"));
-            hwUnblock->hide();
-        } else {
-            labelWifi->setText(tr("disabled"));
-            hwUnblock->show();
-        }
+        checkWifiAvailable();
+        checkWifiEnabled();
         break;
     case 1: // Linux drivers
         on_linuxDrvDiagnosePushButton_clicked();
@@ -551,7 +548,7 @@ void MConfig::on_hwDiagnosePushButton_clicked()
             new QListWidgetItem(QIcon("/usr/share/icons/default.kde4/16x16/places/network-server-database.png"),currentElement, hwList);
         }
     }
-    /** @todo warn when no devices were found*/
+    checkWifiEnabled();
 }
 
 void MConfig::on_linuxDrvList_currentRowChanged(int currentRow )
@@ -1099,9 +1096,28 @@ bool MConfig::checkSysFileExists(QDir searchPath, QString fileName, Qt::CaseSens
     return found;
 }
 
-bool MConfig::isWifiEnabled()
+bool MConfig::checkWifiAvailable()
 {
-  return (getCmdOut("nmcli -t --fields WIFI r") == "enabled");
+    if (system("lspci | grep -i wireless || lspci | grep -i wireless") == 0) {
+        groupWifi->show();
+        return true;
+    } else {
+        groupWifi->hide();
+        return false;
+    }
+}
+
+bool MConfig::checkWifiEnabled()
+{
+  if (getCmdOut("nmcli -t --fields WIFI r") == "enabled") {
+      labelWifi->setText(tr("enabled"));
+      hwUnblock->hide();
+      return true;
+  } else {
+      labelWifi->setText(tr("disabled"));
+      hwUnblock->show();
+      return false;
+  }
 }
 
 void MConfig::on_windowsDrvAddPushButton_clicked()
@@ -1204,7 +1220,7 @@ void MConfig::on_hwUnblock_clicked()
     } else {
         QMessageBox::information(0, QString::null, QApplication::tr("WiFi devices unlocked."));
     }
-
+    checkWifiEnabled();
 }
 
 // close but do not apply
