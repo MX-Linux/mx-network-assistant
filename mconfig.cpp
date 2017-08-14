@@ -15,7 +15,7 @@
 //   limitations under the License.
 //
 
-//   With heavy modification made by Adrian adrian@mxlinux.org
+//   With big modifications made by Adrian adrian@mxlinux.org
 
 #include "mconfig.h"
 #include <QFileDialog>
@@ -1162,7 +1162,7 @@ void MConfig::on_windowsDrvRemovePushButton_clicked()
 void MConfig::on_generalHelpPushButton_clicked()
 {
     this->hide();
-    system("mx-viewer https://mxlinux.org/wiki/networking/help-mx-network-assistant 'MX Broadcom Manager Help'");
+    system("mx-viewer https://mxlinux.org/wiki/networking/help-mx-network-assistant 'MX Network Assistant Help'");
     this->show();
 }
 
@@ -1203,15 +1203,15 @@ void MConfig::on_buttonAbout_clicked()
 {
     this->hide();
     QMessageBox msgBox(QMessageBox::NoIcon,
-                       tr("About MX Broadcom Manager"), "<p align=\"center\"><b><h2>" +
-                       tr("MX Broadcom Manager") + "</h2></b></p><p align=\"center\">" + tr("Version: ") +
+                       tr("About MX Network Assistant"), "<p align=\"center\"><b><h2>" +
+                       tr("MX Network Assistant") + "</h2></b></p><p align=\"center\">" + tr("Version: ") +
                        getVersion("mx-network-assistant") + "</p><p align=\"center\"><h3>" +
                        tr("Program for troubleshooting and configuring network for MX Linux") + "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p align=\"center\">" +
                        tr("Copyright (c) MEPIS LLC and MX Linux") + "<br /><br /></p>", 0, this);
     msgBox.addButton(tr("License"), QMessageBox::AcceptRole);
     msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
     if (msgBox.exec() == QMessageBox::AcceptRole) {
-        system("mx-viewer file:///usr/share/doc/mx-network-assistant/license.html 'MX Broadcom Manager License'");
+        system("mx-viewer file:///usr/share/doc/mx-network-assistant/license.html 'MX Network Assistant License'");
     }
     this->show();
 }

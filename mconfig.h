@@ -15,7 +15,7 @@
 //   limitations under the License.
 //
 
-//   With big modification made by Adrian adrian@mxlinux.org
+//   With big modifications made by Adrian adrian@mxlinux.org
 
 #ifndef MCONFIG_H
 #define MCONFIG_H
@@ -27,9 +27,9 @@
 
 class MConfig : public QDialog, public Ui::MEConfig {
     Q_OBJECT
-public:   
+public:
     MConfig(QWidget* parent = 0);
-    ~MConfig();           
+    ~MConfig();
     // helpers
     static QString getCmdOut(QString cmd);
     static QString getCmdOut2(QString cmd);
