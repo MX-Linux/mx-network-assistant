@@ -1,0 +1,5 @@
+mx-network-assistant (17.8) mx; urgency=medium
+
+  * re-write of mx-broadcom-manager
+
+ -- Adrian <adrian@mxlinux.org>  Mon, 14 Aug 2017 10:02:28 -0400

@@ -1,0 +1,17 @@
+Source: mx-network-assistant
+Section: admin
+Priority: optional
+Maintainer: Adrian <adrian@mxlinux.org>
+Build-Depends: qt5-qmake,
+	qt5-default,
+	qttools5-dev-tools,
+	debhelper (>=7.0.50~)
+Standards-Version: 3.9.5
+Vcs-Git: git://github.com/AdrianTM/mx-network-assistant
+
+Package: mx-network-assistant
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, mx-viewer, rfkill, menu
+Description: MX program for network troubleshooting and configuration
+ MX Network Assistant is a program used for configuring and troubleshooting 
+ network configuration in MX Linux
