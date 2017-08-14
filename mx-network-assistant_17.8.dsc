@@ -9,24 +9,24 @@ Version: 17.8
 Maintainer: Adrian <adrian@mxlinux.org>
 Standards-Version: 3.9.5
 Vcs-Git: git://github.com/AdrianTM/mx-network-assistant
-Build-Depends: qt5-qmake, qt5-default, qttools5-dev-tools, debhelper (>= 7.0.50~)
+Build-Depends: qt5-qmake, qt5-default, qttools5-dev-tools, debhelper (>= 7.0.50~), network-manager
 Package-List:
  mx-network-assistant deb admin optional arch=any
 Checksums-Sha1:
- 774cdd9ccac163da9de39799ad7b8b6f3a45a83c 26804 mx-network-assistant_17.8.tar.xz
+ cc80fdbff2cd02bbd79090d4a4629cb86b5471bb 26628 mx-network-assistant_17.8.tar.xz
 Checksums-Sha256:
- e1c9044306975b14fcd89a8aca4000b3600e761ea77a12f84af9efc22dad5a9a 26804 mx-network-assistant_17.8.tar.xz
+ d0ac5d64c47f1d9d253866203fbd1d56c674f500a6d9286f0dcc841af86f1529 26628 mx-network-assistant_17.8.tar.xz
 Files:
- 51656290fb73df6b47f370d16cbb7fd5 26804 mx-network-assistant_17.8.tar.xz
+ 137320e1787ce266e5ce48c7adbfe9a9 26628 mx-network-assistant_17.8.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJZkdJ6AAoJEHCTjHgGee6YqS0IAJfWr3Hv7aAcu6nsP+a/rUu2
-pDT2RE4hbSzsoT+RyAobIP67yKHkZy+K+y5hgkiHIlJ9X+lD/tSMZvcdSz24doqj
-WJ3nQ5Hk8Nr8/wLuhaDtsr5MpGJiGqRYfKGazkKNVSxBqdm5QnzJlsdb1YG78HVb
-YIsRQWM3Jcj/0ubfYSbFNFsG9DBbAbRFsngBXgsH53zd1z6d/Y0AU0BN496QfbRm
-5drwF4TC095Vws8TZZPB7SOJpiI2lJTQYr+pnLvSb/5jhj4sMw5Wdw4Xgfc+D6H4
-jlL1/OBLfMzwB1NlMGd4wLe2n5ZTR3XsTxVIVHTvkScLFSyR7E1W+yQZfudgEqM=
-=Fv8v
+iQEcBAEBAgAGBQJZkffTAAoJEHCTjHgGee6YgFMH/3QbHDoa9ngXMk3aajL48Z9i
+R98HRcztsZM+0y/EeREBAFsYkW+jB9bUESxGrEmadN6qEWq6x1az3zB18e7eN0Ii
+od3vGncEx/723+9UVFOsWpj/XUjVo+7RuOcFDsOXqC8zS2Gtlx3lE/U7c9Bu5q4m
+SLfh8mekY5cddy15zvnN+Lya9JfchjwwmNxzqvTEnOrVd4WGYul9/3xT4gxCCrJX
+0OnYxmpjHJBh8LWJJgF/nCb3hDk+h4jkTYmfRcHwdkljjqG+3Db3fT4hd35cukc3
+xQ1Oj6sM/yKCEt96Qf21QmrLCa6M6Bw0mjy1SlTgmpf5KtUfcL+Wi3g0zxv9Vio=
+=boXi
 -----END PGP SIGNATURE-----
