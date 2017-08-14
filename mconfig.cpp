@@ -173,13 +173,16 @@ void MConfig::refresh() {
     qApp->processEvents();
 
     switch (i) {
-    case 0: // Introduction
+    case 0: // Status
         on_hwDiagnosePushButton_clicked();
         if (out == "Can't open RFKILL control device: No such file or directory") {
             hwUnblock->hide();
         } else {
             hwUnblock->show();
         }
+        labelRouterIP_2->setText(tr("IP address from router:") + " " + getIPfromRouter());
+        labelIP_2->setText(tr("External IP address:") + " " + getIP());
+        labelInterface->setText(getCmdOut("route | grep '^default' | grep -o '[^ ]*$'"));
         break;
     case 1: // Linux drivers
         on_linuxDrvDiagnosePushButton_clicked();
