@@ -46,7 +46,8 @@ public:
     void refreshStatus();
 
     bool checkSysFileExists(QDir searchPath, QString fileName, Qt::CaseSensitivity cs);
-    bool isWifiEnabled();
+    bool checkWifiAvailable();
+    bool checkWifiEnabled();
 
 public slots:
     virtual void show();
