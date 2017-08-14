@@ -78,14 +78,14 @@
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_7">
           <item>
-           <widget class="QLabel" name="labelIP_2">
+           <widget class="QLabel" name="labelIP">
             <property name="text">
              <string/>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="labelRouterIP_2">
+           <widget class="QLabel" name="labelRouterIP">
             <property name="text">
              <string/>
             </property>
@@ -292,25 +292,6 @@
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
-        <widget class="QGroupBox" name="groupBoxLinux">
-         <property name="title">
-          <string>Linux drivers</string>
-         </property>
-         <layout class="QVBoxLayout" name="verticalLayout_4">
-          <item>
-           <widget class="QLabel" name="labelLinux">
-            <property name="text">
-             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This tool makes it easier to set up the network driver for your Broadcom network card.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-            </property>
-            <property name="wordWrap">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-       </item>
-       <item>
         <widget class="QGroupBox" name="driversGroupBox">
          <property name="minimumSize">
           <size>
@@ -452,64 +433,9 @@
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
-        <widget class="QGroupBox" name="groupBoxWindows">
-         <property name="title">
-          <string>About NDISwrapper</string>
-         </property>
-         <layout class="QGridLayout" name="gridLayout_7">
-          <item row="1" column="0">
-           <widget class="QPushButton" name="installNdiswrapper">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="text">
-             <string>Install NDISwrapper</string>
-            </property>
-            <property name="icon">
-             <iconset theme="list-add">
-              <normaloff/>
-             </iconset>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="0" colspan="3">
-           <widget class="QLabel" name="labelNdiswrapper">
-            <property name="text">
-             <string>In order to use Windows drivers you need first to install NDISwrapper, please press the Install NDISwrapper button.</string>
-            </property>
-            <property name="wordWrap">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="1">
-           <widget class="QPushButton" name="uninstallNdiswrapper">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="text">
-             <string>Uninstall NDISwrapper</string>
-            </property>
-            <property name="icon">
-             <iconset theme="list-remove">
-              <normaloff/>
-             </iconset>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-       </item>
-       <item>
         <widget class="QGroupBox" name="groupBox">
          <property name="title">
-          <string>Windows Drivers</string>
+          <string>Available Windows drivers</string>
          </property>
          <layout class="QGridLayout" name="gridLayout_5">
           <item row="0" column="0" colspan="5">
@@ -594,6 +520,61 @@
          <zorder>windowsDrvRemovePushButton</zorder>
         </widget>
        </item>
+       <item>
+        <widget class="QGroupBox" name="groupBoxWindows">
+         <property name="title">
+          <string>About NDISwrapper</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_7">
+          <item row="1" column="0">
+           <widget class="QPushButton" name="installNdiswrapper">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Install NDISwrapper</string>
+            </property>
+            <property name="icon">
+             <iconset theme="list-add">
+              <normaloff/>
+             </iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0" colspan="3">
+           <widget class="QLabel" name="labelNdiswrapper">
+            <property name="text">
+             <string>In order to use Windows drivers you need first to install NDISwrapper</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="uninstallNdiswrapper">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Uninstall NDISwrapper</string>
+            </property>
+            <property name="icon">
+             <iconset theme="list-remove">
+              <normaloff/>
+             </iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
       </layout>
      </widget>
      <widget class="QWidget" name="diagnosticsTab">
@@ -605,29 +586,6 @@
        <string>Net diagnostics</string>
       </attribute>
       <layout class="QVBoxLayout">
-       <item>
-        <widget class="QGroupBox" name="groupIP_2">
-         <property name="title">
-          <string>IP address</string>
-         </property>
-         <layout class="QVBoxLayout" name="verticalLayout_6">
-          <item>
-           <widget class="QLabel" name="labelIP">
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="labelRouterIP">
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-       </item>
        <item>
         <widget class="QGroupBox" name="pingGroupBox">
          <property name="minimumSize">

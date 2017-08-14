@@ -182,8 +182,8 @@ void MConfig::refresh() {
         } else {
             hwUnblock->show();
         }
-        labelRouterIP_2->setText(tr("IP address from router:") + " " + getIPfromRouter());
-        labelIP_2->setText(tr("External IP address:") + " " + getIP());
+        labelRouterIP->setText(tr("IP address from router:") + " " + getIPfromRouter());
+        labelIP->setText(tr("External IP address:") + " " + getIP());
         labelInterface->setText(getCmdOut("route | grep '^default' | grep -o '[^ ]*$'"));
         if (isWifiEnabled()) {
             labelWifi->setText(tr("enabled"));
@@ -200,8 +200,6 @@ void MConfig::refresh() {
         on_windowsDrvDiagnosePushButton_clicked();
         break;
     case 3: // Diagnostic
-        labelRouterIP->setText(tr("IP address from router:") + " " + getIPfromRouter());
-        labelIP->setText(tr("External IP address:") + " " + getIP());
         break;
 
     default:
@@ -600,7 +598,7 @@ void MConfig::on_linuxDrvDiagnosePushButton_clicked()
     {
         QString mod = loadedModules.at(i);
         if (i == 0) {
-            new QListWidgetItem("---------Loaded Drivers-------------", linuxDrvList);
+            new QListWidgetItem("---------" + tr("Loaded Drivers") + "-------------", linuxDrvList);
         }
         new QListWidgetItem(QIcon("/usr/share/icons/default.kde4/16x16/apps/ksysguardd.png"), mod, linuxDrvList);
     }
@@ -610,7 +608,7 @@ void MConfig::on_linuxDrvDiagnosePushButton_clicked()
     {
         QString mod = unloadedModules.at(i);
         if (i == 0) {
-            new QListWidgetItem("---------Unloaded Drivers-----------", linuxDrvList);
+            new QListWidgetItem("---------" + tr("Unloaded Drivers") + "-----------", linuxDrvList);
         }
         QListWidgetItem *unloaded = new QListWidgetItem(QIcon("/usr/share/icons/default.kde4/16x16/apps/ksysguardd.png"), mod, linuxDrvList);
         unloaded->setForeground(Qt::blue);
@@ -626,7 +624,7 @@ void MConfig::on_linuxDrvDiagnosePushButton_clicked()
     while (!inputBlacklist.atEnd())
     {
         if (i == 0) {
-            new QListWidgetItem("---------Blacklisted Drivers--------", linuxDrvList);
+            new QListWidgetItem("---------" + tr("Blacklisted Drivers") + " --------", linuxDrvList);
         }
         i++;
         s = inputBlacklist.readLine();
@@ -649,7 +647,7 @@ void MConfig::on_linuxDrvDiagnosePushButton_clicked()
     while (!inputBroadcomBlacklist.atEnd())
     {
         if (i == 0) {
-            new QListWidgetItem("---------Blacklisted Broadcom Drivers--------", linuxDrvList);
+            new QListWidgetItem("---------" + tr("Blacklisted Broadcom Drivers") + "--------", linuxDrvList);
         }
         i++;
         s = inputBroadcomBlacklist.readLine();
