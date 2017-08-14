@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 14 Aug 2017 10:02:28 -0400
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: source amd64
+Version: 17.8
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (17.8) mx; urgency=medium
+ .
+   * re-write of mx-broadcom-manager
+Checksums-Sha1:
+ d6e0049e8f852951c6f901243584458574921af7 1199 mx-network-assistant_17.8.dsc
+ 4d55702b528a9ea8ccd7ae884f1ff5bf33864097 26616 mx-network-assistant_17.8.tar.xz
+ 1d879db3eb421d7e86ce2df68bf3760a87558383 60384 mx-network-assistant_17.8_amd64.deb
+Checksums-Sha256:
+ 2e545981e1c298adb21ed5b6073f138d4002bb104df7a757a68e36d5fb7a536d 1199 mx-network-assistant_17.8.dsc
+ 371c28db79a9df8f3ecbe9d7d177ae69e1f48b5accdf70cf46eeea9db2880a8a 26616 mx-network-assistant_17.8.tar.xz
+ fb41918f43858cc0ea1243bc15831babb8483e70e500e05f9afad54070f1e421 60384 mx-network-assistant_17.8_amd64.deb
+Files:
+ 19f5f471a66407fd62da10694ec497c8 1199 admin optional mx-network-assistant_17.8.dsc
+ ccbb987043e5b642e42a479258afcae7 26616 admin optional mx-network-assistant_17.8.tar.xz
+ 4f0e97de8365308bfcd968145e082c40 60384 admin optional mx-network-assistant_17.8_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJZkbzQAAoJEHCTjHgGee6Y9CUIAIlwhVmU3tNLpApKLTJa1Iik
++8eDBekI7pmjjGZ76TfG8xxV8xLyR6/mMzM3pq+oXMe1KeaBLAP2JQxFccZyWgB7
+qia59K5A6lAwwDv6ulYMfbloiN+nN8Gr+dCwg76lYnBI155ALKlnj7ZrUJiY2KiP
+7nIQKOQMOqDyZQZQXPkwf4B3dQ+yyS8uA30ELCnfQENDd/xYMM/d8SrnyUIhEk/a
+5tLEo7+Pk4gPJagPMAQBwEkCREUuD6PIyEadJNiOt/kVwSKJxH8teYpgIrxeWX9O
+SEfxt03FtlaiDpHeL/uUb9xbhsiXNTySQnUk+zkmRpgJDT4Tj+uLw4WnRotBj90=
+=fs3U
+-----END PGP SIGNATURE-----
