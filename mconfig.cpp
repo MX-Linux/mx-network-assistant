@@ -1098,7 +1098,7 @@ bool MConfig::checkSysFileExists(QDir searchPath, QString fileName, Qt::CaseSens
 
 bool MConfig::checkWifiAvailable()
 {
-    if (system("lspci | grep -i wireless || lspci | grep -i wireless") == 0) {
+    if (system("lspci | grep -Ei 'wireless|wifi' || lspci | grep -Ei 'wireless|wifi'") == 0) {
         groupWifi->show();
         return true;
     } else {
