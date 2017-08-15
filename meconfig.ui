@@ -141,7 +141,7 @@
              </size>
             </property>
             <property name="text">
-             <string>Re-scan Hardware</string>
+             <string>Re-scan</string>
             </property>
             <property name="icon">
              <iconset theme="view-refresh">
@@ -505,11 +505,10 @@
              </size>
             </property>
             <property name="text">
-             <string>List Windows drivers</string>
+             <string>Re-scan</string>
             </property>
             <property name="icon">
-             <iconset resource="images.qrc">
-              <normaloff>:/icons/samba.png</normaloff>:/icons/samba.png</iconset>
+             <iconset theme="view-refresh"/>
             </property>
            </widget>
           </item>

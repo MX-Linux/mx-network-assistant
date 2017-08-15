@@ -203,11 +203,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="144"/>
-        <source>Re-scan Hardware</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../meconfig.ui" line="255"/>
         <source>Unblocks all soft/hard blocked wireless devices</source>
         <translation type="unfinished"></translation>
@@ -263,17 +258,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="526"/>
+        <location filename="../meconfig.ui" line="525"/>
         <source>About NDISwrapper</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="538"/>
+        <location filename="../meconfig.ui" line="537"/>
         <source>Install NDISwrapper</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="566"/>
+        <location filename="../meconfig.ui" line="565"/>
         <source>Uninstall NDISwrapper</source>
         <translation type="unfinished"></translation>
     </message>
@@ -283,7 +278,9 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../meconfig.ui" line="144"/>
         <location filename="../meconfig.ui" line="392"/>
+        <location filename="../meconfig.ui" line="508"/>
         <source>Re-scan</source>
         <translation type="unfinished"></translation>
     </message>
@@ -293,66 +290,61 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="508"/>
-        <source>List Windows drivers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../meconfig.ui" line="550"/>
+        <location filename="../meconfig.ui" line="549"/>
         <source>In order to use Windows drivers you need first to install NDISwrapper</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="586"/>
+        <location filename="../meconfig.ui" line="585"/>
         <source>Net diagnostics</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="598"/>
+        <location filename="../meconfig.ui" line="597"/>
         <source>Ping</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="604"/>
-        <location filename="../meconfig.ui" line="716"/>
+        <location filename="../meconfig.ui" line="603"/>
+        <location filename="../meconfig.ui" line="715"/>
         <source>Target URL:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="614"/>
+        <location filename="../meconfig.ui" line="613"/>
         <source>Packets</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="649"/>
-        <location filename="../meconfig.ui" line="771"/>
+        <location filename="../meconfig.ui" line="648"/>
+        <location filename="../meconfig.ui" line="770"/>
         <source>Start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="667"/>
-        <location filename="../meconfig.ui" line="789"/>
+        <location filename="../meconfig.ui" line="666"/>
+        <location filename="../meconfig.ui" line="788"/>
         <source>Clear</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="682"/>
-        <location filename="../meconfig.ui" line="804"/>
+        <location filename="../meconfig.ui" line="681"/>
+        <location filename="../meconfig.ui" line="803"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="710"/>
+        <location filename="../meconfig.ui" line="709"/>
         <source>Traceroute</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="726"/>
+        <location filename="../meconfig.ui" line="725"/>
         <source>Hops</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="758"/>
+        <location filename="../meconfig.ui" line="757"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -361,22 +353,22 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="854"/>
+        <location filename="../meconfig.ui" line="853"/>
         <source>About...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="872"/>
+        <location filename="../meconfig.ui" line="871"/>
         <source>Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="935"/>
+        <location filename="../meconfig.ui" line="934"/>
         <source>&amp;Close</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="943"/>
+        <location filename="../meconfig.ui" line="942"/>
         <source>Alt+C</source>
         <translation type="unfinished"></translation>
     </message>
