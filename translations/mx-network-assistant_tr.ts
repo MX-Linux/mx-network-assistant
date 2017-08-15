@@ -111,7 +111,7 @@
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1120"/>
-        <source>WiFi hardware switch off, please turn it on</source>
+        <source>WiFi hardware switch is off</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -263,17 +263,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="525"/>
+        <location filename="../meconfig.ui" line="527"/>
         <source>About NDISwrapper</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="537"/>
+        <location filename="../meconfig.ui" line="539"/>
         <source>Install NDISwrapper</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="565"/>
+        <location filename="../meconfig.ui" line="567"/>
         <source>Uninstall NDISwrapper</source>
         <translation type="unfinished"></translation>
     </message>
@@ -295,85 +295,85 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="549"/>
+        <location filename="../meconfig.ui" line="551"/>
         <source>In order to use Windows drivers you need first to install NDISwrapper</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="585"/>
+        <location filename="../meconfig.ui" line="600"/>
         <source>Net diagnostics</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="597"/>
+        <location filename="../meconfig.ui" line="612"/>
         <source>Ping</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="603"/>
-        <location filename="../meconfig.ui" line="715"/>
+        <location filename="../meconfig.ui" line="618"/>
+        <location filename="../meconfig.ui" line="730"/>
         <source>Target URL:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="613"/>
+        <location filename="../meconfig.ui" line="628"/>
         <source>Packets</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="648"/>
-        <location filename="../meconfig.ui" line="770"/>
+        <location filename="../meconfig.ui" line="663"/>
+        <location filename="../meconfig.ui" line="785"/>
         <source>Start</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../meconfig.ui" line="666"/>
-        <location filename="../meconfig.ui" line="788"/>
-        <source>Clear</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="681"/>
         <location filename="../meconfig.ui" line="803"/>
+        <source>Clear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../meconfig.ui" line="696"/>
+        <location filename="../meconfig.ui" line="818"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="709"/>
+        <location filename="../meconfig.ui" line="724"/>
         <source>Traceroute</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="725"/>
+        <location filename="../meconfig.ui" line="740"/>
         <source>Hops</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="757"/>
+        <location filename="../meconfig.ui" line="772"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Droid Sans&apos;; font-size:10.5pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Droid Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="853"/>
+        <location filename="../meconfig.ui" line="868"/>
         <source>About...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="871"/>
+        <location filename="../meconfig.ui" line="886"/>
         <source>Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="934"/>
+        <location filename="../meconfig.ui" line="949"/>
         <source>&amp;Close</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../meconfig.ui" line="942"/>
+        <location filename="../meconfig.ui" line="957"/>
         <source>Alt+C</source>
         <translation type="unfinished"></translation>
     </message>
