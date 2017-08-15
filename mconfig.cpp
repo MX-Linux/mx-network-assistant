@@ -1113,11 +1113,13 @@ bool MConfig::checkWifiEnabled()
       labelWifi->setText(tr("enabled"));
       hwUnblock->hide();
       return true;
-  } else {
+  } else if (getCmdOut("nmcli -t --fields WIFI-HW r") == "enabled") {
       labelWifi->setText(tr("disabled"));
       hwUnblock->show();
-      return false;
+  } else {
+      labelWifi->setText(tr("WiFi hardware switch off, please turn it on"));
   }
+  return false;
 }
 
 void MConfig::on_windowsDrvAddPushButton_clicked()
@@ -1193,7 +1195,7 @@ void MConfig::on_windowsDrvRemovePushButton_clicked()
 void MConfig::on_generalHelpPushButton_clicked()
 {
     this->hide();
-    system("mx-viewer https://mxlinux.org/wiki/networking/help-mx-network-assistant 'MX Network Assistant Help'");
+    system("mx-viewer https://mxlinux.org/wiki/help-files/help-mx-network-assistant 'MX Network Assistant Help'");
     this->show();
 }
 
