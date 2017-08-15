@@ -1117,7 +1117,7 @@ bool MConfig::checkWifiEnabled()
       labelWifi->setText(tr("disabled"));
       hwUnblock->show();
   } else {
-      labelWifi->setText(tr("WiFi hardware switch off, please turn it on"));
+      labelWifi->setText(tr("WiFi hardware switch is off"));
   }
   return false;
 }
