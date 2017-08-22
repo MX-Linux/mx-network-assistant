@@ -18,26 +18,26 @@ Changes:
  .
    * re-write of mx-broadcom-manager
 Checksums-Sha1:
- 94ced60981d8010d0a3a2da6d86c0d6b013322af 1216 mx-network-assistant_17.8.dsc
- 7c864d164aebf7aa0a1827cb5af9d5c3a8f800a2 26684 mx-network-assistant_17.8.tar.xz
- 733d950a36c1d08684a387fd836ae414256fb786 60848 mx-network-assistant_17.8_amd64.deb
+ bacc441aaf4cc71b916e4cf0efcda0312deda4ab 1216 mx-network-assistant_17.8.dsc
+ 10ef97735c922a1b5bde625dc1ec0fbcf81806d6 89960 mx-network-assistant_17.8.tar.xz
+ 2949fa4d639a6f8781527a59e24649f450f70ac9 81986 mx-network-assistant_17.8_amd64.deb
 Checksums-Sha256:
- 1af2dadcbcc188fa70de1d846981c9793df52e513c8941ea2aae7a61e9b526fa 1216 mx-network-assistant_17.8.dsc
- 83b0ef41e68c973661ce49e76f4975f52dcdd9b22071a0a7b80b4f28e2c418b7 26684 mx-network-assistant_17.8.tar.xz
- 7e29e06dca45a73ed44afd1eb9a80a64b0d4d57db550ead06104a71f6d6867b0 60848 mx-network-assistant_17.8_amd64.deb
+ f72c062ccd86c47d15207437759162fd3914b72bf557e766fee7dd5141e61c1f 1216 mx-network-assistant_17.8.dsc
+ 754566f7eb51be457a14ca7e381a6949d99d5dceaca79e49cb74c2e79213a558 89960 mx-network-assistant_17.8.tar.xz
+ 73e968d514f0e0a65581e2e7cff78d1838e2dbca76af93f88240936011b0423c 81986 mx-network-assistant_17.8_amd64.deb
 Files:
- 945cf00c223bf69ff2eaf22cc8065603 1216 admin optional mx-network-assistant_17.8.dsc
- f8c5eab34816b96d0e4ad823933cb74e 26684 admin optional mx-network-assistant_17.8.tar.xz
- 6712552e0c6f08296a4bce2b20e29a9f 60848 admin optional mx-network-assistant_17.8_amd64.deb
+ 3543c03193724c6408213ed467b5289e 1216 admin optional mx-network-assistant_17.8.dsc
+ cd5136a11b2e43ec24f5da7f6afe35ad 89960 admin optional mx-network-assistant_17.8.tar.xz
+ fc48fa470b7a2a28c75e74aebed656d3 81986 admin optional mx-network-assistant_17.8_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJZlEz0AAoJEHCTjHgGee6YM/wH/i+bcM1QiYSxPvzjXgQCCbCi
-tKlCRHq4aw0rAkB38dkEqhQokRaJGoJJaXhiUESRX9skZJf54guEQeB6RJeW7mlC
-6NBpW0HXl+sP9MPZ+NZtNlv6mImpdSqSP1wW2k2v4Lzp7SNCmypBB98fC6N39Y3s
-8pWf82jKcA2JYK5YV6WA4Oy2TKwQ8k86d6CjnT6W2gTEwHbil0kKwLX7lG+MPBjj
-lI/FIGowtj/tVYOe7fjjXA9/rLCtB0JaSM/eLBRRVXXWGncBtrbaICOHXemCnZA9
-4zZATDfDADAMIRWKk0NjryIoPXTwf4KWD6GWauNyD8wa9HJsllBHEjLML1hMQtE=
-=YTW+
+iQEcBAEBAgAGBQJZnBaAAAoJEHCTjHgGee6YMtoH/j7SGA7YihKCFnUwcBRoocky
+W/OCA+7v0pO7/1TJ1z/xNlRQYRbGU/ltbnIAyePMjJmdqCEO8luafG1rvVMYoiYR
+1z3ORgvZcpQwACS/AqkCZ+aLIkOlKO2OwzVMiN8mZ66iDPf2lUgMLjMa70SSrDYN
+oDcLOSJpkTcuBnREpPeeY0YQN1HvyjKnpehXmVrdznGNZzoVm2mZAzk36hweczX9
+/IWJ35AMQiK16MqIoF5PjRyFvQUIN9e1eTXXQ4v2ulIwcUNIvv2cWYrpjjfCUSUl
+N06HPgUVV/ue8Qe/SJq7ibIGpLk1NIAMeDKltxmD5GIpL10Q0O7qjeWynK/8dvo=
+=9wGa
 -----END PGP SIGNATURE-----

@@ -1109,16 +1109,15 @@ bool MConfig::checkWifiAvailable()
 
 bool MConfig::checkWifiEnabled()
 {
+  hwUnblock->hide();
   if (getCmdOut("nmcli -t --fields WIFI r") == "enabled") {
       labelWifi->setText(tr("enabled"));
-      hwUnblock->hide();
       return true;
   } else if (getCmdOut("nmcli -t --fields WIFI-HW r") == "enabled") {
       labelWifi->setText(tr("disabled"));
       hwUnblock->show();
   } else {
       labelWifi->setText(tr("WiFi hardware switch is off"));
-      hwUnblock->hide();
   }
   return false;
 }
