@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 04 Dec 2017 14:39:27 -0500
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: i386
+Version: 17.12
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (17.12) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 6411a5a2c8f4cca4b60ee2e969c323d6f1f330ad 86976 mx-network-assistant_17.12_i386.deb
+Checksums-Sha256:
+ 05535b459b4a8c491c88ff46cb26a91139fe00236cf8a22f3976d32576faa78c 86976 mx-network-assistant_17.12_i386.deb
+Files:
+ d8d2d52dd6095c04fd5b997cde5ec6ab 86976 admin optional mx-network-assistant_17.12_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJaJaYAAAoJEHCTjHgGee6YfdcIAJwUabbEOqa6VxX46tQ+Yg8S
+N/7hq7q9IjvNwuYYhmVfb4oNjeL1L1zP6IkDJff0T00rkcdhwqECseDuJ2bw6nT4
+HWPW1IvsikZ1e5ElooMid2Ke4VWlllaCnYRK53/AWButbF6jSTrqdkyMbU/SLL0e
+xWhRWll6GiXJsHhJXgeks2xeBLuTCnzUEz7dIHaOy7pHRrT3IcKx2xyOubq9d59c
+q3tF7wkKxpt6wFRk1FaXUnLiVaiA7g9wVb5onF66/qBWXHCno5+WJ928WsZnzgon
+KIZKQ0jrK0Dy8ysz97saTW37C28DB+e7IlDwuPaBAnzhdBDfv8fkZNdisvtjPUA=
+=hcLb
+-----END PGP SIGNATURE-----

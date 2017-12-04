@@ -959,6 +959,9 @@ p, li { white-space: pre-wrap; }
        <property name="autoDefault">
         <bool>true</bool>
        </property>
+       <property name="default">
+        <bool>true</bool>
+       </property>
       </widget>
      </item>
     </layout>
