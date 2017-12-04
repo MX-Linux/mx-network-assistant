@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 04 Dec 2017 14:39:27 -0500
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: source amd64
+Version: 17.12
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (17.12) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 526a51f410c0e491d83557c871328b8e9846a8d3 1220 mx-network-assistant_17.12.dsc
+ 7f67a0b9f1caa5908a5254a027c84cb13c2fc09b 96872 mx-network-assistant_17.12.tar.xz
+ 5ef27191329e141b860efea423f7350342d7a2cb 85806 mx-network-assistant_17.12_amd64.deb
+Checksums-Sha256:
+ 0a9d5b7c55ed478ad38e9db7ad37e07a31a2a70199c339ccb902e235175a72b9 1220 mx-network-assistant_17.12.dsc
+ a368fee24cef703141dd4e1529e272c7392ba4585d68d6c468aa3ef68a4ae3f6 96872 mx-network-assistant_17.12.tar.xz
+ fe48e213c5eb00b901a5bedb38cf77938c93874094ab1b43329c122a6fb2ff87 85806 mx-network-assistant_17.12_amd64.deb
+Files:
+ 14b21776eb3c2c73bd4c0d6a9719beb8 1220 admin optional mx-network-assistant_17.12.dsc
+ 4588dc46b30c7e3539df11d28bf4a06c 96872 admin optional mx-network-assistant_17.12.tar.xz
+ 6d7ae07bf85c2831efaf8b379f45c106 85806 admin optional mx-network-assistant_17.12_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJaJaXdAAoJEHCTjHgGee6Y71QIAKFZH8j88iVlBf1nvALPukk3
+/oHdpgna38ainbHY8Eup/oRnRun6FyapWGAKlh4Pukgu5LfdoK+rGERBqkp+MbFT
+zmjkuRKxDQysih+uFh5ZDynhmIjMTtH15pyTonuKbT8/Zp7n5lKlDB4m2RFhamOS
+XxniuhvfMsBHBFxCIyR2V+NSKzNfOh+56jlJaMiqc801b83T+yH3XJDDN09lyQXl
+0beBbezga7ia2l+E2FoxHL7tljvycyff81DO2BHO+jZtFNk4b81oJ0tXnBVIs+LM
+0z7qO5wBh/Wfjj5Hkdi0oGAUYtBDQ+kG9XF0fnZ/FtRU5vMR0QOmgwr2TmnPzVA=
+=8fK3
+-----END PGP SIGNATURE-----
