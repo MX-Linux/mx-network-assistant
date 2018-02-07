@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="cs">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="cs" version="2.1">
 <context>
     <name>MConfig</name>
     <message>
@@ -100,7 +98,7 @@
         <translation>Zakázané ovladače Mobilního připojení</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1114"/>
+        <location filename="../mconfig.cpp" line="1113"/>
         <source>enabled</source>
         <translation>povoleno</translation>
     </message>
@@ -115,72 +113,72 @@
         <translation>Hardvérový přepínač WiFi je v poloze vypnuto.</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1128"/>
+        <location filename="../mconfig.cpp" line="1129"/>
         <source>Locate the Windows driver you want to add</source>
         <translation>Určit ovladač z Windows, který si přejete přidat</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1128"/>
+        <location filename="../mconfig.cpp" line="1129"/>
         <source>Windows installation information file (*.inf)</source>
         <translation>Windows installation information file (*.inf)</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1160"/>
+        <location filename="../mconfig.cpp" line="1161"/>
         <source>*.sys file not found</source>
         <translation>sobor *.sys nenalezen</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1160"/>
+        <location filename="../mconfig.cpp" line="1161"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
         <translation>Soubory *.sys musí být umístněny v stejné složce jako soubor *.inf. %1 nelze nalézt</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1171"/>
+        <location filename="../mconfig.cpp" line="1172"/>
         <source>sys file reference not found</source>
         <translation>referene soboru *.sys nenalezena</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1171"/>
+        <location filename="../mconfig.cpp" line="1172"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
         <translation>Po zanalyzování inf souboru nemůže být určen sys soubor daného ovladače</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1190"/>
+        <location filename="../mconfig.cpp" line="1191"/>
         <source>Ndiswrapper driver removed.</source>
         <translation>Ovladač Ndiswrapper odstraněn.</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1239"/>
+        <location filename="../mconfig.cpp" line="1240"/>
         <source>About MX Network Assistant</source>
         <translation>O programu MX Pomocník se sítí</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1240"/>
+        <location filename="../mconfig.cpp" line="1241"/>
         <source>MX Network Assistant</source>
         <translation>MX Pomocník se sítí</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1240"/>
+        <location filename="../mconfig.cpp" line="1241"/>
         <source>Version: </source>
         <translation>Verze:</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1242"/>
+        <location filename="../mconfig.cpp" line="1243"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
         <translation>Program pro řešení problémů a nastavení sítě pro MX Linux</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1243"/>
+        <location filename="../mconfig.cpp" line="1244"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
         <translation>Vlastnická práva (c) MEPIS LLC a MX Linux</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1244"/>
+        <location filename="../mconfig.cpp" line="1245"/>
         <source>License</source>
         <translation>Licence</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1245"/>
+        <location filename="../mconfig.cpp" line="1246"/>
         <source>Cancel</source>
         <translation>Zrušit</translation>
     </message>
@@ -353,7 +351,7 @@
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Droid Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -456,26 +454,26 @@ p, li { white-space: pre-wrap; }
         <translation>Zakázat ovladač</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1221"/>
+        <location filename="../mconfig.cpp" line="1222"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
         <translation>Nebylo možné odblokovat zařízení.
 Zařízení WiFi by už mohlo být odblokováno(y).</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1223"/>
+        <location filename="../mconfig.cpp" line="1224"/>
         <source>WiFi devices unlocked.</source>
         <translation>WiFi zařízení odblokovány.</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1273"/>
         <location filename="../mconfig.cpp" line="1274"/>
+        <location filename="../mconfig.cpp" line="1275"/>
         <source>Driver loaded successfully</source>
         <translation>Ovladač byl úspěšně načten</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1292"/>
         <location filename="../mconfig.cpp" line="1293"/>
+        <location filename="../mconfig.cpp" line="1294"/>
         <source>Driver unloaded successfully</source>
         <translation>Ovladač byl úspěšně uvolněn</translation>
     </message>
