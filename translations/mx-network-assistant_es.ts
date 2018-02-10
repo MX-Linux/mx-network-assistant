@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="es">
 <context>
     <name>MConfig</name>
     <message>
@@ -98,7 +100,7 @@
         <translation>Controladores Broadcom excluidos</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1113"/>
+        <location filename="../mconfig.cpp" line="1114"/>
         <source>enabled</source>
         <translation>habilitado</translation>
     </message>
@@ -113,72 +115,72 @@
         <translation>El switch para el hardware WiFi está apagado</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1129"/>
+        <location filename="../mconfig.cpp" line="1128"/>
         <source>Locate the Windows driver you want to add</source>
         <translation>Localizar el driver de Windows que desea agregar</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1129"/>
+        <location filename="../mconfig.cpp" line="1128"/>
         <source>Windows installation information file (*.inf)</source>
         <translation>Archivo de información de instalación de Windows (*.inf)</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1161"/>
+        <location filename="../mconfig.cpp" line="1160"/>
         <source>*.sys file not found</source>
         <translation>No se encontró el archivo *.sys</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1161"/>
+        <location filename="../mconfig.cpp" line="1160"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
         <translation>Los archivos *.sys deben estar en el mismo lugar que el archivo *.inf. %1 no se puede encontrar</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1172"/>
+        <location filename="../mconfig.cpp" line="1171"/>
         <source>sys file reference not found</source>
         <translation>el archivo de referencia sys no se encontró</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1172"/>
+        <location filename="../mconfig.cpp" line="1171"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
         <translation>El archivo sys para el driver dado no se puede determinar después de analizar el archivo inf.</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1191"/>
+        <location filename="../mconfig.cpp" line="1190"/>
         <source>Ndiswrapper driver removed.</source>
         <translation>Se removió el driver Ndiswrapper. </translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1240"/>
+        <location filename="../mconfig.cpp" line="1239"/>
         <source>About MX Network Assistant</source>
         <translation>Acerca de MX Asistente de Redes</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1241"/>
+        <location filename="../mconfig.cpp" line="1240"/>
         <source>MX Network Assistant</source>
         <translation>MX Asistente de Redes</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1241"/>
+        <location filename="../mconfig.cpp" line="1240"/>
         <source>Version: </source>
         <translation>Versión:</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1243"/>
+        <location filename="../mconfig.cpp" line="1242"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
         <translation>Programa para solucionar conflictos y configurar la red en MX Linux</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1244"/>
+        <location filename="../mconfig.cpp" line="1243"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
         <translation>Copyright (c) MEPIS LLC y MX Linux</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1245"/>
+        <location filename="../mconfig.cpp" line="1244"/>
         <source>License</source>
         <translation>Licencia</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1246"/>
+        <location filename="../mconfig.cpp" line="1245"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
@@ -351,7 +353,7 @@
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Droid Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -454,26 +456,26 @@ p, li { white-space: pre-wrap; }
         <translation>Colocar driver en la lista negra</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1222"/>
+        <location filename="../mconfig.cpp" line="1221"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
         <translation>No se pudieron desbloquear los dispositivos.
 Los dispositivos WiFi pueden hallarse desbloqueados ya.</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1224"/>
+        <location filename="../mconfig.cpp" line="1223"/>
         <source>WiFi devices unlocked.</source>
         <translation>Dispositivos WiFi desbloqueados.</translation>
     </message>
     <message>
+        <location filename="../mconfig.cpp" line="1273"/>
         <location filename="../mconfig.cpp" line="1274"/>
-        <location filename="../mconfig.cpp" line="1275"/>
         <source>Driver loaded successfully</source>
         <translation>Se cargó el driver con éxito</translation>
     </message>
     <message>
+        <location filename="../mconfig.cpp" line="1292"/>
         <location filename="../mconfig.cpp" line="1293"/>
-        <location filename="../mconfig.cpp" line="1294"/>
         <source>Driver unloaded successfully</source>
         <translation>Se descargó el driver con éxito</translation>
     </message>
