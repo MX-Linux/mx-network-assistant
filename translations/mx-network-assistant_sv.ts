@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sv" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="sv">
 <context>
     <name>MConfig</name>
     <message>
@@ -98,7 +100,7 @@
         <translation>Svartlistade Broadcom Drivrutiner</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1113"/>
+        <location filename="../mconfig.cpp" line="1114"/>
         <source>enabled</source>
         <translation>aktiverad</translation>
     </message>
@@ -113,72 +115,72 @@
         <translation>WiFi-hårdvaruswitchen är avstängd</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1129"/>
+        <location filename="../mconfig.cpp" line="1128"/>
         <source>Locate the Windows driver you want to add</source>
         <translation>Hitta den Windows drivrutin du vill lägga till</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1129"/>
+        <location filename="../mconfig.cpp" line="1128"/>
         <source>Windows installation information file (*.inf)</source>
         <translation>Windows installation informationsfil (*.inf)</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1161"/>
+        <location filename="../mconfig.cpp" line="1160"/>
         <source>*.sys file not found</source>
         <translation>*.sys fil ej hittad</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1161"/>
+        <location filename="../mconfig.cpp" line="1160"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
         <translation>*.sys filer måste vara på sama plats som *.inf filen. %1 kan inte hittas</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1172"/>
+        <location filename="../mconfig.cpp" line="1171"/>
         <source>sys file reference not found</source>
         <translation>sys fil referens ej hittad</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1172"/>
+        <location filename="../mconfig.cpp" line="1171"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
         <translation>sys filen för den angivna drivrutinen kan inte bestämmas efter att ha gått igenom inf filen</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1191"/>
+        <location filename="../mconfig.cpp" line="1190"/>
         <source>Ndiswrapper driver removed.</source>
         <translation>Ndiswrappers drivrutin borttagen.</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1240"/>
+        <location filename="../mconfig.cpp" line="1239"/>
         <source>About MX Network Assistant</source>
         <translation>Om MX Nätverks-assistent</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1241"/>
+        <location filename="../mconfig.cpp" line="1240"/>
         <source>MX Network Assistant</source>
         <translation>MX Nätverks-assistent</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1241"/>
+        <location filename="../mconfig.cpp" line="1240"/>
         <source>Version: </source>
         <translation>Version:</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1243"/>
+        <location filename="../mconfig.cpp" line="1242"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
         <translation>Program för för felsökning och inställning av nätverk för MX Linux</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1244"/>
+        <location filename="../mconfig.cpp" line="1243"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
         <translation>Copyright (c) MEPIS LLC och MX Linux</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1245"/>
+        <location filename="../mconfig.cpp" line="1244"/>
         <source>License</source>
         <translation>Licens</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1246"/>
+        <location filename="../mconfig.cpp" line="1245"/>
         <source>Cancel</source>
         <translation>Avbryt</translation>
     </message>
@@ -351,7 +353,7 @@
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Droid Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -454,26 +456,26 @@ p, li { white-space: pre-wrap; }
         <translation>Svartlista Drivrutin</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1222"/>
+        <location filename="../mconfig.cpp" line="1221"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
         <translation>Kunde inte låsa upp enheter
 WiFi enhet(er) kanske redan är upplåsta.</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1224"/>
+        <location filename="../mconfig.cpp" line="1223"/>
         <source>WiFi devices unlocked.</source>
         <translation>WiFi enheter upplåsta.</translation>
     </message>
     <message>
+        <location filename="../mconfig.cpp" line="1273"/>
         <location filename="../mconfig.cpp" line="1274"/>
-        <location filename="../mconfig.cpp" line="1275"/>
         <source>Driver loaded successfully</source>
         <translation>Drivrutin framgångsrikt laddad</translation>
     </message>
     <message>
+        <location filename="../mconfig.cpp" line="1292"/>
         <location filename="../mconfig.cpp" line="1293"/>
-        <location filename="../mconfig.cpp" line="1294"/>
         <source>Driver unloaded successfully</source>
         <translation>Drivrutin framgångsrikt avladdad</translation>
     </message>
