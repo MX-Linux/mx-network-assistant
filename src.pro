@@ -24,7 +24,8 @@ TRANSLATIONS += translations/mx-network-assistant_am.ts \
                 translations/mx-network-assistant_sk.ts \
                 translations/mx-network-assistant_sv.ts \
                 translations/mx-network-assistant_tr.ts \
-                translations/mx-network-assistant_uk.ts
+                translations/mx-network-assistant_uk.ts \
+                translations/mx-network-assistant_zh_TW.ts
 
 FORMS += meconfig.ui
 HEADERS += mconfig.h
