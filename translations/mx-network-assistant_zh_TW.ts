@@ -1,54 +1,54 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.1">
 <context>
     <name>MConfig</name>
     <message>
         <location filename="../mconfig.cpp" line="187"/>
         <source>IP address from router:</source>
-        <translation>IP adresas iš maršruto parinktuvo:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="188"/>
         <source>External IP address:</source>
-        <translation>Išorinis IP adresas:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="314"/>
         <location filename="../mconfig.cpp" line="328"/>
         <location filename="../mconfig.cpp" line="342"/>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopijuoti</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="316"/>
         <location filename="../mconfig.cpp" line="330"/>
         <location filename="../mconfig.cpp" line="344"/>
         <source>Ctrl+C</source>
-        <translation>Ctrl+C</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="317"/>
         <location filename="../mconfig.cpp" line="331"/>
         <location filename="../mconfig.cpp" line="345"/>
         <source>Copy &amp;All</source>
-        <translation>Kopijuoti &amp;viską</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="319"/>
         <location filename="../mconfig.cpp" line="333"/>
         <location filename="../mconfig.cpp" line="347"/>
         <source>Ctrl+A</source>
-        <translation>Ctrl+A</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="384"/>
         <location filename="../mconfig.cpp" line="406"/>
         <source>Traceroute not installed</source>
-        <translation>Traceroute nėra įdiegta</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="385"/>
         <source>Traceroute is not installed, do you want to install it now?</source>
-        <translation>Traceroute nėra įdiegta. Ar norėtumėte ją įdiegti?</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="393"/>
@@ -69,23 +69,23 @@
         <location filename="../mconfig.cpp" line="414"/>
         <location filename="../mconfig.cpp" line="466"/>
         <source>No destination host</source>
-        <translation>Nėra paskirties serverio</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="415"/>
         <location filename="../mconfig.cpp" line="467"/>
         <source>Please fill in the destination host field</source>
-        <translation>Prašome užpildyti paskirties serverio lauką</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="598"/>
         <source>Loaded Drivers</source>
-        <translation>Įkeltos tvarkyklės</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="608"/>
         <source>Unloaded Drivers</source>
-        <translation>Iškeltos tvarkyklės</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="624"/>
@@ -110,27 +110,27 @@
     <message>
         <location filename="../mconfig.cpp" line="1120"/>
         <source>WiFi hardware switch is off</source>
-        <translation>Belaidžio tinklo (WiFi) aparatinės įrangos perjungiklis yra išjungtas</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1129"/>
         <source>Locate the Windows driver you want to add</source>
-        <translation>Nustatykite norimos pridėti Windows tvarkyklės vietą</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1129"/>
         <source>Windows installation information file (*.inf)</source>
-        <translation>Windows diegimo informacijos failas (*.inf)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1161"/>
         <source>*.sys file not found</source>
-        <translation>*.sys failas nerastas</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1161"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
-        <translation>*.sys failai privalo būti toje pačioje vietoje kaip ir *.inf failas. Nepavyko rasti %1</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1172"/>
@@ -145,42 +145,42 @@
     <message>
         <location filename="../mconfig.cpp" line="1191"/>
         <source>Ndiswrapper driver removed.</source>
-        <translation>Ndiswrapper tvarkyklė pašalinta.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1240"/>
         <source>About MX Network Assistant</source>
-        <translation>Apie MX tinklo pagelbiklis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1241"/>
         <source>MX Network Assistant</source>
-        <translation>MX tinklo pagelbiklis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1241"/>
         <source>Version: </source>
-        <translation>Versija: </translation>
+        <translation>版本：</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1243"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
-        <translation>Tinklo nesklandumų šalinimo ir konfigūravimo programa, skirta MX Linux</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1244"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
-        <translation>Autorių teisės (c) MEPIS LLC ir MX Linux</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1245"/>
         <source>License</source>
-        <translation>Licencija</translation>
+        <translation>授權條款</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1246"/>
         <source>Cancel</source>
-        <translation>Atsisakyti</translation>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
@@ -188,22 +188,22 @@
     <message>
         <location filename="../meconfig.ui" line="26"/>
         <source>MX Network Assistant</source>
-        <translation>MX tinklo pagelbiklis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="71"/>
         <source>Status</source>
-        <translation>Būsena</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="77"/>
         <source>IP address</source>
-        <translation>IP adresas</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="113"/>
         <source>Hardware detected</source>
-        <translation>Aptikta aparatinė įranga</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="144"/>
@@ -230,111 +230,111 @@
     <message>
         <location filename="../meconfig.ui" line="258"/>
         <source>Unblock WiFi Devices</source>
-        <translation>Atblokuoti belaidžio tinklo (WiFi) įrenginius</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="291"/>
         <source>Linux drivers</source>
-        <translation>Linux tvarkyklės</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="303"/>
         <source>Associated Linux drivers</source>
-        <translation>Susietos Linux tvarkyklės</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="312"/>
         <source>Load Driver</source>
-        <translation>Įkelti tvarkyklę</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="375"/>
         <source>Unload Driver</source>
-        <translation>Iškelti tvarkyklę</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="413"/>
         <source>Blacklist Driver</source>
-        <translation>Įtraukti tvarkyklę į juodąjį sąrašą</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="432"/>
         <source>Windows drivers</source>
-        <translation>Windows tvarkyklės</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="438"/>
         <source>Available Windows drivers</source>
-        <translation>Prieinamos Windows tvarkyklės</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="472"/>
         <source>Remove Driver</source>
-        <translation>Šalinti tvarkyklę</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="484"/>
         <source>Add Driver</source>
-        <translation>Pridėti tvarkyklę</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="527"/>
         <source>About NDISwrapper</source>
-        <translation>Apie NDISwrapper</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="539"/>
         <source>Install NDISwrapper</source>
-        <translation>Įdiegti NDISwrapper</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="551"/>
         <source>In order to use Windows drivers you need first to install NDISwrapper</source>
-        <translation>Norėdami naudoti Windows tvarkykles, iš pradžių, turite įdiegti NDISwrapper</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="567"/>
         <source>Uninstall NDISwrapper</source>
-        <translation>Pašalinti NDISwrapper</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="600"/>
         <source>Net diagnostics</source>
-        <translation>Tinklo diagnostika</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="612"/>
         <source>Ping</source>
-        <translation>Ryšio patikrinimas</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="618"/>
         <location filename="../meconfig.ui" line="730"/>
         <source>Target URL:</source>
-        <translation>Paskirties URL:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="628"/>
         <source>Packets</source>
-        <translation>Paketų</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="663"/>
         <location filename="../meconfig.ui" line="785"/>
         <source>Start</source>
-        <translation>Pradėti</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="681"/>
         <location filename="../meconfig.ui" line="803"/>
         <source>Clear</source>
-        <translation>Išvalyti</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="696"/>
         <location filename="../meconfig.ui" line="818"/>
         <source>Cancel</source>
-        <translation>Atsisakyti</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="724"/>
@@ -344,7 +344,7 @@
     <message>
         <location filename="../meconfig.ui" line="740"/>
         <source>Hops</source>
-        <translation>Persiuntimų</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="772"/>
@@ -353,26 +353,22 @@
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Droid Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="868"/>
         <source>About...</source>
-        <translation>Apie...</translation>
+        <translation>關於……</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="886"/>
         <source>Help</source>
-        <translation>Žinynas</translation>
+        <translation>說明</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="949"/>
         <source>&amp;Close</source>
-        <translation>&amp;Užverti</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="957"/>
@@ -385,97 +381,96 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../main.cpp" line="44"/>
         <source>You must run this program as root.</source>
-        <translation>Privalote paleisti šią programą kaip pagrindinis (root) naudotojas.</translation>
+        <translation>本程式必須以 root 身份來執行。</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="670"/>
         <source>Ndiswrapper is not installed</source>
-        <translation>Ndiswrapper nėra įdiegta</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="679"/>
         <source>driver installed</source>
-        <translation>tvarkyklė įdiegta</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="690"/>
         <source> and in use by </source>
-        <translation> ir ją naudoja </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="699"/>
         <source>. Alternate driver: </source>
-        <translation>. Alternatyvi tvarkyklė: </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="791"/>
         <source>Driver removed from blacklist</source>
-        <translation>Tvarkyklė pašalinta iš juodojo sąrašo</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="792"/>
         <source>Driver removed from blacklist.</source>
-        <translation>Tvarkyklė pašalinta iš juodojo sąrašo.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="800"/>
         <location filename="../mconfig.cpp" line="801"/>
         <source>Module blacklisted</source>
-        <translation>Modulis įtrauktas į juodąjį sąrašą</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="994"/>
         <source>Installation successful</source>
-        <translation>Įdiegimas sėkmingas</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="998"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
-        <translation>Aptikta klaida, nepavyko sukompiliuoti ndiswrapper tvarkyklės.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1003"/>
         <source>Error detected, could not install ndiswrapper.</source>
-        <translation>Aptikta klaida, nepavyko įdiegti ndiswrapper.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1015"/>
         <source>Error encountered while removing Ndiswrapper</source>
-        <translation>Šalinant Ndiswrapper, susidurta su klaida</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1073"/>
         <source>Unblacklist Driver</source>
-        <translation>Pašalinti tvarkyklę iš juodojo sąrašo</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1078"/>
         <source>Blacklist Driver</source>
-        <translation>Įtraukti tvarkyklę į juodąjį sąrašą</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1222"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
-        <translation>Nepavyko atrakinti įrenginių.
-Belaidžio tinklo (WiFi) įrenginys(-iai), tikriausiai, jau yra atrakintas(-i).</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1224"/>
         <source>WiFi devices unlocked.</source>
-        <translation>Belaidžio tinklo (WiFi) įrenginiai atrakinti.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1274"/>
         <location filename="../mconfig.cpp" line="1275"/>
         <source>Driver loaded successfully</source>
-        <translation>Tvarkyklė sėkmingai įkelta</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1293"/>
         <location filename="../mconfig.cpp" line="1294"/>
         <source>Driver unloaded successfully</source>
-        <translation>Tvarkyklė sėkmingai iškelta</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -483,12 +478,12 @@ Belaidžio tinklo (WiFi) įrenginys(-iai), tikriausiai, jau yra atrakintas(-i).<
     <message>
         <location filename="../mconfig.cpp" line="820"/>
         <source>Could not load </source>
-        <translation>Nepavyko įkelti</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="856"/>
         <source>Could not unload </source>
-        <translation>Nepavyko iškelti</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>
