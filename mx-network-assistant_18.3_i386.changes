@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 02 Mar 2018 10:44:19 -0500
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: i386
+Version: 18.3
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (18.3) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 1fcf485295eebb5c64272953f08da2c1c925074a 89524 mx-network-assistant_18.3_i386.deb
+Checksums-Sha256:
+ 7dd51b41a3074a87193cf0b3225b568f8eceaf10b655f90cea93c5fbafb4e830 89524 mx-network-assistant_18.3_i386.deb
+Files:
+ b1bcdd990c768e269aca844507ba509c 89524 admin optional mx-network-assistant_18.3_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJamXKVAAoJEHCTjHgGee6Yxk0IAJzxDwHA57n6ijgbW1y7pNQ0
+BSPPz8GslF0ToJSaISoMZtC8QZP3n95fMuxdDvCuBEAmUGgQvZ3srrUvskhVsR0F
+j6w5JoDkTyGh+4vR2HOYaAj3AycZQ1nSIInfzQuiQLlN11RGsFEa0UgGp2TLcxZu
+IFYUdNjBic3hCvTZ0QyUVcSuvIh5yGVVOC1jJNuEbhAYcGVnUK/KI8O2Z//yCp8d
+O6+Vm8/JPYfjhHQVS3SVYVMkgPN7m6lL4iVCjQBrdnKypPNtYO4xtsm2EFadFhGR
+QqE4+M3BBMafuJho5W8y3Wg14BQDlqg3qEKwsoaUu4I4ojxUlyZMYOSWYTo4hmM=
+=Hq/m
+-----END PGP SIGNATURE-----

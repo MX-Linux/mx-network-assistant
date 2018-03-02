@@ -31,6 +31,7 @@ public:
     MConfig(QWidget* parent = 0);
     ~MConfig();
     // helpers
+
     static QString getCmdOut(QString cmd);
     static QString getCmdOut2(QString cmd);
     static QStringList getCmdOuts(QString cmd);
@@ -44,6 +45,7 @@ public:
     void refresh();
     // special
     void refreshStatus();
+    void displayDoc(QString url);
 
     bool checkSysFileExists(QDir searchPath, QString fileName, Qt::CaseSensitivity cs);
     bool checkWifiAvailable();
