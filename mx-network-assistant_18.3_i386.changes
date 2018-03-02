@@ -18,20 +18,20 @@ Changes:
  .
    * new translations
 Checksums-Sha1:
- 1fcf485295eebb5c64272953f08da2c1c925074a 89524 mx-network-assistant_18.3_i386.deb
+ 7d075972d4967fdbc61ce107c99edf02c20bed57 90374 mx-network-assistant_18.3_i386.deb
 Checksums-Sha256:
- 7dd51b41a3074a87193cf0b3225b568f8eceaf10b655f90cea93c5fbafb4e830 89524 mx-network-assistant_18.3_i386.deb
+ 9638a6287cbb9d734123636165377e4a7fc9a846aa71542d9accbcaf86b9e3af 90374 mx-network-assistant_18.3_i386.deb
 Files:
- b1bcdd990c768e269aca844507ba509c 89524 admin optional mx-network-assistant_18.3_i386.deb
+ 7c53eeb60462b760b8f131ab808b969a 90374 admin optional mx-network-assistant_18.3_i386.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJamXKVAAoJEHCTjHgGee6Yxk0IAJzxDwHA57n6ijgbW1y7pNQ0
-BSPPz8GslF0ToJSaISoMZtC8QZP3n95fMuxdDvCuBEAmUGgQvZ3srrUvskhVsR0F
-j6w5JoDkTyGh+4vR2HOYaAj3AycZQ1nSIInfzQuiQLlN11RGsFEa0UgGp2TLcxZu
-IFYUdNjBic3hCvTZ0QyUVcSuvIh5yGVVOC1jJNuEbhAYcGVnUK/KI8O2Z//yCp8d
-O6+Vm8/JPYfjhHQVS3SVYVMkgPN7m6lL4iVCjQBrdnKypPNtYO4xtsm2EFadFhGR
-QqE4+M3BBMafuJho5W8y3Wg14BQDlqg3qEKwsoaUu4I4ojxUlyZMYOSWYTo4hmM=
-=Hq/m
+iQEcBAEBAgAGBQJamXzAAAoJEHCTjHgGee6YEgEIAI7SX5tAhfIIAT9dbxfGgDRt
+xC+dLckJXR2iEyV6SQ+y0NVXXaNQti0c1KiNTVk6xJ7WsuXuzQwDZjuJ5YB6OGTT
+Zb0RDs6+fy/g2VP63V21l/Qpkkw2WlOD/mVwa4GmQm+Dl//O0ueMeqbECJQW33R3
+bmexa9ANXPqHMzoBLRy3uxvcnxiFxMl9IyJT9JswUTLHKwZKvC05a1lFeppP4EoJ
+mOIzDKr4uS09SXeuYQodRTwLWY7h6kGbsumw9Y0kVEKhZT05kXTtuhW4UEdeyf1P
+jeNMwQmuHNULuRGTnWlCTYp+otm1gkPIjkZeRV9Yew/BL/OCG5oAMzkrabuir7k=
+=hLUn
 -----END PGP SIGNATURE-----
