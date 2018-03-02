@@ -12,7 +12,7 @@ Vcs-Git: git://github.com/AdrianTM/mx-network-assistant
 
 Package: mx-network-assistant
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, mx-viewer, rfkill, menu
+Depends: ${misc:Depends}, ${shlibs:Depends}, mx-viewer|xdg-utils, rfkill, menu
 Replaces: mx-broadcom-manager
 Provides: mx-broadcom-manager
 Conflicts: mx-broadcom-manager

@@ -206,6 +206,17 @@ void MConfig::refresh() {
     }
 }
 
+void MConfig::displayDoc(QString url)
+{
+    QString exec = "xdg-open";
+    QString user = getCmdOut("logname");
+    if (system("command -v mx-viewer") == 0) { // use mx-viewer if available
+        exec = "mx-viewer";
+    }
+    QString cmd = "su " + user + " -c \"" + exec + " " + url + "\"&";
+    system(cmd.toUtf8());
+}
+
 /////////////////////////////////////////////////////////////////////////
 // special
 
@@ -1194,9 +1205,7 @@ void MConfig::on_windowsDrvRemovePushButton_clicked()
 
 void MConfig::on_generalHelpPushButton_clicked()
 {
-    this->hide();
-    system("mx-viewer https://mxlinux.org/wiki/help-files/help-mx-network-assistant 'MX Network Assistant Help'");
-    this->show();
+    displayDoc("https://mxlinux.org/wiki/help-files/help-mx-network-assistant");
 }
 
 void MConfig::on_tabWidget_currentChanged()
@@ -1244,7 +1253,7 @@ void MConfig::on_buttonAbout_clicked()
     msgBox.addButton(tr("License"), QMessageBox::AcceptRole);
     msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
     if (msgBox.exec() == QMessageBox::AcceptRole) {
-        system("mx-viewer file:///usr/share/doc/mx-network-assistant/license.html 'MX Network Assistant License'");
+        displayDoc("file:///usr/share/doc/mx-network-assistant/license.html");
     }
     this->show();
 }
