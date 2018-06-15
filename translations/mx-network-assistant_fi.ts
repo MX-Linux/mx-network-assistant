@@ -1,22 +1,22 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="en" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.1">
 <context>
     <name>MConfig</name>
     <message>
         <location filename="../mconfig.cpp" line="187"/>
         <source>IP address from router:</source>
-        <translation>IP address from router:</translation>
+        <translation>IP-osoite reitittimeltä:</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="188"/>
         <source>External IP address:</source>
-        <translation>External IP address:</translation>
+        <translation>Ulkoinen IP-osoite:</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="314"/>
         <location filename="../mconfig.cpp" line="328"/>
         <location filename="../mconfig.cpp" line="342"/>
         <source>&amp;Copy</source>
-        <translation>&amp;Copy</translation>
+        <translation>&amp;Kopioi</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="316"/>
@@ -30,7 +30,7 @@
         <location filename="../mconfig.cpp" line="331"/>
         <location filename="../mconfig.cpp" line="345"/>
         <source>Copy &amp;All</source>
-        <translation>Copy &amp;All</translation>
+        <translation>Kopioi &amp;Kaikki</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="319"/>
@@ -43,144 +43,144 @@
         <location filename="../mconfig.cpp" line="384"/>
         <location filename="../mconfig.cpp" line="406"/>
         <source>Traceroute not installed</source>
-        <translation>Traceroute not installed</translation>
+        <translation>Traceroute ei ole asennettuna</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="385"/>
         <source>Traceroute is not installed, do you want to install it now?</source>
-        <translation>Traceroute is not installed, do you want to install it now?</translation>
+        <translation>Traceroute ei ole asennettuna, haluatko asentaa sen nyt?</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="393"/>
         <source>Traceroute hasn&apos;t been installed</source>
-        <translation>Traceroute hasn&apos;t been installed</translation>
+        <translation>Traceroutea ei ole asennettu</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="394"/>
         <source>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</source>
-        <translation>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</translation>
+        <translation>Traceroutea ei voida asentaa. Tämä saattaa johtua että käytät LiveCD:tä tai yhteyden muodostus pakettivarastoon ei onnistu,</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="407"/>
         <source>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</source>
-        <translation>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</translation>
+        <translation>Traceroute ei ole asennettuna eikä Internet-yhteyttä havaittu joten sitä ei voida asentaa</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="414"/>
         <location filename="../mconfig.cpp" line="466"/>
         <source>No destination host</source>
-        <translation>No destination host</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="415"/>
         <location filename="../mconfig.cpp" line="467"/>
         <source>Please fill in the destination host field</source>
-        <translation>Please fill in the destination host field</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="598"/>
         <source>Loaded Drivers</source>
-        <translation>Loaded Drivers</translation>
+        <translation>Ladatut ajurit</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="608"/>
         <source>Unloaded Drivers</source>
-        <translation>Unloaded Drivers</translation>
+        <translation>Lataamattomat ajurit</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="624"/>
         <source>Blacklisted Drivers</source>
-        <translation>Blacklisted Drivers</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="647"/>
         <source>Blacklisted Broadcom Drivers</source>
-        <translation>Blacklisted Broadcom Drivers</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1113"/>
         <source>enabled</source>
-        <translation>enabled</translation>
+        <translation>käytössä</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1117"/>
         <source>disabled</source>
-        <translation>disabled</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1120"/>
         <source>WiFi hardware switch is off</source>
-        <translation>WiFi hardware switch is off</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1129"/>
         <source>Locate the Windows driver you want to add</source>
-        <translation>Locate the Windows driver you want to add</translation>
+        <translation>Paikallista Windows-ajurit jotka haluat lisätä</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1129"/>
         <source>Windows installation information file (*.inf)</source>
-        <translation>Windows installation information file (*.inf)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1161"/>
         <source>*.sys file not found</source>
-        <translation>*.sys file not found</translation>
+        <translation>*.sys -tiedostoa ei löytynyt</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1161"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
-        <translation>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1172"/>
         <source>sys file reference not found</source>
-        <translation>sys file reference not found</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1172"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
-        <translation>The sys file for the given driver cannot be determined after parsing the inf file</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1191"/>
         <source>Ndiswrapper driver removed.</source>
-        <translation>Ndiswrapper driver removed.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1240"/>
         <source>About MX Network Assistant</source>
-        <translation>About MX Network Assistant</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1241"/>
         <source>MX Network Assistant</source>
-        <translation>MX Network Assistant</translation>
+        <translation>MX Verkkoavustin</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1241"/>
         <source>Version: </source>
-        <translation>Version: </translation>
+        <translation>Versio: </translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1243"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
-        <translation>Program for troubleshooting and configuring network for MX Linux</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1244"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
-        <translation>Copyright (c) MEPIS LLC and MX Linux</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1245"/>
         <source>License</source>
-        <translation>License</translation>
+        <translation>Lisenssi</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1246"/>
         <source>Cancel</source>
-        <translation>Cancel</translation>
+        <translation>Peruuta</translation>
     </message>
 </context>
 <context>
@@ -188,163 +188,163 @@
     <message>
         <location filename="../meconfig.ui" line="26"/>
         <source>MX Network Assistant</source>
-        <translation>MX Network Assistant</translation>
+        <translation>MX Verkkoavustin</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="71"/>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="77"/>
         <source>IP address</source>
-        <translation>IP address</translation>
+        <translation>IP-osoite</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="113"/>
         <source>Hardware detected</source>
-        <translation>Hardware detected</translation>
+        <translation>Laitteisto havaittu</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="144"/>
         <location filename="../meconfig.ui" line="392"/>
         <location filename="../meconfig.ui" line="508"/>
         <source>Re-scan</source>
-        <translation>Re-scan</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="217"/>
         <source>Active interface</source>
-        <translation>Active interface</translation>
+        <translation>Aktiivinen käyttöliittymä</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="233"/>
         <source>WiFi status</source>
-        <translation>WiFi status</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="255"/>
         <source>Unblocks all soft/hard blocked wireless devices</source>
-        <translation>Unblocks all soft/hard blocked wireless devices</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="258"/>
         <source>Unblock WiFi Devices</source>
-        <translation>Unblock WiFi Devices</translation>
+        <translation>salli WiFi-laitteet</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="291"/>
         <source>Linux drivers</source>
-        <translation>Linux drivers</translation>
+        <translation>Linux-ajurit</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="303"/>
         <source>Associated Linux drivers</source>
-        <translation>Associated Linux drivers</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="312"/>
         <source>Load Driver</source>
-        <translation>Load Driver</translation>
+        <translation>Lataa ajuri</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="375"/>
         <source>Unload Driver</source>
-        <translation>Unload Driver</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="413"/>
         <source>Blacklist Driver</source>
-        <translation>Blacklist Driver</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="432"/>
         <source>Windows drivers</source>
-        <translation>Windows drivers</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="438"/>
         <source>Available Windows drivers</source>
-        <translation>Available Windows drivers</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="472"/>
         <source>Remove Driver</source>
-        <translation>Remove Driver</translation>
+        <translation>Poista ajuri</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="484"/>
         <source>Add Driver</source>
-        <translation>Add Driver</translation>
+        <translation>Lisää ajuri</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="527"/>
         <source>About NDISwrapper</source>
-        <translation>About NDISwrapper</translation>
+        <translation>Tietoa NDISwrapper:ista</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="539"/>
         <source>Install NDISwrapper</source>
-        <translation>Install NDISwrapper</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="551"/>
         <source>In order to use Windows drivers you need first to install NDISwrapper</source>
-        <translation>In order to use Windows drivers you need first to install NDISwrapper</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="567"/>
         <source>Uninstall NDISwrapper</source>
-        <translation>Uninstall NDISwrapper</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="600"/>
         <source>Net diagnostics</source>
-        <translation>Net diagnostics</translation>
+        <translation>Verkon vianmääritys</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="612"/>
         <source>Ping</source>
-        <translation>Ping</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="618"/>
         <location filename="../meconfig.ui" line="730"/>
         <source>Target URL:</source>
-        <translation>Target URL:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="628"/>
         <source>Packets</source>
-        <translation>Packets</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="663"/>
         <location filename="../meconfig.ui" line="785"/>
         <source>Start</source>
-        <translation>Start</translation>
+        <translation>Aloita</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="681"/>
         <location filename="../meconfig.ui" line="803"/>
         <source>Clear</source>
-        <translation>Clear</translation>
+        <translation>Tyhjennä</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="696"/>
         <location filename="../meconfig.ui" line="818"/>
         <source>Cancel</source>
-        <translation>Cancel</translation>
+        <translation>Peruuta</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="724"/>
         <source>Traceroute</source>
-        <translation>Traceroute</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="740"/>
         <source>Hops</source>
-        <translation>Hops</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="772"/>
@@ -353,31 +353,27 @@
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Droid Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="868"/>
         <source>About...</source>
-        <translation>About...</translation>
+        <translation>Tietoja...</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="886"/>
         <source>Help</source>
-        <translation>Help</translation>
+        <translation>Ohje</translation>
     </message>
     <message>
         <location filename="../meconfig.ui" line="949"/>
         <source>&amp;Close</source>
-        <translation>&amp;Close</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meconfig.ui" line="957"/>
         <source>Alt+C</source>
-        <translation>Alt+C</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -385,97 +381,96 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../main.cpp" line="44"/>
         <source>You must run this program as root.</source>
-        <translation>You must run this program as root.</translation>
+        <translation>Sinun täytyy suorittaa tämä ohjelma pääkäyttäjänä.</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="670"/>
         <source>Ndiswrapper is not installed</source>
-        <translation>Ndiswrapper is not installed</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="679"/>
         <source>driver installed</source>
-        <translation>driver installed</translation>
+        <translation>ajuri asennettu</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="690"/>
         <source> and in use by </source>
-        <translation> and in use by </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="699"/>
         <source>. Alternate driver: </source>
-        <translation>. Alternate driver: </translation>
+        <translation>. Vaihtoehtoinen ajuri: </translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="791"/>
         <source>Driver removed from blacklist</source>
-        <translation>Driver removed from blacklist</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="792"/>
         <source>Driver removed from blacklist.</source>
-        <translation>Driver removed from blacklist.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="800"/>
         <location filename="../mconfig.cpp" line="801"/>
         <source>Module blacklisted</source>
-        <translation>Module blacklisted</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="994"/>
         <source>Installation successful</source>
-        <translation>Installation successful</translation>
+        <translation>Asennus onnistui</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="998"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
-        <translation>Error detected, could not compile ndiswrapper driver.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1003"/>
         <source>Error detected, could not install ndiswrapper.</source>
-        <translation>Error detected, could not install ndiswrapper.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1015"/>
         <source>Error encountered while removing Ndiswrapper</source>
-        <translation>Error encountered while removing Ndiswrapper</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1073"/>
         <source>Unblacklist Driver</source>
-        <translation>Unblacklist Driver</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1078"/>
         <source>Blacklist Driver</source>
-        <translation>Blacklist Driver</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1222"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
-        <translation>Could not unlock devices.
-WiFi device(s) might already be unlocked.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1224"/>
         <source>WiFi devices unlocked.</source>
-        <translation>WiFi devices unlocked.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1274"/>
         <location filename="../mconfig.cpp" line="1275"/>
         <source>Driver loaded successfully</source>
-        <translation>Driver loaded successfully</translation>
+        <translation>Ajuri ladattu onnistuneesti</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="1293"/>
         <location filename="../mconfig.cpp" line="1294"/>
         <source>Driver unloaded successfully</source>
-        <translation>Driver unloaded successfully</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -483,12 +478,12 @@ WiFi device(s) might already be unlocked.</translation>
     <message>
         <location filename="../mconfig.cpp" line="820"/>
         <source>Could not load </source>
-        <translation>Could not load </translation>
+        <translation>Ei voitu ladata</translation>
     </message>
     <message>
         <location filename="../mconfig.cpp" line="856"/>
         <source>Could not unload </source>
-        <translation>Could not unload </translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>

@@ -9,7 +9,10 @@ TRANSLATIONS += translations/mx-network-assistant_am.ts \
                 translations/mx-network-assistant_de.ts \
                 translations/mx-network-assistant_el.ts \
                 translations/mx-network-assistant_es.ts \
+                translations/mx-network-assistant_fi.ts \
                 translations/mx-network-assistant_fr.ts \
+                translations/mx-network-assistant_hi.ts \
+                translations/mx-network-assistant_hr.ts \
                 translations/mx-network-assistant_hu.ts \
                 translations/mx-network-assistant_it.ts \
                 translations/mx-network-assistant_ja.ts \
