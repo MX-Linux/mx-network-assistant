@@ -58,35 +58,6 @@ MConfig::~MConfig() {
 /////////////////////////////////////////////////////////////////////////
 // util functions
 
-QString MConfig::getCmdOut(QString cmd) {
-    char line[260];
-    const char* ret = "";
-    FILE* fp = popen(cmd.toUtf8(), "r");
-    if (fp == NULL) {
-        return QString (ret);
-    }
-    int i;
-    if (fgets(line, sizeof line, fp) != NULL) {
-        i = strlen(line);
-        line[--i] = '\0';
-        ret = line;
-    }
-    pclose(fp);
-    return QString (ret);
-}
-
-// Non blocking return function
-QString MConfig::getCmdOut2(QString cmd)
-{
-    QEventLoop loop;
-    QProcess *proc = new QProcess();
-    connect(proc, SIGNAL(finished(int)), &loop, SLOT(quit()));
-    proc->start("/bin/bash", QStringList() << "-c" << cmd);
-    loop.exec();
-    QString out = proc->readAllStandardOutput().trimmed();
-    delete proc;
-    return out;
-}
 
 QStringList MConfig::getCmdOuts(QString cmd) {
     char line[260];
@@ -162,8 +133,7 @@ bool MConfig::replaceStringInFile(QString oldtext, QString newtext, QString file
 
 // Get version of the program
 QString MConfig::getVersion(QString name) {
-    QString cmd = QString("dpkg -l %1 | awk 'NR==6 {print $3}'").arg(name);
-    return getCmdOut(cmd);
+    return shell.getOutput("dpkg-query -f '${Version}' -W " + name);
 }
 
 /////////////////////////////////////////////////////////////////////////
@@ -173,7 +143,7 @@ void MConfig::refresh() {
     hwUnblock->hide();
     groupWifi->hide();
     int i = tabWidget->currentIndex();
-    QString out = getCmdOut("rfkill list 2>&1");
+    QString out = shell.getOutput("rfkill list 2>&1");
     qApp->processEvents();
 
     switch (i) {
@@ -186,7 +156,7 @@ void MConfig::refresh() {
         }
         labelRouterIP->setText(tr("IP address from router:") + " " + getIPfromRouter());
         labelIP->setText(tr("External IP address:") + " " + getIP());
-        labelInterface->setText(getCmdOut("route | grep '^default' | grep -o '[^ ]*$'"));
+        labelInterface->setText(shell.getOutput("route | grep '^default' | grep -o '[^ ]*$'"));
         checkWifiAvailable();
         checkWifiEnabled();
         break;
@@ -209,12 +179,12 @@ void MConfig::refresh() {
 void MConfig::displayDoc(QString url)
 {
     QString exec = "xdg-open";
-    QString user = getCmdOut("logname");
+    QString user = shell.getOutput("logname");
     if (system("command -v mx-viewer") == 0) { // use mx-viewer if available
         exec = "mx-viewer";
     }
     QString cmd = "su " + user + " -c \"" + exec + " " + url + "\"&";
-    system(cmd.toUtf8());
+    shell.run(cmd);
 }
 
 /////////////////////////////////////////////////////////////////////////
@@ -1121,10 +1091,10 @@ bool MConfig::checkWifiAvailable()
 bool MConfig::checkWifiEnabled()
 {
   hwUnblock->hide();
-  if (getCmdOut("nmcli -t --fields WIFI r") == "enabled") {
+  if (shell.getOutput("nmcli -t --fields WIFI r") == "enabled") {
       labelWifi->setText(tr("enabled"));
       return true;
-  } else if (getCmdOut("nmcli -t --fields WIFI-HW r") == "enabled") {
+  } else if (shell.getOutput("nmcli -t --fields WIFI-HW r") == "enabled") {
       labelWifi->setText(tr("disabled"));
       hwUnblock->show();
   } else {
@@ -1172,9 +1142,9 @@ void MConfig::on_windowsDrvAddPushButton_clicked()
             }
             else {
                 QString cmd = QString("ndiswrapper -i %1").arg(infFileName);
-                system(cmd.toUtf8());
+                shell.run(cmd);
                 cmd = QString("ndiswrapper -ma");
-                system(cmd.toUtf8());
+                shell.run(cmd);
                 on_windowsDrvDiagnosePushButton_clicked();
             }
         }
@@ -1197,7 +1167,7 @@ void MConfig::on_windowsDrvRemovePushButton_clicked()
         QListWidgetItem* currentDriver = windowsDrvList->currentItem();
         QString driver = currentDriver->text();
         QString cmd = QString("ndiswrapper -r %1").arg(driver.left(driver.indexOf(" ")));
-        system(cmd.toUtf8());
+        shell.run(cmd);
         QMessageBox::information(0, QString::null, tr("Ndiswrapper driver removed."));
         on_windowsDrvDiagnosePushButton_clicked();
     }
@@ -1261,12 +1231,12 @@ void MConfig::on_buttonAbout_clicked()
 
 QString MConfig::getIP()
 {
-    return getCmdOut2("wget -q -O - checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//'");
+    return shell.getOutput("wget -q -O - checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//'");
 }
 
 QString MConfig::getIPfromRouter()
 {
-    return getCmdOut2("ifconfig | grep 'inet ' | sed -e 's/inet addr://' -e 's/ Bcast.*//'  -e 's/127.*//'  -e 's/\\s*//'");
+    return shell.getOutput("ifconfig | grep 'inet ' | sed -e 's/inet addr://' -e 's/ Bcast.*//'  -e 's/127.*//'  -e 's/\\s*//'");
 }
 
 void MConfig::on_linuxDrvLoad_clicked()

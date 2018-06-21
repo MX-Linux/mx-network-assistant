@@ -6,7 +6,8 @@ Build-Depends: qt5-qmake,
 	qt5-default,
 	qttools5-dev-tools,
 	debhelper (>=9),
-	network-manager
+	network-manager,
+	libcmd
 Standards-Version: 3.9.8
 Vcs-Git: git://github.com/AdrianTM/mx-network-assistant
 
