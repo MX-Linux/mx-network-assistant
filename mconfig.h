@@ -25,6 +25,8 @@
 #include <QProcess>
 #include <QDir>
 
+#include "cmd.h"
+
 class MConfig : public QDialog, public Ui::MEConfig {
     Q_OBJECT
 public:
@@ -32,15 +34,13 @@ public:
     ~MConfig();
     // helpers
 
-    static QString getCmdOut(QString cmd);
-    static QString getCmdOut2(QString cmd);
     static QStringList getCmdOuts(QString cmd);
     static QString getCmdValue(QString cmd, QString key, QString keydel, QString valdel);
     static QStringList getCmdValues(QString cmd, QString key, QString keydel, QString valdel);
     static bool replaceStringInFile(QString oldtext, QString newtext, QString filepath);
-    static QString getVersion(QString name);
-    static QString getIP();
-    static QString getIPfromRouter();
+    QString getVersion(QString name);
+    QString getIP();
+    QString getIPfromRouter();
     // common
     void refresh();
     // special
@@ -129,6 +129,9 @@ private slots:
     void on_hwUnblock_clicked();
     void on_linuxDrvLoad_clicked();
     void on_linuxDrvUnload_clicked();
+
+private:
+    Cmd shell;
 };
 
 #endif
