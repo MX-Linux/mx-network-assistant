@@ -1,3 +1,10 @@
+mx-network-assistant (18.6.1) mx; urgency=medium
+
+  * added changelog button
+  * fixed getVersion()
+
+ -- Adrian <adrian@mxlinux.org>  Sun, 24 Jun 2018 22:11:23 -0400
+
 mx-network-assistant (18.6) mx; urgency=medium
 
   * new translations
