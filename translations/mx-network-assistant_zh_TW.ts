@@ -4,185 +4,195 @@
 <context>
     <name>MConfig</name>
     <message>
-        <location filename="../mconfig.cpp" line="187"/>
+        <location filename="../mconfig.cpp" line="157"/>
         <source>IP address from router:</source>
         <translation>自路由器所見之 IP 位址：</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="188"/>
+        <location filename="../mconfig.cpp" line="158"/>
         <source>External IP address:</source>
         <translation>自外部所見之 IP 位址：</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="325"/>
-        <location filename="../mconfig.cpp" line="339"/>
-        <location filename="../mconfig.cpp" line="353"/>
+        <location filename="../mconfig.cpp" line="295"/>
+        <location filename="../mconfig.cpp" line="309"/>
+        <location filename="../mconfig.cpp" line="323"/>
         <source>&amp;Copy</source>
         <translation>複製（&amp;C）</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="327"/>
-        <location filename="../mconfig.cpp" line="341"/>
-        <location filename="../mconfig.cpp" line="355"/>
+        <location filename="../mconfig.cpp" line="297"/>
+        <location filename="../mconfig.cpp" line="311"/>
+        <location filename="../mconfig.cpp" line="325"/>
         <source>Ctrl+C</source>
         <translation>Ctrl+C</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="328"/>
-        <location filename="../mconfig.cpp" line="342"/>
-        <location filename="../mconfig.cpp" line="356"/>
+        <location filename="../mconfig.cpp" line="298"/>
+        <location filename="../mconfig.cpp" line="312"/>
+        <location filename="../mconfig.cpp" line="326"/>
         <source>Copy &amp;All</source>
         <translation>複製全部（&amp;A）</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="330"/>
-        <location filename="../mconfig.cpp" line="344"/>
-        <location filename="../mconfig.cpp" line="358"/>
+        <location filename="../mconfig.cpp" line="300"/>
+        <location filename="../mconfig.cpp" line="314"/>
+        <location filename="../mconfig.cpp" line="328"/>
         <source>Ctrl+A</source>
         <translation>Ctrl+A</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="395"/>
-        <location filename="../mconfig.cpp" line="417"/>
+        <location filename="../mconfig.cpp" line="365"/>
+        <location filename="../mconfig.cpp" line="387"/>
         <source>Traceroute not installed</source>
         <translation>未安裝 traceroute</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="396"/>
+        <location filename="../mconfig.cpp" line="366"/>
         <source>Traceroute is not installed, do you want to install it now?</source>
         <translation>Traceroute 並未安裝，要現在安裝嗎？</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="404"/>
+        <location filename="../mconfig.cpp" line="374"/>
         <source>Traceroute hasn&apos;t been installed</source>
         <translation>未安裝 traceroute</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="405"/>
+        <location filename="../mconfig.cpp" line="375"/>
         <source>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</source>
         <translation>無法安裝 traceroute。這表示你正在使用現場版 CD，或者你無法連上軟體倉庫。</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="418"/>
+        <location filename="../mconfig.cpp" line="388"/>
         <source>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</source>
         <translation>Traceroute 並未安裝，此外，由於偵測不到網際網路連線，因此無法安裝。</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="425"/>
-        <location filename="../mconfig.cpp" line="477"/>
+        <location filename="../mconfig.cpp" line="395"/>
+        <location filename="../mconfig.cpp" line="447"/>
         <source>No destination host</source>
         <translation>無目標主機</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="426"/>
-        <location filename="../mconfig.cpp" line="478"/>
+        <location filename="../mconfig.cpp" line="396"/>
+        <location filename="../mconfig.cpp" line="448"/>
         <source>Please fill in the destination host field</source>
         <translation>請填寫目標主機欄位</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="609"/>
+        <location filename="../mconfig.cpp" line="579"/>
         <source>Loaded Drivers</source>
         <translation>已載入之驅動程式</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="619"/>
+        <location filename="../mconfig.cpp" line="589"/>
         <source>Unloaded Drivers</source>
         <translation>未載入之驅動程式</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="635"/>
+        <location filename="../mconfig.cpp" line="605"/>
         <source>Blacklisted Drivers</source>
         <translation>黑名單中的驅動程式</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="658"/>
+        <location filename="../mconfig.cpp" line="628"/>
         <source>Blacklisted Broadcom Drivers</source>
         <translation>黑名單中的 Broadcom 驅動程式</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1125"/>
+        <location filename="../mconfig.cpp" line="1095"/>
         <source>enabled</source>
         <translation>使用中</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1128"/>
+        <location filename="../mconfig.cpp" line="1098"/>
         <source>disabled</source>
         <translation>停用中</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1131"/>
+        <location filename="../mconfig.cpp" line="1101"/>
         <source>WiFi hardware switch is off</source>
         <translation>WiFi 硬體的開關乃關閉狀態</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1139"/>
+        <location filename="../mconfig.cpp" line="1109"/>
         <source>Locate the Windows driver you want to add</source>
         <translation>找出你想加入的 Windows 驅動程式</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1139"/>
+        <location filename="../mconfig.cpp" line="1109"/>
         <source>Windows installation information file (*.inf)</source>
         <translation>Windows 安裝資訊檔（*.inf）</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1171"/>
+        <location filename="../mconfig.cpp" line="1141"/>
         <source>*.sys file not found</source>
         <translation>找不到 *.sys 檔</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1171"/>
+        <location filename="../mconfig.cpp" line="1141"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
         <translation>*.sys 檔的位置必須和 *.inf 檔相同。找不到 %1 。</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1182"/>
+        <location filename="../mconfig.cpp" line="1152"/>
         <source>sys file reference not found</source>
         <translation>找不到指涉 sys 檔的內容</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1182"/>
+        <location filename="../mconfig.cpp" line="1152"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
         <translation>分析該 inf 檔之後，無法確定該驅動程式的 sys 檔</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1201"/>
+        <location filename="../mconfig.cpp" line="1171"/>
         <source>Ndiswrapper driver removed.</source>
         <translation>已移除 Ndiswrapper 驅動程式。</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1248"/>
+        <location filename="../mconfig.cpp" line="1218"/>
         <source>About MX Network Assistant</source>
         <translation>關於 MX 網路助理</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1249"/>
+        <location filename="../mconfig.cpp" line="1219"/>
         <source>MX Network Assistant</source>
         <translation>MX 網路助理</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1249"/>
+        <location filename="../mconfig.cpp" line="1219"/>
         <source>Version: </source>
         <translation>版本：</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1251"/>
+        <location filename="../mconfig.cpp" line="1221"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
         <translation>本程式可在 MX Linux 中設定網路與排除障礙</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1252"/>
+        <location filename="../mconfig.cpp" line="1222"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
         <translation>版權所有 (c) MEPIS LLC 暨 MX Linux</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1253"/>
+        <location filename="../mconfig.cpp" line="1223"/>
         <source>License</source>
         <translation>授權條款</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1254"/>
+        <location filename="../mconfig.cpp" line="1224"/>
+        <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mconfig.cpp" line="1225"/>
         <source>Cancel</source>
         <translation>取消</translation>
+    </message>
+    <message>
+        <location filename="../mconfig.cpp" line="1241"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">關閉（&amp;C）</translation>
     </message>
 </context>
 <context>
@@ -390,92 +400,92 @@ p, li { white-space: pre-wrap; }
         <translation>本程式必須以 root 身份來執行。</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="681"/>
+        <location filename="../mconfig.cpp" line="651"/>
         <source>Ndiswrapper is not installed</source>
         <translation>未安裝 Ndiswrapper</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="690"/>
+        <location filename="../mconfig.cpp" line="660"/>
         <source>driver installed</source>
         <translation>驅動程式已安裝</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="701"/>
+        <location filename="../mconfig.cpp" line="671"/>
         <source> and in use by </source>
         <translation>並且正被下述程序使用：</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="710"/>
+        <location filename="../mconfig.cpp" line="680"/>
         <source>. Alternate driver: </source>
         <translation>。亦可改用此驅動程式：</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="802"/>
+        <location filename="../mconfig.cpp" line="772"/>
         <source>Driver removed from blacklist</source>
         <translation>已從黑名單中移除該驅動程式</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="803"/>
+        <location filename="../mconfig.cpp" line="773"/>
         <source>Driver removed from blacklist.</source>
         <translation>已從黑名單中移除該驅動程式。</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="811"/>
-        <location filename="../mconfig.cpp" line="812"/>
+        <location filename="../mconfig.cpp" line="781"/>
+        <location filename="../mconfig.cpp" line="782"/>
         <source>Module blacklisted</source>
         <translation>已將該模組列入黑名單</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1005"/>
+        <location filename="../mconfig.cpp" line="975"/>
         <source>Installation successful</source>
         <translation>安裝成功</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1009"/>
+        <location filename="../mconfig.cpp" line="979"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
         <translation>偵測到錯誤，無法編譯 ndiswrapper 驅動程式。</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1014"/>
+        <location filename="../mconfig.cpp" line="984"/>
         <source>Error detected, could not install ndiswrapper.</source>
         <translation>偵測到錯誤，無法安裝 ndiswrapper。</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1026"/>
+        <location filename="../mconfig.cpp" line="996"/>
         <source>Error encountered while removing Ndiswrapper</source>
         <translation>移除 Ndiswrapper 時發生錯誤</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1084"/>
+        <location filename="../mconfig.cpp" line="1054"/>
         <source>Unblacklist Driver</source>
         <translation>將驅動程式從黑名單中移除</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1089"/>
+        <location filename="../mconfig.cpp" line="1059"/>
         <source>Blacklist Driver</source>
         <translation>將驅動程式列入黑名單</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1230"/>
+        <location filename="../mconfig.cpp" line="1200"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
         <translation>無法取消停用該設備。
 也許這個（這些）設備本來就未停用。</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1232"/>
+        <location filename="../mconfig.cpp" line="1202"/>
         <source>WiFi devices unlocked.</source>
         <translation>取消停用該 WiFi 設備。</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1282"/>
-        <location filename="../mconfig.cpp" line="1283"/>
+        <location filename="../mconfig.cpp" line="1275"/>
+        <location filename="../mconfig.cpp" line="1276"/>
         <source>Driver loaded successfully</source>
         <translation>順利載入驅動程式</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="1301"/>
-        <location filename="../mconfig.cpp" line="1302"/>
+        <location filename="../mconfig.cpp" line="1294"/>
+        <location filename="../mconfig.cpp" line="1295"/>
         <source>Driver unloaded successfully</source>
         <translation>順利卸載驅動程式</translation>
     </message>
@@ -483,12 +493,12 @@ WiFi device(s) might already be unlocked.</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../mconfig.cpp" line="831"/>
+        <location filename="../mconfig.cpp" line="801"/>
         <source>Could not load </source>
         <translation>無法載入</translation>
     </message>
     <message>
-        <location filename="../mconfig.cpp" line="867"/>
+        <location filename="../mconfig.cpp" line="837"/>
         <source>Could not unload </source>
         <translation>無法卸載</translation>
     </message>
