@@ -1,3 +1,9 @@
+mx-network-assistant (18.10) mx; urgency=medium
+
+  * updated translations
+
+ -- Adrian <adrian@mxlinux.org>  Sun, 14 Oct 2018 19:12:03 -0400
+
 mx-network-assistant (18.8) mx; urgency=medium
 
   * fix icons other themes

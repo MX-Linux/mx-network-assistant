@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 14 Oct 2018 19:12:03 -0400
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: source amd64
+Version: 18.10
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (18.10) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ f5e18eb074e080b872dd96fa804aa7ba3f154802 1263 mx-network-assistant_18.10.dsc
+ d96bb1bd38c8e1fd83631caea58f57939c99a91b 54488 mx-network-assistant_18.10.tar.xz
+ 8086f69434a14970e002a16c42c889dfa727813f 95052 mx-network-assistant_18.10_amd64.deb
+Checksums-Sha256:
+ da7a43b6be34cf873451f5a60950daf0f8ac071bf0a0ab68729ea9b8b34e7b0e 1263 mx-network-assistant_18.10.dsc
+ bdf93aa36ae048f33fad5b3ab181f5dae8d1c8c971d563b14af498afff793f6f 54488 mx-network-assistant_18.10.tar.xz
+ ec54ac563e1a61e9943ff39b86d22243bc1ef79049c24e84f2fe7fb389f02156 95052 mx-network-assistant_18.10_amd64.deb
+Files:
+ 94d594b044815f41ee2618950e303760 1263 admin optional mx-network-assistant_18.10.dsc
+ c4e5429803316d85ed5f5141a65739ee 54488 admin optional mx-network-assistant_18.10.tar.xz
+ ef13b8863451d0ca5c10ecca589cc74b 95052 admin optional mx-network-assistant_18.10_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlvDzlATHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumCt1B/40qNHZuz6RqHGgV3DIUyPp62z7LySk
+vWzmlM3H1X0xuN6VQK9c0Qggm7liXvXoUV+xG4r3eXiKGcLkrflpWLS5r2LZfxxY
+uLzGLEEywXgih1T3X9jGKp5CmVrmaCr6g7iIzSRHH2TiyOfQseGevla/k/DtgBrs
+2G5GnOnDTWxstTPz6yW/7fotxeYRyMfmIAsLoilArmnQQKkDfO/fORSEeb/p9m8J
+RrzVr1sEixLgy3ELDK4bOmusF8sPqf32bSTg5oaK0W4FDej3gNAimjs86Cb+1cQF
+WM/3ipvD77OCWvXn+shUPyqwH7AcurAxjjUDAIQ17nnEQ6ArYgzb1ob9
+=rDvj
+-----END PGP SIGNATURE-----
