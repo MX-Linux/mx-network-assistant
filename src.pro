@@ -6,6 +6,7 @@ TARGET = mx-network-assistant
 TRANSLATIONS += translations/mx-network-assistant_am.ts \
                 translations/mx-network-assistant_ca.ts \
                 translations/mx-network-assistant_cs.ts \
+                translations/mx-network-assistant_da.ts \
                 translations/mx-network-assistant_de.ts \
                 translations/mx-network-assistant_el.ts \
                 translations/mx-network-assistant_es.ts \
@@ -14,6 +15,7 @@ TRANSLATIONS += translations/mx-network-assistant_am.ts \
                 translations/mx-network-assistant_hi.ts \
                 translations/mx-network-assistant_hr.ts \
                 translations/mx-network-assistant_hu.ts \
+                translations/mx-network-assistant_is.ts \
                 translations/mx-network-assistant_it.ts \
                 translations/mx-network-assistant_ja.ts \
                 translations/mx-network-assistant_kk.ts \
@@ -25,6 +27,7 @@ TRANSLATIONS += translations/mx-network-assistant_am.ts \
                 translations/mx-network-assistant_ro.ts \
                 translations/mx-network-assistant_ru.ts \
                 translations/mx-network-assistant_sk.ts \
+                translations/mx-network-assistant_sq.ts \
                 translations/mx-network-assistant_sv.ts \
                 translations/mx-network-assistant_tr.ts \
                 translations/mx-network-assistant_uk.ts \
