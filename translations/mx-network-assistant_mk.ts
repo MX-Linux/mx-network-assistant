@@ -1,22 +1,22 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt_BR" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="mk" version="2.1">
 <context>
     <name>MConfig</name>
     <message>
         <location filename="mconfig.cpp" line="157"/>
         <source>IP address from router:</source>
-        <translation>Endereço IP do encaminhador (router)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="158"/>
         <source>External IP address:</source>
-        <translation>Endereço IP externo:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="295"/>
         <location filename="mconfig.cpp" line="309"/>
         <location filename="mconfig.cpp" line="323"/>
         <source>&amp;Copy</source>
-        <translation>&amp;Copiar</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="297"/>
@@ -30,7 +30,7 @@
         <location filename="mconfig.cpp" line="312"/>
         <location filename="mconfig.cpp" line="326"/>
         <source>Copy &amp;All</source>
-        <translation>Copy &amp;All</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="300"/>
@@ -43,154 +43,154 @@
         <location filename="mconfig.cpp" line="365"/>
         <location filename="mconfig.cpp" line="387"/>
         <source>Traceroute not installed</source>
-        <translation>O Traceroute não está instalado&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="366"/>
         <source>Traceroute is not installed, do you want to install it now?</source>
-        <translation>O Traceroute não está instalado, pretende instalá-lo agora?</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="374"/>
         <source>Traceroute hasn&apos;t been installed</source>
-        <translation>O Traceroute foi instalado</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="375"/>
         <source>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</source>
-        <translation>Não foi possível instalar o Traceroute. Isto pode resultar de estar a usar a instalação externa ou de não se conseguir ligar ao repositório de software.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="388"/>
         <source>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</source>
-        <translation>O Traceroute não está instalado. Não foi detectada nenhuma ligação à Internet, pelo que não é possível proceder à sua instalação</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="395"/>
         <location filename="mconfig.cpp" line="447"/>
         <source>No destination host</source>
-        <translation>Nenhum hospedeiro (host) como destino</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="396"/>
         <location filename="mconfig.cpp" line="448"/>
         <source>Please fill in the destination host field</source>
-        <translation>Preencha o campo do hospedeiro de destino</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="579"/>
         <source>Loaded Drivers</source>
-        <translation>Controladores carregados</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="589"/>
         <source>Unloaded Drivers</source>
-        <translation>Controladores não carregados</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="605"/>
         <source>Blacklisted Drivers</source>
-        <translation>Controladores banidos</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="628"/>
         <source>Blacklisted Broadcom Drivers</source>
-        <translation>Controladores Broadcom banidos</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1095"/>
         <source>enabled</source>
-        <translation>activado</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1098"/>
         <source>disabled</source>
-        <translation>desactivado</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1101"/>
         <source>WiFi hardware switch is off</source>
-        <translation>O interruptor de WiFi do computador está deslidado</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1109"/>
         <source>Locate the Windows driver you want to add</source>
-        <translation>Localize o controlador (driver) Windows que pretende adicionar</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1109"/>
         <source>Windows installation information file (*.inf)</source>
-        <translation>Ficheiro de informação sobre a instalação Windows (*.inf)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1141"/>
         <source>*.sys file not found</source>
-        <translation>Não foi encontrado o ficheiro *.sys</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1141"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
-        <translation>Os ficheiros *.sys têm que estar no mesmo local que o ficheiro *.inf. Não foi encontrado o ficheiro %1</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1152"/>
         <source>sys file reference not found</source>
-        <translation>Não foi encontrada a referência do ficheiro sys</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1152"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
-        <translation>A análise sintáctica (parsing) ao ficheiro inf não permitiu determinar qual é o ficheiro sys para o controlador (driver) em questão</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1171"/>
         <source>Ndiswrapper driver removed.</source>
-        <translation>O controlador do NDISwrapper foi removido.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1218"/>
         <source>About MX Network Assistant</source>
-        <translation>Sobre o MX_Assistente de Redes</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1219"/>
         <source>MX Network Assistant</source>
-        <translation>MX_Assistente de Redes</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1219"/>
         <source>Version: </source>
-        <translation>Versão:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1221"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
-        <translation>Programa do Linux MX para resolução de problemas e configuração de rede</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1222"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
-        <translation>Copyright (c) MEPIS LLC e MX Linux</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1223"/>
         <source>License</source>
-        <translation>Licença</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1224"/>
         <source>Changelog</source>
-        <translation>Relatório de alterações</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1225"/>
         <source>Cancel</source>
-        <translation>Cancelar</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1241"/>
         <source>&amp;Close</source>
-        <translation>&amp;Fechar</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -198,163 +198,163 @@
     <message>
         <location filename="meconfig.ui" line="26"/>
         <source>MX Network Assistant</source>
-        <translation>MX_Assistente de Redes</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="71"/>
         <source>Status</source>
-        <translation>Estado</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="77"/>
         <source>IP address</source>
-        <translation>Endereço IP</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="113"/>
         <source>Hardware detected</source>
-        <translation>Dispositivo detectado</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="144"/>
         <location filename="meconfig.ui" line="392"/>
         <location filename="meconfig.ui" line="508"/>
         <source>Re-scan</source>
-        <translation>Voltar a procurar</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="217"/>
         <source>Active interface</source>
-        <translation>Interface activa</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="233"/>
         <source>WiFi status</source>
-        <translation>Estado do WiFi</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="255"/>
         <source>Unblocks all soft/hard blocked wireless devices</source>
-        <translation>Desbloqueia todos os dispositivos sem fios (wireless) bloqueados por software ou no equipamento (soft/hard blocked)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="258"/>
         <source>Unblock WiFi Devices</source>
-        <translation>Desbloquear Dispositivos WiFi</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="291"/>
         <source>Linux drivers</source>
-        <translation>Controladores Linux</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="303"/>
         <source>Associated Linux drivers</source>
-        <translation>Controladores Linux associados</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="312"/>
         <source>Load Driver</source>
-        <translation>Instalar controlador</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="375"/>
         <source>Unload Driver</source>
-        <translation>Desinstalar controlador</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="413"/>
         <source>Blacklist Driver</source>
-        <translation>Controlador da lista negra</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="432"/>
         <source>Windows drivers</source>
-        <translation>Controladores do Windows</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="438"/>
         <source>Available Windows drivers</source>
-        <translation>Controladores Windows disponíveis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="472"/>
         <source>Remove Driver</source>
-        <translation>Remover controlador</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="484"/>
         <source>Add Driver</source>
-        <translation>Adicionar controlador</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="527"/>
         <source>About NDISwrapper</source>
-        <translation>Sobre o NDISwrapper</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="539"/>
         <source>Install NDISwrapper</source>
-        <translation>Instalar NDISwrapper&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="551"/>
         <source>In order to use Windows drivers you need first to install NDISwrapper</source>
-        <translation>Para usar controladores Windows é necessário instalar primeiro o NDISwrapper</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="567"/>
         <source>Uninstall NDISwrapper</source>
-        <translation>Desinstalar o NDISwrapper&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="600"/>
         <source>Net diagnostics</source>
-        <translation>Diagnósticos de rede</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="612"/>
         <source>Ping</source>
-        <translation>Ping</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="618"/>
         <location filename="meconfig.ui" line="730"/>
         <source>Target URL:</source>
-        <translation>URL alvo</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="628"/>
         <source>Packets</source>
-        <translation>Pacotes</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="663"/>
         <location filename="meconfig.ui" line="785"/>
         <source>Start</source>
-        <translation>Iniciar</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="681"/>
         <location filename="meconfig.ui" line="803"/>
         <source>Clear</source>
-        <translation>Limpar</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="696"/>
         <location filename="meconfig.ui" line="818"/>
         <source>Cancel</source>
-        <translation>Cancelar</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="724"/>
         <source>Traceroute</source>
-        <translation>Traceroute</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="740"/>
         <source>Hops</source>
-        <translation>Saltos (Hops)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="772"/>
@@ -363,31 +363,27 @@
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Droid Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="868"/>
         <source>About...</source>
-        <translation>Sobre...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="886"/>
         <source>Help</source>
-        <translation>Ajuda</translation>
+        <translation>Помош</translation>
     </message>
     <message>
         <location filename="meconfig.ui" line="949"/>
         <source>&amp;Close</source>
-        <translation>&amp;Fechar</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="meconfig.ui" line="957"/>
         <source>Alt+C</source>
-        <translation>Alt+C</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -395,97 +391,96 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="main.cpp" line="44"/>
         <source>You must run this program as root.</source>
-        <translation>Tem que executar este programa com a conta de raíz (root)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="651"/>
         <source>Ndiswrapper is not installed</source>
-        <translation>O NDISwrapper não está instalado</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="660"/>
         <source>driver installed</source>
-        <translation>Controlador instalado</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="671"/>
         <source> and in use by </source>
-        <translation> e em uso por </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="680"/>
         <source>. Alternate driver: </source>
-        <translation>Controlador alternativo: </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="772"/>
         <source>Driver removed from blacklist</source>
-        <translation>Controlador removido da lista negra</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="773"/>
         <source>Driver removed from blacklist.</source>
-        <translation>Controlador removido da lista negra</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="781"/>
         <location filename="mconfig.cpp" line="782"/>
         <source>Module blacklisted</source>
-        <translation>Módulo colocado na lista negra</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="975"/>
         <source>Installation successful</source>
-        <translation>Instalação bem sucedida</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="979"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
-        <translation>Detetado um erro, não foi possível compilar o controlador do ndiswrapper.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="984"/>
         <source>Error detected, could not install ndiswrapper.</source>
-        <translation>Detetado um erro, não foi possível instalar o ndiswrapper.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="996"/>
         <source>Error encountered while removing Ndiswrapper</source>
-        <translation>Detetado um erro ao remover o Ndiswrapper</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1054"/>
         <source>Unblacklist Driver</source>
-        <translation>Retirar controlador da lista negra</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1059"/>
         <source>Blacklist Driver</source>
-        <translation>Colocar controlador na lista negra</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1200"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
-        <translation>Não foi possível desbloquear os dispositivos.
-O(s) dispositivo(s) WiFI podem já estar desbloqueados.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1202"/>
         <source>WiFi devices unlocked.</source>
-        <translation>Dispositivos WiFI desbloqueados</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1275"/>
         <location filename="mconfig.cpp" line="1276"/>
         <source>Driver loaded successfully</source>
-        <translation>Controlador carregado com êxito</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="1294"/>
         <location filename="mconfig.cpp" line="1295"/>
         <source>Driver unloaded successfully</source>
-        <translation>Controlador descarregado com êxito</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -493,12 +488,12 @@ O(s) dispositivo(s) WiFI podem já estar desbloqueados.</translation>
     <message>
         <location filename="mconfig.cpp" line="801"/>
         <source>Could not load </source>
-        <translation>Não foi possível carregar</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mconfig.cpp" line="837"/>
         <source>Could not unload </source>
-        <translation>Não foi possível descarregar&gt;</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>
