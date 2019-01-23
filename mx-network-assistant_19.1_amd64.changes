@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Wed, 23 Jan 2019 16:17:16 -0500
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: source amd64
+Version: 19.1
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (19.1) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ c619a39cb989c930768a5314450320280c486300 1259 mx-network-assistant_19.1.dsc
+ fdd24f396c9fdda15880e6ad4b9ae5b3d32cdf99 57136 mx-network-assistant_19.1.tar.xz
+ b618ba00bb89b8b82e1ae95b1921f135a94d3fa9 466742 mx-network-assistant-dbgsym_19.1_amd64.deb
+ 45e5e6617136b2e2d81acaddf440105667cfc5cf 13151 mx-network-assistant_19.1_amd64.buildinfo
+ 3dfd598d14f9daa035d0cca47a0db250b55f1c90 97704 mx-network-assistant_19.1_amd64.deb
+Checksums-Sha256:
+ c8ef8261a7c677e3f26b2ee2841e1cfe4a6a4a0278a45e0b549ad4492c1a5f4d 1259 mx-network-assistant_19.1.dsc
+ 1b15f026545d1944061a59693f38286e796adcc1aeeb09ed6e8e9c79cc47ae06 57136 mx-network-assistant_19.1.tar.xz
+ a36df41b185bb5e0554bfab15303a79d50ecfd4e176275d37866a023218ccc11 466742 mx-network-assistant-dbgsym_19.1_amd64.deb
+ 280577e551a69c31a31f9730b591218619fa2956499d4c4aad68632be001a0cc 13151 mx-network-assistant_19.1_amd64.buildinfo
+ dc1008120c9fb73f1d8e7c68c750ed9690e7f7c5900f1ccad5c72e13ca939f98 97704 mx-network-assistant_19.1_amd64.deb
+Files:
+ 499e50699a105e68f93e698f38379d2d 1259 admin optional mx-network-assistant_19.1.dsc
+ 520118d7f36b03614e69cf4799e45d28 57136 admin optional mx-network-assistant_19.1.tar.xz
+ 215dd4866b1e9bf9598e3dd33f6f6d98 466742 debug optional mx-network-assistant-dbgsym_19.1_amd64.deb
+ 3e3617bca8adcf982c5f07f72b51277d 13151 admin optional mx-network-assistant_19.1_amd64.buildinfo
+ e1e060275f557336eeb2688b6e9c8c92 97704 admin optional mx-network-assistant_19.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlxI2lATHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumMiNB/4r5je76AVwwIzB3qFh5RVW3orPI6vh
+LdfhN9x4Y78wJgqRu6AavBTBseBpQOdKurJ/BzUbM1G+9HDOSdkL1QvjFTXjeFWv
+ev0Nl/ZWEDlPqTtnugeH+soRyBDtT6L14nuiJ38fs1yQ8Ggil7jPIjl1tveavQ1p
+BkZWTWy5GJPE2W7WIuG8r4YBBH57jcZY0qB+cLPwLJPgy3wcBU3YOamKbDQdsBuV
+fhgVpKuVs8JNWCCGsie08BV5JPIjLGn807tKbcVVp9KGUfZ7699Agn72aUrGHFUB
+8ts1taMPFcZTLIMtZdWAvD0kASVpRTaN1hOeaCslpr3ZaMroEMHwT39D
+=FiX3
+-----END PGP SIGNATURE-----
