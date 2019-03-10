@@ -47,10 +47,13 @@ TRANSLATIONS += translations/mx-network-assistant_am.ts \
                 translations/mx-network-assistant_zh_CN.ts \
                 translations/mx-network-assistant_zh_TW.ts
 
-FORMS += meconfig.ui
-HEADERS += mconfig.h
-SOURCES += main.cpp mconfig.cpp
-CONFIG += release warn_on thread qt
+FORMS += \
+    mainwindow.ui
+HEADERS += \
+    mainwindow.h
+SOURCES += main.cpp \
+    mainwindow.cpp
+CONFIG += release warn_on thread qt c++11
 
 RESOURCES += \
     images.qrc

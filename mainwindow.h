@@ -17,21 +17,21 @@
 
 //   With big modifications made by Adrian adrian@mxlinux.org
 
-#ifndef MCONFIG_H
-#define MCONFIG_H
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
 
-#include "ui_meconfig.h"
+#include "ui_mainwindow.h"
 #include <QMessageBox>
 #include <QProcess>
 #include <QDir>
 
 #include "cmd.h"
 
-class MConfig : public QDialog, public Ui::MEConfig {
+class MainWindow : public QDialog, public Ui::MainWindow {
     Q_OBJECT
 public:
-    MConfig(QWidget* parent = 0);
-    ~MConfig();
+    MainWindow(QWidget* parent = 0);
+    ~MainWindow();
     // helpers
 
     static QStringList getCmdOuts(QString cmd);

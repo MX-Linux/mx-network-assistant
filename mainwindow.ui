@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MEConfig</class>
- <widget class="QDialog" name="MEConfig">
+ <class>MainWindow</class>
+ <widget class="QDialog" name="MainWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -64,8 +64,7 @@
      <widget class="QWidget" name="statusTab">
       <attribute name="icon">
        <iconset theme="emblem-documents">
-        <normaloff/>
-       </iconset>
+        <normaloff>.</normaloff>.</iconset>
       </attribute>
       <attribute name="title">
        <string>Status</string>
@@ -145,8 +144,7 @@
             </property>
             <property name="icon">
              <iconset theme="view-refresh">
-              <normaloff/>
-             </iconset>
+              <normaloff>.</normaloff>.</iconset>
             </property>
            </widget>
           </item>
@@ -259,8 +257,7 @@
             </property>
             <property name="icon">
              <iconset theme="network-wireless">
-              <normaloff/>
-             </iconset>
+              <normaloff>.</normaloff>.</iconset>
             </property>
            </widget>
           </item>
@@ -393,8 +390,7 @@
             </property>
             <property name="icon">
              <iconset theme="view-refresh">
-              <normaloff/>
-             </iconset>
+              <normaloff>.</normaloff>.</iconset>
             </property>
            </widget>
           </item>
@@ -473,8 +469,7 @@
             </property>
             <property name="icon">
              <iconset theme="list-remove">
-              <normaloff/>
-             </iconset>
+              <normaloff>.</normaloff>.</iconset>
             </property>
            </widget>
           </item>
@@ -485,8 +480,7 @@
             </property>
             <property name="icon">
              <iconset theme="list-add">
-              <normaloff/>
-             </iconset>
+              <normaloff>.</normaloff>.</iconset>
             </property>
            </widget>
           </item>
@@ -509,8 +503,7 @@
             </property>
             <property name="icon">
              <iconset theme="view-refresh">
-              <normaloff/>
-             </iconset>
+              <normaloff>.</normaloff>.</iconset>
             </property>
            </widget>
           </item>
@@ -540,8 +533,7 @@
             </property>
             <property name="icon">
              <iconset theme="list-add">
-              <normaloff/>
-             </iconset>
+              <normaloff>.</normaloff>.</iconset>
             </property>
            </widget>
           </item>
@@ -568,8 +560,7 @@
             </property>
             <property name="icon">
              <iconset theme="list-remove">
-              <normaloff/>
-             </iconset>
+              <normaloff>.</normaloff>.</iconset>
             </property>
            </widget>
           </item>
@@ -664,8 +655,7 @@
               </property>
               <property name="icon">
                <iconset theme="system-search">
-                <normaloff/>
-               </iconset>
+                <normaloff>.</normaloff>.</iconset>
               </property>
               <property name="default">
                <bool>false</bool>
@@ -682,8 +672,7 @@
               </property>
               <property name="icon">
                <iconset theme="user-trash">
-                <normaloff/>
-               </iconset>
+                <normaloff>.</normaloff>.</iconset>
               </property>
              </widget>
             </item>
@@ -772,7 +761,7 @@
              <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10.5pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
            </widget>
@@ -786,8 +775,7 @@ p, li { white-space: pre-wrap; }
               </property>
               <property name="icon">
                <iconset theme="system-search">
-                <normaloff/>
-               </iconset>
+                <normaloff>.</normaloff>.</iconset>
               </property>
               <property name="default">
                <bool>false</bool>
@@ -804,8 +792,7 @@ p, li { white-space: pre-wrap; }
               </property>
               <property name="icon">
                <iconset theme="user-trash">
-                <normaloff/>
-               </iconset>
+                <normaloff>.</normaloff>.</iconset>
               </property>
              </widget>
             </item>
@@ -869,8 +856,7 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="icon">
         <iconset theme="help-about">
-         <normaloff/>
-        </iconset>
+         <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="shortcut">
         <string/>
@@ -887,8 +873,7 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="icon">
         <iconset theme="help-contents">
-         <normaloff/>
-        </iconset>
+         <normaloff>.</normaloff>.</iconset>
        </property>
       </widget>
      </item>
@@ -950,8 +935,7 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="icon">
         <iconset theme="window-close">
-         <normaloff/>
-        </iconset>
+         <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="shortcut">
         <string>Alt+C</string>
