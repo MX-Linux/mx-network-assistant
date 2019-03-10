@@ -17,7 +17,7 @@
 
 //   With big modifications made by Adrian adrian@mxlinux.org
 
-#include "mconfig.h"
+#include "mainwindow.h"
 #include <QFileDialog>
 #include <QMenu>
 #include <QClipboard>
@@ -25,7 +25,7 @@
 
 #include <unistd.h>
 
-MConfig::MConfig(QWidget* parent)
+MainWindow::MainWindow(QWidget* parent)
     : QDialog(parent) {
     setupUi(this);
     setWindowIcon(QApplication::windowIcon());
@@ -52,14 +52,14 @@ MConfig::MConfig(QWidget* parent)
             SLOT(showContextMenuForWindowsDrv(const QPoint &)));
 }
 
-MConfig::~MConfig() {
+MainWindow::~MainWindow() {
 }
 
 /////////////////////////////////////////////////////////////////////////
 // util functions
 
 
-QStringList MConfig::getCmdOuts(QString cmd) {
+QStringList MainWindow::getCmdOuts(QString cmd) {
     char line[260];
     FILE* fp = popen(cmd.toUtf8(), "r");
     QStringList results;
@@ -76,7 +76,7 @@ QStringList MConfig::getCmdOuts(QString cmd) {
     return results;
 }
 
-QString MConfig::getCmdValue(QString cmd, QString key, QString keydel, QString valdel) {
+QString MainWindow::getCmdValue(QString cmd, QString key, QString keydel, QString valdel) {
     const char *ret = "";
     char line[260];
 
@@ -97,7 +97,7 @@ QString MConfig::getCmdValue(QString cmd, QString key, QString keydel, QString v
     return QString (ret);
 }
 
-QStringList MConfig::getCmdValues(QString cmd, QString key, QString keydel, QString valdel) {
+QStringList MainWindow::getCmdValues(QString cmd, QString key, QString keydel, QString valdel) {
     char line[130];
     FILE* fp = popen(cmd.toUtf8(), "r");
     QStringList results;
@@ -122,7 +122,7 @@ QStringList MConfig::getCmdValues(QString cmd, QString key, QString keydel, QStr
     return results;
 }
 
-bool MConfig::replaceStringInFile(QString oldtext, QString newtext, QString filepath) {
+bool MainWindow::replaceStringInFile(QString oldtext, QString newtext, QString filepath) {
 
     QString cmd = QString("sed -i 's/%1/%2/g' %3").arg(oldtext).arg(newtext).arg(filepath);
     if (system(cmd.toUtf8()) != 0) {
@@ -132,14 +132,14 @@ bool MConfig::replaceStringInFile(QString oldtext, QString newtext, QString file
 }
 
 // Get version of the program
-QString MConfig::getVersion(QString name) {
+QString MainWindow::getVersion(QString name) {
     return shell.getOutput("dpkg-query -f '${Version}' -W " + name);
 }
 
 /////////////////////////////////////////////////////////////////////////
 // common
 
-void MConfig::refresh() {
+void MainWindow::refresh() {
     hwUnblock->hide();
     groupWifi->hide();
     int i = tabWidget->currentIndex();
@@ -176,7 +176,7 @@ void MConfig::refresh() {
     }
 }
 
-void MConfig::displayDoc(QString url)
+void MainWindow::displayDoc(QString url)
 {
     QString exec = "xdg-open";
     QString user = shell.getOutput("logname");
@@ -190,7 +190,7 @@ void MConfig::displayDoc(QString url)
 /////////////////////////////////////////////////////////////////////////
 // special
 
-void MConfig::on_cancelPing_clicked()
+void MainWindow::on_cancelPing_clicked()
 {
     if (pingProc->state() != QProcess::NotRunning)
     {
@@ -199,7 +199,7 @@ void MConfig::on_cancelPing_clicked()
     cancelPing->setEnabled(false);
 }
 
-void MConfig::on_cancelTrace_clicked()
+void MainWindow::on_cancelTrace_clicked()
 {
     if (traceProc->state() != QProcess::NotRunning)
     {
@@ -208,13 +208,13 @@ void MConfig::on_cancelTrace_clicked()
     cancelTrace->setEnabled(false);
 }
 
-void MConfig::on_clearPingOutput_clicked()
+void MainWindow::on_clearPingOutput_clicked()
 {
     pingOutputEdit->clear();
     clearPingOutput->setEnabled(false);
 }
 
-void MConfig::hwListToClipboard()
+void MainWindow::hwListToClipboard()
 {
     if (hwList->currentRow() != -1)
     {
@@ -224,7 +224,7 @@ void MConfig::hwListToClipboard()
     }
 }
 
-void MConfig::hwListFullToClipboard()
+void MainWindow::hwListFullToClipboard()
 {
     if (hwList->count() > -1)
     {
@@ -239,7 +239,7 @@ void MConfig::hwListFullToClipboard()
     }
 }
 
-void MConfig::linuxDrvListToClipboard()
+void MainWindow::linuxDrvListToClipboard()
 {
     if (linuxDrvList->currentRow() != -1)
     {
@@ -249,7 +249,7 @@ void MConfig::linuxDrvListToClipboard()
     }
 }
 
-void MConfig::linuxDrvListFullToClipboard()
+void MainWindow::linuxDrvListFullToClipboard()
 {
     if (hwList->count() > -1)
     {
@@ -264,7 +264,7 @@ void MConfig::linuxDrvListFullToClipboard()
     }
 }
 
-void MConfig::windowsDrvListToClipboard()
+void MainWindow::windowsDrvListToClipboard()
 {
     if (linuxDrvList->currentRow() != -1)
     {
@@ -274,7 +274,7 @@ void MConfig::windowsDrvListToClipboard()
     }
 }
 
-void MConfig::windowsDrvListFullToClipboard()
+void MainWindow::windowsDrvListFullToClipboard()
 {
     if (hwList->count() > -1)
     {
@@ -289,7 +289,7 @@ void MConfig::windowsDrvListFullToClipboard()
     }
 }
 
-void MConfig::showContextMenuForHw(const QPoint &pos)
+void MainWindow::showContextMenuForHw(const QPoint &pos)
 {
     QMenu contextMenu(this);
     QAction * copyAction = new QAction(tr("&Copy"), this);
@@ -303,7 +303,7 @@ void MConfig::showContextMenuForHw(const QPoint &pos)
     contextMenu.exec(hwList->mapToGlobal(pos));
 }
 
-void MConfig::showContextMenuForLinuxDrv(const QPoint &pos)
+void MainWindow::showContextMenuForLinuxDrv(const QPoint &pos)
 {
     QMenu contextMenu(this);
     QAction * copyAction = new QAction(tr("&Copy"), this);
@@ -317,7 +317,7 @@ void MConfig::showContextMenuForLinuxDrv(const QPoint &pos)
     contextMenu.exec(linuxDrvList->mapToGlobal(pos));
 }
 
-void MConfig::showContextMenuForWindowsDrv(const QPoint &pos)
+void MainWindow::showContextMenuForWindowsDrv(const QPoint &pos)
 {
     QMenu contextMenu(this);
     QAction * copyAction = new QAction(tr("&Copy"), this);
@@ -331,17 +331,17 @@ void MConfig::showContextMenuForWindowsDrv(const QPoint &pos)
     contextMenu.exec(windowsDrvList->mapToGlobal(pos));
 }
 
-void MConfig::on_clearTraceOutput_clicked()
+void MainWindow::on_clearTraceOutput_clicked()
 {
     tracerouteOutputEdit->clear();
     clearTraceOutput->setEnabled(false);
 }
 
-void MConfig::writeTraceOutput()
+void MainWindow::writeTraceOutput()
 {
     QByteArray bytes = traceProc->readAllStandardOutput();
     QStringList lines = QString(bytes).split("\n");
-    foreach (QString line, lines) {
+    for (const QString &line : lines) {
         if (!line.isEmpty())
         {
             tracerouteOutputEdit->append(line);
@@ -349,12 +349,12 @@ void MConfig::writeTraceOutput()
     }
 }
 
-void MConfig::tracerouteFinished()
+void MainWindow::tracerouteFinished()
 {
     cancelTrace->setEnabled(false);
 }
 
-void MConfig::on_tracerouteButton_clicked()
+void MainWindow::on_tracerouteButton_clicked()
 {
     QString statusl = getCmdValue("dpkg -s traceroute | grep '^Status'", "ok", " ", " ");
     if (statusl.compare("installed") != 0)
@@ -423,11 +423,11 @@ void MConfig::on_tracerouteButton_clicked()
     }
 }
 
-void MConfig::writePingOutput()
+void MainWindow::writePingOutput()
 {
     QByteArray bytes = pingProc->readAllStandardOutput();
     QStringList lines = QString(bytes).split("\n");
-    foreach (QString line, lines) {
+    for (const QString &line : lines) {
         if (!line.isEmpty())
         {
             pingOutputEdit->append(line);
@@ -435,12 +435,12 @@ void MConfig::writePingOutput()
     }
 }
 
-void MConfig::pingFinished()
+void MainWindow::pingFinished()
 {
     cancelPing->setEnabled(false);
 }
 
-void MConfig::on_pingButton_clicked()
+void MainWindow::on_pingButton_clicked()
 {
     if (pingHostEdit->text().isEmpty())
     {
@@ -477,14 +477,14 @@ void MConfig::on_pingButton_clicked()
 /////////////////////////////////////////////////////////////////////////
 // slots
 
-void MConfig::show() {
+void MainWindow::show() {
     QDialog::show();
     refresh();
 }
 
 
 // Added
-void MConfig::on_hwDiagnosePushButton_clicked()
+void MainWindow::on_hwDiagnosePushButton_clicked()
 {
     hwList->clear();
 
@@ -532,7 +532,7 @@ void MConfig::on_hwDiagnosePushButton_clicked()
     checkWifiEnabled();
 }
 
-void MConfig::on_linuxDrvList_currentRowChanged(int currentRow )
+void MainWindow::on_linuxDrvList_currentRowChanged(int currentRow )
 {
     if (currentRow != -1 && !linuxDrvList->currentItem()->text().contains("---------")) {
         linuxDrvBlacklistPushButton->setEnabled(true);
@@ -549,7 +549,7 @@ void MConfig::on_linuxDrvList_currentRowChanged(int currentRow )
     updateDriverStatus();
 }
 
-void MConfig::on_linuxDrvDiagnosePushButton_clicked()
+void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
 {
     linuxDrvList->clear();
     loadedModules.clear();
@@ -643,7 +643,7 @@ void MConfig::on_linuxDrvDiagnosePushButton_clicked()
     inputBroadcomBlacklist.close();
 }
 
-void MConfig::on_windowsDrvDiagnosePushButton_clicked()
+void MainWindow::on_windowsDrvDiagnosePushButton_clicked()
 {
     windowsDrvList->clear();
     if (system("[ -f /usr/sbin/ndiswrapper ]") != 0) {
@@ -693,7 +693,7 @@ void MConfig::on_windowsDrvDiagnosePushButton_clicked()
     }
 }
 
-bool MConfig::blacklistModule(QString module)
+bool MainWindow::blacklistModule(QString module)
 {
     QFile outputBlacklist;
     if (!broadcomModules.contains(module))
@@ -724,7 +724,7 @@ bool MConfig::blacklistModule(QString module)
     return true;
 }
 
-void MConfig::on_linuxDrvBlacklistPushButton_clicked()
+void MainWindow::on_linuxDrvBlacklistPushButton_clicked()
 {
     if (linuxDrvList->currentRow() != -1)
     {
@@ -787,7 +787,7 @@ void MConfig::on_linuxDrvBlacklistPushButton_clicked()
 }
 
 // load module
-bool MConfig::loadModule(QString module)
+bool MainWindow::loadModule(QString module)
 {
     system("service network-manager stop");
     system("modprobe cfg80211"); //this has to get loaded and some drivers don't put it back correctly
@@ -816,7 +816,7 @@ bool MConfig::loadModule(QString module)
 }
 
 // check if the module can be removed
-bool MConfig::removable(QString module)
+bool MainWindow::removable(QString module)
 {
     QString cmd = QString("modprobe -rn %1").arg(module);
     if (system(cmd.toUtf8()) != 0)
@@ -828,7 +828,7 @@ bool MConfig::removable(QString module)
 
 
 // remove module
-bool MConfig::removeModule(QString module)
+bool MainWindow::removeModule(QString module)
 {
     system("service network-manager stop");
     QString cmd = QString("modprobe -r %1").arg(module);
@@ -844,7 +844,7 @@ bool MConfig::removeModule(QString module)
     return true;
 }
 
-bool MConfig::removeStart(QString module)
+bool MainWindow::removeStart(QString module)
 {
     QFile inputModules(QString("/etc/modules"));
     QFile outputModules(QString("/etc/modules"));
@@ -876,7 +876,7 @@ bool MConfig::removeStart(QString module)
 
 
 // install Linux Driver
-bool MConfig::installModule(QString module)
+bool MainWindow::installModule(QString module)
 {
     if (!loadModule(module))
     {
@@ -893,7 +893,7 @@ bool MConfig::installModule(QString module)
 }
 
 // run apt-get update and at the end start installNDIS
-void MConfig::on_installNdiswrapper_clicked()
+void MainWindow::on_installNdiswrapper_clicked()
 {
     setCursor(QCursor(Qt::BusyCursor));
     if (installProc->state() != QProcess::NotRunning)
@@ -920,7 +920,7 @@ void MConfig::on_installNdiswrapper_clicked()
 
 
 // Uninstall ndiswrapper
-void MConfig::on_uninstallNdiswrapper_clicked()
+void MainWindow::on_uninstallNdiswrapper_clicked()
 {
     setCursor(QCursor(Qt::BusyCursor));
 
@@ -948,7 +948,7 @@ void MConfig::on_uninstallNdiswrapper_clicked()
 }
 
 // install NDISwrapper
-void MConfig::aptUpdateFinished()
+void MainWindow::aptUpdateFinished()
 {
     if (installProc->state() != QProcess::NotRunning)
     {
@@ -962,7 +962,7 @@ void MConfig::aptUpdateFinished()
 }
 
 // finished ndiswrapper install
-void MConfig::installFinished(int errorCode)
+void MainWindow::installFinished(int errorCode)
 {
     installOutputEdit->close();
     this->show();
@@ -985,7 +985,7 @@ void MConfig::installFinished(int errorCode)
     }
 }
 
-void MConfig::uninstallNdisFinished(int errorCode)
+void MainWindow::uninstallNdisFinished(int errorCode)
 {
     installOutputEdit->close();
     this->show();
@@ -998,12 +998,12 @@ void MConfig::uninstallNdisFinished(int errorCode)
 
 }
 
-void MConfig::writeInstallOutput()
+void MainWindow::writeInstallOutput()
 {
     QByteArray bytes = installProc->readAllStandardOutput();
     QStringList lines = QString(bytes).split("\n");
 
-    foreach (QString line, lines) {
+    for (const QString &line : lines) {
         if (!line.isEmpty())
         {
             installOutputEdit->append(line);
@@ -1011,7 +1011,7 @@ void MConfig::writeInstallOutput()
     }
 }
 
-void MConfig::updateDriverStatus()
+void MainWindow::updateDriverStatus()
 {
     driverBlacklisted = false;
     QFile inputBlacklist(QString("/etc/modprobe.d/blacklist.conf"));
@@ -1062,7 +1062,7 @@ void MConfig::updateDriverStatus()
     inputBlacklist.close();
 }
 
-bool MConfig::checkSysFileExists(QDir searchPath, QString fileName, Qt::CaseSensitivity cs)
+bool MainWindow::checkSysFileExists(QDir searchPath, QString fileName, Qt::CaseSensitivity cs)
 {
     QStringList fileList = searchPath.entryList(QStringList() << "*.SYS");
     bool found = false;
@@ -1077,7 +1077,7 @@ bool MConfig::checkSysFileExists(QDir searchPath, QString fileName, Qt::CaseSens
     return found;
 }
 
-bool MConfig::checkWifiAvailable()
+bool MainWindow::checkWifiAvailable()
 {
     if (system("lspci | grep -Ei 'wireless|wifi' || lspci | grep -Ei 'wireless|wifi'") == 0) {
         groupWifi->show();
@@ -1088,7 +1088,7 @@ bool MConfig::checkWifiAvailable()
     }
 }
 
-bool MConfig::checkWifiEnabled()
+bool MainWindow::checkWifiEnabled()
 {
   hwUnblock->hide();
   if (shell.getOutput("nmcli -t --fields WIFI r") == "enabled") {
@@ -1103,7 +1103,7 @@ bool MConfig::checkWifiEnabled()
   return false;
 }
 
-void MConfig::on_windowsDrvAddPushButton_clicked()
+void MainWindow::on_windowsDrvAddPushButton_clicked()
 {
     QString infFileName = QFileDialog::getOpenFileName(this,
                                                        tr("Locate the Windows driver you want to add"), "/home", tr("Windows installation information file (*.inf)"));
@@ -1154,13 +1154,13 @@ void MConfig::on_windowsDrvAddPushButton_clicked()
     }
 }
 
-void MConfig::on_windowsDrvList_currentRowChanged(int row)
+void MainWindow::on_windowsDrvList_currentRowChanged(int row)
 {
     windowsDrvRemovePushButton->setEnabled(row != -1);
 }
 
 
-void MConfig::on_windowsDrvRemovePushButton_clicked()
+void MainWindow::on_windowsDrvRemovePushButton_clicked()
 {
     if (windowsDrvList->currentRow() != -1)
     {
@@ -1173,12 +1173,12 @@ void MConfig::on_windowsDrvRemovePushButton_clicked()
     }
 }
 
-void MConfig::on_generalHelpPushButton_clicked()
+void MainWindow::on_generalHelpPushButton_clicked()
 {
     displayDoc("https://mxlinux.org/wiki/help-files/help-mx-network-assistant");
 }
 
-void MConfig::on_tabWidget_currentChanged()
+void MainWindow::on_tabWidget_currentChanged()
 {
     int i = tabWidget->currentIndex();
     if (i != currentTab)
@@ -1194,7 +1194,7 @@ void MConfig::on_tabWidget_currentChanged()
 }
 
 // unblock Wifi devices
-void MConfig::on_hwUnblock_clicked()
+void MainWindow::on_hwUnblock_clicked()
 {
     if (system("rfkill unblock wlan wifi") != 0) {
         QMessageBox::warning(0, QString::null, QApplication::tr("Could not unlock devices.\nWiFi device(s) might already be unlocked."));
@@ -1205,13 +1205,13 @@ void MConfig::on_hwUnblock_clicked()
 }
 
 // close but do not apply
-void MConfig::on_buttonCancel_clicked()
+void MainWindow::on_buttonCancel_clicked()
 {
     close();
 }
 
 // About button clicked
-void MConfig::on_buttonAbout_clicked()
+void MainWindow::on_buttonAbout_clicked()
 {
     this->hide();
     QMessageBox msgBox(QMessageBox::NoIcon,
@@ -1252,17 +1252,17 @@ void MConfig::on_buttonAbout_clicked()
 }
 
 
-QString MConfig::getIP()
+QString MainWindow::getIP()
 {
     return shell.getOutput("wget -q -O - checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//'");
 }
 
-QString MConfig::getIPfromRouter()
+QString MainWindow::getIPfromRouter()
 {
     return shell.getOutput("ifconfig | grep 'inet ' | sed -e 's/inet addr://' -e 's/ Bcast.*//'  -e 's/127.*//'  -e 's/\\s*//'");
 }
 
-void MConfig::on_linuxDrvLoad_clicked()
+void MainWindow::on_linuxDrvLoad_clicked()
 {
     if (linuxDrvList->currentRow() != -1)
     {
@@ -1279,7 +1279,7 @@ void MConfig::on_linuxDrvLoad_clicked()
     }
 }
 
-void MConfig::on_linuxDrvUnload_clicked()
+void MainWindow::on_linuxDrvUnload_clicked()
 {
     if (linuxDrvList->currentRow() != -1)
     {

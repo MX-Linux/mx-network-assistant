@@ -19,7 +19,7 @@
 #include <QTranslator>
 #include <QLocale>
 #include <unistd.h>
-#include "mconfig.h"
+#include "mainwindow.h"
 
 
 int main( int argc, char ** argv ) {
@@ -35,7 +35,7 @@ int main( int argc, char ** argv ) {
     app.installTranslator(&appTran);
 
     if (getuid() == 0) {
-        MConfig mw;
+        MainWindow mw;
         mw.show();
         return app.exec();
     } else {
