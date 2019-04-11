@@ -340,7 +340,7 @@ void MainWindow::on_clearTraceOutput_clicked()
 void MainWindow::writeTraceOutput()
 {
     QByteArray bytes = traceProc->readAllStandardOutput();
-    QStringList lines = QString(bytes).split("\n");
+    const QStringList lines = QString(bytes).split("\n");
     for (const QString &line : lines) {
         if (!line.isEmpty())
         {
@@ -426,7 +426,7 @@ void MainWindow::on_tracerouteButton_clicked()
 void MainWindow::writePingOutput()
 {
     QByteArray bytes = pingProc->readAllStandardOutput();
-    QStringList lines = QString(bytes).split("\n");
+    const QStringList lines = QString(bytes).split("\n");
     for (const QString &line : lines) {
         if (!line.isEmpty())
         {
@@ -1001,7 +1001,7 @@ void MainWindow::uninstallNdisFinished(int errorCode)
 void MainWindow::writeInstallOutput()
 {
     QByteArray bytes = installProc->readAllStandardOutput();
-    QStringList lines = QString(bytes).split("\n");
+    const QStringList lines = QString(bytes).split("\n");
 
     for (const QString &line : lines) {
         if (!line.isEmpty())
