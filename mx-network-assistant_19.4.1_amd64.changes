@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Wed, 24 Apr 2019 15:08:30 -0400
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: source amd64
+Version: 19.4.1
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (19.4.1) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ ce13f98e8efd822f36a0fc5ab3a8433765da5699 1267 mx-network-assistant_19.4.1.dsc
+ 654c79132cff6aa120e0f4672461e2c0d149d3f8 57528 mx-network-assistant_19.4.1.tar.xz
+ e633415643a82c3106edf76397e44c1c89294809 12844 mx-network-assistant_19.4.1_amd64.buildinfo
+ 0cca6a8d98d08d9bbc25349a6a28a499996a3351 94434 mx-network-assistant_19.4.1_amd64.deb
+Checksums-Sha256:
+ 67d5a8b4d8949200854c9ae675cdf54cec7a240266ac167f308661da52356ba1 1267 mx-network-assistant_19.4.1.dsc
+ a7318c530a8984ff2909ecf93605a18c039455df25f6edb188a902bd3c716b71 57528 mx-network-assistant_19.4.1.tar.xz
+ bfa0ce46c9831118f5d9f9d602851b796e0bebb136a973da052cf8a55986b776 12844 mx-network-assistant_19.4.1_amd64.buildinfo
+ 484b5af3e7fa00ad6a6b6828b251180768eab04f24c5af798af64b2b81950417 94434 mx-network-assistant_19.4.1_amd64.deb
+Files:
+ 0964caa84dc9651f1208efd0bf4cd5bf 1267 admin optional mx-network-assistant_19.4.1.dsc
+ db1cff10b529caf1203631ea01a99cf6 57528 admin optional mx-network-assistant_19.4.1.tar.xz
+ 6616b1c736a375b2b26f1022e280c83a 12844 admin optional mx-network-assistant_19.4.1_amd64.buildinfo
+ 4ad53f9d5b6c68420b1a7a8e78bec036 94434 admin optional mx-network-assistant_19.4.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlzAtIATHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumM2AB/96JXmQ61omI0kM4JCj+1goWXs4tCK+
+4nsglJynJEkBQfeCesDphNYHKVNJn1l0jgMUDdYGzzlVG07N9VJl7sdP9tEmzFW/
+ABu2jzUmKsU9vm4D/IWMKLxbN0GFtHCa4ihRuD5GDYTrJG1TD3zmWQsPO/5manht
+XTl1a97J14c4qBXC3HXtSmXFx38Mxt3/XuyQcUjMVgkSTzIQdeGUoPlkkceYnEmv
+7FY7fF6LXQnvzOpELpJAWKME4khHRui+z1I1xsN9mLQYuy9vWemCXBsI1IkFE+FA
+Zyr2LT7GQbfWVX6sV72n78wpuys0HRIzoX8ysbQmGiyXBkFN8E6RLfhB
+=Zv+a
+-----END PGP SIGNATURE-----
