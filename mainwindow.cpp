@@ -648,7 +648,7 @@ void MainWindow::on_windowsDrvDiagnosePushButton_clicked()
     windowsDrvList->clear();
     if (system("[ -f /usr/sbin/ndiswrapper ]") != 0) {
         uninstallNdiswrapper->setVisible(false);
-        QMessageBox::warning(0, QString::null, QApplication::tr("Ndiswrapper is not installed"));
+        QMessageBox::warning(0, windowTitle(), QApplication::tr("Ndiswrapper is not installed"));
         return;
     }
     QStringList queryResult = getCmdOuts("ndiswrapper -l");
@@ -800,7 +800,7 @@ bool MainWindow::loadModule(QString module)
         {
             QString msg = QObject::tr("Could not load ");
             msg += module;
-            QMessageBox::information(0, QString::null, msg);
+            QMessageBox::information(0, windowTitle(), msg);
             system("pkill wpa_supplicant");
             system("service network-manager start");
             return false;
@@ -836,7 +836,7 @@ bool MainWindow::removeModule(QString module)
     {
         QString msg = QObject::tr("Could not unload ");
         msg += module;
-        QMessageBox::information(0, QString::null, msg);
+        QMessageBox::information(0, windowTitle(), msg);
         system("service network-manager start");
         return false;
     }
@@ -972,16 +972,16 @@ void MainWindow::installFinished(int errorCode)
         if (installModule("ndiswrapper"))
         {
             uninstallNdiswrapper->setVisible(true);
-            QMessageBox::information(0, QString::null, QApplication::tr("Installation successful"));
+            QMessageBox::information(0, windowTitle(), QApplication::tr("Installation successful"));
         }
         else
         {
-            QMessageBox::information(0, QString::null, QApplication::tr("Error detected, could not compile ndiswrapper driver."));
+            QMessageBox::information(0, windowTitle(), QApplication::tr("Error detected, could not compile ndiswrapper driver."));
         }
     }
     else
     {
-        QMessageBox::warning(0, QString::null, QApplication::tr("Error detected, could not install ndiswrapper."));
+        QMessageBox::warning(0, windowTitle(), QApplication::tr("Error detected, could not install ndiswrapper."));
     }
 }
 
@@ -993,7 +993,7 @@ void MainWindow::uninstallNdisFinished(int errorCode)
     if (errorCode == 0) {
         removeStart("ndiswrapper");
     } else {
-        QMessageBox::warning(0, QString::null, QApplication::tr("Error encountered while removing Ndiswrapper"));
+        QMessageBox::warning(0, windowTitle(), QApplication::tr("Error encountered while removing Ndiswrapper"));
     }
 
 }
@@ -1168,7 +1168,7 @@ void MainWindow::on_windowsDrvRemovePushButton_clicked()
         QString driver = currentDriver->text();
         QString cmd = QString("ndiswrapper -r %1").arg(driver.left(driver.indexOf(" ")));
         shell.run(cmd);
-        QMessageBox::information(0, QString::null, tr("Ndiswrapper driver removed."));
+        QMessageBox::information(0, windowTitle(), tr("Ndiswrapper driver removed."));
         on_windowsDrvDiagnosePushButton_clicked();
     }
 }
@@ -1197,9 +1197,9 @@ void MainWindow::on_tabWidget_currentChanged()
 void MainWindow::on_hwUnblock_clicked()
 {
     if (system("rfkill unblock wlan wifi") != 0) {
-        QMessageBox::warning(0, QString::null, QApplication::tr("Could not unlock devices.\nWiFi device(s) might already be unlocked."));
+        QMessageBox::warning(0, windowTitle(), QApplication::tr("Could not unlock devices.\nWiFi device(s) might already be unlocked."));
     } else {
-        QMessageBox::information(0, QString::null, QApplication::tr("WiFi devices unlocked."));
+        QMessageBox::information(0, windowTitle(), QApplication::tr("WiFi devices unlocked."));
     }
     checkWifiEnabled();
 }
