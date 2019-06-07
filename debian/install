@@ -1,6 +1,6 @@
+license.html			usr/share/doc/mx-network-assistant
 mx-network-assistant		usr/sbin
 mx-network-assistant.desktop	usr/share/applications
-translations/*.qm		usr/share/mx-network-assistant/locale
-mx-network-assistant.png	usr/share/pixmaps
 mx-network-assistant.png	usr/share/icons/hicolor/48x48/apps
-license.html			usr/share/doc/mx-network-assistant
+mx-network-assistant.png	usr/share/pixmaps
+translations/*.qm		usr/share/mx-network-assistant/locale
