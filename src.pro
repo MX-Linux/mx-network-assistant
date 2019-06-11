@@ -50,7 +50,8 @@ TRANSLATIONS += translations/mx-network-assistant_am.ts \
 FORMS += \
     mainwindow.ui
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    version.h
 SOURCES += main.cpp \
     mainwindow.cpp
 CONFIG += release warn_on thread qt c++11
