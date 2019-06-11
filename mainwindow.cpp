@@ -18,15 +18,18 @@
 //   With big modifications made by Adrian adrian@mxlinux.org
 
 #include "mainwindow.h"
+#include "version.h"
 #include <QFileDialog>
 #include <QMenu>
 #include <QClipboard>
 #include <QDesktopWidget>
+#include <QDebug>
 
 #include <unistd.h>
 
 MainWindow::MainWindow(QWidget* parent)
     : QDialog(parent) {
+    qDebug() << "Program Version:" << VERSION;
     setupUi(this);
     setWindowIcon(QApplication::windowIcon());
 
@@ -63,11 +66,11 @@ QStringList MainWindow::getCmdOuts(QString cmd) {
     char line[260];
     FILE* fp = popen(cmd.toUtf8(), "r");
     QStringList results;
-    if (fp == NULL) {
+    if (fp == nullptr) {
         return results;
     }
     int i;
-    while (fgets(line, sizeof line, fp) != NULL) {
+    while (fgets(line, sizeof line, fp) != nullptr) {
         i = strlen(line);
         line[--i] = '\0';
         results.append(line);
@@ -84,11 +87,11 @@ QString MainWindow::getCmdValue(QString cmd, QString key, QString keydel, QStrin
     for (QStringList::Iterator it = strings.begin(); it != strings.end(); ++it) {
         strcpy(line, ((QString)*it).toUtf8());
         char* keyptr = strstr(line, key.toUtf8());
-        if (keyptr != NULL) {
+        if (keyptr != nullptr) {
             // key found
             strtok(keyptr, keydel.toUtf8());
-            const char* val = strtok(NULL, valdel.toUtf8());
-            if (val != NULL) {
+            const char* val = strtok(nullptr, valdel.toUtf8());
+            if (val != nullptr) {
                 ret = val;
             }
             break;
@@ -101,19 +104,19 @@ QStringList MainWindow::getCmdValues(QString cmd, QString key, QString keydel, Q
     char line[130];
     FILE* fp = popen(cmd.toUtf8(), "r");
     QStringList results;
-    if (fp == NULL) {
+    if (fp == nullptr) {
         return results;
     }
     int i;
-    while (fgets(line, sizeof line, fp) != NULL) {
+    while (fgets(line, sizeof line, fp) != nullptr) {
         i = strlen(line);
         line[--i] = '\0';
         char* keyptr = strstr(line, key.toUtf8());
-        if (keyptr != NULL) {
+        if (keyptr != nullptr) {
             // key found
             strtok(keyptr, keydel.toUtf8());
-            const char* val = strtok(NULL, valdel.toUtf8());
-            if (val != NULL) {
+            const char* val = strtok(nullptr, valdel.toUtf8());
+            if (val != nullptr) {
                 results.append(val);
             }
         }
@@ -130,14 +133,6 @@ bool MainWindow::replaceStringInFile(QString oldtext, QString newtext, QString f
     }
     return true;
 }
-
-// Get version of the program
-QString MainWindow::getVersion(QString name) {
-    return shell.getOutput("dpkg-query -f '${Version}' -W " + name);
-}
-
-/////////////////////////////////////////////////////////////////////////
-// common
 
 void MainWindow::refresh() {
     hwUnblock->hide();
@@ -1217,7 +1212,7 @@ void MainWindow::on_buttonAbout_clicked()
     QMessageBox msgBox(QMessageBox::NoIcon,
                        tr("About MX Network Assistant"), "<p align=\"center\"><b><h2>" +
                        tr("MX Network Assistant") + "</h2></b></p><p align=\"center\">" + tr("Version: ") +
-                       getVersion("mx-network-assistant") + "</p><p align=\"center\"><h3>" +
+                       VERSION + "</p><p align=\"center\"><h3>" +
                        tr("Program for troubleshooting and configuring network for MX Linux") + "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p align=\"center\">" +
                        tr("Copyright (c) MEPIS LLC and MX Linux") + "<br /><br /></p>", 0, this);
     QPushButton *btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
