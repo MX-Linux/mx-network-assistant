@@ -5,7 +5,7 @@
     <name>MainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="26"/>
-        <location filename="../mainwindow.cpp" line="1219"/>
+        <location filename="../mainwindow.cpp" line="1215"/>
         <source>MX Network Assistant</source>
         <translation>MX Netværksassistent</translation>
     </message>
@@ -152,7 +152,7 @@
     <message>
         <location filename="../mainwindow.ui" line="692"/>
         <location filename="../mainwindow.ui" line="812"/>
-        <location filename="../mainwindow.cpp" line="1225"/>
+        <location filename="../mainwindow.cpp" line="1221"/>
         <source>Cancel</source>
         <translation>Annuller</translation>
     </message>
@@ -178,7 +178,7 @@
     </message>
     <message>
         <location filename="../mainwindow.ui" line="941"/>
-        <location filename="../mainwindow.cpp" line="1241"/>
+        <location filename="../mainwindow.cpp" line="1237"/>
         <source>&amp;Close</source>
         <translation>&amp;Luk</translation>
     </message>
@@ -188,178 +188,178 @@
         <translation>Alt+L</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="157"/>
+        <location filename="../mainwindow.cpp" line="153"/>
         <source>IP address from router:</source>
         <translation>IP-adresse fra router:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="158"/>
+        <location filename="../mainwindow.cpp" line="154"/>
         <source>External IP address:</source>
         <translation>Ekstern IP-adresse:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="295"/>
-        <location filename="../mainwindow.cpp" line="309"/>
-        <location filename="../mainwindow.cpp" line="323"/>
+        <location filename="../mainwindow.cpp" line="291"/>
+        <location filename="../mainwindow.cpp" line="305"/>
+        <location filename="../mainwindow.cpp" line="319"/>
         <source>&amp;Copy</source>
         <translation>&amp;Kopiér</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="297"/>
-        <location filename="../mainwindow.cpp" line="311"/>
-        <location filename="../mainwindow.cpp" line="325"/>
+        <location filename="../mainwindow.cpp" line="293"/>
+        <location filename="../mainwindow.cpp" line="307"/>
+        <location filename="../mainwindow.cpp" line="321"/>
         <source>Ctrl+C</source>
         <translation>Ctrl+C</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="298"/>
-        <location filename="../mainwindow.cpp" line="312"/>
-        <location filename="../mainwindow.cpp" line="326"/>
+        <location filename="../mainwindow.cpp" line="294"/>
+        <location filename="../mainwindow.cpp" line="308"/>
+        <location filename="../mainwindow.cpp" line="322"/>
         <source>Copy &amp;All</source>
         <translation>Kopiér &amp;alle</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="300"/>
-        <location filename="../mainwindow.cpp" line="314"/>
-        <location filename="../mainwindow.cpp" line="328"/>
+        <location filename="../mainwindow.cpp" line="296"/>
+        <location filename="../mainwindow.cpp" line="310"/>
+        <location filename="../mainwindow.cpp" line="324"/>
         <source>Ctrl+A</source>
         <translation>Ctrl+A</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="365"/>
-        <location filename="../mainwindow.cpp" line="387"/>
+        <location filename="../mainwindow.cpp" line="361"/>
+        <location filename="../mainwindow.cpp" line="383"/>
         <source>Traceroute not installed</source>
         <translation>Traceroute ikke installeret</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="366"/>
+        <location filename="../mainwindow.cpp" line="362"/>
         <source>Traceroute is not installed, do you want to install it now?</source>
         <translation>Traceroute er ikke installeret, vil du installere den nu?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="374"/>
+        <location filename="../mainwindow.cpp" line="370"/>
         <source>Traceroute hasn&apos;t been installed</source>
         <translation>Traceroute blev ikke installeret</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="375"/>
+        <location filename="../mainwindow.cpp" line="371"/>
         <source>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</source>
         <translation>Traceroute kan ikke installeres. Det kan betyde at du bruger LiveCD eller at du ikke kan nå softwarekilden,</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="388"/>
+        <location filename="../mainwindow.cpp" line="384"/>
         <source>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</source>
         <translation>Traceroute er ikke installeret og der kunne ikke registreres nogen internetforbindelse, så den kan ikke installeres</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="395"/>
-        <location filename="../mainwindow.cpp" line="447"/>
+        <location filename="../mainwindow.cpp" line="391"/>
+        <location filename="../mainwindow.cpp" line="443"/>
         <source>No destination host</source>
         <translation>Ingen destinationsvært</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="396"/>
-        <location filename="../mainwindow.cpp" line="448"/>
+        <location filename="../mainwindow.cpp" line="392"/>
+        <location filename="../mainwindow.cpp" line="444"/>
         <source>Please fill in the destination host field</source>
         <translation>Udfyld venligst destinationsvært-feltet</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="579"/>
+        <location filename="../mainwindow.cpp" line="575"/>
         <source>Loaded Drivers</source>
         <translation>Indlæste drivere</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="589"/>
+        <location filename="../mainwindow.cpp" line="585"/>
         <source>Unloaded Drivers</source>
         <translation>Afindlæste drivere</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="605"/>
+        <location filename="../mainwindow.cpp" line="601"/>
         <source>Blacklisted Drivers</source>
         <translation>Sortlistet drivere</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="628"/>
+        <location filename="../mainwindow.cpp" line="624"/>
         <source>Blacklisted Broadcom Drivers</source>
         <translation>Sortlistet Broadcom-drivere</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1095"/>
+        <location filename="../mainwindow.cpp" line="1091"/>
         <source>enabled</source>
         <translation>aktivér</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1098"/>
+        <location filename="../mainwindow.cpp" line="1094"/>
         <source>disabled</source>
         <translation>deaktivér</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1101"/>
+        <location filename="../mainwindow.cpp" line="1097"/>
         <source>WiFi hardware switch is off</source>
         <translation>WiFi hardwarekontakten er slukket</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1109"/>
+        <location filename="../mainwindow.cpp" line="1105"/>
         <source>Locate the Windows driver you want to add</source>
         <translation>Find den Windows-driver du vil tilføje</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1109"/>
+        <location filename="../mainwindow.cpp" line="1105"/>
         <source>Windows installation information file (*.inf)</source>
         <translation>Windows-installationsinformation-fil (*.inf)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1141"/>
+        <location filename="../mainwindow.cpp" line="1137"/>
         <source>*.sys file not found</source>
         <translation>*.sys-fil ikke fundet</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1141"/>
+        <location filename="../mainwindow.cpp" line="1137"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
         <translation>*.sys-filedrne skal være i den samme placering som *.inf-filen. Kan ikke finde %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1152"/>
+        <location filename="../mainwindow.cpp" line="1148"/>
         <source>sys file reference not found</source>
         <translation>sys-filreference ikke fundet</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1152"/>
+        <location filename="../mainwindow.cpp" line="1148"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
         <translation>Sys-filen til den givne driver kan ikke bestemmes efter fortolkning af inf-filen</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1171"/>
+        <location filename="../mainwindow.cpp" line="1167"/>
         <source>Ndiswrapper driver removed.</source>
         <translation>Ndiswrapper-driver fjernet.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1218"/>
+        <location filename="../mainwindow.cpp" line="1214"/>
         <source>About MX Network Assistant</source>
         <translation>Om MX Netværksassistent</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1219"/>
+        <location filename="../mainwindow.cpp" line="1215"/>
         <source>Version: </source>
         <translation>Version: </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1221"/>
+        <location filename="../mainwindow.cpp" line="1217"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
         <translation>Program til at fejlsøge og konfigurere netværk til MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1222"/>
+        <location filename="../mainwindow.cpp" line="1218"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
         <translation>Ophavsret (c) MEPIS LLC og MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1223"/>
+        <location filename="../mainwindow.cpp" line="1219"/>
         <source>License</source>
         <translation>Licens</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1224"/>
+        <location filename="../mainwindow.cpp" line="1220"/>
         <source>Changelog</source>
         <translation>Ændringslog</translation>
     </message>
@@ -372,92 +372,92 @@
         <translation>Du skal køre programmet som root.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="651"/>
+        <location filename="../mainwindow.cpp" line="647"/>
         <source>Ndiswrapper is not installed</source>
         <translation>Ndiswrapper er ikke installeret</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="660"/>
+        <location filename="../mainwindow.cpp" line="656"/>
         <source>driver installed</source>
         <translation>driver installeret</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="671"/>
+        <location filename="../mainwindow.cpp" line="667"/>
         <source> and in use by </source>
         <translation>og i brug af</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="680"/>
+        <location filename="../mainwindow.cpp" line="676"/>
         <source>. Alternate driver: </source>
         <translation>. Alternativ driver: </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="772"/>
+        <location filename="../mainwindow.cpp" line="768"/>
         <source>Driver removed from blacklist</source>
         <translation>Driver fjernet fra sortliste</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="773"/>
+        <location filename="../mainwindow.cpp" line="769"/>
         <source>Driver removed from blacklist.</source>
         <translation>Driver fjernet fra sortliste.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="781"/>
-        <location filename="../mainwindow.cpp" line="782"/>
+        <location filename="../mainwindow.cpp" line="777"/>
+        <location filename="../mainwindow.cpp" line="778"/>
         <source>Module blacklisted</source>
         <translation>Modul sortlistet</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="975"/>
+        <location filename="../mainwindow.cpp" line="971"/>
         <source>Installation successful</source>
         <translation>Installation lykkedes</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="979"/>
+        <location filename="../mainwindow.cpp" line="975"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
         <translation>Fejl registreret, kunne ikke kompilere ndiswrapper-driver.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="984"/>
+        <location filename="../mainwindow.cpp" line="980"/>
         <source>Error detected, could not install ndiswrapper.</source>
         <translation>Fejl registreret, kunne ikke installere ndiswrapper.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="996"/>
+        <location filename="../mainwindow.cpp" line="992"/>
         <source>Error encountered while removing Ndiswrapper</source>
         <translation>Fejl registreret under fjernelse af Ndiswrapper</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1054"/>
+        <location filename="../mainwindow.cpp" line="1050"/>
         <source>Unblacklist Driver</source>
         <translation>Fjern driver fra softliste</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1059"/>
+        <location filename="../mainwindow.cpp" line="1055"/>
         <source>Blacklist Driver</source>
         <translation>Sortlist driver</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1200"/>
+        <location filename="../mainwindow.cpp" line="1196"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
         <translation>Kunne ikke afblokere enheder.
 WiFi-enhed(er) er måske allerede låst op.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1202"/>
+        <location filename="../mainwindow.cpp" line="1198"/>
         <source>WiFi devices unlocked.</source>
         <translation>WiFi-enheder låst op.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1275"/>
-        <location filename="../mainwindow.cpp" line="1276"/>
+        <location filename="../mainwindow.cpp" line="1271"/>
+        <location filename="../mainwindow.cpp" line="1272"/>
         <source>Driver loaded successfully</source>
         <translation>Driver indlæst</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1294"/>
-        <location filename="../mainwindow.cpp" line="1295"/>
+        <location filename="../mainwindow.cpp" line="1290"/>
+        <location filename="../mainwindow.cpp" line="1291"/>
         <source>Driver unloaded successfully</source>
         <translation>Driver afindlæst</translation>
     </message>
@@ -465,12 +465,12 @@ WiFi-enhed(er) er måske allerede låst op.</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../mainwindow.cpp" line="801"/>
+        <location filename="../mainwindow.cpp" line="797"/>
         <source>Could not load </source>
         <translation>Kunne ikke indlæse</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="837"/>
+        <location filename="../mainwindow.cpp" line="833"/>
         <source>Could not unload </source>
         <translation>Kunne ikke afindlæse</translation>
     </message>

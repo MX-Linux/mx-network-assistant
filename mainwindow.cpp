@@ -31,6 +31,7 @@ MainWindow::MainWindow(QWidget* parent)
     : QDialog(parent) {
     qDebug() << "Program Version:" << VERSION;
     setupUi(this);
+    setWindowFlags(Qt::Window); // for the close, min and max buttons
     setWindowIcon(QApplication::windowIcon());
 
     hwUnblock->hide();

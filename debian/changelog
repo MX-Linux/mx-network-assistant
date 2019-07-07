@@ -1,3 +1,9 @@
+mx-network-assistant (19.7) mx; urgency=medium
+
+  * fix window buttons for Buster
+
+ -- Adrian <adrian@mxlinux.org>  Sun, 07 Jul 2019 13:57:11 -0400
+
 mx-network-assistant (19.4.1) mx; urgency=medium
 
   * updated translations

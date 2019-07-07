@@ -5,7 +5,7 @@
     <name>MainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="26"/>
-        <location filename="../mainwindow.cpp" line="1219"/>
+        <location filename="../mainwindow.cpp" line="1215"/>
         <source>MX Network Assistant</source>
         <translation>MX 網路助理</translation>
     </message>
@@ -152,7 +152,7 @@
     <message>
         <location filename="../mainwindow.ui" line="692"/>
         <location filename="../mainwindow.ui" line="812"/>
-        <location filename="../mainwindow.cpp" line="1225"/>
+        <location filename="../mainwindow.cpp" line="1221"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
@@ -178,7 +178,7 @@
     </message>
     <message>
         <location filename="../mainwindow.ui" line="941"/>
-        <location filename="../mainwindow.cpp" line="1241"/>
+        <location filename="../mainwindow.cpp" line="1237"/>
         <source>&amp;Close</source>
         <translation>關閉（&amp;C）</translation>
     </message>
@@ -188,178 +188,178 @@
         <translation>Alt+C</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="157"/>
+        <location filename="../mainwindow.cpp" line="153"/>
         <source>IP address from router:</source>
         <translation>自路由器所見之 IP 位址：</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="158"/>
+        <location filename="../mainwindow.cpp" line="154"/>
         <source>External IP address:</source>
         <translation>自外部所見之 IP 位址：</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="295"/>
-        <location filename="../mainwindow.cpp" line="309"/>
-        <location filename="../mainwindow.cpp" line="323"/>
+        <location filename="../mainwindow.cpp" line="291"/>
+        <location filename="../mainwindow.cpp" line="305"/>
+        <location filename="../mainwindow.cpp" line="319"/>
         <source>&amp;Copy</source>
         <translation>複製（&amp;C）</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="297"/>
-        <location filename="../mainwindow.cpp" line="311"/>
-        <location filename="../mainwindow.cpp" line="325"/>
+        <location filename="../mainwindow.cpp" line="293"/>
+        <location filename="../mainwindow.cpp" line="307"/>
+        <location filename="../mainwindow.cpp" line="321"/>
         <source>Ctrl+C</source>
         <translation>Ctrl+C</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="298"/>
-        <location filename="../mainwindow.cpp" line="312"/>
-        <location filename="../mainwindow.cpp" line="326"/>
+        <location filename="../mainwindow.cpp" line="294"/>
+        <location filename="../mainwindow.cpp" line="308"/>
+        <location filename="../mainwindow.cpp" line="322"/>
         <source>Copy &amp;All</source>
         <translation>複製全部（&amp;A）</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="300"/>
-        <location filename="../mainwindow.cpp" line="314"/>
-        <location filename="../mainwindow.cpp" line="328"/>
+        <location filename="../mainwindow.cpp" line="296"/>
+        <location filename="../mainwindow.cpp" line="310"/>
+        <location filename="../mainwindow.cpp" line="324"/>
         <source>Ctrl+A</source>
         <translation>Ctrl+A</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="365"/>
-        <location filename="../mainwindow.cpp" line="387"/>
+        <location filename="../mainwindow.cpp" line="361"/>
+        <location filename="../mainwindow.cpp" line="383"/>
         <source>Traceroute not installed</source>
         <translation>未安裝 traceroute</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="366"/>
+        <location filename="../mainwindow.cpp" line="362"/>
         <source>Traceroute is not installed, do you want to install it now?</source>
         <translation>Traceroute 並未安裝，要現在安裝嗎？</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="374"/>
+        <location filename="../mainwindow.cpp" line="370"/>
         <source>Traceroute hasn&apos;t been installed</source>
         <translation>未安裝 traceroute</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="375"/>
+        <location filename="../mainwindow.cpp" line="371"/>
         <source>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</source>
         <translation>無法安裝 traceroute。這表示你正在使用現場版 CD，或者你無法連上軟體倉庫。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="388"/>
+        <location filename="../mainwindow.cpp" line="384"/>
         <source>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</source>
         <translation>Traceroute 並未安裝，此外，由於偵測不到網際網路連線，因此無法安裝。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="395"/>
-        <location filename="../mainwindow.cpp" line="447"/>
+        <location filename="../mainwindow.cpp" line="391"/>
+        <location filename="../mainwindow.cpp" line="443"/>
         <source>No destination host</source>
         <translation>無目標主機</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="396"/>
-        <location filename="../mainwindow.cpp" line="448"/>
+        <location filename="../mainwindow.cpp" line="392"/>
+        <location filename="../mainwindow.cpp" line="444"/>
         <source>Please fill in the destination host field</source>
         <translation>請填寫目標主機欄位</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="579"/>
+        <location filename="../mainwindow.cpp" line="575"/>
         <source>Loaded Drivers</source>
         <translation>已載入之驅動程式</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="589"/>
+        <location filename="../mainwindow.cpp" line="585"/>
         <source>Unloaded Drivers</source>
         <translation>未載入之驅動程式</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="605"/>
+        <location filename="../mainwindow.cpp" line="601"/>
         <source>Blacklisted Drivers</source>
         <translation>黑名單中的驅動程式</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="628"/>
+        <location filename="../mainwindow.cpp" line="624"/>
         <source>Blacklisted Broadcom Drivers</source>
         <translation>黑名單中的 Broadcom 驅動程式</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1095"/>
+        <location filename="../mainwindow.cpp" line="1091"/>
         <source>enabled</source>
         <translation>使用中</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1098"/>
+        <location filename="../mainwindow.cpp" line="1094"/>
         <source>disabled</source>
         <translation>停用中</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1101"/>
+        <location filename="../mainwindow.cpp" line="1097"/>
         <source>WiFi hardware switch is off</source>
         <translation>WiFi 硬體的開關乃關閉狀態</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1109"/>
+        <location filename="../mainwindow.cpp" line="1105"/>
         <source>Locate the Windows driver you want to add</source>
         <translation>找出你想加入的 Windows 驅動程式</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1109"/>
+        <location filename="../mainwindow.cpp" line="1105"/>
         <source>Windows installation information file (*.inf)</source>
         <translation>Windows 安裝資訊檔（*.inf）</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1141"/>
+        <location filename="../mainwindow.cpp" line="1137"/>
         <source>*.sys file not found</source>
         <translation>找不到 *.sys 檔</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1141"/>
+        <location filename="../mainwindow.cpp" line="1137"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
         <translation>*.sys 檔的位置必須和 *.inf 檔相同。找不到 %1 。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1152"/>
+        <location filename="../mainwindow.cpp" line="1148"/>
         <source>sys file reference not found</source>
         <translation>找不到指涉 sys 檔的內容</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1152"/>
+        <location filename="../mainwindow.cpp" line="1148"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
         <translation>分析該 inf 檔之後，無法確定該驅動程式的 sys 檔</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1171"/>
+        <location filename="../mainwindow.cpp" line="1167"/>
         <source>Ndiswrapper driver removed.</source>
         <translation>已移除 Ndiswrapper 驅動程式。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1218"/>
+        <location filename="../mainwindow.cpp" line="1214"/>
         <source>About MX Network Assistant</source>
         <translation>關於 MX 網路助理</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1219"/>
+        <location filename="../mainwindow.cpp" line="1215"/>
         <source>Version: </source>
         <translation>版本：</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1221"/>
+        <location filename="../mainwindow.cpp" line="1217"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
         <translation>本程式可在 MX Linux 中設定網路與排除障礙</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1222"/>
+        <location filename="../mainwindow.cpp" line="1218"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
         <translation>版權所有 (c) MEPIS LLC 暨 MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1223"/>
+        <location filename="../mainwindow.cpp" line="1219"/>
         <source>License</source>
         <translation>授權條款</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1224"/>
+        <location filename="../mainwindow.cpp" line="1220"/>
         <source>Changelog</source>
         <translation type="unfinished"></translation>
     </message>
@@ -372,92 +372,92 @@
         <translation>本程式必須以 root 身份來執行。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="651"/>
+        <location filename="../mainwindow.cpp" line="647"/>
         <source>Ndiswrapper is not installed</source>
         <translation>未安裝 Ndiswrapper</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="660"/>
+        <location filename="../mainwindow.cpp" line="656"/>
         <source>driver installed</source>
         <translation>驅動程式已安裝</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="671"/>
+        <location filename="../mainwindow.cpp" line="667"/>
         <source> and in use by </source>
         <translation>並且正被下述程序使用：</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="680"/>
+        <location filename="../mainwindow.cpp" line="676"/>
         <source>. Alternate driver: </source>
         <translation>。亦可改用此驅動程式：</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="772"/>
+        <location filename="../mainwindow.cpp" line="768"/>
         <source>Driver removed from blacklist</source>
         <translation>已從黑名單中移除該驅動程式</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="773"/>
+        <location filename="../mainwindow.cpp" line="769"/>
         <source>Driver removed from blacklist.</source>
         <translation>已從黑名單中移除該驅動程式。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="781"/>
-        <location filename="../mainwindow.cpp" line="782"/>
+        <location filename="../mainwindow.cpp" line="777"/>
+        <location filename="../mainwindow.cpp" line="778"/>
         <source>Module blacklisted</source>
         <translation>已將該模組列入黑名單</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="975"/>
+        <location filename="../mainwindow.cpp" line="971"/>
         <source>Installation successful</source>
         <translation>安裝成功</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="979"/>
+        <location filename="../mainwindow.cpp" line="975"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
         <translation>偵測到錯誤，無法編譯 ndiswrapper 驅動程式。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="984"/>
+        <location filename="../mainwindow.cpp" line="980"/>
         <source>Error detected, could not install ndiswrapper.</source>
         <translation>偵測到錯誤，無法安裝 ndiswrapper。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="996"/>
+        <location filename="../mainwindow.cpp" line="992"/>
         <source>Error encountered while removing Ndiswrapper</source>
         <translation>移除 Ndiswrapper 時發生錯誤</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1054"/>
+        <location filename="../mainwindow.cpp" line="1050"/>
         <source>Unblacklist Driver</source>
         <translation>將驅動程式從黑名單中移除</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1059"/>
+        <location filename="../mainwindow.cpp" line="1055"/>
         <source>Blacklist Driver</source>
         <translation>將驅動程式列入黑名單</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1200"/>
+        <location filename="../mainwindow.cpp" line="1196"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
         <translation>無法取消停用該設備。
 也許這個（這些）設備本來就未停用。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1202"/>
+        <location filename="../mainwindow.cpp" line="1198"/>
         <source>WiFi devices unlocked.</source>
         <translation>取消停用該 WiFi 設備。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1275"/>
-        <location filename="../mainwindow.cpp" line="1276"/>
+        <location filename="../mainwindow.cpp" line="1271"/>
+        <location filename="../mainwindow.cpp" line="1272"/>
         <source>Driver loaded successfully</source>
         <translation>順利載入驅動程式</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1294"/>
-        <location filename="../mainwindow.cpp" line="1295"/>
+        <location filename="../mainwindow.cpp" line="1290"/>
+        <location filename="../mainwindow.cpp" line="1291"/>
         <source>Driver unloaded successfully</source>
         <translation>順利卸載驅動程式</translation>
     </message>
@@ -465,12 +465,12 @@ WiFi device(s) might already be unlocked.</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../mainwindow.cpp" line="801"/>
+        <location filename="../mainwindow.cpp" line="797"/>
         <source>Could not load </source>
         <translation>無法載入</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="837"/>
+        <location filename="../mainwindow.cpp" line="833"/>
         <source>Could not unload </source>
         <translation>無法卸載</translation>
     </message>

@@ -5,7 +5,7 @@
     <name>MainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="26"/>
-        <location filename="../mainwindow.cpp" line="1219"/>
+        <location filename="../mainwindow.cpp" line="1215"/>
         <source>MX Network Assistant</source>
         <translation>MX Network Assistant</translation>
     </message>
@@ -153,7 +153,7 @@
     <message>
         <location filename="../mainwindow.ui" line="692"/>
         <location filename="../mainwindow.ui" line="812"/>
-        <location filename="../mainwindow.cpp" line="1225"/>
+        <location filename="../mainwindow.cpp" line="1221"/>
         <source>Cancel</source>
         <translation>Ακύρωση</translation>
     </message>
@@ -179,7 +179,7 @@
     </message>
     <message>
         <location filename="../mainwindow.ui" line="941"/>
-        <location filename="../mainwindow.cpp" line="1241"/>
+        <location filename="../mainwindow.cpp" line="1237"/>
         <source>&amp;Close</source>
         <translation>&amp;Κλείσιμο</translation>
     </message>
@@ -189,178 +189,178 @@
         <translation>Alt+C</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="157"/>
+        <location filename="../mainwindow.cpp" line="153"/>
         <source>IP address from router:</source>
         <translation>Διεύθυνση IP από το router:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="158"/>
+        <location filename="../mainwindow.cpp" line="154"/>
         <source>External IP address:</source>
         <translation>Εξωτερική διεύθυνση IP:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="295"/>
-        <location filename="../mainwindow.cpp" line="309"/>
-        <location filename="../mainwindow.cpp" line="323"/>
+        <location filename="../mainwindow.cpp" line="291"/>
+        <location filename="../mainwindow.cpp" line="305"/>
+        <location filename="../mainwindow.cpp" line="319"/>
         <source>&amp;Copy</source>
         <translation>&amp;Αντιγραφή</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="297"/>
-        <location filename="../mainwindow.cpp" line="311"/>
-        <location filename="../mainwindow.cpp" line="325"/>
+        <location filename="../mainwindow.cpp" line="293"/>
+        <location filename="../mainwindow.cpp" line="307"/>
+        <location filename="../mainwindow.cpp" line="321"/>
         <source>Ctrl+C</source>
         <translation>Ctrl+C</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="298"/>
-        <location filename="../mainwindow.cpp" line="312"/>
-        <location filename="../mainwindow.cpp" line="326"/>
+        <location filename="../mainwindow.cpp" line="294"/>
+        <location filename="../mainwindow.cpp" line="308"/>
+        <location filename="../mainwindow.cpp" line="322"/>
         <source>Copy &amp;All</source>
         <translation>Αντιγραφή &amp;</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="300"/>
-        <location filename="../mainwindow.cpp" line="314"/>
-        <location filename="../mainwindow.cpp" line="328"/>
+        <location filename="../mainwindow.cpp" line="296"/>
+        <location filename="../mainwindow.cpp" line="310"/>
+        <location filename="../mainwindow.cpp" line="324"/>
         <source>Ctrl+A</source>
         <translation>Ctrl+A</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="365"/>
-        <location filename="../mainwindow.cpp" line="387"/>
+        <location filename="../mainwindow.cpp" line="361"/>
+        <location filename="../mainwindow.cpp" line="383"/>
         <source>Traceroute not installed</source>
         <translation>Traceroute δεν έχει εγκατασταθεί</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="366"/>
+        <location filename="../mainwindow.cpp" line="362"/>
         <source>Traceroute is not installed, do you want to install it now?</source>
         <translation>Traceroute δεν έχει εγκατασταθεί, Θέλετε να το εγκαταστήσετε τώρα ;</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="374"/>
+        <location filename="../mainwindow.cpp" line="370"/>
         <source>Traceroute hasn&apos;t been installed</source>
         <translation>Traceroute δεν έχει εγκατασταθεί</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="375"/>
+        <location filename="../mainwindow.cpp" line="371"/>
         <source>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</source>
         <translation>Traceroute δεν μπορεί να εγκατασταθεί. Μπορεί αυτό να σημαίνει ότι χρησιμοποιείτε το LiveCD ή δεν μπορείτε να φτάσετε στο αποθετήριο λογισμικού,</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="388"/>
+        <location filename="../mainwindow.cpp" line="384"/>
         <source>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</source>
         <translation>Traceroute δεν έχει εγκατασταθεί και δεν υπάρχει σύνδεση στο Internet, ώστε να μην μπορεί να εγκατασταθεί</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="395"/>
-        <location filename="../mainwindow.cpp" line="447"/>
+        <location filename="../mainwindow.cpp" line="391"/>
+        <location filename="../mainwindow.cpp" line="443"/>
         <source>No destination host</source>
         <translation>Δεν υπαρχει host προορισμού</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="396"/>
-        <location filename="../mainwindow.cpp" line="448"/>
+        <location filename="../mainwindow.cpp" line="392"/>
+        <location filename="../mainwindow.cpp" line="444"/>
         <source>Please fill in the destination host field</source>
         <translation>Παρακαλούμε συμπληρώστε το πεδίο host προορισμού</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="579"/>
+        <location filename="../mainwindow.cpp" line="575"/>
         <source>Loaded Drivers</source>
         <translation>Φορτωμένο Driver </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="589"/>
+        <location filename="../mainwindow.cpp" line="585"/>
         <source>Unloaded Drivers</source>
         <translation>Εκφορτωμένο Driver </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="605"/>
+        <location filename="../mainwindow.cpp" line="601"/>
         <source>Blacklisted Drivers</source>
         <translation>Προγραφόμενα Drivers</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="628"/>
+        <location filename="../mainwindow.cpp" line="624"/>
         <source>Blacklisted Broadcom Drivers</source>
         <translation>Προγραφόμενα Drivers του Broadcom</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1095"/>
+        <location filename="../mainwindow.cpp" line="1091"/>
         <source>enabled</source>
         <translation>ενεργοποιημένο</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1098"/>
+        <location filename="../mainwindow.cpp" line="1094"/>
         <source>disabled</source>
         <translation>απενεργοποιημένο</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1101"/>
+        <location filename="../mainwindow.cpp" line="1097"/>
         <source>WiFi hardware switch is off</source>
         <translation>Ο διακόπτης υλικού WiFi είναι απενεργοποιημένος</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1109"/>
+        <location filename="../mainwindow.cpp" line="1105"/>
         <source>Locate the Windows driver you want to add</source>
         <translation>Εντοπίστε το οδήγo των Windows που θέλετε να προσθέσετε</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1109"/>
+        <location filename="../mainwindow.cpp" line="1105"/>
         <source>Windows installation information file (*.inf)</source>
         <translation>Windows Installer αρχείο πληροφοριών (*.inf)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1141"/>
+        <location filename="../mainwindow.cpp" line="1137"/>
         <source>*.sys file not found</source>
         <translation>Το αρχείο *.sys  δε βρέθηκε</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1141"/>
+        <location filename="../mainwindow.cpp" line="1137"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
         <translation>Τα αρχεία *.sys πρέπει να είναι στο ιδιο μερος το αρχειο * .inf. 1% δεν μπορεί να βρεθεί</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1152"/>
+        <location filename="../mainwindow.cpp" line="1148"/>
         <source>sys file reference not found</source>
         <translation>δε βρέθηκε το αρχείο sys</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1152"/>
+        <location filename="../mainwindow.cpp" line="1148"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
         <translation>Το αρχείο sys για το οδήγo δεν μπορεί να προσδιοριστεί μετά ανάλυση του αρχείου .inf</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1171"/>
+        <location filename="../mainwindow.cpp" line="1167"/>
         <source>Ndiswrapper driver removed.</source>
         <translation>Το οδηγό Ndiswrapper έχει αφαιρεθεί.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1218"/>
+        <location filename="../mainwindow.cpp" line="1214"/>
         <source>About MX Network Assistant</source>
         <translation>Περί MX Network Assistant</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1219"/>
+        <location filename="../mainwindow.cpp" line="1215"/>
         <source>Version: </source>
         <translation>Έκδοση:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1221"/>
+        <location filename="../mainwindow.cpp" line="1217"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
         <translation>Eφαρμογή για την αντιμετώπιση προβλημάτων δικτύου και τη διαμόρφωση.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1222"/>
+        <location filename="../mainwindow.cpp" line="1218"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
         <translation>Copyright (c) MEPIS LLC and MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1223"/>
+        <location filename="../mainwindow.cpp" line="1219"/>
         <source>License</source>
         <translation>Άδεια</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1224"/>
+        <location filename="../mainwindow.cpp" line="1220"/>
         <source>Changelog</source>
         <translation>Changelog</translation>
     </message>
@@ -373,92 +373,92 @@
         <translation>Πρέπει να τρέξετε αυτή την εφαρμογή ως Root.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="651"/>
+        <location filename="../mainwindow.cpp" line="647"/>
         <source>Ndiswrapper is not installed</source>
         <translation>Το Ndiswrapper δεν είναι εγκατεστημένο </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="660"/>
+        <location filename="../mainwindow.cpp" line="656"/>
         <source>driver installed</source>
         <translation>Το driver εγκαταστάθηκε</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="671"/>
+        <location filename="../mainwindow.cpp" line="667"/>
         <source> and in use by </source>
         <translation>και σε χρήση από</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="680"/>
+        <location filename="../mainwindow.cpp" line="676"/>
         <source>. Alternate driver: </source>
         <translation>Εναλλακτικό driver: </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="772"/>
+        <location filename="../mainwindow.cpp" line="768"/>
         <source>Driver removed from blacklist</source>
         <translation>Αφαίρεση του driver από τη μαύρη λίστα</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="773"/>
+        <location filename="../mainwindow.cpp" line="769"/>
         <source>Driver removed from blacklist.</source>
         <translation>Αφαίρεση του driver από τη μαύρη λίστα</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="781"/>
-        <location filename="../mainwindow.cpp" line="782"/>
+        <location filename="../mainwindow.cpp" line="777"/>
+        <location filename="../mainwindow.cpp" line="778"/>
         <source>Module blacklisted</source>
         <translation>Module blacklisted</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="975"/>
+        <location filename="../mainwindow.cpp" line="971"/>
         <source>Installation successful</source>
         <translation>Εγκατάσταση με επιτυχια</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="979"/>
+        <location filename="../mainwindow.cpp" line="975"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
         <translation>Εντοπίστηκε σφάλμα, δεν θα μπορούσαν να καταρτίσουν πρόγραμμα οδήγησης ndiswrapper.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="984"/>
+        <location filename="../mainwindow.cpp" line="980"/>
         <source>Error detected, could not install ndiswrapper.</source>
         <translation>Εντοπίστηκε σφάλμα, δεν θα μπορούσε να εγκαταστήσετε το πακέτο ndiswrapper.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="996"/>
+        <location filename="../mainwindow.cpp" line="992"/>
         <source>Error encountered while removing Ndiswrapper</source>
         <translation>Προέκυψε σφάλμα κατά την αφαίρεση του ndiswrapper</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1054"/>
+        <location filename="../mainwindow.cpp" line="1050"/>
         <source>Unblacklist Driver</source>
         <translation>Unblacklist Driver</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1059"/>
+        <location filename="../mainwindow.cpp" line="1055"/>
         <source>Blacklist Driver</source>
         <translation>Προγραφή του Driver
  </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1200"/>
+        <location filename="../mainwindow.cpp" line="1196"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
         <translation>Δεν θα μπορούσε να ξεκλειδώσει τις συσκευές.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1202"/>
+        <location filename="../mainwindow.cpp" line="1198"/>
         <source>WiFi devices unlocked.</source>
         <translation>Συσκευές WiFi εχει ξεκλειδωθεί.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1275"/>
-        <location filename="../mainwindow.cpp" line="1276"/>
+        <location filename="../mainwindow.cpp" line="1271"/>
+        <location filename="../mainwindow.cpp" line="1272"/>
         <source>Driver loaded successfully</source>
         <translation>Το Driver φορτώθηκε επιτυχώς</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1294"/>
-        <location filename="../mainwindow.cpp" line="1295"/>
+        <location filename="../mainwindow.cpp" line="1290"/>
+        <location filename="../mainwindow.cpp" line="1291"/>
         <source>Driver unloaded successfully</source>
         <translation>Το Driver ξεφορτώθηκε επιτυχώς
 </translation>
@@ -467,12 +467,12 @@ WiFi device(s) might already be unlocked.</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../mainwindow.cpp" line="801"/>
+        <location filename="../mainwindow.cpp" line="797"/>
         <source>Could not load </source>
         <translation>Δεν ήταν δυνατή η φόρτωση</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="837"/>
+        <location filename="../mainwindow.cpp" line="833"/>
         <source>Could not unload </source>
         <translation>Δεν ήταν δυνατή η ξεφόρτωση</translation>
     </message>

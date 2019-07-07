@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 07 Jul 2019 13:57:11 -0400
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: source amd64
+Version: 19.7
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (19.7) mx; urgency=medium
+ .
+   * fix window buttons for Buster
+Checksums-Sha1:
+ 1a0ed0911d84ad0b44fd237231e62008b75f3070 1259 mx-network-assistant_19.7.dsc
+ aed02e55a46bceaabd70fc9c8ca2dc9c3581e8e7 58580 mx-network-assistant_19.7.tar.xz
+ b7f0d1f6f149a40ce2ad492210fa82da5dffcfeb 95168 mx-network-assistant_19.7_amd64.deb
+Checksums-Sha256:
+ efc56516ef458b4bbe9a579df23f59a8ac34b02a67132329ff10c6f41ce30141 1259 mx-network-assistant_19.7.dsc
+ 22a433fac80a88d975cb4cf8ba1bae158bc705f07c2eefd26fcca6e40b8b81e1 58580 mx-network-assistant_19.7.tar.xz
+ 293141da42f5161fad0daa12463c84b4b1e25f8d8cb74a94d03c1dddff89c96a 95168 mx-network-assistant_19.7_amd64.deb
+Files:
+ 1c3599cdc0e25e7b47ca6928a6e10472 1259 admin optional mx-network-assistant_19.7.dsc
+ 32c67fa3a640b30a05084bee3b4e3769 58580 admin optional mx-network-assistant_19.7.tar.xz
+ a582dab3560d0852f5b28c97cb632390 95168 admin optional mx-network-assistant_19.7_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAl0iMxwTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumKBfCADGashERAH3Akn6cYUmXIFSKw1AMu0s
+rrXNqBo/wbQd42QKuhMoC1vHQYqvKL6HipTer4ZwlknxGXkkFi6/PeDrebUwQhif
+HZnOVbCFSedz8yXuKcQ7q/sYRzXBoEhJ/R1kWS773yDxbdziS/bMFfVjT5bFcBfO
+JAUqE6T7Nr9STXUPVrKDcBS1EFQzKFMhaJmhmU5BIrTMVoa+L87BxVsmUUgAxEJu
+jaLTt7fGWcwxQnkcvVaXXVcjmsUPLfVbPX5PKOfAdZpIEnItVtnmoMuKiFbSHTTj
+CJtUFJ27IHnd2t0miOB61Bzn8Ak2XsVAALCV9cpdURyJz30yUcW1nurE
+=p86g
+-----END PGP SIGNATURE-----
