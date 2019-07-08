@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 08 Jul 2019 13:42:52 -0400
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: source amd64
+Version: 19.7.1
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (19.7.1) mx; urgency=medium
+ .
+   * new icon
+Checksums-Sha1:
+ 22d04911f6d4eda6ac1ba16ca406c20bfb81a28f 1267 mx-network-assistant_19.7.1.dsc
+ 3b6d6bcab2b99301c7f00553ff60af123fba24fa 57788 mx-network-assistant_19.7.1.tar.xz
+ 5a674b07484ac3e8d1acf30b70563b492c60f35a 12844 mx-network-assistant_19.7.1_amd64.buildinfo
+ 934116c8b4cf418f2a85cc906a2bc4c97a63fb44 95158 mx-network-assistant_19.7.1_amd64.deb
+Checksums-Sha256:
+ ea265270106ef1b88ff2a6516ca103693a3546b03222f4e49f8990401c5f9841 1267 mx-network-assistant_19.7.1.dsc
+ f2bcec95558085343ab8e7c5e5fe8dff87e76626aa6c50ab83bb7a8b53a96721 57788 mx-network-assistant_19.7.1.tar.xz
+ 5cbf915cb97564261b88f26dce577d327a20297c6cf197df20fd270524d2bfed 12844 mx-network-assistant_19.7.1_amd64.buildinfo
+ f99086ee5e394b934234439587bc62331368bf2269454833b6619a5dfd93f6f3 95158 mx-network-assistant_19.7.1_amd64.deb
+Files:
+ 50154804d15d1993286a570c52502a13 1267 admin optional mx-network-assistant_19.7.1.dsc
+ 44bdb4190970022303282dcd8e72eeb9 57788 admin optional mx-network-assistant_19.7.1.tar.xz
+ dfc09edfee429a6b54c496ce22fcd3a5 12844 admin optional mx-network-assistant_19.7.1_amd64.buildinfo
+ 8b3bcca31a5566196737549d474a1a21 95158 admin optional mx-network-assistant_19.7.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAl0jgdATHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumB3JCACf2//EUb6p8DI96Ss/MYiAXi6mPj6l
+d2kyXQkYt97WjqtMSO6BVEN5mgad4EAr0c9wYZJ4vDdic35jxlpo3+bhRBtfkd2k
+kz0Ji8Vk00fGHlMrD59xxGLSvH4CcXGz9m8V4GkaKpgSKdWlKmUrzK47tALfxlf3
+doEyJIDZEdaVidOb19g7aUjzQTnIQk7Ps+oqYaAZaoepANg8sRvqQ05o2PLkPA2H
+NlizRuw8OwAMJuWLarvRSDZeHhyirXgxssDxMcugwNal5NTxq75pUMcPTW0Ji+8y
+p8xW84tmprvWanRxfIwTXr1MbUr4zUcCe3vX20uj2ysFURwgLjm4UJbm
+=3MAP
+-----END PGP SIGNATURE-----
