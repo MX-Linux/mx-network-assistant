@@ -24,7 +24,7 @@
 
 int main( int argc, char ** argv ) {
     QApplication app(argc, argv);
-    app.setWindowIcon(QIcon("/usr/share/pixmaps/mx-network-assistant.png"));
+    app.setWindowIcon(QIcon::fromTheme("mx-network-assistant"));
 
     QTranslator qtTran;
     qtTran.load(QString("qt_") + QLocale::system().name());
