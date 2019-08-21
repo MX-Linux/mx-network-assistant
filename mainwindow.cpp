@@ -1171,7 +1171,7 @@ void MainWindow::on_windowsDrvRemovePushButton_clicked()
 
 void MainWindow::on_generalHelpPushButton_clicked()
 {
-    displayDoc("https://mxlinux.org/wiki/help-files/help-mx-network-assistant");
+    displayDoc("/usr/share/doc/mx-network-assistant/help/mx-network-assistant.html");
 }
 
 void MainWindow::on_tabWidget_currentChanged()

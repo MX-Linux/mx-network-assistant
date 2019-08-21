@@ -1,3 +1,4 @@
+help				usr/share/doc/mx-network-assistant
 license.html			usr/share/doc/mx-network-assistant
 mx-network-assistant		usr/sbin
 mx-network-assistant.desktop	usr/share/applications
