@@ -1,3 +1,9 @@
+mx-network-assistant (19.9) mx; urgency=medium
+
+  * remove libcmd dependency
+
+ -- Adrian <adrian@mxlinux.org>  Tue, 10 Sep 2019 18:09:05 -0400
+
 mx-network-assistant (19.8.1) mx; urgency=medium
 
   * fix: offline help

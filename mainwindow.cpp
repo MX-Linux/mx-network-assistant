@@ -26,6 +26,7 @@
 #include <QDebug>
 
 #include <unistd.h>
+#include <about.h>
 
 MainWindow::MainWindow(QWidget* parent)
     : QDialog(parent) {
@@ -59,73 +60,6 @@ MainWindow::MainWindow(QWidget* parent)
 MainWindow::~MainWindow() {
 }
 
-/////////////////////////////////////////////////////////////////////////
-// util functions
-
-
-QStringList MainWindow::getCmdOuts(QString cmd) {
-    char line[260];
-    FILE* fp = popen(cmd.toUtf8(), "r");
-    QStringList results;
-    if (fp == nullptr) {
-        return results;
-    }
-    int i;
-    while (fgets(line, sizeof line, fp) != nullptr) {
-        i = strlen(line);
-        line[--i] = '\0';
-        results.append(line);
-    }
-    pclose(fp);
-    return results;
-}
-
-QString MainWindow::getCmdValue(QString cmd, QString key, QString keydel, QString valdel) {
-    const char *ret = "";
-    char line[260];
-
-    QStringList strings = getCmdOuts(cmd);
-    for (QStringList::Iterator it = strings.begin(); it != strings.end(); ++it) {
-        strcpy(line, ((QString)*it).toUtf8());
-        char* keyptr = strstr(line, key.toUtf8());
-        if (keyptr != nullptr) {
-            // key found
-            strtok(keyptr, keydel.toUtf8());
-            const char* val = strtok(nullptr, valdel.toUtf8());
-            if (val != nullptr) {
-                ret = val;
-            }
-            break;
-        }
-    }
-    return QString (ret);
-}
-
-QStringList MainWindow::getCmdValues(QString cmd, QString key, QString keydel, QString valdel) {
-    char line[130];
-    FILE* fp = popen(cmd.toUtf8(), "r");
-    QStringList results;
-    if (fp == nullptr) {
-        return results;
-    }
-    int i;
-    while (fgets(line, sizeof line, fp) != nullptr) {
-        i = strlen(line);
-        line[--i] = '\0';
-        char* keyptr = strstr(line, key.toUtf8());
-        if (keyptr != nullptr) {
-            // key found
-            strtok(keyptr, keydel.toUtf8());
-            const char* val = strtok(nullptr, valdel.toUtf8());
-            if (val != nullptr) {
-                results.append(val);
-            }
-        }
-    }
-    pclose(fp);
-    return results;
-}
-
 bool MainWindow::replaceStringInFile(QString oldtext, QString newtext, QString filepath) {
 
     QString cmd = QString("sed -i 's/%1/%2/g' %3").arg(oldtext).arg(newtext).arg(filepath);
@@ -139,7 +73,7 @@ void MainWindow::refresh() {
     hwUnblock->hide();
     groupWifi->hide();
     int i = tabWidget->currentIndex();
-    QString out = shell.getOutput("rfkill list 2>&1");
+    QString out = cmd.getCmdOut("rfkill list 2>&1");
     qApp->processEvents();
 
     switch (i) {
@@ -152,7 +86,7 @@ void MainWindow::refresh() {
         }
         labelRouterIP->setText(tr("IP address from router:") + " " + getIPfromRouter());
         labelIP->setText(tr("External IP address:") + " " + getIP());
-        labelInterface->setText(shell.getOutput("route | grep '^default' | grep -o '[^ ]*$'"));
+        labelInterface->setText(cmd.getCmdOut("route | grep '^default' | grep -o '[^ ]*$'"));
         checkWifiAvailable();
         checkWifiEnabled();
         break;
@@ -171,20 +105,6 @@ void MainWindow::refresh() {
         break;
     }
 }
-
-void MainWindow::displayDoc(QString url)
-{
-    QString exec = "xdg-open";
-    QString user = shell.getOutput("logname");
-    if (system("command -v mx-viewer") == 0) { // use mx-viewer if available
-        exec = "mx-viewer";
-    }
-    QString cmd = "su " + user + " -c \"env XDG_RUNTIME_DIR=/run/user/$(id -u " + user + ") " + exec + " " + url + "\"&";
-    shell.run(cmd);
-}
-
-/////////////////////////////////////////////////////////////////////////
-// special
 
 void MainWindow::on_cancelPing_clicked()
 {
@@ -352,8 +272,8 @@ void MainWindow::tracerouteFinished()
 
 void MainWindow::on_tracerouteButton_clicked()
 {
-    QString statusl = getCmdValue("dpkg -s traceroute | grep '^Status'", "ok", " ", " ");
-    if (statusl.compare("installed") != 0)
+    QString statusl = cmd.getCmdOut("dpkg -s traceroute | grep ^Status");
+    if (statusl != "Status: install ok installed")
     {
         if (internetConnection)
         {
@@ -365,8 +285,8 @@ void MainWindow::on_tracerouteButton_clicked()
             {
                 system("apt-get install -qq traceroute");
                 setCursor(QCursor(Qt::ArrowCursor));
-                statusl = getCmdValue("dpkg -s traceroute | grep '^Status'", "ok", " ", " ");
-                if (statusl.compare("installed") != 0) {
+                statusl = cmd.getCmdOut("dpkg -s traceroute | grep ^Status");
+                if (statusl != "Status: install ok installed") {
                     QMessageBox::critical(0, tr("Traceroute hasn't been installed"),
                                              tr("Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,"),
                                              QMessageBox::Ok);
@@ -411,8 +331,6 @@ void MainWindow::on_tracerouteButton_clicked()
         disconnect(traceProc, SIGNAL(finished(int,QProcess::ExitStatus)), 0, 0);
         connect(traceProc, SIGNAL(finished(int,QProcess::ExitStatus)), this, SLOT(tracerouteFinished()));
 
-        //QStringList vals = getCmdOuts(QString("traceroute %1").arg(tracerouteHostEdit->text()));
-        //tracerouteOutputEdit->append(vals.join("\n"));
         clearTraceOutput->setEnabled(true);
         cancelTrace->setEnabled(true);
         setCursor(QCursor(Qt::ArrowCursor));
@@ -485,7 +403,7 @@ void MainWindow::on_hwDiagnosePushButton_clicked()
     hwList->clear();
 
     // Query PCI cards
-    QStringList  queryResult = getCmdOuts("lspci -nn | grep -i net");
+    QStringList  queryResult = cmd.getCmdOut("lspci -nn | grep -i net").split("\n");
     for (int i = 0; i < queryResult.size(); ++i)
     {
         QString currentElement = queryResult.at(i);
@@ -506,7 +424,7 @@ void MainWindow::on_hwDiagnosePushButton_clicked()
     }
 
     // Query USB cards
-    queryResult = getCmdOuts("lsusb | grep -i network");
+    queryResult = cmd.getCmdOut("lsusb | grep -i network").split("\n");
     for (int i = 0; i < queryResult.size(); ++i)
     {
         QString currentElement = queryResult.at(i);
@@ -550,8 +468,8 @@ void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
     linuxDrvList->clear();
     loadedModules.clear();
     //QStringList queryResult = getCmdOuts("lsmod | grep -i net");
-    QStringList loadedKernelModules = getCmdOuts("lsmod");
-    QStringList completeKernelNetModules = getCmdOuts("find /lib/modules/$(uname -r)/kernel/drivers/net -name *.ko");
+    QStringList loadedKernelModules = cmd.getCmdOut("lsmod").split("\n");
+    QStringList completeKernelNetModules = cmd.getCmdOut("find /lib/modules/$(uname -r)/kernel/drivers/net -name *.ko").split("\n");
     completeKernelNetModules = completeKernelNetModules.replaceInStrings(".ko", "");
     completeKernelNetModules = completeKernelNetModules.replaceInStrings(QRegExp("[\\w|\\.|-]*/"), "");
     // Those three kernel modules are in the "misc" section we add them manually
@@ -647,7 +565,7 @@ void MainWindow::on_windowsDrvDiagnosePushButton_clicked()
         QMessageBox::warning(0, windowTitle(), QApplication::tr("Ndiswrapper is not installed"));
         return;
     }
-    QStringList queryResult = getCmdOuts("ndiswrapper -l");
+    QStringList queryResult = cmd.getCmdOut("ndiswrapper -l").split("\n");
     int i = 0;
     while (i < queryResult.size())
     {
@@ -1087,10 +1005,10 @@ bool MainWindow::checkWifiAvailable()
 bool MainWindow::checkWifiEnabled()
 {
   hwUnblock->hide();
-  if (shell.getOutput("nmcli -t --fields WIFI r") == "enabled") {
+  if (cmd.getCmdOut("nmcli -t --fields WIFI r") == "enabled") {
       labelWifi->setText(tr("enabled"));
       return true;
-  } else if (shell.getOutput("nmcli -t --fields WIFI-HW r") == "enabled") {
+  } else if (cmd.getCmdOut("nmcli -t --fields WIFI-HW r") == "enabled") {
       labelWifi->setText(tr("disabled"));
       hwUnblock->show();
   } else {
@@ -1137,10 +1055,10 @@ void MainWindow::on_windowsDrvAddPushButton_clicked()
                 QMessageBox::warning(0, QString(tr("*.sys file not found")), tr("The *.sys files must be in the same location as the *.inf file. %1 cannot be found").arg(foundSysFiles.join(", ")));
             }
             else {
-                QString cmd = QString("ndiswrapper -i %1").arg(infFileName);
-                shell.run(cmd);
-                cmd = QString("ndiswrapper -ma");
-                shell.run(cmd);
+                QString cmd_str = QString("ndiswrapper -i %1").arg(infFileName);
+                cmd.run(cmd_str);
+                cmd_str = QString("ndiswrapper -ma");
+                cmd.run(cmd_str);
                 on_windowsDrvDiagnosePushButton_clicked();
             }
         }
@@ -1162,8 +1080,8 @@ void MainWindow::on_windowsDrvRemovePushButton_clicked()
     {
         QListWidgetItem* currentDriver = windowsDrvList->currentItem();
         QString driver = currentDriver->text();
-        QString cmd = QString("ndiswrapper -r %1").arg(driver.left(driver.indexOf(" ")));
-        shell.run(cmd);
+        QString cmd_str = QString("ndiswrapper -r %1").arg(driver.left(driver.indexOf(" ")));
+        cmd.run(cmd_str);
         QMessageBox::information(0, windowTitle(), tr("Ndiswrapper driver removed."));
         on_windowsDrvDiagnosePushButton_clicked();
     }
@@ -1171,7 +1089,8 @@ void MainWindow::on_windowsDrvRemovePushButton_clicked()
 
 void MainWindow::on_generalHelpPushButton_clicked()
 {
-    displayDoc("/usr/share/doc/mx-network-assistant/help/mx-network-assistant.html");
+    QString url = "/usr/share/doc/mx-network-assistant/help/mx-network-assistant.html";
+    displayDoc(url, tr("%1 Help").arg(this->windowTitle()), true);
 }
 
 void MainWindow::on_tabWidget_currentChanged()
@@ -1210,52 +1129,24 @@ void MainWindow::on_buttonCancel_clicked()
 void MainWindow::on_buttonAbout_clicked()
 {
     this->hide();
-    QMessageBox msgBox(QMessageBox::NoIcon,
-                       tr("About MX Network Assistant"), "<p align=\"center\"><b><h2>" +
-                       tr("MX Network Assistant") + "</h2></b></p><p align=\"center\">" + tr("Version: ") +
-                       VERSION + "</p><p align=\"center\"><h3>" +
-                       tr("Program for troubleshooting and configuring network for MX Linux") + "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p align=\"center\">" +
-                       tr("Copyright (c) MEPIS LLC and MX Linux") + "<br /><br /></p>", 0, this);
-    QPushButton *btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
-    QPushButton *btnChangelog = msgBox.addButton(tr("Changelog"), QMessageBox::HelpRole);
-    QPushButton *btnCancel = msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
-    btnCancel->setIcon(QIcon::fromTheme("window-close"));
-
-    msgBox.exec();
-
-    if (msgBox.clickedButton() == btnLicense) {
-        displayDoc("file:///usr/share/doc/mx-network-assistant/license.html");
-    } else if (msgBox.clickedButton() == btnChangelog) {
-        QDialog *changelog = new QDialog(this);
-        changelog->resize(600, 500);
-
-        QTextEdit *text = new QTextEdit;
-        text->setReadOnly(true);
-        Cmd cmd;
-        text->setText(cmd.getOutput("zless /usr/share/doc/" + QFileInfo(QCoreApplication::applicationFilePath()).fileName()  + "/changelog.gz"));
-
-        QPushButton *btnClose = new QPushButton(tr("&Close"));
-        btnClose->setIcon(QIcon::fromTheme("window-close"));
-        connect(btnClose, &QPushButton::clicked, changelog, &QDialog::close);
-
-        QVBoxLayout *layout = new QVBoxLayout;
-        layout->addWidget(text);
-        layout->addWidget(btnClose);
-        changelog->setLayout(layout);
-        changelog->exec();
-    }
+    displayAboutMsgBox(tr("About %1").arg(this->windowTitle()), "<p align=\"center\"><b><h2>" + this->windowTitle() +"</h2></b></p><p align=\"center\">" +
+                           tr("Version: ") + VERSION + "</p><p align=\"center\"><h3>" +
+                           tr("Program for troubleshooting and configuring network for MX Linux") +
+                           "</h3></p><p align=\"center\"><a href=\"http://mxlinux.org\">http://mxlinux.org</a><br /></p><p align=\"center\">" +
+                           tr("Copyright (c) MEPIS LLC and MX Linux") + "<br /><br /></p>",
+                           "/usr/share/doc/mx-network-assistant/license.html", tr("%1 License").arg(this->windowTitle()), true);
     this->show();
 }
 
 
 QString MainWindow::getIP()
 {
-    return shell.getOutput("wget -q -O - checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//'");
+    return cmd.getCmdOut("wget -q -O - checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//'");
 }
 
 QString MainWindow::getIPfromRouter()
 {
-    return shell.getOutput("ifconfig | grep 'inet ' | sed -e 's/inet addr://' -e 's/ Bcast.*//'  -e 's/127.*//'  -e 's/\\s*//'");
+    return cmd.getCmdOut("ifconfig | grep 'inet ' | sed -e 's/inet addr://' -e 's/ Bcast.*//'  -e 's/127.*//'  -e 's/\\s*//'");
 }
 
 void MainWindow::on_linuxDrvLoad_clicked()

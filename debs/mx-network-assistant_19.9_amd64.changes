@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 10 Sep 2019 18:09:05 -0400
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: source amd64
+Version: 19.9
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (19.9) mx; urgency=medium
+ .
+   * remove libcmd dependency
+Checksums-Sha1:
+ 0f877c0dc3d764ad9676ae79a0fb354f9ed88efe 1243 mx-network-assistant_19.9.dsc
+ c6a8f7d746f916027b4e2ae57948d755f33432f9 169956 mx-network-assistant_19.9.tar.xz
+ 875aa15e7895e96ac4c130137977f9a135b84441 769872 mx-network-assistant-dbgsym_19.9_amd64.deb
+ 74161dc65b0f8172982fd2bc014309e8ab7d9083 12817 mx-network-assistant_19.9_amd64.buildinfo
+ 5d992a62de820ac9c8665ae73b9abf91e457d526 205056 mx-network-assistant_19.9_amd64.deb
+Checksums-Sha256:
+ 76e5b84869f7294fef5c81bac8ae267fb1fed38c9c5b9e6106eda86ed1b2a585 1243 mx-network-assistant_19.9.dsc
+ 0cab4a95ff5d2110563ccdf4acd1186976a7c349b4fdd673c112bb2e158df4db 169956 mx-network-assistant_19.9.tar.xz
+ 93b51e5aab4747ec6a528e0011b014a0eeff19277f723814a281a4f5b39e65ac 769872 mx-network-assistant-dbgsym_19.9_amd64.deb
+ 7c75a67c9e1282b2a78eb851431b8f79e6284aea8fc2970c97beed669535d923 12817 mx-network-assistant_19.9_amd64.buildinfo
+ baf50c25c92fab9db4139eba9d44098b7a1d1ec5e5a7155c1f19bfb34edb542b 205056 mx-network-assistant_19.9_amd64.deb
+Files:
+ 77c416b4e918175c7075cf3203702896 1243 admin optional mx-network-assistant_19.9.dsc
+ f49ef34c9f9820625cf117bc5bf58f83 169956 admin optional mx-network-assistant_19.9.tar.xz
+ 170f39bd6ed0e2506d31b73d5b5e2ef7 769872 debug optional mx-network-assistant-dbgsym_19.9_amd64.deb
+ 2eb383dff516356793c945297e0605df 12817 admin optional mx-network-assistant_19.9_amd64.buildinfo
+ 6ae23ed86a636319cc22db82b4afa744 205056 admin optional mx-network-assistant_19.9_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAl14J70THGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumFMGCACWtCKhpQbMnWrFsXg6amk+p7n9Php0
+0b++gUBHUAJIQpd+Nf8njNJmAla48uN+17zCHDPrqTJWYfGwFvaTTkrNm/ConZhu
+9fXPRi3sOA63oJv16mO3stQVf057+Gs/d/lrshDbw7ebEhMczdU1aznBPc5KCZ16
+yWcEd5DWkFFxnQUPuUYHpCcf9sUIKRff9NBtb6DgN7ntO/EWMSDh1ATOINopljrO
+f+SivJjC1oVGDmpuWvXCU5xnuRGWpBa+tpFWc+gBFk4Lg0k6e/J6Qz6w/Y7iUHRO
+C4wyZbRX9QIOd/uUkavbLy8nxf2g+dOMN+OWAYeGokbi7+bYFFNv9UsN
+=lG2L
+-----END PGP SIGNATURE-----

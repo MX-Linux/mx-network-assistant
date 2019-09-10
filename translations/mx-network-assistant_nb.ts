@@ -1,475 +1,503 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nb" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="nb">
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="mainwindow.ui" line="26"/>
-        <location filename="mainwindow.cpp" line="1219"/>
+        <location filename="../mainwindow.ui" line="26"/>
         <source>MX Network Assistant</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="70"/>
+        <location filename="../mainwindow.ui" line="70"/>
         <source>Status</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="76"/>
+        <location filename="../mainwindow.ui" line="76"/>
         <source>IP address</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="112"/>
+        <location filename="../mainwindow.ui" line="112"/>
         <source>Hardware detected</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="143"/>
-        <location filename="mainwindow.ui" line="389"/>
-        <location filename="mainwindow.ui" line="502"/>
+        <location filename="../mainwindow.ui" line="143"/>
+        <location filename="../mainwindow.ui" line="389"/>
+        <location filename="../mainwindow.ui" line="502"/>
         <source>Re-scan</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="215"/>
+        <location filename="../mainwindow.ui" line="215"/>
         <source>Active interface</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="231"/>
+        <location filename="../mainwindow.ui" line="231"/>
         <source>WiFi status</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="253"/>
+        <location filename="../mainwindow.ui" line="253"/>
         <source>Unblocks all soft/hard blocked wireless devices</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="256"/>
+        <location filename="../mainwindow.ui" line="256"/>
         <source>Unblock WiFi Devices</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="288"/>
+        <location filename="../mainwindow.ui" line="288"/>
         <source>Linux drivers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="300"/>
+        <location filename="../mainwindow.ui" line="300"/>
         <source>Associated Linux drivers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="309"/>
+        <location filename="../mainwindow.ui" line="309"/>
         <source>Load Driver</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="372"/>
+        <location filename="../mainwindow.ui" line="372"/>
         <source>Unload Driver</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="409"/>
+        <location filename="../mainwindow.ui" line="409"/>
         <source>Blacklist Driver</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="428"/>
+        <location filename="../mainwindow.ui" line="428"/>
         <source>Windows drivers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="434"/>
+        <location filename="../mainwindow.ui" line="434"/>
         <source>Available Windows drivers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="468"/>
+        <location filename="../mainwindow.ui" line="468"/>
         <source>Remove Driver</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="479"/>
+        <location filename="../mainwindow.ui" line="479"/>
         <source>Add Driver</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="520"/>
+        <location filename="../mainwindow.ui" line="520"/>
         <source>About NDISwrapper</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="532"/>
+        <location filename="../mainwindow.ui" line="532"/>
         <source>Install NDISwrapper</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="543"/>
+        <location filename="../mainwindow.ui" line="543"/>
         <source>In order to use Windows drivers you need first to install NDISwrapper</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="559"/>
+        <location filename="../mainwindow.ui" line="559"/>
         <source>Uninstall NDISwrapper</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="591"/>
+        <location filename="../mainwindow.ui" line="591"/>
         <source>Net diagnostics</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="603"/>
+        <location filename="../mainwindow.ui" line="603"/>
         <source>Ping</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="609"/>
-        <location filename="mainwindow.ui" line="726"/>
+        <location filename="../mainwindow.ui" line="609"/>
+        <location filename="../mainwindow.ui" line="726"/>
         <source>Target URL:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="619"/>
+        <location filename="../mainwindow.ui" line="619"/>
         <source>Packets</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="661"/>
-        <location filename="mainwindow.ui" line="781"/>
+        <location filename="../mainwindow.ui" line="661"/>
+        <location filename="../mainwindow.ui" line="781"/>
         <source>Start</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="678"/>
-        <location filename="mainwindow.ui" line="798"/>
+        <location filename="../mainwindow.ui" line="678"/>
+        <location filename="../mainwindow.ui" line="798"/>
         <source>Clear</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="692"/>
-        <location filename="mainwindow.ui" line="812"/>
-        <location filename="mainwindow.cpp" line="1225"/>
+        <location filename="../mainwindow.ui" line="692"/>
+        <location filename="../mainwindow.ui" line="812"/>
         <source>Cancel</source>
         <translation>Avbryt</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="720"/>
+        <location filename="../mainwindow.ui" line="720"/>
         <source>Traceroute</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="736"/>
+        <location filename="../mainwindow.ui" line="736"/>
         <source>Hops</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="862"/>
+        <location filename="../mainwindow.ui" line="868"/>
         <source>About...</source>
         <translation>Om...</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="879"/>
+        <location filename="../mainwindow.ui" line="891"/>
         <source>Help</source>
         <translation>Hjelp</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="941"/>
-        <location filename="mainwindow.cpp" line="1241"/>
+        <location filename="../mainwindow.ui" line="959"/>
         <source>&amp;Close</source>
         <translation>&amp;Lukk</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="948"/>
+        <location filename="../mainwindow.ui" line="966"/>
         <source>Alt+C</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="157"/>
+        <location filename="../mainwindow.cpp" line="87"/>
         <source>IP address from router:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="158"/>
+        <location filename="../mainwindow.cpp" line="88"/>
         <source>External IP address:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="295"/>
-        <location filename="mainwindow.cpp" line="309"/>
-        <location filename="mainwindow.cpp" line="323"/>
+        <location filename="../mainwindow.cpp" line="211"/>
+        <location filename="../mainwindow.cpp" line="225"/>
+        <location filename="../mainwindow.cpp" line="239"/>
         <source>&amp;Copy</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="297"/>
-        <location filename="mainwindow.cpp" line="311"/>
-        <location filename="mainwindow.cpp" line="325"/>
+        <location filename="../mainwindow.cpp" line="213"/>
+        <location filename="../mainwindow.cpp" line="227"/>
+        <location filename="../mainwindow.cpp" line="241"/>
         <source>Ctrl+C</source>
         <translation>Ctrl+C</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="298"/>
-        <location filename="mainwindow.cpp" line="312"/>
-        <location filename="mainwindow.cpp" line="326"/>
+        <location filename="../mainwindow.cpp" line="214"/>
+        <location filename="../mainwindow.cpp" line="228"/>
+        <location filename="../mainwindow.cpp" line="242"/>
         <source>Copy &amp;All</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="300"/>
-        <location filename="mainwindow.cpp" line="314"/>
-        <location filename="mainwindow.cpp" line="328"/>
+        <location filename="../mainwindow.cpp" line="216"/>
+        <location filename="../mainwindow.cpp" line="230"/>
+        <location filename="../mainwindow.cpp" line="244"/>
         <source>Ctrl+A</source>
         <translation>Ctrl+A</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="365"/>
-        <location filename="mainwindow.cpp" line="387"/>
+        <location filename="../mainwindow.cpp" line="281"/>
+        <location filename="../mainwindow.cpp" line="303"/>
         <source>Traceroute not installed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="366"/>
+        <location filename="../mainwindow.cpp" line="282"/>
         <source>Traceroute is not installed, do you want to install it now?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="374"/>
+        <location filename="../mainwindow.cpp" line="290"/>
         <source>Traceroute hasn&apos;t been installed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="375"/>
+        <location filename="../mainwindow.cpp" line="291"/>
         <source>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="388"/>
+        <location filename="../mainwindow.cpp" line="304"/>
         <source>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="395"/>
-        <location filename="mainwindow.cpp" line="447"/>
+        <location filename="../mainwindow.cpp" line="311"/>
+        <location filename="../mainwindow.cpp" line="361"/>
         <source>No destination host</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="396"/>
-        <location filename="mainwindow.cpp" line="448"/>
+        <location filename="../mainwindow.cpp" line="312"/>
+        <location filename="../mainwindow.cpp" line="362"/>
         <source>Please fill in the destination host field</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="579"/>
+        <location filename="../mainwindow.cpp" line="493"/>
         <source>Loaded Drivers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="589"/>
+        <location filename="../mainwindow.cpp" line="503"/>
         <source>Unloaded Drivers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="605"/>
+        <location filename="../mainwindow.cpp" line="519"/>
         <source>Blacklisted Drivers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="628"/>
+        <location filename="../mainwindow.cpp" line="542"/>
         <source>Blacklisted Broadcom Drivers</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1095"/>
+        <location filename="../mainwindow.cpp" line="1009"/>
         <source>enabled</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1098"/>
+        <location filename="../mainwindow.cpp" line="1012"/>
         <source>disabled</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1101"/>
+        <location filename="../mainwindow.cpp" line="1015"/>
         <source>WiFi hardware switch is off</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1109"/>
+        <location filename="../mainwindow.cpp" line="1023"/>
         <source>Locate the Windows driver you want to add</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1109"/>
+        <location filename="../mainwindow.cpp" line="1023"/>
         <source>Windows installation information file (*.inf)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1141"/>
+        <location filename="../mainwindow.cpp" line="1055"/>
         <source>*.sys file not found</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1141"/>
+        <location filename="../mainwindow.cpp" line="1055"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1152"/>
+        <location filename="../mainwindow.cpp" line="1066"/>
         <source>sys file reference not found</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1152"/>
+        <location filename="../mainwindow.cpp" line="1066"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1171"/>
+        <location filename="../mainwindow.cpp" line="1085"/>
         <source>Ndiswrapper driver removed.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1218"/>
-        <source>About MX Network Assistant</source>
-        <translation type="unfinished"/>
+        <location filename="../mainwindow.cpp" line="1093"/>
+        <source>%1 Help</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1219"/>
+        <location filename="../mainwindow.cpp" line="1132"/>
+        <source>About %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1137"/>
+        <source>%1 License</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1133"/>
         <source>Version: </source>
         <translation>Versjon:</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1221"/>
+        <location filename="../mainwindow.cpp" line="1134"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1222"/>
+        <location filename="../mainwindow.cpp" line="1136"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1223"/>
         <source>License</source>
-        <translation>Lisens</translation>
+        <translation type="vanished">Lisens</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1224"/>
         <source>Changelog</source>
-        <translation>Changelog</translation>
+        <translation type="vanished">Changelog</translation>
     </message>
 </context>
 <context>
     <name>QApplication</name>
     <message>
-        <location filename="main.cpp" line="44"/>
+        <location filename="../main.cpp" line="44"/>
         <source>You must run this program as root.</source>
         <translation>Du må kjøre dette programmet som root.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="651"/>
+        <location filename="../mainwindow.cpp" line="565"/>
         <source>Ndiswrapper is not installed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="660"/>
+        <location filename="../mainwindow.cpp" line="574"/>
         <source>driver installed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="671"/>
+        <location filename="../mainwindow.cpp" line="585"/>
         <source> and in use by </source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="680"/>
+        <location filename="../mainwindow.cpp" line="594"/>
         <source>. Alternate driver: </source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="772"/>
+        <location filename="../mainwindow.cpp" line="686"/>
         <source>Driver removed from blacklist</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="773"/>
+        <location filename="../mainwindow.cpp" line="687"/>
         <source>Driver removed from blacklist.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="781"/>
-        <location filename="mainwindow.cpp" line="782"/>
+        <location filename="../mainwindow.cpp" line="695"/>
+        <location filename="../mainwindow.cpp" line="696"/>
         <source>Module blacklisted</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="975"/>
+        <location filename="../mainwindow.cpp" line="889"/>
         <source>Installation successful</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="979"/>
+        <location filename="../mainwindow.cpp" line="893"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="984"/>
+        <location filename="../mainwindow.cpp" line="898"/>
         <source>Error detected, could not install ndiswrapper.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="996"/>
+        <location filename="../mainwindow.cpp" line="910"/>
         <source>Error encountered while removing Ndiswrapper</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1054"/>
+        <location filename="../mainwindow.cpp" line="968"/>
         <source>Unblacklist Driver</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1059"/>
+        <location filename="../mainwindow.cpp" line="973"/>
         <source>Blacklist Driver</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1200"/>
+        <location filename="../mainwindow.cpp" line="1115"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1202"/>
+        <location filename="../mainwindow.cpp" line="1117"/>
         <source>WiFi devices unlocked.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1275"/>
-        <location filename="mainwindow.cpp" line="1276"/>
+        <location filename="../mainwindow.cpp" line="1162"/>
+        <location filename="../mainwindow.cpp" line="1163"/>
         <source>Driver loaded successfully</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1294"/>
-        <location filename="mainwindow.cpp" line="1295"/>
+        <location filename="../mainwindow.cpp" line="1181"/>
+        <location filename="../mainwindow.cpp" line="1182"/>
         <source>Driver unloaded successfully</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="32"/>
+        <source>License</source>
+        <translation type="unfinished">Lisens</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="33"/>
+        <location filename="../about.cpp" line="43"/>
+        <source>Changelog</source>
+        <translation type="unfinished">Changelog</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="34"/>
+        <source>Cancel</source>
+        <translation type="unfinished">Avbryt</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="51"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">&amp;Lukk</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="mainwindow.cpp" line="801"/>
+        <location filename="../mainwindow.cpp" line="715"/>
         <source>Could not load </source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="837"/>
+        <location filename="../mainwindow.cpp" line="751"/>
         <source>Could not unload </source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
