@@ -51,12 +51,15 @@ FORMS += \
     mainwindow.ui
 HEADERS += \
     mainwindow.h \
-    version.h
+    version.h \
+    about.h \
+    cmd.h
 SOURCES += main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    about.cpp \
+    cmd.cpp
 CONFIG += release warn_on thread qt c++11
 
 RESOURCES += \
     images.qrc
 
-unix:!macx: LIBS += -lcmd

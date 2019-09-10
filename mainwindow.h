@@ -32,11 +32,7 @@ class MainWindow : public QDialog, public Ui::MainWindow {
 public:
     MainWindow(QWidget* parent = 0);
     ~MainWindow();
-    // helpers
 
-    static QStringList getCmdOuts(QString cmd);
-    static QString getCmdValue(QString cmd, QString key, QString keydel, QString valdel);
-    static QStringList getCmdValues(QString cmd, QString key, QString keydel, QString valdel);
     static bool replaceStringInFile(QString oldtext, QString newtext, QString filepath);
     QString getIP();
     QString getIPfromRouter();
@@ -44,7 +40,6 @@ public:
     void refresh();
     // special
     void refreshStatus();
-    void displayDoc(QString url);
 
     bool checkSysFileExists(QDir searchPath, QString fileName, Qt::CaseSensitivity cs);
     bool checkWifiAvailable();
@@ -80,13 +75,10 @@ public slots:
     virtual void installFinished(int);
     virtual void uninstallNdisFinished(int);
     virtual void on_windowsDrvList_currentRowChanged(int row);
-
     virtual void hwListToClipboard();
     virtual void hwListFullToClipboard();
-
     virtual void linuxDrvListToClipboard();
     virtual void linuxDrvListFullToClipboard();
-
     virtual void windowsDrvListToClipboard();
     virtual void windowsDrvListFullToClipboard();
 
@@ -130,7 +122,8 @@ private slots:
     void on_linuxDrvUnload_clicked();
 
 private:
-    Cmd shell;
+    Cmd cmd;
+
 };
 
 #endif
