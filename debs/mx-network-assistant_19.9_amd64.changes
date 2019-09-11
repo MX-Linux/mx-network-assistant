@@ -18,32 +18,32 @@ Changes:
  .
    * remove libcmd dependency
 Checksums-Sha1:
- 0f877c0dc3d764ad9676ae79a0fb354f9ed88efe 1243 mx-network-assistant_19.9.dsc
- c6a8f7d746f916027b4e2ae57948d755f33432f9 169956 mx-network-assistant_19.9.tar.xz
- 875aa15e7895e96ac4c130137977f9a135b84441 769872 mx-network-assistant-dbgsym_19.9_amd64.deb
- 74161dc65b0f8172982fd2bc014309e8ab7d9083 12817 mx-network-assistant_19.9_amd64.buildinfo
- 5d992a62de820ac9c8665ae73b9abf91e457d526 205056 mx-network-assistant_19.9_amd64.deb
+ 1c1f72f9bfde99ebd31ba6874521f7dd07472bd3 1243 mx-network-assistant_19.9.dsc
+ 2d90b59a8a129ae47bb0696ccb710698aedb2972 169920 mx-network-assistant_19.9.tar.xz
+ cad807158fbdc1e3f27eadc2ae80bffd5b826b95 769756 mx-network-assistant-dbgsym_19.9_amd64.deb
+ f7e782057ff38712762b5345ec593ed45e821e0a 12817 mx-network-assistant_19.9_amd64.buildinfo
+ 92bf5f2986d1f037839223ce29a2be8a212d5627 204924 mx-network-assistant_19.9_amd64.deb
 Checksums-Sha256:
- 76e5b84869f7294fef5c81bac8ae267fb1fed38c9c5b9e6106eda86ed1b2a585 1243 mx-network-assistant_19.9.dsc
- 0cab4a95ff5d2110563ccdf4acd1186976a7c349b4fdd673c112bb2e158df4db 169956 mx-network-assistant_19.9.tar.xz
- 93b51e5aab4747ec6a528e0011b014a0eeff19277f723814a281a4f5b39e65ac 769872 mx-network-assistant-dbgsym_19.9_amd64.deb
- 7c75a67c9e1282b2a78eb851431b8f79e6284aea8fc2970c97beed669535d923 12817 mx-network-assistant_19.9_amd64.buildinfo
- baf50c25c92fab9db4139eba9d44098b7a1d1ec5e5a7155c1f19bfb34edb542b 205056 mx-network-assistant_19.9_amd64.deb
+ 929427a32fec955a9c4d9f6d52f2e70338b582295de8e950456e0d77ee674ed2 1243 mx-network-assistant_19.9.dsc
+ 8c888ece185fc0cdcada590b1de6a52bea78da16ccdd0dabb696b921137a94e3 169920 mx-network-assistant_19.9.tar.xz
+ ce06d54bef7dea5d76be8c87700ffa4c758758cae36a41834dca649bee29acbf 769756 mx-network-assistant-dbgsym_19.9_amd64.deb
+ 117b66a6dab1630376d8b1ed7309c90859d46bba1b78f4a477957aff178c24fd 12817 mx-network-assistant_19.9_amd64.buildinfo
+ 8ac65eb2f6ebeb423997d9eb6b34dfc23a86d8dc00f5f1e61f49bf5c2294cdae 204924 mx-network-assistant_19.9_amd64.deb
 Files:
- 77c416b4e918175c7075cf3203702896 1243 admin optional mx-network-assistant_19.9.dsc
- f49ef34c9f9820625cf117bc5bf58f83 169956 admin optional mx-network-assistant_19.9.tar.xz
- 170f39bd6ed0e2506d31b73d5b5e2ef7 769872 debug optional mx-network-assistant-dbgsym_19.9_amd64.deb
- 2eb383dff516356793c945297e0605df 12817 admin optional mx-network-assistant_19.9_amd64.buildinfo
- 6ae23ed86a636319cc22db82b4afa744 205056 admin optional mx-network-assistant_19.9_amd64.deb
+ 177d03eb3f46ff360b89179cf5799dc8 1243 admin optional mx-network-assistant_19.9.dsc
+ 9534d8d40e2d32d7f516636419659bb4 169920 admin optional mx-network-assistant_19.9.tar.xz
+ 8e5925defe026d00fec74d3ceeb46280 769756 debug optional mx-network-assistant-dbgsym_19.9_amd64.deb
+ 42e5ea968803f972d75080c1bf0aee10 12817 admin optional mx-network-assistant_19.9_amd64.buildinfo
+ 9cf4eeada9918dd8adddd29e5479212a 204924 admin optional mx-network-assistant_19.9_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAl14J70THGFkcmlhbkBt
-eGxpbnV4Lm9yZwAKCRBwk4x4BnnumFMGCACWtCKhpQbMnWrFsXg6amk+p7n9Php0
-0b++gUBHUAJIQpd+Nf8njNJmAla48uN+17zCHDPrqTJWYfGwFvaTTkrNm/ConZhu
-9fXPRi3sOA63oJv16mO3stQVf057+Gs/d/lrshDbw7ebEhMczdU1aznBPc5KCZ16
-yWcEd5DWkFFxnQUPuUYHpCcf9sUIKRff9NBtb6DgN7ntO/EWMSDh1ATOINopljrO
-f+SivJjC1oVGDmpuWvXCU5xnuRGWpBa+tpFWc+gBFk4Lg0k6e/J6Qz6w/Y7iUHRO
-C4wyZbRX9QIOd/uUkavbLy8nxf2g+dOMN+OWAYeGokbi7+bYFFNv9UsN
-=lG2L
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAl15KywTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumCgYB/9aJCpypdQ2BccKxY8gBYGV75D/7EMP
+WUcXcmWI/n868e/VPzS77jndEaIjJYpOd/S37o4i/5i8GL+1IDOlbanSC8ozZ75e
+nMKaY//lvsWz14DkLaOmEu4HdF3Vg/bVPM6LNBqGm4egv6DS14Dxb1OY68FeZSlw
+A82kD0LgnEym9odTEYd1yaUXD2PFLoETUrwqgrfbzSCgvFVzYNQ/PoA5Fob98F2u
+At9kDpEUyj80oQ9kPN2hNjjEWN1sZkwZIY7y9rNxLoVZwND5Z7z9jhEdIGNHLlZ2
+NeAx3hMclxm57/EWbqdLiUNJ/kNGZeQ1MFmORTmsQLjtnboQwV0trzQ5
+=Wu67
 -----END PGP SIGNATURE-----
