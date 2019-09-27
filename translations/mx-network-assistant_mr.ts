@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="mk" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="mr" version="2.1">
 <context>
     <name>MainWindow</name>
     <message>
@@ -150,7 +150,7 @@
         <location filename="mainwindow.ui" line="692"/>
         <location filename="mainwindow.ui" line="811"/>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>रद्द करा</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="719"/>
@@ -165,17 +165,17 @@
     <message>
         <location filename="mainwindow.ui" line="866"/>
         <source>About...</source>
-        <translation type="unfinished"/>
+        <translation>विषयी</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="889"/>
         <source>Help</source>
-        <translation>Помош</translation>
+        <translation>मदत</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="957"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>बंद</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="964"/>
@@ -204,7 +204,7 @@
         <location filename="mainwindow.cpp" line="227"/>
         <location filename="mainwindow.cpp" line="241"/>
         <source>Ctrl+C</source>
-        <translation>Ctrl+C</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="214"/>
@@ -218,7 +218,7 @@
         <location filename="mainwindow.cpp" line="230"/>
         <location filename="mainwindow.cpp" line="244"/>
         <source>Ctrl+A</source>
-        <translation>Ctrl+A</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="281"/>
@@ -341,7 +341,7 @@
     <message>
         <location filename="mainwindow.cpp" line="1133"/>
         <source>Version: </source>
-        <translation type="unfinished"/>
+        <translation>आवृत्ती</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1134"/>
@@ -364,28 +364,28 @@
     <message>
         <location filename="about.cpp" line="32"/>
         <source>License</source>
-        <translation type="unfinished"/>
+        <translation>परवाना</translation>
     </message>
     <message>
         <location filename="about.cpp" line="33"/>
         <location filename="about.cpp" line="43"/>
         <source>Changelog</source>
-        <translation type="unfinished"/>
+        <translation>बदल सूची</translation>
     </message>
     <message>
         <location filename="about.cpp" line="34"/>
         <source>Cancel</source>
-        <translation type="unfinished"/>
+        <translation>रद्द करा</translation>
     </message>
     <message>
         <location filename="about.cpp" line="51"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>बंद</translation>
     </message>
     <message>
         <location filename="main.cpp" line="44"/>
         <source>You must run this program as root.</source>
-        <translation type="unfinished"/>
+        <translation>आपण हा प्रोग्राम रूट म्हणूनच चालवावा.</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="565"/>

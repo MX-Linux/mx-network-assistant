@@ -30,6 +30,7 @@ TRANSLATIONS += translations/mx-network-assistant_am.ts \
                 translations/mx-network-assistant_ko.ts \
                 translations/mx-network-assistant_lt.ts \
                 translations/mx-network-assistant_mk.ts \
+                translations/mx-network-assistant_mr.ts \
                 translations/mx-network-assistant_nb.ts \
                 translations/mx-network-assistant_nl.ts \
                 translations/mx-network-assistant_pl.ts \
