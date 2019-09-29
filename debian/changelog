@@ -1,3 +1,9 @@
+mx-network-assistant (19.9.01) mx; urgency=medium
+
+  * updated translations
+
+ -- Adrian <adrian@mxlinux.org>  Sun, 29 Sep 2019 14:45:04 -0400
+
 mx-network-assistant (19.9) mx; urgency=medium
 
   * remove libcmd dependency

@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 29 Sep 2019 14:45:04 -0400
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: source amd64
+Version: 19.9.01
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (19.9.01) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ e1c4b197e57a9c95de8992329edf1c29d2629cf5 1255 mx-network-assistant_19.9.01.dsc
+ ff967fedbc5e8a893bd4e74584056cc10dc41d77 169984 mx-network-assistant_19.9.01.tar.xz
+ c5cf4ca616f008200dc39d65975bc3e8ae003545 770220 mx-network-assistant-dbgsym_19.9.01_amd64.deb
+ 54e05faa5ab6dd3ef4eebed965e78d404c907e48 12850 mx-network-assistant_19.9.01_amd64.buildinfo
+ b90ec81a157aa27565a8921b598a7bc5b0fc80d8 205732 mx-network-assistant_19.9.01_amd64.deb
+Checksums-Sha256:
+ 472c4ddb857c4679f36289858f706528633463ce9db77a2bd9dfc5a10c81a32d 1255 mx-network-assistant_19.9.01.dsc
+ c33492e4b58314d1538b090cfda38974dee53a2c44525392dbefabdd3011ab78 169984 mx-network-assistant_19.9.01.tar.xz
+ e0bbecc71fbdc782d1df7731886530bd1d67ee0a941fe6041b5bc03f68aa61fa 770220 mx-network-assistant-dbgsym_19.9.01_amd64.deb
+ 6995a34b0f902f343f666fd9a5eff76cdffffcf09d9f43f4237275c2cec8bec3 12850 mx-network-assistant_19.9.01_amd64.buildinfo
+ a4e35393b486559200d03a298e9b974379f8ecb1d98f004491959acf246d75d8 205732 mx-network-assistant_19.9.01_amd64.deb
+Files:
+ 82b29f7a590e69f7886bc5d94a907527 1255 admin optional mx-network-assistant_19.9.01.dsc
+ 0d1a48d4399d34c93e1812f4e645d2fa 169984 admin optional mx-network-assistant_19.9.01.tar.xz
+ cc6c5d7ce626f058791e622ebca0dac9 770220 debug optional mx-network-assistant-dbgsym_19.9.01_amd64.deb
+ b113e201609100e5bec66d497bb030c3 12850 admin optional mx-network-assistant_19.9.01_amd64.buildinfo
+ 5e5a33043f706f48a59761edeb5f7a28 205732 admin optional mx-network-assistant_19.9.01_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAl2RAYATHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumP/YB/9NydvHzCAx3Tm4ycSRRTL7B4LhJcBH
+3KGcr5KupU8nbrSeKz71B6iZHB0dk7E1FcPBPo1/wSQD4CuE1VKOetlZV9+wSEZ4
+elcgPbIaneemzs7TMncGw+5HKtZdfd4e4gmH0VoQNg8ZSKHtLqRwgop68WYV14ED
+Uq1lpeKd0VzGHZf61ll9SVfBLm7ONVFk889m+HLDWB+14RDuNBsRYECILvN7foAd
+ykQgA90PHnXn2VK2g5beIV5CAGplX1k5GSXLn8yBbThcEZn9NiqNmryJ/SZd5VBF
+Naonj5wl62HAOOzhNSSGCi0qwLwMIkXW0oY4VFbIsIYNi8okTPvOneBa
+=Sc+E
+-----END PGP SIGNATURE-----
