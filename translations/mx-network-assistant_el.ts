@@ -264,7 +264,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="493"/>
         <source>Loaded Drivers</source>
-        <translation>Φορτωμένο Driver </translation>
+        <translation>Φορτωμένο Driver&#xa0;</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="503"/>
