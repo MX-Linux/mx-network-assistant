@@ -25,7 +25,6 @@ TRANSLATIONS += translations/mx-network-assistant_am.ts \
                 translations/mx-network-assistant_is.ts \
                 translations/mx-network-assistant_it.ts \
                 translations/mx-network-assistant_ja.ts \
-                translations/mx-network-assistant_ja_JP.ts \
                 translations/mx-network-assistant_kk.ts \
                 translations/mx-network-assistant_ko.ts \
                 translations/mx-network-assistant_lt.ts \

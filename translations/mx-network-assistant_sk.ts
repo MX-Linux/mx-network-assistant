@@ -21,7 +21,7 @@
     <message>
         <location filename="../mainwindow.ui" line="112"/>
         <source>Hardware detected</source>
-        <translation>Nájdený Hardvér </translation>
+        <translation>Nájdený Hardvér&#xa0;</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="143"/>

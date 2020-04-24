@@ -30,7 +30,7 @@
 class MainWindow : public QDialog, public Ui::MainWindow {
     Q_OBJECT
 public:
-    MainWindow(QWidget* parent = 0);
+    MainWindow(QWidget* parent = nullptr);
     ~MainWindow();
 
     static bool replaceStringInFile(QString oldtext, QString newtext, QString filepath);
