@@ -71,9 +71,13 @@
         <translation>Uvoľniť ovládač</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="409"/>
         <source>Blacklist Driver</source>
-        <translation>Pridať ovládač na zoznam zakázaných</translation>
+        <translation type="vanished">Pridať ovládač na zoznam zakázaných</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="409"/>
+        <source>Block Driver</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="428"/>
@@ -127,7 +131,7 @@
     </message>
     <message>
         <location filename="../mainwindow.ui" line="609"/>
-        <location filename="../mainwindow.ui" line="725"/>
+        <location filename="../mainwindow.ui" line="726"/>
         <source>Target URL:</source>
         <translation>Cieľová URL:</translation>
     </message>
@@ -138,49 +142,49 @@
     </message>
     <message>
         <location filename="../mainwindow.ui" line="661"/>
-        <location filename="../mainwindow.ui" line="780"/>
+        <location filename="../mainwindow.ui" line="781"/>
         <source>Start</source>
         <translation>Štart</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="678"/>
-        <location filename="../mainwindow.ui" line="797"/>
+        <location filename="../mainwindow.ui" line="798"/>
         <source>Clear</source>
         <translation>Vyčistiť</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="692"/>
-        <location filename="../mainwindow.ui" line="811"/>
+        <location filename="../mainwindow.ui" line="812"/>
         <source>Cancel</source>
         <translation>Zrušiť</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="719"/>
+        <location filename="../mainwindow.ui" line="720"/>
         <source>Traceroute</source>
         <translation>Traceroute</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="735"/>
+        <location filename="../mainwindow.ui" line="736"/>
         <source>Hops</source>
         <translation>Hops</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="866"/>
+        <location filename="../mainwindow.ui" line="868"/>
         <source>About...</source>
         <translation>O Programe</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="889"/>
+        <location filename="../mainwindow.ui" line="891"/>
         <source>Help</source>
         <translation>Pomoc</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="957"/>
+        <location filename="../mainwindow.ui" line="959"/>
         <source>&amp;Close</source>
         <translation>&amp;Zatvoriť</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="964"/>
+        <location filename="../mainwindow.ui" line="966"/>
         <source>Alt+C</source>
         <translation>Alt+C</translation>
     </message>
@@ -195,168 +199,176 @@
         <translation>Externá IP adresa:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="211"/>
-        <location filename="../mainwindow.cpp" line="225"/>
-        <location filename="../mainwindow.cpp" line="239"/>
+        <location filename="../mainwindow.cpp" line="196"/>
+        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="224"/>
         <source>&amp;Copy</source>
         <translation>&amp;Kopírovať</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="213"/>
-        <location filename="../mainwindow.cpp" line="227"/>
-        <location filename="../mainwindow.cpp" line="241"/>
+        <location filename="../mainwindow.cpp" line="198"/>
+        <location filename="../mainwindow.cpp" line="212"/>
+        <location filename="../mainwindow.cpp" line="226"/>
         <source>Ctrl+C</source>
         <translation>Ctrl+C</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="214"/>
-        <location filename="../mainwindow.cpp" line="228"/>
-        <location filename="../mainwindow.cpp" line="242"/>
+        <location filename="../mainwindow.cpp" line="199"/>
+        <location filename="../mainwindow.cpp" line="213"/>
+        <location filename="../mainwindow.cpp" line="227"/>
         <source>Copy &amp;All</source>
         <translation>Kopírovať &amp;všetko</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="216"/>
-        <location filename="../mainwindow.cpp" line="230"/>
-        <location filename="../mainwindow.cpp" line="244"/>
+        <location filename="../mainwindow.cpp" line="201"/>
+        <location filename="../mainwindow.cpp" line="215"/>
+        <location filename="../mainwindow.cpp" line="229"/>
         <source>Ctrl+A</source>
         <translation>Ctrl+A</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="281"/>
-        <location filename="../mainwindow.cpp" line="303"/>
+        <location filename="../mainwindow.cpp" line="261"/>
+        <location filename="../mainwindow.cpp" line="278"/>
         <source>Traceroute not installed</source>
         <translation>Traceroute nie je nainštalovaný</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="282"/>
+        <location filename="../mainwindow.cpp" line="262"/>
         <source>Traceroute is not installed, do you want to install it now?</source>
         <translation>Traceroute nie je nainštalovaný, chcete ho nainštalovať?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="290"/>
+        <location filename="../mainwindow.cpp" line="269"/>
         <source>Traceroute hasn&apos;t been installed</source>
         <translation>Traceroute nebol nainštalovaný</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="291"/>
+        <location filename="../mainwindow.cpp" line="270"/>
         <source>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</source>
         <translation>Traceroute nejde nainštalovať. Možno používate LiveCD alebo nie je možné vytvoriť spojenie k softvérovým repozitárom. </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="304"/>
+        <location filename="../mainwindow.cpp" line="279"/>
         <source>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</source>
         <translation>Traceroute nie je nainštalovaný a zároveň nie ste pripojení k internetu, to znamená že program nepôjde nainštalovať</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="311"/>
-        <location filename="../mainwindow.cpp" line="361"/>
+        <location filename="../mainwindow.cpp" line="285"/>
+        <location filename="../mainwindow.cpp" line="326"/>
         <source>No destination host</source>
         <translation>Žiadny cieľový host</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="312"/>
-        <location filename="../mainwindow.cpp" line="362"/>
+        <location filename="../mainwindow.cpp" line="286"/>
+        <location filename="../mainwindow.cpp" line="327"/>
         <source>Please fill in the destination host field</source>
         <translation>Prosím vyplňte políčko cieľový host</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="493"/>
+        <location filename="../mainwindow.cpp" line="438"/>
         <source>Loaded Drivers</source>
         <translation>Používané ovládače</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="503"/>
+        <location filename="../mainwindow.cpp" line="447"/>
         <source>Unloaded Drivers</source>
         <translation>Nepoužívané ovládače</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="519"/>
         <source>Blacklisted Drivers</source>
-        <translation>Zakázané ovládače</translation>
+        <translation type="vanished">Zakázané ovládače</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="542"/>
         <source>Blacklisted Broadcom Drivers</source>
-        <translation>Zakázané bezdrátové ovládače</translation>
+        <translation type="vanished">Zakázané bezdrátové ovládače</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1012"/>
+        <location filename="../mainwindow.cpp" line="462"/>
+        <source>Blocked Drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="484"/>
+        <source>Blocked Broadcom Drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="892"/>
         <source>enabled</source>
         <translation>Zapnuté</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1015"/>
+        <location filename="../mainwindow.cpp" line="895"/>
         <source>disabled</source>
         <translation>Vypnúté</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1018"/>
+        <location filename="../mainwindow.cpp" line="898"/>
         <source>WiFi hardware switch is off</source>
         <translation>Hardvérový WiFi spínač je vypnutý</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1026"/>
+        <location filename="../mainwindow.cpp" line="906"/>
         <source>Locate the Windows driver you want to add</source>
         <translation>Určiť ovládač z Windows, ktorý chcete pridať</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1026"/>
+        <location filename="../mainwindow.cpp" line="906"/>
         <source>Windows installation information file (*.inf)</source>
         <translation>Windows installation information file (*.inf)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1058"/>
+        <location filename="../mainwindow.cpp" line="937"/>
         <source>*.sys file not found</source>
         <translation>súbor *.sys nenájdený</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1058"/>
+        <location filename="../mainwindow.cpp" line="937"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
         <translation>Súbory *.sys musia byť umiestnené v rovnakej  zložce ako súbor *.inf. %1 nejde nájsť</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1069"/>
+        <location filename="../mainwindow.cpp" line="946"/>
         <source>sys file reference not found</source>
         <translation>referencia sys súboru nenájdená</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1069"/>
+        <location filename="../mainwindow.cpp" line="946"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
         <translation>Po zanalyzování inf súboru nemôže byť priradený sys súbor pre daný ovládač</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1088"/>
+        <location filename="../mainwindow.cpp" line="965"/>
         <source>Ndiswrapper driver removed.</source>
         <translation>Ovládač Ndiswrapper bol odstránený.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1096"/>
+        <location filename="../mainwindow.cpp" line="973"/>
         <source>%1 Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1135"/>
+        <location filename="../mainwindow.cpp" line="1010"/>
         <source>About %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1136"/>
+        <location filename="../mainwindow.cpp" line="1011"/>
         <source>Version: </source>
         <translation>Verzia:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1137"/>
+        <location filename="../mainwindow.cpp" line="1012"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
         <translation>Program k riešeniu problémov a nastavenie bezdrátovej siete v systéme MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1139"/>
+        <location filename="../mainwindow.cpp" line="1014"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
         <translation>Copyright (c) MEPIS LLC a MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1140"/>
+        <location filename="../mainwindow.cpp" line="1015"/>
         <source>%1 License</source>
         <translation type="unfinished"></translation>
     </message>
@@ -390,92 +402,112 @@
         <translation>Tento program musíte spustiť ako užívateľ root.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="565"/>
+        <location filename="../mainwindow.cpp" line="507"/>
         <source>Ndiswrapper is not installed</source>
         <translation>Ndiswrapper nie je nainštalovaný</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="577"/>
+        <location filename="../mainwindow.cpp" line="519"/>
         <source>driver installed</source>
         <translation>nainštalovaný ovládač</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="588"/>
+        <location filename="../mainwindow.cpp" line="527"/>
         <source> and in use by </source>
         <translation>a použivaný</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="597"/>
+        <location filename="../mainwindow.cpp" line="534"/>
         <source>. Alternate driver: </source>
         <translation>. Alternatívny ovládač: </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="689"/>
+        <location filename="../mainwindow.cpp" line="611"/>
+        <source>Driver removed from blocklist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="612"/>
+        <source>Driver removed from blocklist.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="618"/>
+        <location filename="../mainwindow.cpp" line="619"/>
+        <source>Module blocked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="853"/>
+        <source>Unblock Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="856"/>
+        <source>Block Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Driver removed from blacklist</source>
-        <translation>Ovládač bol odstránený zo zoznamu zakázaných</translation>
+        <translation type="vanished">Ovládač bol odstránený zo zoznamu zakázaných</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="690"/>
         <source>Driver removed from blacklist.</source>
-        <translation>Ovládač bol odstránený zo zoznamu zakázaných.</translation>
+        <translation type="vanished">Ovládač bol odstránený zo zoznamu zakázaných.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="698"/>
-        <location filename="../mainwindow.cpp" line="699"/>
         <source>Module blacklisted</source>
-        <translation>Modul bol zakázaný</translation>
+        <translation type="vanished">Modul bol zakázaný</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="892"/>
+        <location filename="../mainwindow.cpp" line="784"/>
         <source>Installation successful</source>
         <translation>Inštalácia prebehla úspešne</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="896"/>
+        <location filename="../mainwindow.cpp" line="787"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
         <translation>Chyba, nebolo možné zkompilovať ovládač Ndiswrapper.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="901"/>
+        <location filename="../mainwindow.cpp" line="790"/>
         <source>Error detected, could not install ndiswrapper.</source>
         <translation>Chyba, nebolo možné nainštalovať Ndiswrapper.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="913"/>
+        <location filename="../mainwindow.cpp" line="802"/>
         <source>Error encountered while removing Ndiswrapper</source>
         <translation>V priebehu odstraňovania Ndiswrapper sa vyskyla chyba</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="971"/>
         <source>Unblacklist Driver</source>
-        <translation>Odobrať ovládač zo zoznamu zakázaných</translation>
+        <translation type="vanished">Odobrať ovládač zo zoznamu zakázaných</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="976"/>
         <source>Blacklist Driver</source>
-        <translation>Pridať ovládač na zoznam zakázaných</translation>
+        <translation type="vanished">Pridať ovládač na zoznam zakázaných</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1118"/>
+        <location filename="../mainwindow.cpp" line="993"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
         <translation>Nepodarilo sa odblokovať zariadenia.
 WiFi zadiadenie(a) už sú asi odblokované.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1120"/>
+        <location filename="../mainwindow.cpp" line="995"/>
         <source>WiFi devices unlocked.</source>
         <translation>WiFi zariadenia boli odblokované.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1165"/>
-        <location filename="../mainwindow.cpp" line="1166"/>
+        <location filename="../mainwindow.cpp" line="1038"/>
+        <location filename="../mainwindow.cpp" line="1039"/>
         <source>Driver loaded successfully</source>
         <translation>Ovládač bol úspešne načítaný</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1184"/>
-        <location filename="../mainwindow.cpp" line="1185"/>
+        <location filename="../mainwindow.cpp" line="1054"/>
+        <location filename="../mainwindow.cpp" line="1055"/>
         <source>Driver unloaded successfully</source>
         <translation>Ovládač bol úspešne uvoľnený</translation>
     </message>
@@ -483,12 +515,12 @@ WiFi zadiadenie(a) už sú asi odblokované.</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../mainwindow.cpp" line="718"/>
+        <location filename="../mainwindow.cpp" line="636"/>
         <source>Could not load </source>
         <translation>Nejde načítať</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="754"/>
+        <location filename="../mainwindow.cpp" line="667"/>
         <source>Could not unload </source>
         <translation>Nejde uvoľniť</translation>
     </message>

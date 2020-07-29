@@ -56,7 +56,7 @@
       <locale language="English" country="UnitedStates"/>
      </property>
      <property name="currentIndex">
-      <number>1</number>
+      <number>0</number>
      </property>
      <property name="elideMode">
       <enum>Qt::ElideNone</enum>
@@ -409,8 +409,8 @@
              <string>Block Driver</string>
             </property>
             <property name="icon">
-             <iconset resource="images.qrc">
-              <normaloff>:/icons/file_locked.png</normaloff>:/icons/file_locked.png</iconset>
+             <iconset theme="object-locked">
+              <normaloff>.</normaloff>.</iconset>
             </property>
            </widget>
           </item>
