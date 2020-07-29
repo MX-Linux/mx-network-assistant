@@ -364,31 +364,33 @@ void MainWindow::on_hwDiagnosePushButton_clicked()
 
     // Query PCI cards
     QStringList  queryResult = cmd.getCmdOut("lspci -nn | grep -i net").split("\n");
+    queryResult.removeAll(QString(""));
     for (int i = 0; i < queryResult.size(); ++i) {
         QString currentElement = queryResult.at(i);
         if (currentElement.indexOf("Ethernet controller") != -1) {
             currentElement.remove(QRegExp("Ethernet controller .[\\d|a|b|c|d|e|f][\\d|a|b|c|d|e|f][\\d|a|b|c|d|e|f][\\d|a|b|c|d|e|f].:"));
-            new QListWidgetItem(QIcon("/usr/share/icons/default.kde4/16x16/places/network-server.png"),currentElement, hwList);
+            new QListWidgetItem(QIcon::fromTheme("network-card"),currentElement, hwList);
         } else if (currentElement.indexOf("Network controller") != -1) {
             currentElement.remove(QRegExp("Network controller .[\\d|a|b|c|d|e|f][\\d|a|b|c|d|e|f][\\d|a|b|c|d|e|f][\\d|a|b|c|d|e|f].:"));
-            new QListWidgetItem(QIcon("/usr/share/icons/default.kde4/16x16/places/network-workgroup.png"),currentElement, hwList);
+            new QListWidgetItem(QIcon::fromTheme("network-workgroup"),currentElement, hwList);
         } else {
-            new QListWidgetItem(currentElement, hwList);
+            new QListWidgetItem(QIcon::fromTheme("network-server-database"), currentElement, hwList);
         }
     }
 
     // Query USB cards
     queryResult = cmd.getCmdOut("lsusb | grep -i network").split("\n");
+    queryResult.removeAll(QString(""));
     for (int i = 0; i < queryResult.size(); ++i) {
         QString currentElement = queryResult.at(i);
         if (currentElement.indexOf("Ethernet controller:") != -1) {
             currentElement.remove(QString("Ethernet controller:"), Qt::CaseSensitive);
-            new QListWidgetItem(QIcon("/usr/share/icons/default.kde4/16x16/places/network-server.png"),currentElement, hwList);
+            new QListWidgetItem(QIcon::fromTheme("network-card"),currentElement, hwList);
         } else if (currentElement.indexOf("Network controller:") != -1) {
             currentElement.remove(QString("Network controller:"), Qt::CaseSensitive);
-            new QListWidgetItem(QIcon("/usr/share/icons/default.kde4/16x16/places/network-workgroup.png"),currentElement, hwList);
+            new QListWidgetItem(QIcon::fromTheme("network-workgroup"), currentElement, hwList);
         } else {
-            new QListWidgetItem(QIcon("/usr/share/icons/default.kde4/16x16/places/network-server-database.png"),currentElement, hwList);
+            new QListWidgetItem(QIcon::fromTheme("network-server-database"), currentElement, hwList);
         }
     }
     checkWifiEnabled();
@@ -437,7 +439,7 @@ void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
         if (i == 0) {
             new QListWidgetItem("---------" + tr("Loaded Drivers") + "-------------", linuxDrvList);
         }
-        new QListWidgetItem(QIcon("/usr/share/icons/default.kde4/16x16/apps/ksysguardd.png"), mod, linuxDrvList);
+        new QListWidgetItem(mod, linuxDrvList);
     }
 
     // list unloaded modules
@@ -446,7 +448,7 @@ void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
         if (i == 0) {
             new QListWidgetItem("---------" + tr("Unloaded Drivers") + "-----------", linuxDrvList);
         }
-        QListWidgetItem *unloaded = new QListWidgetItem(QIcon("/usr/share/icons/default.kde4/16x16/apps/ksysguardd.png"), mod, linuxDrvList);
+        QListWidgetItem *unloaded = new QListWidgetItem(mod, linuxDrvList);
         unloaded->setForeground(Qt::blue);
     }
 
@@ -468,7 +470,7 @@ void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
             QString captured = expr.cap(0);
             captured.remove("blacklist");
             driver = captured.trimmed();
-            QListWidgetItem *blocklisted = new QListWidgetItem(QIcon("/usr/share/icons/default.kde4/16x16/apps/ksysguardd.png"), driver, linuxDrvList);
+            QListWidgetItem *blocklisted = new QListWidgetItem(driver, linuxDrvList);
             blocklisted->setForeground(Qt::red);
             blockedModules.append(driver);
         }
@@ -490,7 +492,7 @@ void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
             QString captured = expr.cap(0);
             captured.remove("blacklist");
             driver = captured.trimmed();
-            QListWidgetItem *bloclisted = new QListWidgetItem(QIcon("/usr/share/icons/default.kde4/16x16/apps/ksysguardd.png"), driver, linuxDrvList);
+            QListWidgetItem *bloclisted = new QListWidgetItem(driver, linuxDrvList);
             bloclisted->setForeground(Qt::red);
             blockedModules.append(driver);
             broadcomModules.append(driver);
@@ -542,7 +544,7 @@ void MainWindow::on_windowsDrvDiagnosePushButton_clicked()
                 i++;
             }
         }
-        new QListWidgetItem(QIcon("/usr/share/icons/default.kde4/16x16/apps/krfb.png"), label, windowsDrvList);
+        new QListWidgetItem(label, windowsDrvList);
         i++;
     }
 }
@@ -851,10 +853,10 @@ void MainWindow::updateDriverStatus()
     }
     if (driverBlocklisted) {
         linuxDrvBlockPushButton->setText(QApplication::tr("Unblock Driver"));
-        linuxDrvBlockPushButton->setIcon(QIcon("/usr/share/mx-network-assistant/icons/redo.png"));
+        linuxDrvBlockPushButton->setIcon(QIcon::fromTheme("object-unlocked"));
     } else {
         linuxDrvBlockPushButton->setText(QApplication::tr("Block Driver"));
-        linuxDrvBlockPushButton->setIcon(QIcon("/usr/share/mx-network-assistant/icons/file_locked.png"));
+        linuxDrvBlockPushButton->setIcon(QIcon::fromTheme("object-locked"));
     }
     InputBlockList.close();
 }
