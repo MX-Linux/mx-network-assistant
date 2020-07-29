@@ -56,7 +56,7 @@
       <locale language="English" country="UnitedStates"/>
      </property>
      <property name="currentIndex">
-      <number>3</number>
+      <number>1</number>
      </property>
      <property name="elideMode">
       <enum>Qt::ElideNone</enum>
@@ -395,7 +395,7 @@
            </widget>
           </item>
           <item row="3" column="3">
-           <widget class="QPushButton" name="linuxDrvBlacklistPushButton">
+           <widget class="QPushButton" name="linuxDrvBlockPushButton">
             <property name="enabled">
              <bool>false</bool>
             </property>
@@ -406,7 +406,7 @@
              </size>
             </property>
             <property name="text">
-             <string>Blacklist Driver</string>
+             <string>Block Driver</string>
             </property>
             <property name="icon">
              <iconset resource="images.qrc">
@@ -692,7 +692,8 @@ p, li { white-space: pre-wrap; }
                <string>Cancel</string>
               </property>
               <property name="icon">
-               <iconset theme="cancel"/>
+               <iconset theme="cancel">
+                <normaloff>.</normaloff>.</iconset>
               </property>
              </widget>
             </item>
@@ -811,7 +812,8 @@ p, li { white-space: pre-wrap; }
                <string>Cancel</string>
               </property>
               <property name="icon">
-               <iconset theme="cancel"/>
+               <iconset theme="cancel">
+                <normaloff>.</normaloff>.</iconset>
               </property>
              </widget>
             </item>

@@ -40,7 +40,7 @@ int main( int argc, char ** argv ) {
         return app.exec();
     } else {
         QApplication::beep();
-        QMessageBox::critical(0, QString::null,
+        QMessageBox::critical(nullptr, QString::null,
                               QApplication::tr("You must run this program as root."));
         return 1;
     }

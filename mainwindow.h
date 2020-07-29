@@ -57,7 +57,7 @@ public slots:
     virtual void on_linuxDrvDiagnosePushButton_clicked();
     virtual void on_windowsDrvDiagnosePushButton_clicked();
     virtual void on_linuxDrvList_currentRowChanged(int currentRow );
-    virtual void on_linuxDrvBlacklistPushButton_clicked();
+    virtual void on_linuxDrvBlockPushButton_clicked();
     virtual void on_windowsDrvAddPushButton_clicked() ;
     virtual void on_windowsDrvRemovePushButton_clicked();
     virtual void on_clearPingOutput_clicked();
@@ -97,14 +97,14 @@ protected:
     bool removable(QString module);
     bool configurationChanges[5];
     int currentTab;
-    bool blacklistModule(QString module);
+    bool blockModule(QString module);
     bool installModule(QString module);
     bool internetConnection;
-    bool ndiswrapBlacklisted;
-    bool driverBlacklisted;
+    bool ndiswrapBlocklisted;
+    bool driverBlocklisted;
     QStringList loadedModules;
     QStringList unloadedModules;
-    QStringList blacklistedModules;
+    QStringList blockedModules;
     QStringList broadcomModules;
 
     QProcess *pingProc;
