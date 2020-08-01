@@ -1,3 +1,10 @@
+mx-network-assistant (20.8) mx; urgency=medium
+
+  * fixes IP address and interface detection
+  * update language and icons
+
+ -- Adrian <adrian@mxlinux.org>  Sat, 01 Aug 2020 10:50:09 -0400
+
 mx-network-assistant (19.9.01) mx; urgency=medium
 
   * updated translations
