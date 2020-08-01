@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ro" version="2.0">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="bn" version="2.0">
 <context>
     <name>MainWindow</name>
     <message>
@@ -150,7 +150,7 @@
         <location filename="mainwindow.ui" line="692"/>
         <location filename="mainwindow.ui" line="812"/>
         <source>Cancel</source>
-        <translation>Anulează</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mainwindow.ui" line="720"/>
@@ -165,22 +165,22 @@
     <message>
         <location filename="mainwindow.ui" line="868"/>
         <source>About...</source>
-        <translation>Despre...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mainwindow.ui" line="891"/>
         <source>Help</source>
-        <translation>Ajutor</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mainwindow.ui" line="959"/>
         <source>&amp;Close</source>
-        <translation>&amp;Închide</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mainwindow.ui" line="966"/>
         <source>Alt+C</source>
-        <translation>Alt+C</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="87"/>
@@ -204,7 +204,7 @@
         <location filename="mainwindow.cpp" line="212"/>
         <location filename="mainwindow.cpp" line="226"/>
         <source>Ctrl+C</source>
-        <translation>Ctrl+C</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="199"/>
@@ -218,7 +218,7 @@
         <location filename="mainwindow.cpp" line="215"/>
         <location filename="mainwindow.cpp" line="229"/>
         <source>Ctrl+A</source>
-        <translation>Ctrl+A</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="261"/>
@@ -341,7 +341,7 @@
     <message>
         <location filename="mainwindow.cpp" line="1013"/>
         <source>Version: </source>
-        <translation>Versiune:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1014"/>
@@ -364,28 +364,28 @@
     <message>
         <location filename="about.cpp" line="32"/>
         <source>License</source>
-        <translation>Licență</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="about.cpp" line="33"/>
         <location filename="about.cpp" line="43"/>
         <source>Changelog</source>
-        <translation>Changelog</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="about.cpp" line="34"/>
         <source>Cancel</source>
-        <translation>Anulează</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="about.cpp" line="51"/>
         <source>&amp;Close</source>
-        <translation>&amp;Închide</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="main.cpp" line="44"/>
         <source>You must run this program as root.</source>
-        <translation>Trebuie să rulați programul ca administrator.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="509"/>
@@ -426,7 +426,7 @@
     <message>
         <location filename="mainwindow.cpp" line="786"/>
         <source>Installation successful</source>
-        <translation>Instalare reușită</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="789"/>
