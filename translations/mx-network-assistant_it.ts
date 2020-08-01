@@ -265,12 +265,12 @@
         <translation>Compilare il campo dell&apos;host di destinazione</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="438"/>
+        <location filename="../mainwindow.cpp" line="440"/>
         <source>Loaded Drivers</source>
         <translation>Drivers caricati</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="447"/>
+        <location filename="../mainwindow.cpp" line="449"/>
         <source>Unloaded Drivers</source>
         <translation>Drivers non caricati</translation>
     </message>
@@ -283,92 +283,92 @@
         <translation type="vanished">Drivers Broadcom messi in Blacklist</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="462"/>
+        <location filename="../mainwindow.cpp" line="464"/>
         <source>Blocked Drivers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="484"/>
+        <location filename="../mainwindow.cpp" line="486"/>
         <source>Blocked Broadcom Drivers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="892"/>
+        <location filename="../mainwindow.cpp" line="894"/>
         <source>enabled</source>
         <translation>abilitato</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="895"/>
+        <location filename="../mainwindow.cpp" line="897"/>
         <source>disabled</source>
         <translation>disabilitato</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="898"/>
+        <location filename="../mainwindow.cpp" line="900"/>
         <source>WiFi hardware switch is off</source>
         <translation>L a scheda WiFi è spenta</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="906"/>
+        <location filename="../mainwindow.cpp" line="908"/>
         <source>Locate the Windows driver you want to add</source>
         <translation>Individua la posizione del driver di Windows che desideri aggiungere</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="906"/>
+        <location filename="../mainwindow.cpp" line="908"/>
         <source>Windows installation information file (*.inf)</source>
         <translation> File (*.inf) d&apos;informazione di installazione di Windows</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="937"/>
+        <location filename="../mainwindow.cpp" line="939"/>
         <source>*.sys file not found</source>
         <translation>File *.sys non trovato</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="937"/>
+        <location filename="../mainwindow.cpp" line="939"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
         <translation>I files *.sys dovrebbero essere nella stessa posizione del file *.inf. %1 non si riesce a trovare</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="946"/>
+        <location filename="../mainwindow.cpp" line="948"/>
         <source>sys file reference not found</source>
         <translation>il file sys di referenza non si trova</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="946"/>
+        <location filename="../mainwindow.cpp" line="948"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
         <translation>Il file sys per il driver non può essere determinato dopo l&apos;analisi del file inf</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="965"/>
+        <location filename="../mainwindow.cpp" line="967"/>
         <source>Ndiswrapper driver removed.</source>
         <translation>Il driver Ndiswrapper è stato rimosso.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="973"/>
+        <location filename="../mainwindow.cpp" line="975"/>
         <source>%1 Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1010"/>
+        <location filename="../mainwindow.cpp" line="1012"/>
         <source>About %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1011"/>
+        <location filename="../mainwindow.cpp" line="1013"/>
         <source>Version: </source>
         <translation>Versione: </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1012"/>
+        <location filename="../mainwindow.cpp" line="1014"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
         <translation>Programma di MX Linux per la configurazione e risoluzione dei problemi di rete</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1014"/>
+        <location filename="../mainwindow.cpp" line="1016"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
         <translation>Copyright (c) MEPIS LLC e MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1015"/>
+        <location filename="../mainwindow.cpp" line="1017"/>
         <source>%1 License</source>
         <translation type="unfinished"></translation>
     </message>
@@ -402,48 +402,48 @@
         <translation>Devi eseguire questo programma come amministratore</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="507"/>
+        <location filename="../mainwindow.cpp" line="509"/>
         <source>Ndiswrapper is not installed</source>
         <translation>Ndiswrapper non è installato</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="519"/>
+        <location filename="../mainwindow.cpp" line="521"/>
         <source>driver installed</source>
         <translation>driver installato</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="527"/>
+        <location filename="../mainwindow.cpp" line="529"/>
         <source> and in use by </source>
         <translation>e in uso da</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="534"/>
+        <location filename="../mainwindow.cpp" line="536"/>
         <source>. Alternate driver: </source>
         <translation>Cambiare driver</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="611"/>
+        <location filename="../mainwindow.cpp" line="613"/>
         <source>Driver removed from blocklist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="612"/>
+        <location filename="../mainwindow.cpp" line="614"/>
         <source>Driver removed from blocklist.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="618"/>
-        <location filename="../mainwindow.cpp" line="619"/>
+        <location filename="../mainwindow.cpp" line="620"/>
+        <location filename="../mainwindow.cpp" line="621"/>
         <source>Module blocked</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="853"/>
+        <location filename="../mainwindow.cpp" line="855"/>
         <source>Unblock Driver</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="856"/>
+        <location filename="../mainwindow.cpp" line="858"/>
         <source>Block Driver</source>
         <translation type="unfinished"></translation>
     </message>
@@ -460,22 +460,22 @@
         <translation type="vanished">Modulo messo in blacklist</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="784"/>
+        <location filename="../mainwindow.cpp" line="786"/>
         <source>Installation successful</source>
         <translation>Installazione completata con successo</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="787"/>
+        <location filename="../mainwindow.cpp" line="789"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
         <translation>E&apos; incorso un errore, non è possibile compilare il driver ndiswrapper.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="790"/>
+        <location filename="../mainwindow.cpp" line="792"/>
         <source>Error detected, could not install ndiswrapper.</source>
         <translation>E&apos; incorso un errore, non è possibile installare ndiswrapper.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="802"/>
+        <location filename="../mainwindow.cpp" line="804"/>
         <source>Error encountered while removing Ndiswrapper</source>
         <translation>E&apos; incorso un errore durante la rimozione di Ndiswrapper</translation>
     </message>
@@ -488,26 +488,26 @@
         <translation type="vanished">Metti Driver in Blacklist</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="993"/>
+        <location filename="../mainwindow.cpp" line="995"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
         <translation>Non si riesce a sbloccare i dispositivi.
 Il dispositivo/i WiFi  potrebbe essere già sbloccato/i.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="995"/>
+        <location filename="../mainwindow.cpp" line="997"/>
         <source>WiFi devices unlocked.</source>
         <translation>Dispositivi WiFi sbloccati.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1038"/>
-        <location filename="../mainwindow.cpp" line="1039"/>
+        <location filename="../mainwindow.cpp" line="1040"/>
+        <location filename="../mainwindow.cpp" line="1041"/>
         <source>Driver loaded successfully</source>
         <translation>Driver caricato con successo</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1054"/>
-        <location filename="../mainwindow.cpp" line="1055"/>
+        <location filename="../mainwindow.cpp" line="1056"/>
+        <location filename="../mainwindow.cpp" line="1057"/>
         <source>Driver unloaded successfully</source>
         <translation>Driver scaricato con successo</translation>
     </message>
@@ -515,12 +515,12 @@ Il dispositivo/i WiFi  potrebbe essere già sbloccato/i.</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../mainwindow.cpp" line="636"/>
+        <location filename="../mainwindow.cpp" line="638"/>
         <source>Could not load </source>
         <translation>Impossibile caricare</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="667"/>
+        <location filename="../mainwindow.cpp" line="669"/>
         <source>Could not unload </source>
         <translation>Impossibile scaricare</translation>
     </message>

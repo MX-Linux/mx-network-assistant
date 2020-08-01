@@ -265,12 +265,12 @@
         <translation>請填寫目標主機欄位</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="438"/>
+        <location filename="../mainwindow.cpp" line="440"/>
         <source>Loaded Drivers</source>
         <translation>已載入之驅動程式</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="447"/>
+        <location filename="../mainwindow.cpp" line="449"/>
         <source>Unloaded Drivers</source>
         <translation>未載入之驅動程式</translation>
     </message>
@@ -283,92 +283,92 @@
         <translation type="vanished">黑名單中的 Broadcom 驅動程式</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="462"/>
+        <location filename="../mainwindow.cpp" line="464"/>
         <source>Blocked Drivers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="484"/>
+        <location filename="../mainwindow.cpp" line="486"/>
         <source>Blocked Broadcom Drivers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="892"/>
+        <location filename="../mainwindow.cpp" line="894"/>
         <source>enabled</source>
         <translation>使用中</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="895"/>
+        <location filename="../mainwindow.cpp" line="897"/>
         <source>disabled</source>
         <translation>停用中</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="898"/>
+        <location filename="../mainwindow.cpp" line="900"/>
         <source>WiFi hardware switch is off</source>
         <translation>WiFi 硬體的開關乃關閉狀態</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="906"/>
+        <location filename="../mainwindow.cpp" line="908"/>
         <source>Locate the Windows driver you want to add</source>
         <translation>找出你想加入的 Windows 驅動程式</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="906"/>
+        <location filename="../mainwindow.cpp" line="908"/>
         <source>Windows installation information file (*.inf)</source>
         <translation>Windows 安裝資訊檔（*.inf）</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="937"/>
+        <location filename="../mainwindow.cpp" line="939"/>
         <source>*.sys file not found</source>
         <translation>找不到 *.sys 檔</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="937"/>
+        <location filename="../mainwindow.cpp" line="939"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
         <translation>*.sys 檔的位置必須和 *.inf 檔相同。找不到 %1 。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="946"/>
+        <location filename="../mainwindow.cpp" line="948"/>
         <source>sys file reference not found</source>
         <translation>找不到指涉 sys 檔的內容</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="946"/>
+        <location filename="../mainwindow.cpp" line="948"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
         <translation>分析該 inf 檔之後，無法確定該驅動程式的 sys 檔</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="965"/>
+        <location filename="../mainwindow.cpp" line="967"/>
         <source>Ndiswrapper driver removed.</source>
         <translation>已移除 Ndiswrapper 驅動程式。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="973"/>
+        <location filename="../mainwindow.cpp" line="975"/>
         <source>%1 Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1010"/>
+        <location filename="../mainwindow.cpp" line="1012"/>
         <source>About %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1011"/>
+        <location filename="../mainwindow.cpp" line="1013"/>
         <source>Version: </source>
         <translation>版本：</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1012"/>
+        <location filename="../mainwindow.cpp" line="1014"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
         <translation>本程式可在 MX Linux 中設定網路與排除障礙</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1014"/>
+        <location filename="../mainwindow.cpp" line="1016"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
         <translation>版權所有 (c) MEPIS LLC 暨 MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1015"/>
+        <location filename="../mainwindow.cpp" line="1017"/>
         <source>%1 License</source>
         <translation type="unfinished"></translation>
     </message>
@@ -402,48 +402,48 @@
         <translation>本程式必須以 root 身份來執行。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="507"/>
+        <location filename="../mainwindow.cpp" line="509"/>
         <source>Ndiswrapper is not installed</source>
         <translation>未安裝 Ndiswrapper</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="519"/>
+        <location filename="../mainwindow.cpp" line="521"/>
         <source>driver installed</source>
         <translation>驅動程式已安裝</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="527"/>
+        <location filename="../mainwindow.cpp" line="529"/>
         <source> and in use by </source>
         <translation>並且正被下述程序使用：</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="534"/>
+        <location filename="../mainwindow.cpp" line="536"/>
         <source>. Alternate driver: </source>
         <translation>。亦可改用此驅動程式：</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="611"/>
+        <location filename="../mainwindow.cpp" line="613"/>
         <source>Driver removed from blocklist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="612"/>
+        <location filename="../mainwindow.cpp" line="614"/>
         <source>Driver removed from blocklist.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="618"/>
-        <location filename="../mainwindow.cpp" line="619"/>
+        <location filename="../mainwindow.cpp" line="620"/>
+        <location filename="../mainwindow.cpp" line="621"/>
         <source>Module blocked</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="853"/>
+        <location filename="../mainwindow.cpp" line="855"/>
         <source>Unblock Driver</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="856"/>
+        <location filename="../mainwindow.cpp" line="858"/>
         <source>Block Driver</source>
         <translation type="unfinished"></translation>
     </message>
@@ -460,22 +460,22 @@
         <translation type="vanished">已將該模組列入黑名單</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="784"/>
+        <location filename="../mainwindow.cpp" line="786"/>
         <source>Installation successful</source>
         <translation>安裝成功</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="787"/>
+        <location filename="../mainwindow.cpp" line="789"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
         <translation>偵測到錯誤，無法編譯 ndiswrapper 驅動程式。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="790"/>
+        <location filename="../mainwindow.cpp" line="792"/>
         <source>Error detected, could not install ndiswrapper.</source>
         <translation>偵測到錯誤，無法安裝 ndiswrapper。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="802"/>
+        <location filename="../mainwindow.cpp" line="804"/>
         <source>Error encountered while removing Ndiswrapper</source>
         <translation>移除 Ndiswrapper 時發生錯誤</translation>
     </message>
@@ -488,26 +488,26 @@
         <translation type="vanished">將驅動程式列入黑名單</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="993"/>
+        <location filename="../mainwindow.cpp" line="995"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
         <translation>無法取消停用該設備。
 也許這個（這些）設備本來就未停用。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="995"/>
+        <location filename="../mainwindow.cpp" line="997"/>
         <source>WiFi devices unlocked.</source>
         <translation>取消停用該 WiFi 設備。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1038"/>
-        <location filename="../mainwindow.cpp" line="1039"/>
+        <location filename="../mainwindow.cpp" line="1040"/>
+        <location filename="../mainwindow.cpp" line="1041"/>
         <source>Driver loaded successfully</source>
         <translation>順利載入驅動程式</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1054"/>
-        <location filename="../mainwindow.cpp" line="1055"/>
+        <location filename="../mainwindow.cpp" line="1056"/>
+        <location filename="../mainwindow.cpp" line="1057"/>
         <source>Driver unloaded successfully</source>
         <translation>順利卸載驅動程式</translation>
     </message>
@@ -515,12 +515,12 @@ WiFi device(s) might already be unlocked.</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../mainwindow.cpp" line="636"/>
+        <location filename="../mainwindow.cpp" line="638"/>
         <source>Could not load </source>
         <translation>無法載入</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="667"/>
+        <location filename="../mainwindow.cpp" line="669"/>
         <source>Could not unload </source>
         <translation>無法卸載</translation>
     </message>

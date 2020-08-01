@@ -86,7 +86,7 @@ void MainWindow::refresh() {
         }
         labelRouterIP->setText(tr("IP address from router:") + " " + getIPfromRouter());
         labelIP->setText(tr("External IP address:") + " " + getIP());
-        labelInterface->setText(cmd.getCmdOut("route | grep '^default' | grep -o '[^ ]*$'"));
+        labelInterface->setText(cmd.getCmdOut("ip route | grep ^default | grep -Po '(?<=dev )(\\S+)'"));
         checkWifiAvailable();
         checkWifiEnabled();
         break;
@@ -1021,12 +1021,12 @@ void MainWindow::on_buttonAbout_clicked()
 
 QString MainWindow::getIP()
 {
-    return cmd.getCmdOut("wget -q -O - checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//'");
+    return cmd.getCmdOut("wget -qO - icanhazip.com");
 }
 
 QString MainWindow::getIPfromRouter()
 {
-    return cmd.getCmdOut("ifconfig | grep 'inet ' | sed -e 's/inet addr://' -e 's/ Bcast.*//'  -e 's/127.*//'  -e 's/\\s*//'");
+    return cmd.getCmdOut("ip a | awk '/127.0.0.1/ {next} /inet / {print $2}' | cut -d/ -f1");
 }
 
 void MainWindow::on_linuxDrvLoad_clicked()
