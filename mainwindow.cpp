@@ -865,7 +865,7 @@ bool MainWindow::checkSysFileExists(QDir searchPath, QString fileName, Qt::CaseS
 {
     QStringList fileList = searchPath.entryList(QStringList() << "*.SYS");
     bool found = false;
-    QStringList::Iterator it = fileList.begin();
+    auto it = fileList.constBegin();
     while (it != fileList.end()) {
         if ((*it).contains(fileName, cs)) {
             found = true;
