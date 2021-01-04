@@ -1,4 +1,4 @@
-help				usr/share/doc/mx-network-assistant
+help/*				usr/share/doc/mx-network-assistant
 icons/mx-network-assistant.png	usr/share/icons/hicolor/48x48/apps
 icons/mx-network-assistant.svg	usr/share/icons/hicolor/scalable/apps
 mx-network-assistant		usr/sbin
