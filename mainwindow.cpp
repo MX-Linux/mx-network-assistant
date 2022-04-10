@@ -41,10 +41,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     currentTab = Tab::Status;
     tabWidget->setCurrentIndex(Tab::Status);
-    tabWidget->removeTab(2); // remove Windows Drivers tab.
-
-    configurationChanges[0] = false;
-    configurationChanges[1] = false;
+    tabWidget->removeTab(2); // remove WindowsDrivers tab.
 
     pingProc  = new QProcess(this);
     traceProc = new QProcess(this);
@@ -93,12 +90,6 @@ void MainWindow::refresh() {
 //    case Tab::WindowsDrivers:
 //        on_windowsDrvDiagnosePushButton_clicked();
 //        break;
-    case Tab::Diagnostics:
-        break;
-    default:
-        bool changed = configurationChanges[0];
-        configurationChanges[0] = changed;
-        break;
     }
 }
 
@@ -950,12 +941,6 @@ void MainWindow::on_generalHelpPushButton_clicked()
 
 void MainWindow::on_tabWidget_currentChanged()
 {
-    int i = tabWidget->currentIndex();
-    if (i != currentTab) {
-        if (configurationChanges[currentTab])
-            configurationChanges[currentTab] = false;
-        currentTab = static_cast<Tab>(i);
-    }
     refresh();
 }
 
