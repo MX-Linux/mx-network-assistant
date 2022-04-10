@@ -38,8 +38,8 @@ MainWindow::MainWindow(QWidget* parent)
 
     hwUnblock->hide();
 
-    currentTab = 0;
-    tabWidget->setCurrentIndex(0);
+    currentTab = Tab::Status;
+    tabWidget->setCurrentIndex(Tab::Status);
 
     configurationChanges[0] = false;
     configurationChanges[1] = false;
@@ -72,12 +72,11 @@ bool MainWindow::replaceStringInFile(QString oldtext, QString newtext, QString f
 void MainWindow::refresh() {
     hwUnblock->hide();
     groupWifi->hide();
-    int i = tabWidget->currentIndex();
     QString out = cmd.getCmdOut("rfkill list 2>&1");
     qApp->processEvents();
 
-    switch (i) {
-    case 0: // Status
+    switch (tabWidget->currentIndex()) {
+    case Tab::Status:
         on_hwDiagnosePushButton_clicked();
         if (out == "Can't open RFKILL control device: No such file or directory")
             hwUnblock->hide();
@@ -89,15 +88,14 @@ void MainWindow::refresh() {
         checkWifiAvailable();
         checkWifiEnabled();
         break;
-    case 1: // Linux drivers
+    case Tab::LinuxDrivers:
         on_linuxDrvDiagnosePushButton_clicked();
         break;
-    case 2: // Windows drivers
+    case Tab::WindowsDrivers:
         on_windowsDrvDiagnosePushButton_clicked();
         break;
-    case 3: // Diagnostic
+    case Tab::Diagnostics:
         break;
-
     default:
         bool changed = configurationChanges[0];
         configurationChanges[0] = changed;
@@ -345,15 +343,10 @@ void MainWindow::on_pingButton_clicked()
     }
 }
 
-
-/////////////////////////////////////////////////////////////////////////
-// slots
-
 void MainWindow::show() {
     QDialog::show();
     refresh();
 }
-
 
 // Added
 void MainWindow::on_hwDiagnosePushButton_clicked()
@@ -400,9 +393,8 @@ void MainWindow::on_linuxDrvList_currentRowChanged(int currentRow )
         linuxDrvBlockPushButton->setEnabled(true);
         linuxDrvUnload->setEnabled(loadedModules.contains(linuxDrvList->currentItem()->text()));
         linuxDrvLoad->setEnabled(unloadedModules.contains(linuxDrvList->currentItem()->text()));
-        if (blockedModules.contains(linuxDrvList->currentItem()->text()) && !loadedModules.contains(linuxDrvList->currentItem()->text())){
+        if (blockedModules.contains(linuxDrvList->currentItem()->text()) && !loadedModules.contains(linuxDrvList->currentItem()->text()))
             linuxDrvLoad->setEnabled(true);
-        }
     } else {
         linuxDrvBlockPushButton->setEnabled(false);
         linuxDrvLoad->setEnabled(false);
@@ -427,9 +419,8 @@ void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
     completeKernelNetModules << "wl";
     for (int i = 0; i < loadedKernelModules.size(); ++i) {
         QString mod = loadedKernelModules.at(i);
-        if (completeKernelNetModules.contains(mod.left(mod.indexOf(' ')))) {
+        if (completeKernelNetModules.contains(mod.left(mod.indexOf(' '))))
             loadedModules.append(mod.left(mod.indexOf(' '))); //add to the QStringList of loadedModule
-        }
     }
 
     for (int i = 0; i < loadedModules.size(); ++i) {
@@ -477,9 +468,8 @@ void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
     inputBroadcomBlocklist.open(QFile::ReadOnly|QFile::Text);
     i = 0;
     while (!inputBroadcomBlocklist.atEnd()) {
-        if (i == 0) {
+        if (i == 0)
             new QListWidgetItem("---------" + tr("Blocked Broadcom Drivers") + "--------", linuxDrvList);
-        }
         i++;
         s = inputBroadcomBlocklist.readLine();
         QRegExp expr("^\\s*blacklist\\s*.*");
@@ -965,7 +955,7 @@ void MainWindow::on_tabWidget_currentChanged()
     if (i != currentTab) {
         if (configurationChanges[currentTab])
             configurationChanges[currentTab] = false;
-        currentTab = i;
+        currentTab = static_cast<Tab>(i);
     }
     refresh();
 }
