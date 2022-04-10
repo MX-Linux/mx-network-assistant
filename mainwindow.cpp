@@ -928,7 +928,7 @@ void MainWindow::on_windowsDrvRemovePushButton_clicked()
 
 void MainWindow::on_generalHelpPushButton_clicked()
 {
-    QString url = "/usr/share/doc/mx-network-assistant/help/mx-network-assistant.html";
+    QString url = "/usr/share/doc/mx-network-assistant/mx-network-assistant.html";
     displayDoc(url, tr("%1 Help").arg(this->windowTitle()), true);
 }
 

@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Sun, 10 Apr 2022 18:03:13 -0400
+Source: mx-network-assistant
+Architecture: source
+Version: 22.4
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Changes:
+ mx-network-assistant (22.4) mx; urgency=medium
+ .
+   * Remove Windows Drivers window since ndiswrapper is no longer available
+   * Fix text copy action
+Checksums-Sha1:
+ a23d50c016b15c2acc400154979588d98746cf31 682 mx-network-assistant_22.4.dsc
+ 1c9892342e10ea10380aafcfedba0f013b31c182 174288 mx-network-assistant_22.4.tar.xz
+ 2052bc4a9ed95295ac182d2451dc22c1735468c8 10761 mx-network-assistant_22.4_i386.buildinfo
+Checksums-Sha256:
+ 50ef44c6d56afc37115000a6da5cd3b9d8049ab93680f3cdca15a865e4b6dcb4 682 mx-network-assistant_22.4.dsc
+ a74a5a0f53219e3c79f5f27dcb5ef3494e87d708f9694e80de5e79f8b70ac398 174288 mx-network-assistant_22.4.tar.xz
+ 9fb6e9e6753ef42fa79a5126db3cce5850256ea64a92d1ed70048861c434257b 10761 mx-network-assistant_22.4_i386.buildinfo
+Files:
+ 62710228123956208d6af9b934392225 682 admin optional mx-network-assistant_22.4.dsc
+ d071d504eb2d797964daa685edb0698d 174288 admin optional mx-network-assistant_22.4.tar.xz
+ c525b4231ff21994ca98a984ebe8e251 10761 admin optional mx-network-assistant_22.4_i386.buildinfo
