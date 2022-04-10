@@ -20,11 +20,12 @@
 
 #include "mainwindow.h"
 #include "version.h"
+
+#include <QClipboard>
+#include <QDebug>
 #include <QFileDialog>
 #include <QMenu>
-#include <QClipboard>
-#include <QDesktopWidget>
-#include <QDebug>
+#include <QScreen>
 
 #include <unistd.h>
 #include <about.h>
@@ -695,12 +696,12 @@ void MainWindow::on_installNdiswrapper_clicked()
 {
     setCursor(QCursor(Qt::BusyCursor));
     if (installProc->state() != QProcess::NotRunning) installProc->kill();
-    installProc->start("apt-get update");
+    installProc->start("apt-get", {"update"});
     installOutputEdit->clear();
     installOutputEdit->show();
     installOutputEdit->resize(800, 600);
     // center output window
-    QRect screenGeometry = QApplication::desktop()->screenGeometry();
+    QRect screenGeometry = QApplication::screens().first()->geometry();
     int x = (screenGeometry.width()-installOutputEdit->width()) / 2;
     int y = (screenGeometry.height()-installOutputEdit->height()) / 2;
     installOutputEdit->move(x, y);
@@ -722,12 +723,12 @@ void MainWindow::on_uninstallNdiswrapper_clicked()
     if (installProc->state() != QProcess::NotRunning)
         installProc->kill();
     removeModule("ndiswrapper");
-    installProc->start("apt-get purge -y ndiswrapper-utils-1.9 ndiswrapper-dkms ndiswrapper-common");
+    installProc->start("apt-get", {"purge", "-y", "ndiswrapper-utils-1.9", "ndiswrapper-dkms", "ndiswrapper-common"});
     installOutputEdit->clear();
     installOutputEdit->show();
     installOutputEdit->resize(800, 600);
     // center output window
-    QRect screenGeometry = QApplication::desktop()->screenGeometry();
+    QRect screenGeometry = QApplication::screens().first()->geometry();
     int x = (screenGeometry.width()-installOutputEdit->width()) / 2;
     int y = (screenGeometry.height()-installOutputEdit->height()) / 2;
     installOutputEdit->move(x, y);
@@ -745,7 +746,7 @@ void MainWindow::aptUpdateFinished()
 {
     if (installProc->state() != QProcess::NotRunning)
         installProc->kill();
-    installProc->start("apt-get install -y ndiswrapper-utils-1.9 ndiswrapper-dkms");
+    installProc->start("apt-get", {"install", "-y", "ndiswrapper-utils-1.9", "ndiswrapper-dkms"});
     disconnect(installProc, SIGNAL(readyReadStandardOutput()), nullptr, nullptr);
     connect(installProc, SIGNAL(readyReadStandardOutput()), this, SLOT(writeInstallOutput()));
     disconnect(installProc, SIGNAL(finished(int)), nullptr, nullptr);
