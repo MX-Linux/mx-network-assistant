@@ -95,13 +95,15 @@ void MainWindow::refresh() {
 
 void MainWindow::on_cancelPing_clicked()
 {
-    if (pingProc->state() != QProcess::NotRunning) pingProc->kill();
+    if (pingProc->state() != QProcess::NotRunning)
+        pingProc->kill();
     cancelPing->setEnabled(false);
 }
 
 void MainWindow::on_cancelTrace_clicked()
 {
-    if (traceProc->state() != QProcess::NotRunning) traceProc->kill();
+    if (traceProc->state() != QProcess::NotRunning)
+        traceProc->kill();
     cancelTrace->setEnabled(false);
 }
 
@@ -298,7 +300,8 @@ void MainWindow::writePingOutput()
     QByteArray bytes = pingProc->readAllStandardOutput();
     const QStringList lines = QString(bytes).split("\n");
     for (const QString &line : lines)
-        if (!line.isEmpty()) pingOutputEdit->append(line);
+        if (!line.isEmpty())
+            pingOutputEdit->append(line);
 }
 
 void MainWindow::pingFinished()
@@ -429,18 +432,16 @@ void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
         unloaded->setForeground(Qt::blue);
     }
 
-    QFile InputBlockList(QString("/etc/modprobe.d/blacklist.conf"));
-    InputBlockList.open(QFile::ReadOnly|QFile::Text);
+    QFile inputBlockList(QString("/etc/modprobe.d/blacklist.conf"));
+    inputBlockList.open(QFile::ReadOnly|QFile::Text);
 
     QString driver;
     QString s;
     // add blocklisted modules to the list
-    int i = 0;
-    while (!InputBlockList.atEnd()) {
-        if (i == 0)
+    while (!inputBlockList.atEnd()) {
+        if (inputBlockList.pos() == 0)
             new QListWidgetItem("---------" + tr("Blocked Drivers") + " --------", linuxDrvList);
-        i++;
-        s = InputBlockList.readLine();
+        s = inputBlockList.readLine();
         QRegExp expr("^\\s*blacklist\\s*.*");
         if (expr.exactMatch(s)) {
             QString captured = expr.cap(0);
@@ -451,16 +452,14 @@ void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
             blockedModules.append(driver);
         }
     }
-    InputBlockList.close();
+    inputBlockList.close();
 
     // add blocklisted modules from /etc/modprobe.d/broadcom-sta-dkms.conf
     QFile inputBroadcomBlocklist(QString("/etc/modprobe.d/broadcom-sta-dkms.conf"));
     inputBroadcomBlocklist.open(QFile::ReadOnly|QFile::Text);
-    i = 0;
     while (!inputBroadcomBlocklist.atEnd()) {
-        if (i == 0)
+        if (inputBroadcomBlocklist.pos() == 0)
             new QListWidgetItem("---------" + tr("Blocked Broadcom Drivers") + "--------", linuxDrvList);
-        i++;
         s = inputBroadcomBlocklist.readLine();
         QRegExp expr("^\\s*blacklist\\s*.*");
         if (expr.exactMatch(s)) {
