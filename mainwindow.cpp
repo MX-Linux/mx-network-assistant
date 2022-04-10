@@ -51,12 +51,9 @@ MainWindow::MainWindow(QWidget *parent)
 
     installOutputEdit = new QTextEdit();
 
-    connect(hwList, SIGNAL(customContextMenuRequested(const QPoint &)),
-            SLOT(showContextMenuForHw(const QPoint &)));
-    connect(linuxDrvList, SIGNAL(customContextMenuRequested(const QPoint &)),
-            SLOT(showContextMenuForLinuxDrv(const QPoint &)));
-    connect(windowsDrvList, SIGNAL(customContextMenuRequested(const QPoint &)),
-            SLOT(showContextMenuForWindowsDrv(const QPoint &)));
+    connect(hwList, &QListWidget::customContextMenuRequested, this, &MainWindow::showContextMenuForHw);
+    connect(linuxDrvList, &QListWidget::customContextMenuRequested, this, &MainWindow::showContextMenuForLinuxDrv);
+    connect(windowsDrvList, &QListWidget::customContextMenuRequested, this, &MainWindow::showContextMenuForWindowsDrv);
 }
 
 MainWindow::~MainWindow() {
@@ -192,10 +189,10 @@ void MainWindow::showContextMenuForHw(const QPoint &pos)
 {
     QMenu contextMenu(this);
     QAction *copyAction = new QAction(tr("&Copy"), this);
-    connect(copyAction, SIGNAL(activated()), this, SLOT(hwListToClipboard()));
+    connect(copyAction, &QAction::triggered, this, &MainWindow::hwListToClipboard);
     copyAction->setShortcut(tr("Ctrl+C"));
     QAction *copyAllAction = new QAction(tr("Copy &All"), this);
-    connect(copyAllAction, SIGNAL(activated()) , this, SLOT(hwListFullToClipboard()));
+    connect(copyAllAction, &QAction::triggered, this, &MainWindow::hwListFullToClipboard);
     copyAllAction->setShortcut(tr("Ctrl+A"));
     contextMenu.addAction(copyAction);
     contextMenu.addAction(copyAllAction);
@@ -206,10 +203,10 @@ void MainWindow::showContextMenuForLinuxDrv(const QPoint &pos)
 {
     QMenu contextMenu(this);
     QAction *copyAction = new QAction(tr("&Copy"), this);
-    connect(copyAction, SIGNAL(activated()) , this, SLOT(linuxDrvListToClipboard()));
+    connect(copyAction, &QAction::triggered, this, &MainWindow::linuxDrvListToClipboard);
     copyAction->setShortcut(tr("Ctrl+C"));
     QAction *copyAllAction = new QAction(tr("Copy &All"), this);
-    connect(copyAllAction, SIGNAL(activated()) , this, SLOT(linuxDrvListFullToClipboard()));
+    connect(copyAllAction, &QAction::triggered, this, &MainWindow::linuxDrvListFullToClipboard);
     copyAllAction->setShortcut(tr("Ctrl+A"));
     contextMenu.addAction(copyAction);
     contextMenu.addAction(copyAllAction);
@@ -220,10 +217,10 @@ void MainWindow::showContextMenuForWindowsDrv(const QPoint &pos)
 {
     QMenu contextMenu(this);
     QAction *copyAction = new QAction(tr("&Copy"), this);
-    connect(copyAction, SIGNAL(activated()) , this, SLOT(windowsDrvListToClipboard()));
+    connect(copyAction, &QAction::triggered, this, &MainWindow::windowsDrvListToClipboard);
     copyAction->setShortcut(tr("Ctrl+C"));
     QAction *copyAllAction = new QAction(tr("Copy &All"), this);
-    connect(copyAllAction, SIGNAL(activated()) , this, SLOT(windowsDrvListFullToClipboard()));
+    connect(copyAllAction, &QAction::triggered, this, &MainWindow::windowsDrvListFullToClipboard);
     copyAllAction->setShortcut(tr("Ctrl+A"));
     contextMenu.addAction(copyAction);
     contextMenu.addAction(copyAllAction);
@@ -293,10 +290,10 @@ void MainWindow::on_tracerouteButton_clicked()
         if (traceProc->state() != QProcess::NotRunning) traceProc->kill();
 
         traceProc->start(program, arguments);
-        disconnect(traceProc, SIGNAL(readyReadStandardOutput()), nullptr, nullptr);
-        connect(traceProc, SIGNAL(readyReadStandardOutput()), this, SLOT(writeTraceOutput()));
-        disconnect(traceProc, SIGNAL(finished(int,QProcess::ExitStatus)), nullptr, nullptr);
-        connect(traceProc, SIGNAL(finished(int,QProcess::ExitStatus)), this, SLOT(tracerouteFinished()));
+        disconnect(traceProc, &QProcess::readyReadStandardOutput, nullptr, nullptr);
+        connect(traceProc, &QProcess::readyReadStandardOutput, this, &MainWindow::writeTraceOutput);
+        disconnect(traceProc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), nullptr, nullptr);
+        connect(traceProc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), this, &MainWindow::tracerouteFinished);
 
         clearTraceOutput->setEnabled(true);
         cancelTrace->setEnabled(true);
@@ -331,10 +328,10 @@ void MainWindow::on_pingButton_clicked()
 
         if (pingProc->state() != QProcess::NotRunning)  pingProc->kill();
         pingProc->start(program, arguments);
-        disconnect(pingProc, SIGNAL(readyReadStandardOutput()), nullptr, nullptr);
-        connect(pingProc, SIGNAL(readyReadStandardOutput()), this, SLOT(writePingOutput()));
-        disconnect(pingProc, SIGNAL(finished(int,QProcess::ExitStatus)), nullptr, nullptr);
-        connect(pingProc, SIGNAL(finished(int,QProcess::ExitStatus)), this, SLOT(pingFinished()));
+        disconnect(pingProc, &QProcess::readyReadStandardOutput, nullptr, nullptr);
+        connect(pingProc, &QProcess::readyReadStandardOutput, this, &MainWindow::writePingOutput);
+        disconnect(pingProc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), nullptr, nullptr);
+        connect(pingProc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), this, &MainWindow::pingFinished);
 
         //QStringList vals = getCmdOuts(QString("ping -c 4 -W 5 %1").arg(pingHostEdit->text()));
         //pingOutputEdit->append(vals.join("\n"));
@@ -708,10 +705,10 @@ void MainWindow::on_installNdiswrapper_clicked()
     // hide main window
     this->hide();
     installOutputEdit->raise();
-    disconnect(installProc, SIGNAL(readyReadStandardOutput()), nullptr, nullptr);
-    connect(installProc, SIGNAL(readyReadStandardOutput()), this, SLOT(writeInstallOutput()));
-    disconnect(installProc, SIGNAL(finished(int)), nullptr, nullptr);
-    connect(installProc, SIGNAL(finished(int)), this, SLOT(aptUpdateFinished()));
+    disconnect(installProc, &QProcess::readyReadStandardOutput, nullptr, nullptr);
+    connect(installProc, &QProcess::readyReadStandardOutput, this, &MainWindow::writeInstallOutput);
+    disconnect(installProc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), nullptr, nullptr);
+    connect(installProc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), this, &MainWindow::aptUpdateFinished);
 }
 
 
@@ -735,10 +732,10 @@ void MainWindow::on_uninstallNdiswrapper_clicked()
     // hide main window
     this->hide();
     installOutputEdit->raise();
-    disconnect(installProc, SIGNAL(readyReadStandardOutput()), nullptr, nullptr);
-    connect(installProc, SIGNAL(readyReadStandardOutput()), this, SLOT(writeInstallOutput()));
-    disconnect(installProc, SIGNAL(finished(int)), nullptr, nullptr);
-    connect(installProc, SIGNAL(finished(int)), this, SLOT(uninstallNdisFinished(int)));
+    disconnect(installProc, &QProcess::readyReadStandardOutput, nullptr, nullptr);
+    connect(installProc, &QProcess::readyReadStandardOutput, this, &MainWindow::writeInstallOutput);
+    disconnect(installProc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), nullptr, nullptr);
+    connect(installProc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), this, &MainWindow::uninstallNdisFinished);
 }
 
 // install NDISwrapper
@@ -747,10 +744,10 @@ void MainWindow::aptUpdateFinished()
     if (installProc->state() != QProcess::NotRunning)
         installProc->kill();
     installProc->start("apt-get", {"install", "-y", "ndiswrapper-utils-1.9", "ndiswrapper-dkms"});
-    disconnect(installProc, SIGNAL(readyReadStandardOutput()), nullptr, nullptr);
-    connect(installProc, SIGNAL(readyReadStandardOutput()), this, SLOT(writeInstallOutput()));
-    disconnect(installProc, SIGNAL(finished(int)), nullptr, nullptr);
-    connect(installProc, SIGNAL(finished(int)), this, SLOT(installFinished(int)));
+    disconnect(installProc, &QProcess::readyReadStandardOutput, nullptr, nullptr);
+    connect(installProc, &QProcess::readyReadStandardOutput, this, &MainWindow::writeInstallOutput);
+    disconnect(installProc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), nullptr, nullptr);
+    connect(installProc, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), this, &MainWindow::installFinished);
 }
 
 // finished ndiswrapper install
