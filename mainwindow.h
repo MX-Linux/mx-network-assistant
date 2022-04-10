@@ -33,7 +33,7 @@ enum Tab {Status, LinuxDrivers, WindowsDrivers, Diagnostics};
 class MainWindow : public QDialog, public Ui::MainWindow {
     Q_OBJECT
 public:
-    MainWindow(QWidget* parent = nullptr);
+    MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
     QString getIP();
