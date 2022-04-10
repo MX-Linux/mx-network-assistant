@@ -93,13 +93,13 @@ protected:
     QStringList unloadedModules;
     QTextEdit *installOutputEdit;
     Tab currentTab;
-    bool blockModule(QString module);
-    bool configurationChanges[5];
     bool driverBlocklisted;
-    bool installModule(QString module);
     bool internetConnection;
-    bool loadModule(QString module);
     bool ndiswrapBlocklisted;
+
+    bool blockModule(QString module);
+    bool installModule(QString module);
+    bool loadModule(QString module);
     bool removable(QString module);
     bool removeModule(QString module);
     bool removeStart(QString module);
