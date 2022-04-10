@@ -30,7 +30,7 @@
 #include <unistd.h>
 #include <about.h>
 
-MainWindow::MainWindow(QWidget* parent)
+MainWindow::MainWindow(QWidget *parent)
     : QDialog(parent) {
     qDebug() << "Program Version:" << VERSION;
     setupUi(this);
@@ -126,7 +126,7 @@ void MainWindow::hwListToClipboard()
 {
     if (hwList->currentRow() != -1) {
         QClipboard *clipboard = QApplication::clipboard();
-        QListWidgetItem* currentElement = hwList->currentItem();
+        QListWidgetItem *currentElement = hwList->currentItem();
         clipboard->setText(currentElement->text());
     }
 }
@@ -137,7 +137,7 @@ void MainWindow::hwListFullToClipboard()
         QClipboard *clipboard = QApplication::clipboard();
         QString elementList = "";
         for (int i = 0; i < hwList->count(); i++) {
-            QListWidgetItem* currentElement = hwList->item(i);
+            QListWidgetItem *currentElement = hwList->item(i);
             elementList += currentElement->text() + "\n";
         }
         clipboard->setText(elementList);
@@ -148,7 +148,7 @@ void MainWindow::linuxDrvListToClipboard()
 {
     if (linuxDrvList->currentRow() != -1) {
         QClipboard *clipboard = QApplication::clipboard();
-        QListWidgetItem* currentElement = linuxDrvList->currentItem();
+        QListWidgetItem *currentElement = linuxDrvList->currentItem();
         clipboard->setText(currentElement->text());
     }
 }
@@ -159,7 +159,7 @@ void MainWindow::linuxDrvListFullToClipboard()
         QClipboard *clipboard = QApplication::clipboard();
         QString elementList = "";
         for (int i = 0; i < linuxDrvList->count(); i++) {
-            QListWidgetItem* currentElement = linuxDrvList->item(i);
+            QListWidgetItem *currentElement = linuxDrvList->item(i);
             elementList += currentElement->text() + "\n";
         }
         clipboard->setText(elementList);
@@ -170,7 +170,7 @@ void MainWindow::windowsDrvListToClipboard()
 {
     if (linuxDrvList->currentRow() != -1) {
         QClipboard *clipboard = QApplication::clipboard();
-        QListWidgetItem* currentElement = windowsDrvList->currentItem();
+        QListWidgetItem *currentElement = windowsDrvList->currentItem();
         clipboard->setText(currentElement->text());
     }
 }
@@ -181,7 +181,7 @@ void MainWindow::windowsDrvListFullToClipboard()
         QClipboard *clipboard = QApplication::clipboard();
         QString elementList = "";
         for (int i = 0; i < windowsDrvList->count(); i++) {
-            QListWidgetItem* currentElement = windowsDrvList->item(i);
+            QListWidgetItem *currentElement = windowsDrvList->item(i);
             elementList += currentElement->text() + "\n";
         }
         clipboard->setText(elementList);
@@ -191,10 +191,10 @@ void MainWindow::windowsDrvListFullToClipboard()
 void MainWindow::showContextMenuForHw(const QPoint &pos)
 {
     QMenu contextMenu(this);
-    QAction * copyAction = new QAction(tr("&Copy"), this);
-    connect(copyAction, SIGNAL(activated()) , this, SLOT(hwListToClipboard()));
+    QAction *copyAction = new QAction(tr("&Copy"), this);
+    connect(copyAction, SIGNAL(activated()), this, SLOT(hwListToClipboard()));
     copyAction->setShortcut(tr("Ctrl+C"));
-    QAction * copyAllAction = new QAction(tr("Copy &All"), this);
+    QAction *copyAllAction = new QAction(tr("Copy &All"), this);
     connect(copyAllAction, SIGNAL(activated()) , this, SLOT(hwListFullToClipboard()));
     copyAllAction->setShortcut(tr("Ctrl+A"));
     contextMenu.addAction(copyAction);
@@ -205,10 +205,10 @@ void MainWindow::showContextMenuForHw(const QPoint &pos)
 void MainWindow::showContextMenuForLinuxDrv(const QPoint &pos)
 {
     QMenu contextMenu(this);
-    QAction * copyAction = new QAction(tr("&Copy"), this);
+    QAction *copyAction = new QAction(tr("&Copy"), this);
     connect(copyAction, SIGNAL(activated()) , this, SLOT(linuxDrvListToClipboard()));
     copyAction->setShortcut(tr("Ctrl+C"));
-    QAction * copyAllAction = new QAction(tr("Copy &All"), this);
+    QAction *copyAllAction = new QAction(tr("Copy &All"), this);
     connect(copyAllAction, SIGNAL(activated()) , this, SLOT(linuxDrvListFullToClipboard()));
     copyAllAction->setShortcut(tr("Ctrl+A"));
     contextMenu.addAction(copyAction);
@@ -219,10 +219,10 @@ void MainWindow::showContextMenuForLinuxDrv(const QPoint &pos)
 void MainWindow::showContextMenuForWindowsDrv(const QPoint &pos)
 {
     QMenu contextMenu(this);
-    QAction * copyAction = new QAction(tr("&Copy"), this);
+    QAction *copyAction = new QAction(tr("&Copy"), this);
     connect(copyAction, SIGNAL(activated()) , this, SLOT(windowsDrvListToClipboard()));
     copyAction->setShortcut(tr("Ctrl+C"));
-    QAction * copyAllAction = new QAction(tr("Copy &All"), this);
+    QAction *copyAllAction = new QAction(tr("Copy &All"), this);
     connect(copyAllAction, SIGNAL(activated()) , this, SLOT(windowsDrvListFullToClipboard()));
     copyAllAction->setShortcut(tr("Ctrl+A"));
     contextMenu.addAction(copyAction);
@@ -559,7 +559,7 @@ bool MainWindow::blockModule(QString module)
 void MainWindow::on_linuxDrvBlockPushButton_clicked()
 {
     if (linuxDrvList->currentRow() != -1) {
-        QListWidgetItem* currentDriver = linuxDrvList->currentItem();
+        QListWidgetItem *currentDriver = linuxDrvList->currentItem();
         QString driver = currentDriver->text();
         driver = driver.left(driver.indexOf(" "));
         if (driverBlocklisted) {
@@ -804,7 +804,7 @@ void MainWindow::updateDriverStatus()
     QString driver;
 
     if (linuxDrvList->currentRow() != -1) {
-        QListWidgetItem* currentDriver = linuxDrvList->currentItem();
+        QListWidgetItem *currentDriver = linuxDrvList->currentItem();
         driver = currentDriver->text();
         driver = driver.left(driver.indexOf(" "));
     }
@@ -935,7 +935,7 @@ void MainWindow::on_windowsDrvRemovePushButton_clicked()
 {
     if (windowsDrvList->currentRow() != -1)
     {
-        QListWidgetItem* currentDriver = windowsDrvList->currentItem();
+        QListWidgetItem *currentDriver = windowsDrvList->currentItem();
         QString driver = currentDriver->text();
         QString cmd_str = QString("ndiswrapper -r %1").arg(driver.left(driver.indexOf(" ")));
         cmd.run(cmd_str);
@@ -1004,7 +1004,7 @@ QString MainWindow::getIPfromRouter()
 void MainWindow::on_linuxDrvLoad_clicked()
 {
     if (linuxDrvList->currentRow() != -1) {
-        QListWidgetItem* currentDriver = linuxDrvList->currentItem();
+        QListWidgetItem *currentDriver = linuxDrvList->currentItem();
         QString driver = currentDriver->text();
         driver = driver.left(driver.indexOf(" "));
         if (loadModule(driver)) {
@@ -1019,7 +1019,7 @@ void MainWindow::on_linuxDrvLoad_clicked()
 void MainWindow::on_linuxDrvUnload_clicked()
 {
     if (linuxDrvList->currentRow() != -1) {
-        QListWidgetItem* currentDriver = linuxDrvList->currentItem();
+        QListWidgetItem *currentDriver = linuxDrvList->currentItem();
         QString driver = currentDriver->text();
         driver = driver.left(driver.indexOf(" "));
         if ((removable(driver)) && !unloadedModules.contains(driver)) {
