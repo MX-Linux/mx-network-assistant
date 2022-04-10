@@ -110,7 +110,6 @@ void MainWindow::on_cancelTrace_clicked()
 void MainWindow::on_clearPingOutput_clicked()
 {
     pingOutputEdit->clear();
-    clearPingOutput->setEnabled(false);
 }
 
 void MainWindow::hwListToClipboard()
@@ -224,7 +223,6 @@ void MainWindow::showContextMenuForWindowsDrv(const QPoint &pos)
 void MainWindow::on_clearTraceOutput_clicked()
 {
     tracerouteOutputEdit->clear();
-    clearTraceOutput->setEnabled(false);
 }
 
 void MainWindow::writeTraceOutput()
