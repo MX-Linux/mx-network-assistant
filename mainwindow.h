@@ -36,16 +36,14 @@ public:
     MainWindow(QWidget* parent = nullptr);
     ~MainWindow();
 
-    static bool replaceStringInFile(QString oldtext, QString newtext, QString filepath);
     QString getIP();
     QString getIPfromRouter();
-
-    void refresh(); // common
-    void refreshStatus(); // special
-
     bool checkSysFileExists(QDir searchPath, QString fileName, Qt::CaseSensitivity cs);
     bool checkWifiAvailable();
     bool checkWifiEnabled();
+    static bool replaceStringInFile(QString oldtext, QString newtext, QString filepath);
+    void refresh(); // common
+    void refreshStatus(); // special
 
 public slots:
     virtual void aptUpdateFinished();
@@ -86,12 +84,14 @@ public slots:
     virtual void writeTraceOutput();
 
 protected:
-    QTextEdit *installOutputEdit;
-
+    QProcess *installProc;
+    QProcess *pingProc;
+    QProcess *traceProc;
     QStringList blockedModules;
     QStringList broadcomModules;
     QStringList loadedModules;
     QStringList unloadedModules;
+    QTextEdit *installOutputEdit;
     Tab currentTab;
     bool blockModule(QString module);
     bool configurationChanges[5];
@@ -104,10 +104,6 @@ protected:
     bool removeModule(QString module);
     bool removeStart(QString module);
     void updateDriverStatus();
-
-    QProcess *pingProc;
-    QProcess *traceProc;
-    QProcess *installProc;
 
 private slots:
     void on_installNdiswrapper_clicked();
