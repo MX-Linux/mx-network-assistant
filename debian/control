@@ -16,7 +16,8 @@ Depends: menu,
          rfkill,
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: wget
+Recommends: wget,
+            traceroute
 Replaces: mx-broadcom-manager
 Provides: mx-broadcom-manager
 Conflicts: mx-broadcom-manager
