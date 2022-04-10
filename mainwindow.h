@@ -28,6 +28,8 @@
 
 #include "cmd.h"
 
+enum Tab {Status, LinuxDrivers, WindowsDrivers, Diagnostics};
+
 class MainWindow : public QDialog, public Ui::MainWindow {
     Q_OBJECT
 public:
@@ -37,83 +39,75 @@ public:
     static bool replaceStringInFile(QString oldtext, QString newtext, QString filepath);
     QString getIP();
     QString getIPfromRouter();
-    // common
-    void refresh();
-    // special
-    void refreshStatus();
+
+    void refresh(); // common
+    void refreshStatus(); // special
 
     bool checkSysFileExists(QDir searchPath, QString fileName, Qt::CaseSensitivity cs);
     bool checkWifiAvailable();
     bool checkWifiEnabled();
 
 public slots:
-    virtual void show();
-
-    virtual void on_tabWidget_currentChanged();
-    virtual void on_buttonCancel_clicked();
+    virtual void aptUpdateFinished();
+    virtual void hwListFullToClipboard();
+    virtual void hwListToClipboard();
+    virtual void installFinished(int);
+    virtual void linuxDrvListFullToClipboard();
+    virtual void linuxDrvListToClipboard();
     virtual void on_buttonAbout_clicked();
-
-    virtual void on_generalHelpPushButton_clicked();
-    virtual void on_hwDiagnosePushButton_clicked();
-    virtual void on_linuxDrvDiagnosePushButton_clicked();
-    virtual void on_windowsDrvDiagnosePushButton_clicked();
-    virtual void on_linuxDrvList_currentRowChanged(int currentRow );
-    virtual void on_linuxDrvBlockPushButton_clicked();
-    virtual void on_windowsDrvAddPushButton_clicked() ;
-    virtual void on_windowsDrvRemovePushButton_clicked();
-    virtual void on_clearPingOutput_clicked();
-    virtual void on_clearTraceOutput_clicked();
-    virtual void on_tracerouteButton_clicked();
-    virtual void on_pingButton_clicked();
+    virtual void on_buttonCancel_clicked();
     virtual void on_cancelPing_clicked();
     virtual void on_cancelTrace_clicked();
-    virtual void writePingOutput();
-    virtual void writeTraceOutput();
-    virtual void writeInstallOutput();
-    virtual void pingFinished();
-    virtual void tracerouteFinished();
-    virtual void aptUpdateFinished();
-    virtual void installFinished(int);
-    virtual void uninstallNdisFinished(int);
+    virtual void on_clearPingOutput_clicked();
+    virtual void on_clearTraceOutput_clicked();
+    virtual void on_generalHelpPushButton_clicked();
+    virtual void on_hwDiagnosePushButton_clicked();
+    virtual void on_linuxDrvBlockPushButton_clicked();
+    virtual void on_linuxDrvDiagnosePushButton_clicked();
+    virtual void on_linuxDrvList_currentRowChanged(int currentRow );
+    virtual void on_pingButton_clicked();
+    virtual void on_tabWidget_currentChanged();
+    virtual void on_tracerouteButton_clicked();
+    virtual void on_windowsDrvAddPushButton_clicked() ;
+    virtual void on_windowsDrvDiagnosePushButton_clicked();
     virtual void on_windowsDrvList_currentRowChanged(int row);
-    virtual void hwListToClipboard();
-    virtual void hwListFullToClipboard();
-    virtual void linuxDrvListToClipboard();
-    virtual void linuxDrvListFullToClipboard();
-    virtual void windowsDrvListToClipboard();
-    virtual void windowsDrvListFullToClipboard();
-
+    virtual void on_windowsDrvRemovePushButton_clicked();
+    virtual void pingFinished();
+    virtual void show();
     virtual void showContextMenuForHw(const QPoint &pos);
     virtual void showContextMenuForLinuxDrv(const QPoint &pos);
     virtual void showContextMenuForWindowsDrv(const QPoint &pos);
+    virtual void tracerouteFinished();
+    virtual void uninstallNdisFinished(int);
+    virtual void windowsDrvListFullToClipboard();
+    virtual void windowsDrvListToClipboard();
+    virtual void writeInstallOutput();
+    virtual void writePingOutput();
+    virtual void writeTraceOutput();
 
 protected:
-    /*$PROTECTED_FUNCTIONS$*/
     QTextEdit *installOutputEdit;
 
-    void updateDriverStatus();
-    bool loadModule(QString module);
-    bool removeModule(QString module);
-    bool removeStart(QString module);
-    bool removable(QString module);
-    bool configurationChanges[5];
-    int currentTab;
-    bool blockModule(QString module);
-    bool installModule(QString module);
-    bool internetConnection;
-    bool ndiswrapBlocklisted;
-    bool driverBlocklisted;
-    QStringList loadedModules;
-    QStringList unloadedModules;
     QStringList blockedModules;
     QStringList broadcomModules;
+    QStringList loadedModules;
+    QStringList unloadedModules;
+    Tab currentTab;
+    bool blockModule(QString module);
+    bool configurationChanges[5];
+    bool driverBlocklisted;
+    bool installModule(QString module);
+    bool internetConnection;
+    bool loadModule(QString module);
+    bool ndiswrapBlocklisted;
+    bool removable(QString module);
+    bool removeModule(QString module);
+    bool removeStart(QString module);
+    void updateDriverStatus();
 
     QProcess *pingProc;
     QProcess *traceProc;
     QProcess *installProc;
-
-protected slots:
-    /*$PROTECTED_SLOTS$*/
 
 private slots:
     void on_installNdiswrapper_clicked();
