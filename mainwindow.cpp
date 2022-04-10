@@ -41,6 +41,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     currentTab = Tab::Status;
     tabWidget->setCurrentIndex(Tab::Status);
+    tabWidget->removeTab(2); // remove Windows Drivers tab.
 
     configurationChanges[0] = false;
     configurationChanges[1] = false;
@@ -89,9 +90,9 @@ void MainWindow::refresh() {
     case Tab::LinuxDrivers:
         on_linuxDrvDiagnosePushButton_clicked();
         break;
-    case Tab::WindowsDrivers:
-        on_windowsDrvDiagnosePushButton_clicked();
-        break;
+//    case Tab::WindowsDrivers:
+//        on_windowsDrvDiagnosePushButton_clicked();
+//        break;
     case Tab::Diagnostics:
         break;
     default:
