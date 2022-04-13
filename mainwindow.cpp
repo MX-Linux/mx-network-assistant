@@ -52,13 +52,21 @@ MainWindow::MainWindow(QWidget *parent)
 
     installOutputEdit = new QTextEdit();
 
+    pushDisable->setDisabled(true);
+    pushEnable->setDisabled(true);
+
     connect(hwList, &QTreeWidget::customContextMenuRequested, this, &MainWindow::showContextMenuForHw);
     connect(linuxDrvList, &QListWidget::customContextMenuRequested, this, &MainWindow::showContextMenuForLinuxDrv);
     connect(windowsDrvList, &QListWidget::customContextMenuRequested, this, &MainWindow::showContextMenuForWindowsDrv);
-
     connect(hwList, &QTreeWidget::itemSelectionChanged, this, [this]() {
+        if (!hwList->currentItem()->isSelected()) {
+            pushEnable->setEnabled(false);
+            pushDisable->setEnabled(false);
+            return;
+        }
         pushEnable->setEnabled(!hwList->currentItem()->data(Col::Enabled, Qt::UserRole).toBool());
         pushDisable->setEnabled(hwList->currentItem()->data(Col::Enabled, Qt::UserRole).toBool()); });
+
     tabWidget->setTabIcon(Tab::Status, QIcon::fromTheme("emblem-documents", QIcon(":/icons/emblem-documents.svg")));
 }
 
@@ -76,6 +84,7 @@ bool MainWindow::replaceStringInFile(QString oldtext, QString newtext, QString f
 void MainWindow::refresh() {
     hwUnblock->hide();
     groupWifi->hide();
+    hwDiagnosePushButton->setEnabled(true);
     QString out = cmd.getCmdOut("rfkill list 2>&1");
     qApp->processEvents();
 
@@ -1030,12 +1039,18 @@ void MainWindow::on_linuxDrvUnload_clicked()
 
 void MainWindow::on_pushEnable_clicked()
 {
+    pushEnable->setEnabled(false);
+    pushDisable->setEnabled(false);
+    hwDiagnosePushButton->setEnabled(false);
     cmd.run("ip link set " + hwList->currentItem()->text(Col::Interface) + " up");
     refresh();
 }
 
 void MainWindow::on_pushDisable_clicked()
 {
+    pushEnable->setEnabled(false);
+    pushDisable->setEnabled(false);
+    hwDiagnosePushButton->setEnabled(false);
     cmd.run("ip link set " + hwList->currentItem()->text(Col::Interface) + " down");
     refresh();
 }

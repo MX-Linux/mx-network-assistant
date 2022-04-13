@@ -1,3 +1,9 @@
+mx-network-assistant (22.4.02) mx; urgency=medium
+
+  * Disable buttons while the interface is taken up/down
+
+ -- Adrian <adrian@mxlinux.org>  Wed, 13 Apr 2022 16:27:14 -0400
+
 mx-network-assistant (22.4.01) mx; urgency=medium
 
   * List network devices using 'lshw' program (should list more devices than 'lsusb' and 'lspci').
