@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 13 Apr 2022 00:50:15 -0400
+Source: mx-network-assistant
+Architecture: source
+Version: 22.4.01
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Changes:
+ mx-network-assistant (22.4.01) mx; urgency=medium
+ .
+   * List network devices using 'lshw' program (should list more devices than 'lsusb' and 'lspci').
+   * Add Enable/Disable buttons for selected device.
+   * Display the enabled status of the device.
+   * Display device info in columns.
+Checksums-Sha1:
+ f2eb4b5802f585193e5c33b283a94356a42def1c 694 mx-network-assistant_22.4.01.dsc
+ 9a26209161eb3b1f6acc8a2f2bca4856f751f5fb 175556 mx-network-assistant_22.4.01.tar.xz
+ 750dc2859f60e416c6da201181c47d134bdeea4f 10776 mx-network-assistant_22.4.01_i386.buildinfo
+Checksums-Sha256:
+ 53e36ff4bb451d9e2ac2a3a753c27756cf6f68d7b5b1100c1d635fd5e68ff298 694 mx-network-assistant_22.4.01.dsc
+ 9b702507024e78aa780922e852496203cb794ba016427e43e81210f98f60a5a9 175556 mx-network-assistant_22.4.01.tar.xz
+ 095cdc5400aff8ac30e08e25307b51420db3f065cbb170e19522c9d7aad9241a 10776 mx-network-assistant_22.4.01_i386.buildinfo
+Files:
+ 6712eba7bf95f2334b5aa1fc7d4b0d5e 694 admin optional mx-network-assistant_22.4.01.dsc
+ 7b00c1e53406fa0df12f3f4f8f4836f4 175556 admin optional mx-network-assistant_22.4.01.tar.xz
+ 011a5620e011203b546e0fd397daa676 10776 admin optional mx-network-assistant_22.4.01_i386.buildinfo
