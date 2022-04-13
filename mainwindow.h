@@ -29,6 +29,7 @@
 #include "cmd.h"
 
 enum Tab {Status, LinuxDrivers, Diagnostics}; // WindowsDrivers is removed in constructor
+enum Col {Enabled, Interface, Description, Vendor, Product, Driver};
 
 class MainWindow : public QDialog, public Ui::MainWindow {
     Q_OBJECT
@@ -42,8 +43,7 @@ public:
     bool checkWifiAvailable();
     bool checkWifiEnabled();
     static bool replaceStringInFile(QString oldtext, QString newtext, QString filepath);
-    void refresh(); // common
-    void refreshStatus(); // special
+    void refresh();
 
 public slots:
     virtual void aptUpdateFinished();
@@ -106,11 +106,13 @@ protected:
     void updateDriverStatus();
 
 private slots:
-    void on_installNdiswrapper_clicked();
-    void on_uninstallNdiswrapper_clicked();
     void on_hwUnblock_clicked();
+    void on_installNdiswrapper_clicked();
     void on_linuxDrvLoad_clicked();
     void on_linuxDrvUnload_clicked();
+    void on_pushDisable_clicked();
+    void on_pushEnable_clicked();
+    void on_uninstallNdiswrapper_clicked();
 
 private:
     Cmd cmd;

@@ -11,7 +11,8 @@ Vcs-Git: git://github.com/AdrianTM/mx-network-assistant
 
 Package: mx-network-assistant
 Architecture: any
-Depends: menu,
+Depends: lshw,
+         menu,
          mx-viewer | xdg-utils,
          rfkill,
          ${misc:Depends},
