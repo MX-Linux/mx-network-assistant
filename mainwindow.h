@@ -29,7 +29,7 @@
 #include "cmd.h"
 
 enum Tab {Status, LinuxDrivers, Diagnostics}; // WindowsDrivers is removed in constructor
-enum Col {Enabled, Interface, Description, Vendor, Product, Driver};
+enum Col {Enabled, Interface, Driver, Description, Vendor, Product};
 
 class MainWindow : public QDialog, public Ui::MainWindow {
     Q_OBJECT
