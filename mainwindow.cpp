@@ -126,10 +126,10 @@ void MainWindow::hwListToClipboard()
         QClipboard *clipboard = QApplication::clipboard();
         QTreeWidgetItem *item = hwList->currentItem();
         clipboard->setText(tr("Interface: %1").arg(item->text(Col::Interface)) + "\t" +
+                           tr("Driver: %1").arg(item->text(Col::Driver)) + "\t" +
                            tr("Description: %1").arg(item->text(Col::Description)) + "\t" +
                            tr("Product: %1").arg(item->text(Col::Product)) + "\t" +
                            tr("Vendor: %1").arg(item->text(Col::Vendor)) +"\t" +
-                           tr("Driver: %1").arg(item->text(Col::Driver)) + "\t" +
                            tr("Enabled: %1").arg(item->data(Col::Enabled, Qt::UserRole).toString()));
     }
 }
@@ -141,10 +141,10 @@ void MainWindow::hwListFullToClipboard()
         QString list;
         for (QTreeWidgetItemIterator it(hwList); *it; ++it) {
             list += tr("Interface: %1").arg((*it)->text(Col::Interface)) + "\t" +
+                    tr("Driver: %1").arg((*it)->text(Col::Driver)) + "\t" +
                     tr("Description: %1").arg((*it)->text(Col::Description)) + "\t" +
                     tr("Product: %1").arg((*it)->text(Col::Product)) + "\t" +
                     tr("Vendor: %1").arg((*it)->text(Col::Vendor)) +"\t" +
-                    tr("Driver: %1").arg((*it)->text(Col::Driver)) + "\t" +
                     tr("Enabled: %1").arg((*it)->data(Col::Enabled, Qt::UserRole).toString()) + "\n";
         }
         clipboard->setText(list);

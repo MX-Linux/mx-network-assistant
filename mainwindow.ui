@@ -365,7 +365,7 @@
              <bool>true</bool>
             </property>
             <property name="columnCount">
-             <number>5</number>
+             <number>6</number>
             </property>
             <column>
              <property name="text">
@@ -375,6 +375,11 @@
             <column>
              <property name="text">
               <string>Interface</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Driver</string>
              </property>
             </column>
             <column>
