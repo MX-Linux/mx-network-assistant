@@ -24,6 +24,9 @@
 #include <QClipboard>
 #include <QDebug>
 #include <QFileDialog>
+#include <QJsonArray>
+#include <QJsonDocument>
+#include <QJsonObject>
 #include <QMenu>
 #include <QScreen>
 
@@ -49,9 +52,14 @@ MainWindow::MainWindow(QWidget *parent)
 
     installOutputEdit = new QTextEdit();
 
-    connect(hwList, &QListWidget::customContextMenuRequested, this, &MainWindow::showContextMenuForHw);
+    connect(hwList, &QTreeWidget::customContextMenuRequested, this, &MainWindow::showContextMenuForHw);
     connect(linuxDrvList, &QListWidget::customContextMenuRequested, this, &MainWindow::showContextMenuForLinuxDrv);
     connect(windowsDrvList, &QListWidget::customContextMenuRequested, this, &MainWindow::showContextMenuForWindowsDrv);
+
+    connect(hwList, &QTreeWidget::itemSelectionChanged, this, [this]() {
+        pushEnable->setEnabled(!hwList->currentItem()->data(Col::Enabled, Qt::UserRole).toBool());
+        pushDisable->setEnabled(hwList->currentItem()->data(Col::Enabled, Qt::UserRole).toBool()); });
+    tabWidget->setTabIcon(Tab::Status, QIcon::fromTheme("emblem-documents", QIcon(":/icons/emblem-documents.svg")));
 }
 
 MainWindow::~MainWindow() {
@@ -114,23 +122,32 @@ void MainWindow::on_clearPingOutput_clicked()
 
 void MainWindow::hwListToClipboard()
 {
-    if (hwList->currentRow() != -1) {
+    if (hwList->currentItem()) {
         QClipboard *clipboard = QApplication::clipboard();
-        QListWidgetItem *currentElement = hwList->currentItem();
-        clipboard->setText(currentElement->text());
+        QTreeWidgetItem *item = hwList->currentItem();
+        clipboard->setText(tr("Interface: %1").arg(item->text(Col::Interface)) + "\t" +
+                           tr("Description: %1").arg(item->text(Col::Description)) + "\t" +
+                           tr("Product: %1").arg(item->text(Col::Product)) + "\t" +
+                           tr("Vendor: %1").arg(item->text(Col::Vendor)) +"\t" +
+                           tr("Driver: %1").arg(item->text(Col::Driver)) + "\t" +
+                           tr("Enabled: %1").arg(item->data(Col::Enabled, Qt::UserRole).toString()));
     }
 }
 
 void MainWindow::hwListFullToClipboard()
 {
-    if (hwList->count() > -1) {
+    if (hwList->topLevelItemCount() > 0) {
         QClipboard *clipboard = QApplication::clipboard();
-        QString elementList = "";
-        for (int i = 0; i < hwList->count(); i++) {
-            QListWidgetItem *currentElement = hwList->item(i);
-            elementList += currentElement->text() + "\n";
+        QString list;
+        for (QTreeWidgetItemIterator it(hwList); *it; ++it) {
+            list += tr("Interface: %1").arg((*it)->text(Col::Interface)) + "\t" +
+                    tr("Description: %1").arg((*it)->text(Col::Description)) + "\t" +
+                    tr("Product: %1").arg((*it)->text(Col::Product)) + "\t" +
+                    tr("Vendor: %1").arg((*it)->text(Col::Vendor)) +"\t" +
+                    tr("Driver: %1").arg((*it)->text(Col::Driver)) + "\t" +
+                    tr("Enabled: %1").arg((*it)->data(Col::Enabled, Qt::UserRole).toString()) + "\n";
         }
-        clipboard->setText(elementList);
+        clipboard->setText(list);
     }
 }
 
@@ -145,7 +162,7 @@ void MainWindow::linuxDrvListToClipboard()
 
 void MainWindow::linuxDrvListFullToClipboard()
 {
-    if (hwList->count() > -1) {
+    if (hwList->topLevelItemCount() > 0) {
         QClipboard *clipboard = QApplication::clipboard();
         QString elementList = "";
         for (int i = 0; i < linuxDrvList->count(); i++) {
@@ -167,7 +184,7 @@ void MainWindow::windowsDrvListToClipboard()
 
 void MainWindow::windowsDrvListFullToClipboard()
 {
-    if (hwList->count() > -1) {
+    if (hwList->topLevelItemCount() > 0) {
         QClipboard *clipboard = QApplication::clipboard();
         QString elementList = "";
         for (int i = 0; i < windowsDrvList->count(); i++) {
@@ -340,38 +357,42 @@ void MainWindow::show() {
 void MainWindow::on_hwDiagnosePushButton_clicked()
 {
     hwList->clear();
+    const auto &jsonDoc = QJsonDocument::fromJson(cmd.getCmdOut("lshw -disable IDE -disable SCSI -class network -json").toUtf8());
+    const auto &jsonArray = jsonDoc.array();
+    QString desc, vendor, name, disabled, version, product, line, driver;
+    for (auto item : jsonArray) {
+        desc = item["description"].toString();
+        vendor = item["vendor"].toString();
+        name = item["logicalname"].toString();
+        bool isDisabled = item["disabled"].toBool();
+        disabled = isDisabled ? "\tdisabled" : "\tenabled";
+        version = item["version"].toString();
+        version = !version.isEmpty() ? " (rev " + version + ")" : "";
+        product = item["product"].toString();
+        const auto obj = item["configuration"].toObject();
+        driver = obj.value("driver").toString();
+        QIcon icon;
+        if (desc == "Ethernet interface")
+            icon = QIcon::fromTheme("network-card");
+        else if (desc == "Network interface")
+            icon = QIcon::fromTheme("network-workgroup");
+        else
+            icon = QIcon::fromTheme("network-server-database");
+        auto tree_item = new QTreeWidgetItem();
+        tree_item->setIcon(Col::Enabled, isDisabled ? QIcon::fromTheme("emblem-unreadable", QIcon(":/icons/emblem-unreadable.svg"))
+                                                    : QIcon::fromTheme("emblem-checked", QIcon(":/icons/emblem-checked.svg")));
+        tree_item->setData(Col::Enabled, Qt::UserRole, !isDisabled);
 
-    // Query PCI cards
-    QStringList  queryResult = cmd.getCmdOut("lspci -nn | grep -i net").split("\n");
-    queryResult.removeAll(QString(""));
-    for (int i = 0; i < queryResult.size(); ++i) {
-        QString currentElement = queryResult.at(i);
-        if (currentElement.indexOf("Ethernet controller") != -1) {
-            currentElement.remove(QRegExp("Ethernet controller .[\\d|a|b|c|d|e|f][\\d|a|b|c|d|e|f][\\d|a|b|c|d|e|f][\\d|a|b|c|d|e|f].:"));
-            new QListWidgetItem(QIcon::fromTheme("network-card"),currentElement, hwList);
-        } else if (currentElement.indexOf("Network controller") != -1) {
-            currentElement.remove(QRegExp("Network controller .[\\d|a|b|c|d|e|f][\\d|a|b|c|d|e|f][\\d|a|b|c|d|e|f][\\d|a|b|c|d|e|f].:"));
-            new QListWidgetItem(QIcon::fromTheme("network-workgroup"),currentElement, hwList);
-        } else {
-            new QListWidgetItem(QIcon::fromTheme("network-server-database"), currentElement, hwList);
-        }
+        tree_item->setIcon(Col::Interface, icon);
+        tree_item->setText(Col::Interface, name);
+        tree_item->setText(Col::Description, desc);
+        tree_item->setText(Col::Product, product + version);
+        tree_item->setText(Col::Vendor, vendor);
+        tree_item->setText(Col::Driver, driver);
+        hwList->addTopLevelItem(tree_item);
     }
-
-    // Query USB cards
-    queryResult = cmd.getCmdOut("lsusb | grep -i network").split("\n");
-    queryResult.removeAll(QString(""));
-    for (int i = 0; i < queryResult.size(); ++i) {
-        QString currentElement = queryResult.at(i);
-        if (currentElement.indexOf("Ethernet controller:") != -1) {
-            currentElement.remove(QString("Ethernet controller:"), Qt::CaseSensitive);
-            new QListWidgetItem(QIcon::fromTheme("network-card"),currentElement, hwList);
-        } else if (currentElement.indexOf("Network controller:") != -1) {
-            currentElement.remove(QString("Network controller:"), Qt::CaseSensitive);
-            new QListWidgetItem(QIcon::fromTheme("network-workgroup"), currentElement, hwList);
-        } else {
-            new QListWidgetItem(QIcon::fromTheme("network-server-database"), currentElement, hwList);
-        }
-    }
+    for (int i = 0; i < hwList->columnCount(); ++i)
+        hwList->resizeColumnToContents(i);
     checkWifiEnabled();
 }
 
@@ -1005,4 +1026,16 @@ void MainWindow::on_linuxDrvUnload_clicked()
             }
         }
     }
+}
+
+void MainWindow::on_pushEnable_clicked()
+{
+    cmd.run("ip link set " + hwList->currentItem()->text(Col::Interface) + " up");
+    refresh();
+}
+
+void MainWindow::on_pushDisable_clicked()
+{
+    cmd.run("ip link set " + hwList->currentItem()->text(Col::Interface) + " down");
+    refresh();
 }

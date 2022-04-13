@@ -1,3 +1,12 @@
+mx-network-assistant (22.4.01) mx; urgency=medium
+
+  * List network devices using 'lshw' program (should list more devices than 'lsusb' and 'lspci').
+  * Add Enable/Disable buttons for selected device.
+  * Display the enabled status of the device.
+  * Display device info in columns.
+
+ -- Adrian <adrian@mxlinux.org>  Wed, 13 Apr 2022 00:50:15 -0400
+
 mx-network-assistant (22.4) mx; urgency=medium
 
   * Remove Windows Drivers window since ndiswrapper is no longer available
