@@ -75,7 +75,7 @@ MainWindow::~MainWindow() {
 
 bool MainWindow::replaceStringInFile(QString oldtext, QString newtext, QString filepath) {
 
-    QString cmd = QString("sed -i 's/%1/%2/g' %3").arg(oldtext).arg(newtext).arg(filepath);
+    const QString cmd = QString("sed -i 's/%1/%2/g' %3").arg(oldtext, newtext, filepath);
     if (system(cmd.toUtf8()) != 0)
         return false;
     return true;
@@ -85,7 +85,7 @@ void MainWindow::refresh() {
     hwUnblock->hide();
     groupWifi->hide();
     hwDiagnosePushButton->setEnabled(true);
-    QString out = cmd.getCmdOut("rfkill list 2>&1");
+    const QString out = cmd.getCmdOut("rfkill list 2>&1");
     qApp->processEvents();
 
     switch (tabWidget->currentIndex()) {
@@ -132,8 +132,8 @@ void MainWindow::on_clearPingOutput_clicked()
 void MainWindow::hwListToClipboard()
 {
     if (hwList->currentItem()) {
-        QClipboard *clipboard = QApplication::clipboard();
-        QTreeWidgetItem *item = hwList->currentItem();
+        auto clipboard = QApplication::clipboard();
+        auto item = hwList->currentItem();
         clipboard->setText(tr("Interface: %1").arg(item->text(Col::Interface)) + "\t" +
                            tr("Driver: %1").arg(item->text(Col::Driver)) + "\t" +
                            tr("Description: %1").arg(item->text(Col::Description)) + "\t" +
@@ -146,7 +146,7 @@ void MainWindow::hwListToClipboard()
 void MainWindow::hwListFullToClipboard()
 {
     if (hwList->topLevelItemCount() > 0) {
-        QClipboard *clipboard = QApplication::clipboard();
+        auto clipboard = QApplication::clipboard();
         QString list;
         for (QTreeWidgetItemIterator it(hwList); *it; ++it) {
             list += tr("Interface: %1").arg((*it)->text(Col::Interface)) + "\t" +
@@ -163,8 +163,8 @@ void MainWindow::hwListFullToClipboard()
 void MainWindow::linuxDrvListToClipboard()
 {
     if (linuxDrvList->currentRow() != -1) {
-        QClipboard *clipboard = QApplication::clipboard();
-        QListWidgetItem *currentElement = linuxDrvList->currentItem();
+        auto clipboard = QApplication::clipboard();
+        auto currentElement = linuxDrvList->currentItem();
         clipboard->setText(currentElement->text());
     }
 }
@@ -172,10 +172,10 @@ void MainWindow::linuxDrvListToClipboard()
 void MainWindow::linuxDrvListFullToClipboard()
 {
     if (hwList->topLevelItemCount() > 0) {
-        QClipboard *clipboard = QApplication::clipboard();
+        auto clipboard = QApplication::clipboard();
         QString elementList = "";
         for (int i = 0; i < linuxDrvList->count(); i++) {
-            QListWidgetItem *currentElement = linuxDrvList->item(i);
+            auto currentElement = linuxDrvList->item(i);
             elementList += currentElement->text() + "\n";
         }
         clipboard->setText(elementList);
@@ -185,8 +185,8 @@ void MainWindow::linuxDrvListFullToClipboard()
 void MainWindow::windowsDrvListToClipboard()
 {
     if (linuxDrvList->currentRow() != -1) {
-        QClipboard *clipboard = QApplication::clipboard();
-        QListWidgetItem *currentElement = windowsDrvList->currentItem();
+        auto clipboard = QApplication::clipboard();
+        auto currentElement = windowsDrvList->currentItem();
         clipboard->setText(currentElement->text());
     }
 }
@@ -194,7 +194,7 @@ void MainWindow::windowsDrvListToClipboard()
 void MainWindow::windowsDrvListFullToClipboard()
 {
     if (hwList->topLevelItemCount() > 0) {
-        QClipboard *clipboard = QApplication::clipboard();
+        auto clipboard = QApplication::clipboard();
         QString elementList = "";
         for (int i = 0; i < windowsDrvList->count(); i++) {
             QListWidgetItem *currentElement = windowsDrvList->item(i);
@@ -207,10 +207,10 @@ void MainWindow::windowsDrvListFullToClipboard()
 void MainWindow::showContextMenuForHw(const QPoint &pos)
 {
     QMenu contextMenu(this);
-    QAction *copyAction = new QAction(tr("&Copy"), this);
+    auto copyAction = new QAction(tr("&Copy"), this);
     connect(copyAction, &QAction::triggered, this, &MainWindow::hwListToClipboard);
     copyAction->setShortcut(tr("Ctrl+C"));
-    QAction *copyAllAction = new QAction(tr("Copy &All"), this);
+    auto copyAllAction = new QAction(tr("Copy &All"), this);
     connect(copyAllAction, &QAction::triggered, this, &MainWindow::hwListFullToClipboard);
     copyAllAction->setShortcut(tr("Ctrl+A"));
     contextMenu.addAction(copyAction);
@@ -221,10 +221,10 @@ void MainWindow::showContextMenuForHw(const QPoint &pos)
 void MainWindow::showContextMenuForLinuxDrv(const QPoint &pos)
 {
     QMenu contextMenu(this);
-    QAction *copyAction = new QAction(tr("&Copy"), this);
+    auto copyAction = new QAction(tr("&Copy"), this);
     connect(copyAction, &QAction::triggered, this, &MainWindow::linuxDrvListToClipboard);
     copyAction->setShortcut(tr("Ctrl+C"));
-    QAction *copyAllAction = new QAction(tr("Copy &All"), this);
+    auto copyAllAction = new QAction(tr("Copy &All"), this);
     connect(copyAllAction, &QAction::triggered, this, &MainWindow::linuxDrvListFullToClipboard);
     copyAllAction->setShortcut(tr("Ctrl+A"));
     contextMenu.addAction(copyAction);
@@ -235,10 +235,10 @@ void MainWindow::showContextMenuForLinuxDrv(const QPoint &pos)
 void MainWindow::showContextMenuForWindowsDrv(const QPoint &pos)
 {
     QMenu contextMenu(this);
-    QAction *copyAction = new QAction(tr("&Copy"), this);
+    auto copyAction = new QAction(tr("&Copy"), this);
     connect(copyAction, &QAction::triggered, this, &MainWindow::windowsDrvListToClipboard);
     copyAction->setShortcut(tr("Ctrl+C"));
-    QAction *copyAllAction = new QAction(tr("Copy &All"), this);
+    auto copyAllAction = new QAction(tr("Copy &All"), this);
     connect(copyAllAction, &QAction::triggered, this, &MainWindow::windowsDrvListFullToClipboard);
     copyAllAction->setShortcut(tr("Ctrl+A"));
     contextMenu.addAction(copyAction);
@@ -253,7 +253,7 @@ void MainWindow::on_clearTraceOutput_clicked()
 
 void MainWindow::writeTraceOutput()
 {
-    QByteArray bytes = traceProc->readAllStandardOutput();
+    const auto bytes = traceProc->readAllStandardOutput();
     const QStringList lines = QString(bytes).split("\n");
     for (const QString &line : lines)
         if (!line.isEmpty())
@@ -320,7 +320,7 @@ void MainWindow::on_tracerouteButton_clicked()
 
 void MainWindow::writePingOutput()
 {
-    QByteArray bytes = pingProc->readAllStandardOutput();
+    const auto bytes = pingProc->readAllStandardOutput();
     const QStringList lines = QString(bytes).split("\n");
     for (const QString &line : lines)
         if (!line.isEmpty())
@@ -368,8 +368,8 @@ void MainWindow::on_hwDiagnosePushButton_clicked()
     hwList->clear();
     const auto &jsonDoc = QJsonDocument::fromJson(cmd.getCmdOut("lshw -disable IDE -disable SCSI -class network -json").toUtf8());
     const auto &jsonArray = jsonDoc.array();
-    QString desc, vendor, name, disabled, version, product, line, driver;
-    for (auto item : jsonArray) {
+    QString desc, vendor, name, disabled, version, product, driver;
+    for (const auto &item : jsonArray) {
         desc = item["description"].toString();
         vendor = item["vendor"].toString();
         name = item["logicalname"].toString();
@@ -426,7 +426,7 @@ void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
     linuxDrvList->clear();
     loadedModules.clear();
     //QStringList queryResult = getCmdOuts("lsmod | grep -i net");
-    QStringList loadedKernelModules = cmd.getCmdOut("lsmod").split("\n");
+    const QStringList loadedKernelModules = cmd.getCmdOut("lsmod").split("\n");
     QStringList completeKernelNetModules = cmd.getCmdOut("find /lib/modules/$(uname -r)/kernel/drivers/net -name *.ko").split("\n");
     completeKernelNetModules = completeKernelNetModules.replaceInStrings(".ko", "");
     completeKernelNetModules = completeKernelNetModules.replaceInStrings(QRegExp("[\\w|\\.|-]*/"), "");
@@ -620,7 +620,7 @@ bool MainWindow::loadModule(QString module)
 {
     system("service network-manager stop");
     system("modprobe cfg80211"); //this has to get loaded and some drivers don't put it back correctly
-    QString cmd = QString("modprobe %1").arg(module);
+    const QString cmd = QString("modprobe %1").arg(module);
     if (system(cmd.toUtf8()) != 0) {
         // run depmod and try to load again
         system("depmod");
@@ -643,7 +643,7 @@ bool MainWindow::loadModule(QString module)
 // check if the module can be removed
 bool MainWindow::removable(QString module)
 {
-    QString cmd = QString("modprobe -rn %1").arg(module);
+    const QString cmd = QString("modprobe -rn %1").arg(module);
     if (system(cmd.toUtf8()) != 0)
         return false;
     return true;
@@ -654,7 +654,7 @@ bool MainWindow::removable(QString module)
 bool MainWindow::removeModule(QString module)
 {
     system("service network-manager stop");
-    QString cmd = QString("modprobe -r %1").arg(module);
+    const QString cmd = QString("modprobe -r %1").arg(module);
     if (system(cmd.toUtf8()) != 0) {
         QString msg = QObject::tr("Could not unload ");
         msg += module;
@@ -676,7 +676,7 @@ bool MainWindow::removeStart(QString module)
     QString s, outputString;
     while (!inputModules.atEnd()){
         s = inputModules.readLine();
-        QString expr = QString("^\\s*(%1)\\s*").arg(module);
+        const QString expr = QString("^\\s*(%1)\\s*").arg(module);
         if (!s.contains(QRegExp(expr)))
             outputString += s;
         outputModules.write(s.toUtf8());
@@ -714,7 +714,7 @@ void MainWindow::on_installNdiswrapper_clicked()
     installOutputEdit->show();
     installOutputEdit->resize(800, 600);
     // center output window
-    QRect screenGeometry = QApplication::screens().first()->geometry();
+    QRect screenGeometry = QApplication::primaryScreen()->geometry();
     int x = (screenGeometry.width()-installOutputEdit->width()) / 2;
     int y = (screenGeometry.height()-installOutputEdit->height()) / 2;
     installOutputEdit->move(x, y);
@@ -741,7 +741,7 @@ void MainWindow::on_uninstallNdiswrapper_clicked()
     installOutputEdit->show();
     installOutputEdit->resize(800, 600);
     // center output window
-    QRect screenGeometry = QApplication::screens().first()->geometry();
+    QRect screenGeometry = QApplication::primaryScreen()->geometry();
     int x = (screenGeometry.width()-installOutputEdit->width()) / 2;
     int y = (screenGeometry.height()-installOutputEdit->height()) / 2;
     installOutputEdit->move(x, y);
@@ -798,7 +798,7 @@ void MainWindow::uninstallNdisFinished(int errorCode)
 
 void MainWindow::writeInstallOutput()
 {
-    QByteArray bytes = installProc->readAllStandardOutput();
+    const auto bytes = installProc->readAllStandardOutput();
     const QStringList lines = QString(bytes).split("\n");
 
     for (const QString &line : lines)
@@ -851,10 +851,10 @@ void MainWindow::updateDriverStatus()
 
 bool MainWindow::checkSysFileExists(QDir searchPath, QString fileName, Qt::CaseSensitivity cs)
 {
-    QStringList fileList = searchPath.entryList(QStringList() << "*.SYS");
+    const QStringList fileList = searchPath.entryList(QStringList() << "*.SYS");
     bool found = false;
     auto it = fileList.constBegin();
-    while (it != fileList.end()) {
+    while (it != fileList.constEnd()) {
         if ((*it).contains(fileName, cs)) {
             found = true;
             break;
@@ -958,7 +958,7 @@ void MainWindow::on_windowsDrvRemovePushButton_clicked()
 
 void MainWindow::on_generalHelpPushButton_clicked()
 {
-    QString url = "/usr/share/doc/mx-network-assistant/mx-network-assistant.html";
+    const QString url = "/usr/share/doc/mx-network-assistant/mx-network-assistant.html";
     displayDoc(url, tr("%1 Help").arg(this->windowTitle()), true);
 }
 
