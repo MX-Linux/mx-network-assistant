@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 15 Jun 2022 14:36:37 -0400
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: source amd64
+Version: 22.6
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (22.6) mx; urgency=medium
+ .
+   * Preserve user theme when launching program as root
+   * Make sure HOME and XDG_RUNTIME_DIR are correct when launching as root
+Checksums-Sha1:
+ ede7046f30aa2acb3b6d3a4216c8f1af24066a8d 1244 mx-network-assistant_22.6.dsc
+ 8cc7783a36dc75e6b5e4e08d31e552a241c3ec10 177324 mx-network-assistant_22.6.tar.xz
+ 8f2d9ea3975152f6a79c3b6400a6f41c94d29ffe 11635 mx-network-assistant_22.6_amd64.buildinfo
+ c0dbee1b6643f536f5232d1716e5dfb586f028a3 215480 mx-network-assistant_22.6_amd64.deb
+Checksums-Sha256:
+ 7f28a8a1d060ab83c2d3a7c66579578ab8eaa6a2e554401e8fb8474945ee56ea 1244 mx-network-assistant_22.6.dsc
+ 160986f91692126fcfb13ca02b49b3721bc998eb3ab9cbdad6b9d9ac60e32b41 177324 mx-network-assistant_22.6.tar.xz
+ 5f9497b1cce1a0aac20d6d02a1e33e395fd8ac547c5a0eacf432fea2f045254f 11635 mx-network-assistant_22.6_amd64.buildinfo
+ 303ee9632d99c7e7d8524a5aae9f90f84a0897fa601729e57180c747407acdd7 215480 mx-network-assistant_22.6_amd64.deb
+Files:
+ d95d33d4678eb4c6ba2564eb91b26535 1244 admin optional mx-network-assistant_22.6.dsc
+ d967d143af111724955d4665bdea768a 177324 admin optional mx-network-assistant_22.6.tar.xz
+ 85abc845abf846ab1baaf3726b116b66 11635 admin optional mx-network-assistant_22.6_amd64.buildinfo
+ 9e16914893ed6359d4e8e609ae5b1638 215480 admin optional mx-network-assistant_22.6_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmKqSqwTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumNAACACPmnPrlTnhesjqiIjrsxqx5VQ8hiqe
+Aeq2a/V/lqKZwt5YUss2BYmuWeIk85+qNlv5GdH2VK2e4VrchdKDT946CFVRNrUx
+ikZihO7OUqmLhBetSf8l21kC11HtcwAQ+gtZKd91Mb91QptkdezN2tk1X/nBYQNX
+BGNgxXRKBAdN88u5fxRlayfwz8hLO+G2shDQ95XiFEM9suj1qM9nNM0X4rLxVl9V
+w2ZtpyPG3EcnhIIawfubNe9ZN5Dhird/EXJe4euuharSSyobFJX5S+Nu/7I0dDy8
+B3laNe60tmKHoqSsz6siqn9bnFua+gAo6BukUx5jcaLjJVUMBfA1iiEF
+=C5SD
+-----END PGP SIGNATURE-----

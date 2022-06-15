@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 15 Jun 2022 14:36:37 -0400
+Source: mx-network-assistant
+Architecture: source
+Version: 22.6
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Changes:
+ mx-network-assistant (22.6) mx; urgency=medium
+ .
+   * Preserve user theme when launching program as root
+   * Make sure HOME and XDG_RUNTIME_DIR are correct when launching as root
+Checksums-Sha1:
+ 86b591a6dbccca66548552e119a93ebacd86d37c 682 mx-network-assistant_22.6.dsc
+ b555cd9a8d4e80ebfca309a167e6719af7d69af6 177360 mx-network-assistant_22.6.tar.xz
+ f7a3e0c35512a73f27f60db884ed65582da90030 10761 mx-network-assistant_22.6_i386.buildinfo
+Checksums-Sha256:
+ dabc5f4d375b60cc484e99739d5b7bae4de63b3dc36dedfd6c3a73b82ba4aee0 682 mx-network-assistant_22.6.dsc
+ 71af3fa6370e3b71935f1a3bc5067ed62af21e63b3a4e63667c19a6740a3deab 177360 mx-network-assistant_22.6.tar.xz
+ 2f3525ebcf025f220cafb8231aa96f50911e26a2384df9e14180f6a4b842a60e 10761 mx-network-assistant_22.6_i386.buildinfo
+Files:
+ 7159012d5afad81a5d078b839ba34b04 682 admin optional mx-network-assistant_22.6.dsc
+ 8287fbbdd99ea91d64e4a99a7ddfd629 177360 admin optional mx-network-assistant_22.6.tar.xz
+ 1168353007a0c585e7fb2e39f16a1f42 10761 admin optional mx-network-assistant_22.6_i386.buildinfo
