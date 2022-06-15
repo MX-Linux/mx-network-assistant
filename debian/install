@@ -4,3 +4,5 @@ icons/mx-network-assistant.svg	usr/share/icons/hicolor/scalable/apps
 mx-network-assistant		usr/sbin
 mx-network-assistant.desktop	usr/share/applications
 translations/*.qm		usr/share/mx-network-assistant/locale
+scripts/mxna-launcher		usr/bin
+scripts/org.mxlinux.pkexec.mxna-launcher.policy usr/share/polkit-1/actions
