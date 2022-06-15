@@ -22,14 +22,21 @@
 
 #include <unistd.h>
 #include "mainwindow.h"
+#include <version.h>
 
+QString starting_home = qEnvironmentVariable("HOME");
 
-int main(int argc, char **argv) {
+int main(int argc, char *argv[])
+{
+    qputenv("XDG_RUNTIME_DIR", "/run/user/0");
     QApplication app(argc, argv);
-    app.setWindowIcon(QIcon::fromTheme("mx-network-assistant"));
+    qputenv("HOME", "/root");
+
+    app.setApplicationVersion(VERSION);
+    app.setWindowIcon(QIcon::fromTheme(app.applicationName()));
 
     QTranslator qtTran;
-    if (qtTran.load(QLocale::system(), "qt", "_", QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
+    if (qtTran.load(QLocale::system(), QStringLiteral("qt"), QStringLiteral("_"), QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
         app.installTranslator(&qtTran);
 
     QTranslator qtBaseTran;
@@ -41,7 +48,7 @@ int main(int argc, char **argv) {
         app.installTranslator(&appTran);
 
     // root guard
-    if (system("logname |grep -q ^root$") == 0) {
+    if (QProcess::execute(QStringLiteral("/bin/bash"), {"-c", "logname |grep -q ^root$"}) == 0) {
         QMessageBox::critical(nullptr, QObject::tr("Error"),
                               QObject::tr("You seem to be logged in as root, please log out and log in as normal user to use this program."));
         exit(EXIT_FAILURE);
@@ -52,6 +59,6 @@ int main(int argc, char **argv) {
         mw.show();
         return app.exec();
     } else {
-        system("su-to-root -X -c " + QCoreApplication::applicationFilePath().toUtf8() + "&");
+        QProcess::startDetached(QStringLiteral("/usr/bin/mxna-launcher"), {});
     }
 }
