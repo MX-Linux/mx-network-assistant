@@ -13,14 +13,14 @@ Changes:
    * Preserve user theme when launching program as root
    * Make sure HOME and XDG_RUNTIME_DIR are correct when launching as root
 Checksums-Sha1:
- 86b591a6dbccca66548552e119a93ebacd86d37c 682 mx-network-assistant_22.6.dsc
- b555cd9a8d4e80ebfca309a167e6719af7d69af6 177360 mx-network-assistant_22.6.tar.xz
- f7a3e0c35512a73f27f60db884ed65582da90030 10761 mx-network-assistant_22.6_i386.buildinfo
+ 2dacafd7cec7259db1e875ffcd8f47c15f4ad96b 682 mx-network-assistant_22.6.dsc
+ 24c5fc6bdfe60d8a26518d41b4ee773229ad9607 177384 mx-network-assistant_22.6.tar.xz
+ 837ac3601f1e344523529ad4d275d9f05afc3a4e 10761 mx-network-assistant_22.6_i386.buildinfo
 Checksums-Sha256:
- dabc5f4d375b60cc484e99739d5b7bae4de63b3dc36dedfd6c3a73b82ba4aee0 682 mx-network-assistant_22.6.dsc
- 71af3fa6370e3b71935f1a3bc5067ed62af21e63b3a4e63667c19a6740a3deab 177360 mx-network-assistant_22.6.tar.xz
- 2f3525ebcf025f220cafb8231aa96f50911e26a2384df9e14180f6a4b842a60e 10761 mx-network-assistant_22.6_i386.buildinfo
+ 8de5bf2e3ed4c5a2da73911f460f5bd1f6e3c9f058cfe4578d19e6e18f799f27 682 mx-network-assistant_22.6.dsc
+ 35ca28499bc882a5b9d47584abb629049caa42e289b4fe9545090354b1104df4 177384 mx-network-assistant_22.6.tar.xz
+ 975c6b3f180c82261fe41aa869bfc87eb1ba3b974dd0c0083e80038a8b7912f2 10761 mx-network-assistant_22.6_i386.buildinfo
 Files:
- 7159012d5afad81a5d078b839ba34b04 682 admin optional mx-network-assistant_22.6.dsc
- 8287fbbdd99ea91d64e4a99a7ddfd629 177360 admin optional mx-network-assistant_22.6.tar.xz
- 1168353007a0c585e7fb2e39f16a1f42 10761 admin optional mx-network-assistant_22.6_i386.buildinfo
+ 10948b05005b9d59e575b7cc441c9949 682 admin optional mx-network-assistant_22.6.dsc
+ c07710259d9dd5ed2198e9ff5b23f00c 177384 admin optional mx-network-assistant_22.6.tar.xz
+ f691fb89e10a6208edb292e1168d3650 10761 admin optional mx-network-assistant_22.6_i386.buildinfo
