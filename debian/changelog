@@ -1,3 +1,10 @@
+mx-network-assistant (22.6) mx; urgency=medium
+
+  * Preserve user theme when launching program as root
+  * Make sure HOME and XDG_RUNTIME_DIR are correct when launching as root
+
+ -- Adrian <adrian@mxlinux.org>  Wed, 15 Jun 2022 14:36:37 -0400
+
 mx-network-assistant (22.4.02) mx; urgency=medium
 
   * Disable buttons while the interface is taken up/down
