@@ -35,14 +35,14 @@ class MainWindow : public QDialog, public Ui::MainWindow {
     Q_OBJECT
 public:
     MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
+    ~MainWindow() = default;
 
     QString getIP();
     QString getIPfromRouter();
-    bool checkSysFileExists(QDir searchPath, QString fileName, Qt::CaseSensitivity cs);
+    static bool checkSysFileExists(const QDir& searchPath, const QString& fileName, Qt::CaseSensitivity cs);
     bool checkWifiAvailable();
     bool checkWifiEnabled();
-    static bool replaceStringInFile(QString oldtext, QString newtext, QString filepath);
+    static bool replaceStringInFile(const QString& oldtext, const QString& newtext, const QString& filepath);
     void refresh();
 
 public slots:
@@ -72,9 +72,9 @@ public slots:
     virtual void on_windowsDrvRemovePushButton_clicked();
     virtual void pingFinished();
     virtual void show();
-    virtual void showContextMenuForHw(const QPoint &pos);
-    virtual void showContextMenuForLinuxDrv(const QPoint &pos);
-    virtual void showContextMenuForWindowsDrv(const QPoint &pos);
+    virtual void showContextMenuForHw(QPoint pos);
+    virtual void showContextMenuForLinuxDrv(QPoint pos);
+    virtual void showContextMenuForWindowsDrv(QPoint pos);
     virtual void tracerouteFinished();
     virtual void uninstallNdisFinished(int);
     virtual void windowsDrvListFullToClipboard();
@@ -93,16 +93,16 @@ protected:
     QStringList unloadedModules;
     QTextEdit *installOutputEdit;
     Tab currentTab;
-    bool driverBlocklisted;
-    bool internetConnection;
-    bool ndiswrapBlocklisted;
+    bool driverBlocklisted{};
+    bool internetConnection{};
+    bool ndiswrapBlocklisted{};
 
-    bool blockModule(QString module);
-    bool installModule(QString module);
-    bool loadModule(QString module);
-    bool removable(QString module);
-    bool removeModule(QString module);
-    bool removeStart(QString module);
+    bool blockModule(const QString& module);
+    bool installModule(const QString& module);
+    bool loadModule(const QString& module);
+    static bool removable(const QString& module);
+    bool removeModule(const QString& module);
+    static bool removeStart(const QString& module);
     void updateDriverStatus();
 
 private slots:
