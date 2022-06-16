@@ -13,20 +13,20 @@ Build-Depends: debhelper (>= 10), network-manager, qtbase5-dev, qttools5-dev-too
 Package-List:
  mx-network-assistant deb admin optional arch=any
 Checksums-Sha1:
- 1a568106358f5ccd35d1a4b7a32dd96183038035 177356 mx-network-assistant_22.6.tar.xz
+ c806731126e0b6b9e738d2fd3b67a3f28e1d3d6a 177364 mx-network-assistant_22.6.tar.xz
 Checksums-Sha256:
- bb651cc71efe09df2c4c032a3e794c3545bf53d3c17ee77388f3df9406944408 177356 mx-network-assistant_22.6.tar.xz
+ f2cac7ba83f0254a51e21fbd08269252a35fb719fabeb401ae211a7f213ac3b0 177364 mx-network-assistant_22.6.tar.xz
 Files:
- e83928d5e6c618839a2cac5cd80513a4 177356 mx-network-assistant_22.6.tar.xz
+ 0fdd94b26796da2136a8f8a90fa32c23 177364 mx-network-assistant_22.6.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmKqTYcTHGFkcmlhbkBt
-eGxpbnV4Lm9yZwAKCRBwk4x4BnnumCTrCADVwz6j1Rl8/7vzctn/Ug/kMIh7DgaJ
-TG33R+v+vb3VBB4wSueVYXH+rH05LP8BboiX+EmRJoXsGc1Q/+xNLhS1fnfCkkq1
-AvYy5uDnbmPoIoHDggptUcuZS703OfLCwNqwnKXcLo1+bVvwY6gKFstKxg7w9Dlx
-nOQNajGdeYRN6qnBMsJUJk1/1MyKSWYmYkrXQuip9y5CgwWD0Yk0WkeN5J5LUZfA
-QmhIl7yXSfUgEy/sS1KErlpXfgAOsQPGmtA7dFwMfhRbMk8N7WENloACskTz5pdv
-eTG3zXs8ArmgypOTMcFfLZpJf6ZqeI79n/bZngPNKLtVWGNcPgXjBydq
-=rrTu
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmKqkRYTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumBQfB/9e2/xK4Ge/xJ50TQYN9nAVm+yhq2it
+g/vHKq8zBueGiBS+YdH7nRwKuTz9ZufaMAUtb6Tyn4rZnSnwuaV8tXPdKCUGEUKK
+vC50WMzOLZZAh5u3M+CiZqKR1kOPDugNWiXbper7aU7dcn00TecqmK4RHlQ6oB01
+xnN0bMbdRlSnNnoOFu9HG7KYPDR7qqKg6OXOW0SXo0KFfiJ8Qw/6k5OKhHcnHAtn
+2vaYSlXawgJPbaI5grAdD4ody/s5ZW7ROhyn11S7gjuD09Fg1NicG/S00kjCeUlq
+5KOxgewjdBfvIXbO64nMMlv2adfbM/KM+7ymYdf4A6u6+UyOCiyk6RBA
+=48Et
 -----END PGP SIGNATURE-----
