@@ -15,12 +15,13 @@ Changes:
  .
    * Preserve user theme when launching program as root
    * Make sure HOME and XDG_RUNTIME_DIR are correct when launching as root
+   * Set a minimum size for the window
 Checksums-Sha1:
- 837ac3601f1e344523529ad4d275d9f05afc3a4e 10761 mx-network-assistant_22.6_i386.buildinfo
- 548d135e6280d80e5a56e3cb67ca7486797dc3f0 220032 mx-network-assistant_22.6_i386.deb
+ f1aabc920d3f1d65ef975b44fd17856a69e927ed 10761 mx-network-assistant_22.6_i386.buildinfo
+ a21fcbc0fb44749a722438c2d8e13f5f610381d1 219952 mx-network-assistant_22.6_i386.deb
 Checksums-Sha256:
- 975c6b3f180c82261fe41aa869bfc87eb1ba3b974dd0c0083e80038a8b7912f2 10761 mx-network-assistant_22.6_i386.buildinfo
- 6dbfa3f9e49c45b706a03a90ab654c3f53a050be73ecd272f8b9588b64aa73b2 220032 mx-network-assistant_22.6_i386.deb
+ c79f0e203fec7aebd7007d47ae5f588dad5bb6a076e1cafb74ba8214f19ca70d 10761 mx-network-assistant_22.6_i386.buildinfo
+ d9a7837f04a9271cbd1f2b621180a2633403de35ffa4cd03e560dc7af387dbe5 219952 mx-network-assistant_22.6_i386.deb
 Files:
- f691fb89e10a6208edb292e1168d3650 10761 admin optional mx-network-assistant_22.6_i386.buildinfo
- 40c4f1844b6eb0101b55b62b4d1c6396 220032 admin optional mx-network-assistant_22.6_i386.deb
+ 27aa8a43a1ddc715336a793b46c541d9 10761 admin optional mx-network-assistant_22.6_i386.buildinfo
+ c8cf1b36d42201feadff039bd319becf 219952 admin optional mx-network-assistant_22.6_i386.deb
