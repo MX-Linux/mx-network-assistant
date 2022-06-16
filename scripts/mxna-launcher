@@ -15,7 +15,7 @@ if [ "$EUID" != 0 ]; then
       export WAYLAND_DISPLAY=$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY
     fi
 
-    pkexec /usr/bin/mx-network-assistant-launcher
+    pkexec /usr/bin/mxna-launcher
 
 else
     # root user
