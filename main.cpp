@@ -31,6 +31,7 @@ int main(int argc, char *argv[])
     qputenv("XDG_RUNTIME_DIR", "/run/user/0");
     QApplication app(argc, argv);
     qputenv("HOME", "/root");
+    QDir::setCurrent("/root");
 
     app.setApplicationVersion(VERSION);
     app.setWindowIcon(QIcon::fromTheme(app.applicationName()));
