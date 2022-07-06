@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="et">
+<TS version="2.1" language="en_US">
 <context>
     <name>MainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="26"/>
         <source>MX Network Assistant</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="86"/>
+        <source>About...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="109"/>
+        <source>Help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="177"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="184"/>
+        <source>Alt+C</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -193,7 +213,7 @@
         <location filename="../mainwindow.ui" line="896"/>
         <location filename="../mainwindow.ui" line="1016"/>
         <source>Cancel</source>
-        <translation>Loobu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="924"/>
@@ -203,26 +223,6 @@
     <message>
         <location filename="../mainwindow.ui" line="940"/>
         <source>Hops</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="86"/>
-        <source>About...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="109"/>
-        <source>Help</source>
-        <translation>Abi</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="177"/>
-        <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="184"/>
-        <source>Alt+C</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -520,24 +520,7 @@ WiFi device(s) might already be unlocked.</source>
     </message>
 </context>
 <context>
-    <name>QApplication</name>
-    <message>
-        <source>Cancel</source>
-        <translation type="vanished">Loobu</translation>
-    </message>
-</context>
-<context>
     <name>QObject</name>
-    <message>
-        <location filename="../mainwindow.cpp" line="632"/>
-        <source>Could not load </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="656"/>
-        <source>Could not unload </source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location filename="../about.cpp" line="41"/>
         <source>License</source>
@@ -552,7 +535,7 @@ WiFi device(s) might already be unlocked.</source>
     <message>
         <location filename="../about.cpp" line="43"/>
         <source>Cancel</source>
-        <translation type="unfinished">Loobu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="63"/>
@@ -567,6 +550,16 @@ WiFi device(s) might already be unlocked.</source>
     <message>
         <location filename="../main.cpp" line="57"/>
         <source>You seem to be logged in as root, please log out and log in as normal user to use this program.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="632"/>
+        <source>Could not load </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="656"/>
+        <source>Could not unload </source>
         <translation type="unfinished"></translation>
     </message>
 </context>
