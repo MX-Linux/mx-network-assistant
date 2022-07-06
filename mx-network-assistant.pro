@@ -18,6 +18,7 @@ TRANSLATIONS += translations/mx-network-assistant_am.ts \
                 translations/mx-network-assistant_da.ts \
                 translations/mx-network-assistant_de.ts \
                 translations/mx-network-assistant_el.ts \
+                translations/mx-network-assistant_en.ts \
                 translations/mx-network-assistant_es.ts \
                 translations/mx-network-assistant_et.ts \
                 translations/mx-network-assistant_eu.ts \
