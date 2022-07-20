@@ -1,640 +1,285 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="sl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="sl">
 <context>
-    <name>MainWindow</name>
+    <name>MXDateTime</name>
     <message>
-        <location filename="../mainwindow.ui" line="26"/>
-        <source>MX Network Assistant</source>
-        <translation>MX Omrežni asistent</translation>
+        <location filename="../datetime.ui" line="20"/>
+        <location filename="../datetime.cpp" line="604"/>
+        <source>MX Date &amp; Time</source>
+        <translation>MX Datum in ura</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="219"/>
-        <source>Status</source>
-        <translation>Status</translation>
+        <location filename="../datetime.ui" line="26"/>
+        <source>Close</source>
+        <translation>Zapri</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="225"/>
-        <source>IP address</source>
-        <translation>IP naslov</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="261"/>
-        <source>Hardware detected</source>
-        <translation>Strojna oprema je bila najdena</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="280"/>
-        <source>Enable</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="303"/>
-        <location filename="../mainwindow.ui" line="593"/>
-        <location filename="../mainwindow.ui" line="706"/>
-        <source>Re-scan</source>
-        <translation>Ponovi iskanje</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="372"/>
-        <source>Enabled</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="377"/>
-        <source>Interface</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="382"/>
-        <source>Driver</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="387"/>
-        <source>Description</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="392"/>
-        <source>Vendor</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="397"/>
-        <source>Product</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="405"/>
-        <source>Disable</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="419"/>
-        <source>Active interface</source>
-        <translation>Aktivni vmesnik</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="435"/>
-        <source>WiFi status</source>
-        <translation>WiFi status</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="457"/>
-        <source>Unblocks all soft/hard blocked wireless devices</source>
-        <translation>Odblokira vse programsko ali strojno blokirane naprave</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="460"/>
-        <source>Unblock WiFi Devices</source>
-        <translation>Odblokiraj WiFi naprave</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="492"/>
-        <source>Linux drivers</source>
-        <translation>Linux gonilniki</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="504"/>
-        <source>Associated Linux drivers</source>
-        <translation>Povezani gonilniki za Linux</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="513"/>
-        <source>Load Driver</source>
-        <translation>Naloži gonilnik</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="576"/>
-        <source>Unload Driver</source>
-        <translation>Odstrani gonilnik</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="613"/>
-        <location filename="../mainwindow.cpp" line="841"/>
-        <source>Block Driver</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="632"/>
-        <source>Windows drivers</source>
-        <translation>Windows gonilniki</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="638"/>
-        <source>Available Windows drivers</source>
-        <translation>Windows gonilniki, ki so na voljo</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="672"/>
-        <source>Remove Driver</source>
-        <translation>Odtrsani gonilnik</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="683"/>
-        <source>Add Driver</source>
-        <translation>Dodaj gonilnik</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="724"/>
-        <source>About NDISwrapper</source>
-        <translation>O programu NDISwrapper</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="736"/>
-        <source>Install NDISwrapper</source>
-        <translation>Namesti NDISwrapper</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="747"/>
-        <source>In order to use Windows drivers you need first to install NDISwrapper</source>
-        <translation>Pred uporabo Windows gonilnikov je najprej potrebno namestiti NDISwrapper.</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="763"/>
-        <source>Uninstall NDISwrapper</source>
-        <translation>Odstrani NDISwrapper</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="795"/>
-        <source>Net diagnostics</source>
-        <translation>Diagnostika omrežja</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="807"/>
-        <source>Ping</source>
-        <translation>Ping</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="813"/>
-        <location filename="../mainwindow.ui" line="930"/>
-        <source>Target URL:</source>
-        <translation>Ciljni URL:</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="823"/>
-        <source>Packets</source>
-        <translation>Paketi</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="865"/>
-        <location filename="../mainwindow.ui" line="985"/>
-        <source>Start</source>
-        <translation>Začni</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="882"/>
-        <location filename="../mainwindow.ui" line="1002"/>
-        <source>Clear</source>
-        <translation>Počisti</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="896"/>
-        <location filename="../mainwindow.ui" line="1016"/>
-        <source>Cancel</source>
-        <translation>Prekliči</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="924"/>
-        <source>Traceroute</source>
-        <translation>Traceroute</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="940"/>
-        <source>Hops</source>
-        <translation>Skoki</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="86"/>
-        <source>About...</source>
-        <translation>O programu...</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="109"/>
+        <location filename="../datetime.ui" line="40"/>
         <source>Help</source>
         <translation>Pomoč</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="177"/>
+        <location filename="../datetime.ui" line="73"/>
+        <source>Apply</source>
+        <translation>Potrdi</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="100"/>
+        <source>About...</source>
+        <translation>O programu...</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="124"/>
+        <source>Date &amp;&amp; Time</source>
+        <translation>Datum &amp;&amp; ura</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="192"/>
+        <source>H:mm:ss</source>
+        <translation>U:mm:ss</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="278"/>
+        <location filename="../datetime.cpp" line="296"/>
+        <location filename="../datetime.cpp" line="303"/>
+        <source>Hardware Clock</source>
+        <translation>Strojna ura</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="284"/>
+        <source>Hardware Clock tools</source>
+        <translation>Ordoja strojne ure</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="290"/>
+        <source>Obtain information from the Hardware Clock and present it in the box below.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="293"/>
+        <source>Read the Hardware Clock</source>
+        <translation>Odčitaj strojno uro</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="303"/>
+        <source>Apply systematic drift corrections to the Hardware Clock.</source>
+        <translation>Sistemetične popravi odstopanja strojne ure.</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="306"/>
+        <source>Drift Adjust</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="329"/>
+        <source>Time transfer</source>
+        <translation>Prenos časa</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="335"/>
+        <source>Immediately set the System Clock to match the current time registered by the Hardware Clock.</source>
+        <translation>Nemudoma nastavi sistemsko uro, da ustreza času, kot ga trenutno kaže strojna ura.</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="338"/>
+        <source>Hardware Clock to System Clock</source>
+        <translation>Strojna ura v sistemsko uro</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="348"/>
+        <source>Immediately set the Hardware Clock to match the current time registered by the System Clock.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="351"/>
+        <source>System Clock to Hardware Clock</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="361"/>
+        <source>Update the drift factor for the Hardware Clock when it is being set.</source>
+        <translation>Posodobi faktor odstopanja za strojno uro, potem ko je nastavljen.</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="364"/>
+        <source>Update the drift</source>
+        <translation>Posodobi ostopanje</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="374"/>
+        <source>Time zone for the Hardware Clock</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="380"/>
+        <source>Local time</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="383"/>
+        <source>Local</source>
+        <translation>Lokalno</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="390"/>
+        <source>Universally Coordinated Time (or Greenwich Meridian Time)</source>
+        <translation>Univerzalni koordinirani čas (ali Greenwiški srednji čas)</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="393"/>
+        <source>UTC</source>
+        <translation>UTC</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="433"/>
+        <source>Network Time</source>
+        <translation>Omrežni čas</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="439"/>
+        <source>Move the selected item down</source>
+        <translation>Premakni izbrani element navzdol</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="450"/>
+        <source>Move the selected item up</source>
+        <translation>Premakni izbrani element navzgor</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="461"/>
+        <source>Remove the current item from the list</source>
+        <translation>Odstrani trenutni element iz seznama</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="472"/>
+        <source>Add an item to the list</source>
+        <translation>Dodaj element na seznam</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="498"/>
+        <source>Automatically update the System Clock with NTP servers:</source>
+        <translation>Samodejno posodobi sistemsko uro preko NTP strežnikov:</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="505"/>
+        <source>Immediately update the system clock with NTP servers.</source>
+        <translation>Nemudoma posodobi sistemsko uro preko NTP strežnikov.</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="508"/>
+        <source>Update Now</source>
+        <translation>Posodobi zdaj</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="520"/>
+        <source>List of NTP servers to use.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="536"/>
+        <source>Type</source>
+        <translation>Vrsta</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="541"/>
+        <source>Address</source>
+        <translation>Naslov</translation>
+    </message>
+    <message>
+        <location filename="../datetime.ui" line="546"/>
+        <source>Options</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="270"/>
+        <source>Reading...</source>
+        <translation>Odčitavanje...</translation>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="284"/>
+        <source>Adjusting...</source>
+        <translation>Nastavljanje...</translation>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="296"/>
+        <location filename="../datetime.cpp" line="303"/>
+        <source>System Clock</source>
+        <translation>Sistemska ura</translation>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="309"/>
+        <source>The %1 time was transferred to the %2.</source>
+        <translation>Čas %1 je bil prenešen v %2.</translation>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="312"/>
+        <source>The %1 time could not be transferred to the %2.</source>
+        <translation>Časa %1 ni bilo mogoče prenesti v %2.</translation>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="352"/>
+        <source>Updating...</source>
+        <translation>Posodabljanje...</translation>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="365"/>
+        <source>The system clock was updated successfully.</source>
+        <translation>Sistemska ura je bila uspešno posodobljena.</translation>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="367"/>
+        <source>The system clock could not be updated.</source>
+        <translation>Sistemske ure ni bilo mogoče posodobiti.</translation>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="369"/>
+        <source>None of the NTP servers on the list are currently enabled.</source>
+        <translation>Noben od NTP strežnikov iz seznama trenutno ni vklopljen.</translation>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="603"/>
+        <source>About MX Date &amp; Time</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="604"/>
+        <source>Version: </source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="605"/>
+        <source>GUI program for setting the time and date in MX Linux</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="607"/>
+        <source>Copyright (c) MX Linux</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="608"/>
+        <location filename="../datetime.cpp" line="622"/>
+        <source>License</source>
+        <translation>Licenca</translation>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="609"/>
+        <source>Changelog</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="610"/>
+        <source>Cancel</source>
+        <translation>Prekliči</translation>
+    </message>
+    <message>
+        <location filename="../datetime.cpp" line="636"/>
         <source>&amp;Close</source>
         <translation>&amp;Zapri</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="184"/>
-        <source>Alt+C</source>
-        <translation>Alt+C</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="96"/>
-        <source>IP address from router:</source>
-        <translation>IP naslov usmerjevalnika:</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="97"/>
-        <source>External IP address:</source>
-        <translation>Zunanji IP naslov:</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="135"/>
-        <location filename="../mainwindow.cpp" line="150"/>
-        <source>Interface: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="136"/>
-        <location filename="../mainwindow.cpp" line="151"/>
-        <source>Driver: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="137"/>
-        <location filename="../mainwindow.cpp" line="152"/>
-        <source>Description: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="138"/>
-        <location filename="../mainwindow.cpp" line="153"/>
-        <source>Product: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="139"/>
-        <location filename="../mainwindow.cpp" line="154"/>
-        <source>Vendor: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="140"/>
-        <location filename="../mainwindow.cpp" line="155"/>
-        <source>Enabled: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="208"/>
-        <location filename="../mainwindow.cpp" line="222"/>
-        <location filename="../mainwindow.cpp" line="236"/>
-        <source>&amp;Copy</source>
-        <translation>&amp;Kopiraj</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="210"/>
-        <location filename="../mainwindow.cpp" line="224"/>
-        <location filename="../mainwindow.cpp" line="238"/>
-        <source>Ctrl+C</source>
-        <translation>Ctrl+C</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="211"/>
-        <location filename="../mainwindow.cpp" line="225"/>
-        <location filename="../mainwindow.cpp" line="239"/>
-        <source>Copy &amp;All</source>
-        <translation>Kopiraj &amp;vse</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="213"/>
-        <location filename="../mainwindow.cpp" line="227"/>
-        <location filename="../mainwindow.cpp" line="241"/>
-        <source>Ctrl+A</source>
-        <translation>Ctrl+A</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="272"/>
-        <location filename="../mainwindow.cpp" line="289"/>
-        <source>Traceroute not installed</source>
-        <translation>Traceroute ni nameščen</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="273"/>
-        <source>Traceroute is not installed, do you want to install it now?</source>
-        <translation>Tarceroute ni nameščen. Namestim zdaj?</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="280"/>
-        <source>Traceroute hasn&apos;t been installed</source>
-        <translation>Traceroute ni bil nameščen</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="281"/>
-        <source>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</source>
-        <translation>Namestitev Traceroute ni možna. Vzrok je lahko v rabi živega CD ali v nedosegljivosti programskega skladišča,</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="290"/>
-        <source>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</source>
-        <translation>Traceroute ni nameščen in ga ni mogoče namestiti, ker ni bila najdena spletna povezava.</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="296"/>
-        <location filename="../mainwindow.cpp" line="336"/>
-        <source>No destination host</source>
-        <translation>Ni ciljnega gostitelja</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="296"/>
-        <location filename="../mainwindow.cpp" line="336"/>
-        <source>Please fill in the destination host field</source>
-        <translation>Prosimo izpolnite polje za ciljnega gostitelja</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="450"/>
-        <source>Loaded Drivers</source>
-        <translation>Naloženi gonilniki</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="458"/>
-        <source>Unloaded Drivers</source>
-        <translation>Nenaloženi gonilniki</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="471"/>
-        <source>Blocked Drivers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="490"/>
-        <source>Blocked Broadcom Drivers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="511"/>
-        <source>Ndiswrapper is not installed</source>
-        <translation type="unfinished">Ndiswrapper ni nameščen</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="523"/>
-        <source>driver installed</source>
-        <translation type="unfinished">gonilnik je nameščen</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="531"/>
-        <source> and in use by </source>
-        <translation type="unfinished">in ga uporablja</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="538"/>
-        <source>. Alternate driver: </source>
-        <translation type="unfinished">. Alternativni gonilnik: </translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="609"/>
-        <source>Driver removed from blocklist</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="610"/>
-        <source>Driver removed from blocklist.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="616"/>
-        <source>Module blocked</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="773"/>
-        <source>Installation successful</source>
-        <translation type="unfinished">Namesitev je bila uspešna</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="776"/>
-        <source>Error detected, could not compile ndiswrapper driver.</source>
-        <translation type="unfinished">Pojavila se je napaka. Ndiswrapper gonilnika ni bilo mogoče prevesti.</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="779"/>
-        <source>Error detected, could not install ndiswrapper.</source>
-        <translation type="unfinished">Pojavila se je napaka. Ndiswrapper ni bilo mogoče namestiti.</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="791"/>
-        <source>Error encountered while removing Ndiswrapper</source>
-        <translation type="unfinished">Napaka pri odtranjevanju programa Ndiswrapper.</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="838"/>
-        <source>Unblock Driver</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="877"/>
-        <source>enabled</source>
-        <translation>omogočeno</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="880"/>
-        <source>disabled</source>
-        <translation>onemogočeno</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="883"/>
-        <source>WiFi hardware switch is off</source>
-        <translation>Stikalo za WFi strojno opremo je izklopljeno</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="891"/>
-        <source>Locate the Windows driver you want to add</source>
-        <translation>Locirajte Windows gonilnik, ki ga želite dodati</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="891"/>
-        <source>Windows installation information file (*.inf)</source>
-        <translation>Datoteka s podatki za Windows namestitev (*.inf)</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="920"/>
-        <source>*.sys file not found</source>
-        <translation>*.sys datoteka ni bila najdena</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="920"/>
-        <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
-        <translation>*.sys datoteka se mora nahajati na isti lokaciji kot *.inf datoteka. %1 ni bilo mogoče najti</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="929"/>
-        <source>sys file reference not found</source>
-        <translation>reference za datoteko sys ni bilo mogoče najti</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="930"/>
-        <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
-        <translation>Glede na informacije v inf datoteki, ni bilo mogoče najti ustrezne sys datoteke za izbrani gonilnik.</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="949"/>
-        <source>Ndiswrapper driver removed.</source>
-        <translation>Ndiswrapper gonilnik je bil odstranjen.</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="957"/>
-        <source>%1 Help</source>
-        <translation>%1 pomoč</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="968"/>
-        <source>Could not unlock devices.
-WiFi device(s) might already be unlocked.</source>
-        <translation type="unfinished">Naprav nisem mogel odkleniti.
-WiFi naprava ali naprave so morda že odklenjene.</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="970"/>
-        <source>WiFi devices unlocked.</source>
-        <translation type="unfinished">WiFi naprave so odklenjene.</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="983"/>
-        <source>About %1</source>
-        <translation>O %1</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="984"/>
-        <source>Version: </source>
-        <translation>Različica:</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="985"/>
-        <source>Program for troubleshooting and configuring network for MX Linux</source>
-        <translation>MX Linux program za konfiguriranje omrežja in odpravljanje napak</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="987"/>
-        <source>Copyright (c) MEPIS LLC and MX Linux</source>
-        <translation>Copyright (c) MEPIS LLC and MX Linux</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="988"/>
-        <source>%1 License</source>
-        <translation>%1 licenca</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="1011"/>
-        <source>Driver loaded successfully</source>
-        <translation type="unfinished">Gonilnik je uspešno naložen</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="1026"/>
-        <source>Driver unloaded successfully</source>
-        <translation type="unfinished">Gonilnik je bil uspešno odstranjen</translation>
-    </message>
-</context>
-<context>
-    <name>QApplication</name>
-    <message>
-        <source>License</source>
-        <translation type="vanished">Licenca</translation>
-    </message>
-    <message>
-        <source>Changelog</source>
-        <translation type="vanished">Dnevnik sprememb</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="vanished">Prekliči</translation>
-    </message>
-    <message>
-        <source>&amp;Close</source>
-        <translation type="vanished">&amp;Zapri</translation>
-    </message>
-    <message>
-        <source>You must run this program as root.</source>
-        <translation type="vanished">Ta program morate zagnati kot root</translation>
-    </message>
-    <message>
-        <source>Ndiswrapper is not installed</source>
-        <translation type="vanished">Ndiswrapper ni nameščen</translation>
-    </message>
-    <message>
-        <source>driver installed</source>
-        <translation type="vanished">gonilnik je nameščen</translation>
-    </message>
-    <message>
-        <source> and in use by </source>
-        <translation type="vanished">in ga uporablja</translation>
-    </message>
-    <message>
-        <source>. Alternate driver: </source>
-        <translation type="vanished">. Alternativni gonilnik: </translation>
-    </message>
-    <message>
-        <source>Installation successful</source>
-        <translation type="vanished">Namesitev je bila uspešna</translation>
-    </message>
-    <message>
-        <source>Error detected, could not compile ndiswrapper driver.</source>
-        <translation type="vanished">Pojavila se je napaka. Ndiswrapper gonilnika ni bilo mogoče prevesti.</translation>
-    </message>
-    <message>
-        <source>Error detected, could not install ndiswrapper.</source>
-        <translation type="vanished">Pojavila se je napaka. Ndiswrapper ni bilo mogoče namestiti.</translation>
-    </message>
-    <message>
-        <source>Error encountered while removing Ndiswrapper</source>
-        <translation type="vanished">Napaka pri odtranjevanju programa Ndiswrapper.</translation>
-    </message>
-    <message>
-        <source>Could not unlock devices.
-WiFi device(s) might already be unlocked.</source>
-        <translation type="vanished">Naprav nisem mogel odkleniti.
-WiFi naprava ali naprave so morda že odklenjene.</translation>
-    </message>
-    <message>
-        <source>WiFi devices unlocked.</source>
-        <translation type="vanished">WiFi naprave so odklenjene.</translation>
-    </message>
-    <message>
-        <source>Driver loaded successfully</source>
-        <translation type="vanished">Gonilnik je uspešno naložen</translation>
-    </message>
-    <message>
-        <source>Driver unloaded successfully</source>
-        <translation type="vanished">Gonilnik je bil uspešno odstranjen</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <location filename="../mainwindow.cpp" line="632"/>
-        <source>Could not load </source>
-        <translation>Neuspešno nalaganje</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="656"/>
-        <source>Could not unload </source>
-        <translation>neuspešno odstranjevanje</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="41"/>
-        <source>License</source>
-        <translation type="unfinished">Licenca</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="42"/>
-        <location filename="../about.cpp" line="51"/>
-        <source>Changelog</source>
-        <translation type="unfinished">Dnevnik sprememb</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="43"/>
-        <source>Cancel</source>
-        <translation type="unfinished">Prekliči</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="63"/>
-        <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Zapri</translation>
-    </message>
-    <message>
-        <location filename="../main.cpp" line="56"/>
-        <source>Error</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.cpp" line="57"/>
-        <source>You seem to be logged in as root, please log out and log in as normal user to use this program.</source>
-        <translation type="unfinished"></translation>
+        <location filename="../datetime.cpp" line="654"/>
+        <source>MX Date &amp; Time Help</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>

@@ -1,53 +1,53 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="it">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="es_ES">
 <context>
     <name>MXDateTime</name>
     <message>
         <location filename="../datetime.ui" line="20"/>
         <location filename="../datetime.cpp" line="604"/>
         <source>MX Date &amp; Time</source>
-        <translation>MX Data &amp; Ora</translation>
+        <translation>MX Fecha y Hora</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="26"/>
         <source>Close</source>
-        <translation type="unfinished"/>
+        <translation>Cerrar</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="40"/>
         <source>Help</source>
-        <translation>Aiuto</translation>
+        <translation>Ayuda</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="73"/>
         <source>Apply</source>
-        <translation>Applica</translation>
+        <translation>Aplicar</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="100"/>
         <source>About...</source>
-        <translation>Info...</translation>
+        <translation>Acerca de...</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="124"/>
         <source>Date &amp;&amp; Time</source>
-        <translation>Data &amp; Ora</translation>
+        <translation>Fecha y&amp; Hora</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="192"/>
         <source>H:mm:ss</source>
-        <translation>O:mm:ss</translation>
+        <translation>H:mm:ss</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="278"/>
         <location filename="../datetime.cpp" line="296"/>
         <location filename="../datetime.cpp" line="303"/>
         <source>Hardware Clock</source>
-        <translation>Orologio hardware</translation>
+        <translation>Reloj de Hardware</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="284"/>
         <source>Hardware Clock tools</source>
-        <translation>Strumenti Orologio hardware</translation>
+        <translation>Herramientas de Reloj de Hardware</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="290"/>
@@ -57,12 +57,12 @@
     <message>
         <location filename="../datetime.ui" line="293"/>
         <source>Read the Hardware Clock</source>
-        <translation>Leggi l&apos;Orologio hardware</translation>
+        <translation>Lea el Reloj de Hardware</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="303"/>
         <source>Apply systematic drift corrections to the Hardware Clock.</source>
-        <translation>Applica correzioni sistematiche consecutive all&apos;orologio hardware.</translation>
+        <translation>Aplicar correcciones de deriva sistemáticas al reloj de hardware.</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="306"/>
@@ -72,17 +72,17 @@
     <message>
         <location filename="../datetime.ui" line="329"/>
         <source>Time transfer</source>
-        <translation>Trasferimento del tempo</translation>
+        <translation>Transferencia de Tiempo</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="335"/>
         <source>Immediately set the System Clock to match the current time registered by the Hardware Clock.</source>
-        <translation>Imposta immediatamente l&apos;Orologio di sistema in modo che corrisponda all&apos;ora corrente registrata dall&apos;Orologio hardware.</translation>
+        <translation>Configure inmediatamente el reloj del sistema para que coincida con la hora actual registrada por el reloj de hardware.</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="338"/>
         <source>Hardware Clock to System Clock</source>
-        <translation>Orologio hardware a Orologio di sistema</translation>
+        <translation>Reloj de Hardware a Reloj del Sistema</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="348"/>
@@ -97,12 +97,12 @@
     <message>
         <location filename="../datetime.ui" line="361"/>
         <source>Update the drift factor for the Hardware Clock when it is being set.</source>
-        <translation>Aggiorna il fattore di scarto per l&apos;orologio hardware quando viene impostato.</translation>
+        <translation>Actualice el factor de deriva para el Reloj de Hardware cuando se este configurando.</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="364"/>
         <source>Update the drift</source>
-        <translation>Aggiorna lo scarto</translation>
+        <translation>Actualizar la deriva</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="374"/>
@@ -117,12 +117,12 @@
     <message>
         <location filename="../datetime.ui" line="383"/>
         <source>Local</source>
-        <translation>Locale</translation>
+        <translation>Local</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="390"/>
         <source>Universally Coordinated Time (or Greenwich Meridian Time)</source>
-        <translation>Tempo Coordinato Universalmente (o Tempo del Meridiano di Greenwich)</translation>
+        <translation>Hora Coordinada Universalmente (u Hora del Meridiano de Greenwich)</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="393"/>
@@ -132,42 +132,42 @@
     <message>
         <location filename="../datetime.ui" line="433"/>
         <source>Network Time</source>
-        <translation>Tempo di rete</translation>
+        <translation>Hora de la Red</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="439"/>
         <source>Move the selected item down</source>
-        <translation>Sposta l&apos;elemento selezionato verso il basso</translation>
+        <translation>Mueve el elemento seleccionado hacia abajo</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="450"/>
         <source>Move the selected item up</source>
-        <translation>Sposta l&apos;elemento selezionato verso l&apos;alto</translation>
+        <translation>Mueve el elemento seleccionado hacia arriba</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="461"/>
         <source>Remove the current item from the list</source>
-        <translation>Rimuovi l&apos;elemento corrente dall&apos;elenco</translation>
+        <translation>Eliminar el elemento actual de la lista</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="472"/>
         <source>Add an item to the list</source>
-        <translation>Aggiungi un elemento all&apos;elenco</translation>
+        <translation>Añadir un elemento a la lista</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="498"/>
         <source>Automatically update the System Clock with NTP servers:</source>
-        <translation>Aggiorna automaticamente l&apos;Orologio di sistema con i server NTP:</translation>
+        <translation>Actualice automáticamente el Reloj del Sistema con servidores NTP:</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="505"/>
         <source>Immediately update the system clock with NTP servers.</source>
-        <translation>Aggiorna immediatamente l&apos;Orologio di sistema con i server NTP.</translation>
+        <translation>Actualice inmediatamente el reloj del sistema con servidores NTP.</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="508"/>
         <source>Update Now</source>
-        <translation>Aggiorna adesso</translation>
+        <translation>Actualizar Ahora</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="520"/>
@@ -182,7 +182,7 @@
     <message>
         <location filename="../datetime.ui" line="541"/>
         <source>Address</source>
-        <translation>Indirizzo</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="546"/>
@@ -192,48 +192,48 @@
     <message>
         <location filename="../datetime.cpp" line="270"/>
         <source>Reading...</source>
-        <translation>Leggo...</translation>
+        <translation>Leyendo...</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="284"/>
         <source>Adjusting...</source>
-        <translation>Sto regolando...</translation>
+        <translation>Ajustándose...</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="296"/>
         <location filename="../datetime.cpp" line="303"/>
         <source>System Clock</source>
-        <translation>Orologio di sistema</translation>
+        <translation>Reloj del Sistema</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="309"/>
         <source>The %1 time was transferred to the %2.</source>
-        <translation>Il tempo %1 è stato trasferito al %2.</translation>
+        <translation>El tiempo %1 se transfirió al %2.</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="312"/>
         <source>The %1 time could not be transferred to the %2.</source>
-        <translation>Il tempo %1 non può essere trasferito al %2.</translation>
+        <translation>El tiempo %1 no se pudo transferir al %2.</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="352"/>
         <source>Updating...</source>
-        <translation>Aggiorno...</translation>
+        <translation>Actualizando...</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="365"/>
         <source>The system clock was updated successfully.</source>
-        <translation>L&apos;orologio di sistema è stato aggiornato correttamente.</translation>
+        <translation>El reloj del sistema se actualizó correctamente.</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="367"/>
         <source>The system clock could not be updated.</source>
-        <translation>L&apos;orologio di sistema non può essere aggiornato.</translation>
+        <translation>El reloj del sistema no se pudo actualizar.</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="369"/>
         <source>None of the NTP servers on the list are currently enabled.</source>
-        <translation>Nessuno dei server NTP nell&apos;elenco è attualmente abilitato.</translation>
+        <translation>Ninguno de los servidores NTP en la lista está habilitado actualmente.</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="603"/>
@@ -259,7 +259,7 @@
         <location filename="../datetime.cpp" line="608"/>
         <location filename="../datetime.cpp" line="622"/>
         <source>License</source>
-        <translation>Licenza</translation>
+        <translation>Licencia</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="609"/>
@@ -269,12 +269,12 @@
     <message>
         <location filename="../datetime.cpp" line="610"/>
         <source>Cancel</source>
-        <translation>Annulla</translation>
+        <translation>Cancelar</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="636"/>
         <source>&amp;Close</source>
-        <translation>&amp;Chiudi</translation>
+        <translation>&amp;Cerrar</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="654"/>
