@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sat, 23 Jul 2022 11:31:14 -0400
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: source amd64
+Version: 22.7
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (22.7) mx; urgency=medium
+ .
+   * translation refresh
+Checksums-Sha1:
+ 6dcd394811fb110ad006a2b19b07260d246238ba 682 mx-network-assistant_22.7.dsc
+ 170f8520bc441dec083d2a8ba3f15a117e120b4e 779060 mx-network-assistant_22.7.tar.xz
+ a7e285158673dcf93c04029794553cdf18118b89 12138 mx-network-assistant_22.7_amd64.buildinfo
+ a8aabeab1cb8212c91e479763fd6e323ceb22c9b 202496 mx-network-assistant_22.7_amd64.deb
+Checksums-Sha256:
+ 84890731f7cd746e0ea41fd7b298687d9ae7dbd7f7e9826978e810b3eaed149a 682 mx-network-assistant_22.7.dsc
+ 2737edc57d73994f155121595a1ce61ceb53819c47e81ebe1ff89b9b2bcd088a 779060 mx-network-assistant_22.7.tar.xz
+ 8592e21e20d15c11602fca800bcfa12ad02c3e9a8cdb1451679d35e8b2d37572 12138 mx-network-assistant_22.7_amd64.buildinfo
+ 981de4b5a6eadb66ab1ef5661b857c0261fffb8dea5a6d3a9ad87c06f6362c91 202496 mx-network-assistant_22.7_amd64.deb
+Files:
+ f2ec78df47b43955586bc426951dfc75 682 admin optional mx-network-assistant_22.7.dsc
+ f7489bf5c9fec6e266daacca9e2372d9 779060 admin optional mx-network-assistant_22.7.tar.xz
+ ebe5ecea5c6d0814b0f2c4e4393e227b 12138 admin optional mx-network-assistant_22.7_amd64.buildinfo
+ 2cb0112a42bd47ef73d9e65ec83d65a4 202496 admin optional mx-network-assistant_22.7_amd64.deb
