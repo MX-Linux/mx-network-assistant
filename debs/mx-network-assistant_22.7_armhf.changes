@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sat, 23 Jul 2022 11:31:14 -0400
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: armhf
+Version: 22.7
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (22.7) mx; urgency=medium
+ .
+   * translation refresh
+Checksums-Sha1:
+ 185ac008ac13a4a113d866dc663ad71f1e803ee9 11513 mx-network-assistant_22.7_armhf.buildinfo
+ 3c4dc89f50f946e9287f60c9eddc09c96046cc55 195568 mx-network-assistant_22.7_armhf.deb
+Checksums-Sha256:
+ 36c5f18fe1c68efc660c972ba3360a66c65438afcd36ecb2538a355c912d6dfd 11513 mx-network-assistant_22.7_armhf.buildinfo
+ 740223cef130e45298cafb524b9b5dd6247f5ffd4ed0272f5d5dcb715b639557 195568 mx-network-assistant_22.7_armhf.deb
+Files:
+ b8c44ed3a1653fc88295819162248d6d 11513 admin optional mx-network-assistant_22.7_armhf.buildinfo
+ a7dcfbcd36b540742c0a1a438bcfdced 195568 admin optional mx-network-assistant_22.7_armhf.deb
