@@ -1,3 +1,9 @@
+mx-network-assistant (22.7) mx; urgency=medium
+
+  * translation refresh 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 23 Jul 2022 11:31:14 -0400
+
 mx-network-assistant (22.6) mx; urgency=medium
 
   * Preserve user theme when launching program as root
