@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 17 Aug 2022 21:55:37 -0400
+Source: mx-network-assistant
+Architecture: source
+Version: 22.8
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Changes:
+ mx-network-assistant (22.8) mx; urgency=medium
+ .
+   * Fix: launching Firefox from Help
+Checksums-Sha1:
+ afa0248ff28d14cd554d387e0813fa780d6f09cb 1227 mx-network-assistant_22.8.dsc
+ 111db8bef98bea58a0089df8b58e1f6c3857c149 160480 mx-network-assistant_22.8.tar.xz
+ 3455fc113bb1322eb6d044bbb85fe9937666056d 10812 mx-network-assistant_22.8_amd64.buildinfo
+Checksums-Sha256:
+ 370ec779dcab6b90ffab3b383f9897e49dd84f0c49d54a7b41838bb957e38162 1227 mx-network-assistant_22.8.dsc
+ 26746b9ff603519faa530eb4562d200e2084b44424295783ef1bc1047964889b 160480 mx-network-assistant_22.8.tar.xz
+ 51b0db317a262e1ee59434bf77ac37293a440dcccfa87e453f2a22a0ae2f6976 10812 mx-network-assistant_22.8_amd64.buildinfo
+Files:
+ cf627abc72f09f84cc520084f7ab5600 1227 admin optional mx-network-assistant_22.8.dsc
+ 4e1ef14a24a055b03ee9254cb3f3320f 160480 admin optional mx-network-assistant_22.8.tar.xz
+ 71ca597643ffe5a649618e7d3c2ba961 10812 admin optional mx-network-assistant_22.8_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmL9nx8THGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumCoBB/9Jhi7YMr/hZX4YWYb4LSxMu7ArtKG4
+8Pqec8ly/UA8c22beu3jVpF6taMAIjnYdew5LUmEs86MbSC+A+I1NwCoRc6T4Sv6
+5GzIFgtd9l6hfuRhWnNSyXq+0QSwY3Oe/SfCw+9WguxOPMF4n52k6OzktO0enmrD
+FY03a1ogUWhAg4F70uzI0D9/22DjfwNq6seRd313SEyTv9ag95N5MDcCTaqzyEtf
+nFHhDAI2Ww7j7s/yqHarvllyABoYHTeMyHd9qvcfi+rnMwzpUcBCLqfW36K5BaE9
+PTG0EzlcdhIisFdsb/xsVm0k8i3iYnYue9zbxBzMyuF+ni3mqB+bwUTH
+=OLqS
+-----END PGP SIGNATURE-----

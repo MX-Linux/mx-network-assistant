@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Wed, 17 Aug 2022 21:55:37 -0400
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: i386
+Version: 22.8
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (22.8) mx; urgency=medium
+ .
+   * Fix: launching Firefox from Help
+Checksums-Sha1:
+ 2b4e0248e9dedebe7e7509d1907280e6ea291276 10087 mx-network-assistant_22.8_i386.buildinfo
+ c44e7b98a4e9f3aa0a67985e53c23bd03d7e0f00 206056 mx-network-assistant_22.8_i386.deb
+Checksums-Sha256:
+ a42ccf82aed2b63c49d8fd22c6520609922fdfab7ef44ba21fa0019abbc78113 10087 mx-network-assistant_22.8_i386.buildinfo
+ 3cf45a35af9b3b454f2921973e5be739cf6bd83cf0e6ecf4362495264cf0701f 206056 mx-network-assistant_22.8_i386.deb
+Files:
+ 80838c296402c62fbd71f8c5b474e7f5 10087 admin optional mx-network-assistant_22.8_i386.buildinfo
+ 68f4cf03f45ac9f53ecfbdcc16908bcb 206056 admin optional mx-network-assistant_22.8_i386.deb
