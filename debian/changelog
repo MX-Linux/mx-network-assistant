@@ -1,3 +1,9 @@
+mx-network-assistant (22.8.01) mx; urgency=medium
+
+  * Fix: launching documents from Help (fixes a problem in Plasma)
+
+ -- Adrian <adrian@mxlinux.org>  Mon, 22 Aug 2022 19:03:57 -0400
+
 mx-network-assistant (22.8) mx; urgency=medium
 
   * Fix: launching Firefox from Help 
