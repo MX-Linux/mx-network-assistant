@@ -954,7 +954,7 @@ void MainWindow::on_windowsDrvRemovePushButton_clicked()
 void MainWindow::on_generalHelpPushButton_clicked()
 {
     const QString url = QStringLiteral("/usr/share/doc/mx-network-assistant/mx-network-assistant.html");
-    displayDoc(url, tr("%1 Help").arg(this->windowTitle()), true);
+    displayDoc(url, tr("%1 Help").arg(this->windowTitle()));
 }
 
 void MainWindow::on_tabWidget_currentChanged()
@@ -985,7 +985,7 @@ void MainWindow::on_buttonAbout_clicked()
                        tr("Program for troubleshooting and configuring network for MX Linux") +
                        R"(</h3></p><p align="center"><a href="http://mxlinux.org">http://mxlinux.org</a><br /></p><p align="center">)" +
                        tr("Copyright (c) MEPIS LLC and MX Linux") + "<br /><br /></p>",
-                       QStringLiteral("/usr/share/doc/mx-network-assistant/license.html"), tr("%1 License").arg(this->windowTitle()), true);
+                       QStringLiteral("/usr/share/doc/mx-network-assistant/license.html"), tr("%1 License").arg(this->windowTitle()));
     this->show();
 }
 
