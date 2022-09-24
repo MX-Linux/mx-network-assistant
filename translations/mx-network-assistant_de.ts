@@ -1,285 +1,725 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="de">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="de">
 <context>
     <name>MXDateTime</name>
     <message>
-        <location filename="../datetime.ui" line="20"/>
-        <location filename="../datetime.cpp" line="604"/>
         <source>MX Date &amp; Time</source>
-        <translation>MX Datum &amp; Zeit</translation>
+        <translation type="vanished">MX Datum &amp; Zeit</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="26"/>
-        <source>Close</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="40"/>
         <source>Help</source>
-        <translation>Hilfe</translation>
+        <translation type="vanished">Hilfe</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="73"/>
         <source>Apply</source>
-        <translation>Anwenden</translation>
+        <translation type="vanished">Anwenden</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="100"/>
         <source>About...</source>
-        <translation>Über...</translation>
+        <translation type="vanished">Über...</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="124"/>
         <source>Date &amp;&amp; Time</source>
-        <translation>Datum &amp;&amp; Zeit</translation>
+        <translation type="vanished">Datum &amp;&amp; Zeit</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="192"/>
         <source>H:mm:ss</source>
-        <translation>H:mm:ss</translation>
+        <translation type="vanished">H:mm:ss</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="278"/>
-        <location filename="../datetime.cpp" line="296"/>
-        <location filename="../datetime.cpp" line="303"/>
         <source>Hardware Clock</source>
-        <translation>Hardware Uhr</translation>
+        <translation type="vanished">Hardware Uhr</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="284"/>
         <source>Hardware Clock tools</source>
-        <translation>Hardware Uhr Tools</translation>
+        <translation type="vanished">Hardware Uhr Tools</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="290"/>
-        <source>Obtain information from the Hardware Clock and present it in the box below.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="293"/>
         <source>Read the Hardware Clock</source>
-        <translation>Hardware Uhr auslesen</translation>
+        <translation type="vanished">Hardware Uhr auslesen</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="303"/>
         <source>Apply systematic drift corrections to the Hardware Clock.</source>
-        <translation>Systematische Driftkorrekturen der Systemuhr durchführen.</translation>
+        <translation type="vanished">Systematische Driftkorrekturen der Systemuhr durchführen.</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="306"/>
-        <source>Drift Adjust</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="329"/>
         <source>Time transfer</source>
-        <translation>Zeit übertragen</translation>
+        <translation type="vanished">Zeit übertragen</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="335"/>
         <source>Immediately set the System Clock to match the current time registered by the Hardware Clock.</source>
-        <translation>Jetzt die Systemzeit auf Hardware Uhrzeit setzen.</translation>
+        <translation type="vanished">Jetzt die Systemzeit auf Hardware Uhrzeit setzen.</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="338"/>
         <source>Hardware Clock to System Clock</source>
-        <translation>Hardware Zeit nach Systemzeit</translation>
+        <translation type="vanished">Hardware Zeit nach Systemzeit</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="348"/>
-        <source>Immediately set the Hardware Clock to match the current time registered by the System Clock.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="351"/>
-        <source>System Clock to Hardware Clock</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="361"/>
         <source>Update the drift factor for the Hardware Clock when it is being set.</source>
-        <translation>Aktualisierung des Driftfaktors beim Einstellen der Systemuhr. </translation>
+        <translation type="vanished">Aktualisierung des Driftfaktors beim Einstellen der Systemuhr. </translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="364"/>
         <source>Update the drift</source>
-        <translation>Drift aktualisieren</translation>
+        <translation type="vanished">Drift aktualisieren</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="374"/>
-        <source>Time zone for the Hardware Clock</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="380"/>
-        <source>Local time</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="383"/>
         <source>Local</source>
-        <translation>Lokal</translation>
+        <translation type="vanished">Lokal</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="390"/>
         <source>Universally Coordinated Time (or Greenwich Meridian Time)</source>
-        <translation>UTC oder Greenwich Zeit</translation>
+        <translation type="vanished">UTC oder Greenwich Zeit</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="393"/>
         <source>UTC</source>
-        <translation>UTC</translation>
+        <translation type="vanished">UTC</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="433"/>
         <source>Network Time</source>
-        <translation>Netzwerk Zeit</translation>
+        <translation type="vanished">Netzwerk Zeit</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="439"/>
         <source>Move the selected item down</source>
-        <translation>Selektion nach Unten verschieben</translation>
+        <translation type="vanished">Selektion nach Unten verschieben</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="450"/>
         <source>Move the selected item up</source>
-        <translation>Selektion nach Oben verschieben</translation>
+        <translation type="vanished">Selektion nach Oben verschieben</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="461"/>
         <source>Remove the current item from the list</source>
-        <translation>Selektion von der Liste entfernen</translation>
+        <translation type="vanished">Selektion von der Liste entfernen</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="472"/>
         <source>Add an item to the list</source>
-        <translation>Eintrag zur Liste hinzufügen</translation>
+        <translation type="vanished">Eintrag zur Liste hinzufügen</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="498"/>
         <source>Automatically update the System Clock with NTP servers:</source>
-        <translation>Die Uhrzeit automatisch mit NTP Servern abgleichen</translation>
+        <translation type="vanished">Die Uhrzeit automatisch mit NTP Servern abgleichen</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="505"/>
         <source>Immediately update the system clock with NTP servers.</source>
-        <translation>Die Uhrzeit jetzt mit NTP Servern abgleichen</translation>
+        <translation type="vanished">Die Uhrzeit jetzt mit NTP Servern abgleichen</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="508"/>
         <source>Update Now</source>
-        <translation>Jetzt abgleichen</translation>
+        <translation type="vanished">Jetzt abgleichen</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="520"/>
-        <source>List of NTP servers to use.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="536"/>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation type="vanished">Typ</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="541"/>
-        <source>Address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="546"/>
-        <source>Options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="270"/>
         <source>Reading...</source>
-        <translation>Lese...</translation>
+        <translation type="vanished">Lese...</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="284"/>
         <source>Adjusting...</source>
-        <translation>Korrektur läuft ....</translation>
+        <translation type="vanished">Korrektur läuft ....</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="296"/>
-        <location filename="../datetime.cpp" line="303"/>
         <source>System Clock</source>
-        <translation>Systemuhr</translation>
+        <translation type="vanished">Systemuhr</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="309"/>
         <source>The %1 time was transferred to the %2.</source>
-        <translation>Die %1 Zeit wurde von %2 übernommen.</translation>
+        <translation type="vanished">Die %1 Zeit wurde von %2 übernommen.</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="312"/>
         <source>The %1 time could not be transferred to the %2.</source>
-        <translation>Die %1 Zeit konnte von %2 nicht übernommen werden.</translation>
+        <translation type="vanished">Die %1 Zeit konnte von %2 nicht übernommen werden.</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="352"/>
         <source>Updating...</source>
-        <translation>Abgleich...</translation>
+        <translation type="vanished">Abgleich...</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="365"/>
         <source>The system clock was updated successfully.</source>
-        <translation>Die Systemzeit wurde erfolgreich synchronisiert.</translation>
+        <translation type="vanished">Die Systemzeit wurde erfolgreich synchronisiert.</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="367"/>
         <source>The system clock could not be updated.</source>
-        <translation>Die Systemzeit konnte nicht synchronisiert werden.</translation>
+        <translation type="vanished">Die Systemzeit konnte nicht synchronisiert werden.</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="369"/>
         <source>None of the NTP servers on the list are currently enabled.</source>
-        <translation>Keiner der NTP Server aus der Liste ist aktiviert.</translation>
+        <translation type="vanished">Keiner der NTP Server aus der Liste ist aktiviert.</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="603"/>
-        <source>About MX Date &amp; Time</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="604"/>
-        <source>Version: </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="605"/>
-        <source>GUI program for setting the time and date in MX Linux</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="607"/>
-        <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="608"/>
-        <location filename="../datetime.cpp" line="622"/>
         <source>License</source>
-        <translation>Lizenz</translation>
+        <translation type="vanished">Lizenz</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="609"/>
-        <source>Changelog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="610"/>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation type="vanished">Abbrechen</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="636"/>
         <source>&amp;Close</source>
-        <translation>&amp;Close</translation>
+        <translation type="vanished">&amp;Close</translation>
+    </message>
+</context>
+<context>
+    <name>MainWindow</name>
+    <message>
+        <location filename="../mainwindow.ui" line="26"/>
+        <source>MX Network Assistant</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="654"/>
-        <source>MX Date &amp; Time Help</source>
-        <translation type="unfinished"/>
+        <location filename="../mainwindow.ui" line="86"/>
+        <source>About...</source>
+        <translation type="unfinished">Über...</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="109"/>
+        <source>Help</source>
+        <translation type="unfinished">Hilfe</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="177"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">&amp;Close</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="184"/>
+        <source>Alt+C</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="219"/>
+        <source>Status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="225"/>
+        <source>IP address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="261"/>
+        <source>Hardware detected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="280"/>
+        <source>Enable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="303"/>
+        <location filename="../mainwindow.ui" line="593"/>
+        <location filename="../mainwindow.ui" line="706"/>
+        <source>Re-scan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="372"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="377"/>
+        <source>Interface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="382"/>
+        <source>Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="387"/>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="392"/>
+        <source>Vendor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="397"/>
+        <source>Product</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="405"/>
+        <source>Disable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="419"/>
+        <source>Active interface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="435"/>
+        <source>WiFi status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="457"/>
+        <source>Unblocks all soft/hard blocked wireless devices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="460"/>
+        <source>Unblock WiFi Devices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="492"/>
+        <source>Linux drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="504"/>
+        <source>Associated Linux drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="513"/>
+        <source>Load Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="576"/>
+        <source>Unload Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="613"/>
+        <location filename="../mainwindow.cpp" line="841"/>
+        <source>Block Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="632"/>
+        <source>Windows drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="638"/>
+        <source>Available Windows drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="672"/>
+        <source>Remove Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="683"/>
+        <source>Add Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="724"/>
+        <source>About NDISwrapper</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="736"/>
+        <source>Install NDISwrapper</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="747"/>
+        <source>In order to use Windows drivers you need first to install NDISwrapper</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="763"/>
+        <source>Uninstall NDISwrapper</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="795"/>
+        <source>Net diagnostics</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="807"/>
+        <source>Ping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="813"/>
+        <location filename="../mainwindow.ui" line="930"/>
+        <source>Target URL:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="823"/>
+        <source>Packets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="865"/>
+        <location filename="../mainwindow.ui" line="985"/>
+        <source>Start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="882"/>
+        <location filename="../mainwindow.ui" line="1002"/>
+        <source>Clear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="896"/>
+        <location filename="../mainwindow.ui" line="1016"/>
+        <source>Cancel</source>
+        <translation type="unfinished">Abbrechen</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="924"/>
+        <source>Traceroute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="940"/>
+        <source>Hops</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="96"/>
+        <source>IP address from router:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="97"/>
+        <source>External IP address:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="135"/>
+        <location filename="../mainwindow.cpp" line="150"/>
+        <source>Interface: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="136"/>
+        <location filename="../mainwindow.cpp" line="151"/>
+        <source>Driver: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="137"/>
+        <location filename="../mainwindow.cpp" line="152"/>
+        <source>Description: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="138"/>
+        <location filename="../mainwindow.cpp" line="153"/>
+        <source>Product: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="139"/>
+        <location filename="../mainwindow.cpp" line="154"/>
+        <source>Vendor: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="140"/>
+        <location filename="../mainwindow.cpp" line="155"/>
+        <source>Enabled: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="208"/>
+        <location filename="../mainwindow.cpp" line="222"/>
+        <location filename="../mainwindow.cpp" line="236"/>
+        <source>&amp;Copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="224"/>
+        <location filename="../mainwindow.cpp" line="238"/>
+        <source>Ctrl+C</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="211"/>
+        <location filename="../mainwindow.cpp" line="225"/>
+        <location filename="../mainwindow.cpp" line="239"/>
+        <source>Copy &amp;All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="213"/>
+        <location filename="../mainwindow.cpp" line="227"/>
+        <location filename="../mainwindow.cpp" line="241"/>
+        <source>Ctrl+A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="272"/>
+        <location filename="../mainwindow.cpp" line="289"/>
+        <source>Traceroute not installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="273"/>
+        <source>Traceroute is not installed, do you want to install it now?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="280"/>
+        <source>Traceroute hasn&apos;t been installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="281"/>
+        <source>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="290"/>
+        <source>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="296"/>
+        <location filename="../mainwindow.cpp" line="336"/>
+        <source>No destination host</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="296"/>
+        <location filename="../mainwindow.cpp" line="336"/>
+        <source>Please fill in the destination host field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="450"/>
+        <source>Loaded Drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="458"/>
+        <source>Unloaded Drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="471"/>
+        <source>Blocked Drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="490"/>
+        <source>Blocked Broadcom Drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="511"/>
+        <source>Ndiswrapper is not installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="523"/>
+        <source>driver installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="531"/>
+        <source> and in use by </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="538"/>
+        <source>. Alternate driver: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="609"/>
+        <source>Driver removed from blocklist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="610"/>
+        <source>Driver removed from blocklist.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="616"/>
+        <source>Module blocked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="773"/>
+        <source>Installation successful</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="776"/>
+        <source>Error detected, could not compile ndiswrapper driver.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="779"/>
+        <source>Error detected, could not install ndiswrapper.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="791"/>
+        <source>Error encountered while removing Ndiswrapper</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="838"/>
+        <source>Unblock Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="877"/>
+        <source>enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="880"/>
+        <source>disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="883"/>
+        <source>WiFi hardware switch is off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="891"/>
+        <source>Locate the Windows driver you want to add</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="891"/>
+        <source>Windows installation information file (*.inf)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="920"/>
+        <source>*.sys file not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="920"/>
+        <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="929"/>
+        <source>sys file reference not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="930"/>
+        <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="949"/>
+        <source>Ndiswrapper driver removed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="957"/>
+        <source>%1 Help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="968"/>
+        <source>Could not unlock devices.
+WiFi device(s) might already be unlocked.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="970"/>
+        <source>WiFi devices unlocked.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="983"/>
+        <source>About %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="984"/>
+        <source>Version: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="985"/>
+        <source>Program for troubleshooting and configuring network for MX Linux</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="987"/>
+        <source>Copyright (c) MEPIS LLC and MX Linux</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="988"/>
+        <source>%1 License</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1011"/>
+        <source>Driver loaded successfully</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1026"/>
+        <source>Driver unloaded successfully</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <location filename="../about.cpp" line="50"/>
+        <source>License</source>
+        <translation type="unfinished">Lizenz</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="51"/>
+        <location filename="../about.cpp" line="60"/>
+        <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="52"/>
+        <source>Cancel</source>
+        <translation type="unfinished">Abbrechen</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="70"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">&amp;Close</translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="56"/>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="57"/>
+        <source>You seem to be logged in as root, please log out and log in as normal user to use this program.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="632"/>
+        <source>Could not load </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="656"/>
+        <source>Could not unload </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
