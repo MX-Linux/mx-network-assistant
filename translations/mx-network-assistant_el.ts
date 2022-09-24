@@ -1,285 +1,725 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="el">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="el">
 <context>
     <name>MXDateTime</name>
     <message>
-        <location filename="../datetime.ui" line="20"/>
-        <location filename="../datetime.cpp" line="604"/>
         <source>MX Date &amp; Time</source>
-        <translation>Ημερομηνία και ώρα του MX</translation>
+        <translation type="vanished">Ημερομηνία και ώρα του MX</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="26"/>
-        <source>Close</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="40"/>
         <source>Help</source>
-        <translation>Βοήθεια</translation>
+        <translation type="vanished">Βοήθεια</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="73"/>
         <source>Apply</source>
-        <translation>Εφαρμογή</translation>
+        <translation type="vanished">Εφαρμογή</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="100"/>
         <source>About...</source>
-        <translation>Περί...</translation>
+        <translation type="vanished">Περί...</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="124"/>
         <source>Date &amp;&amp; Time</source>
-        <translation>Ημερομηνία &amp;&amp; Ώρα</translation>
+        <translation type="vanished">Ημερομηνία &amp;&amp; Ώρα</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="192"/>
         <source>H:mm:ss</source>
-        <translation>H:mm:ss</translation>
+        <translation type="vanished">H:mm:ss</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="278"/>
-        <location filename="../datetime.cpp" line="296"/>
-        <location filename="../datetime.cpp" line="303"/>
         <source>Hardware Clock</source>
-        <translation>Ρολόι υλικού</translation>
+        <translation type="vanished">Ρολόι υλικού</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="284"/>
         <source>Hardware Clock tools</source>
-        <translation>Εργαλεία για το ρολόι υλικού</translation>
+        <translation type="vanished">Εργαλεία για το ρολόι υλικού</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="290"/>
-        <source>Obtain information from the Hardware Clock and present it in the box below.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="293"/>
         <source>Read the Hardware Clock</source>
-        <translation>Ανάγνωση από το ρολόι υλικού</translation>
+        <translation type="vanished">Ανάγνωση από το ρολόι υλικού</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="303"/>
         <source>Apply systematic drift corrections to the Hardware Clock.</source>
-        <translation>Εφαρμογή διορθώσεων στο ρολόι υλικού.</translation>
+        <translation type="vanished">Εφαρμογή διορθώσεων στο ρολόι υλικού.</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="306"/>
-        <source>Drift Adjust</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="329"/>
         <source>Time transfer</source>
-        <translation>Μεταφορά ώρας</translation>
+        <translation type="vanished">Μεταφορά ώρας</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="335"/>
         <source>Immediately set the System Clock to match the current time registered by the Hardware Clock.</source>
-        <translation>Άμεση ρύθμιση του ρολογιού συστήματος ώστε να ταιριάζει με την τρέχουσα ώρα από το ρολόι υλικού.</translation>
+        <translation type="vanished">Άμεση ρύθμιση του ρολογιού συστήματος ώστε να ταιριάζει με την τρέχουσα ώρα από το ρολόι υλικού.</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="338"/>
         <source>Hardware Clock to System Clock</source>
-        <translation>Ρολόι υλικού σε ρολόι συστήματος</translation>
+        <translation type="vanished">Ρολόι υλικού σε ρολόι συστήματος</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="348"/>
-        <source>Immediately set the Hardware Clock to match the current time registered by the System Clock.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="351"/>
-        <source>System Clock to Hardware Clock</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="361"/>
         <source>Update the drift factor for the Hardware Clock when it is being set.</source>
-        <translation>Ενημέρωση του συντελεστή διόρθωσης όταν ρυθμίζεται το ρολόι υλικού.</translation>
+        <translation type="vanished">Ενημέρωση του συντελεστή διόρθωσης όταν ρυθμίζεται το ρολόι υλικού.</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="364"/>
         <source>Update the drift</source>
-        <translation>Ενημέρωση διόρθωσης</translation>
+        <translation type="vanished">Ενημέρωση διόρθωσης</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="374"/>
-        <source>Time zone for the Hardware Clock</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="380"/>
-        <source>Local time</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="383"/>
         <source>Local</source>
-        <translation>Τοπικός</translation>
+        <translation type="vanished">Τοπικός</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="390"/>
         <source>Universally Coordinated Time (or Greenwich Meridian Time)</source>
-        <translation>Παγκόσμιος συγχρονισμός ώρας (ή χρόνος Greenwich)</translation>
+        <translation type="vanished">Παγκόσμιος συγχρονισμός ώρας (ή χρόνος Greenwich)</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="393"/>
         <source>UTC</source>
-        <translation>UTC</translation>
+        <translation type="vanished">UTC</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="433"/>
         <source>Network Time</source>
-        <translation>Χρόνος δικτύου</translation>
+        <translation type="vanished">Χρόνος δικτύου</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="439"/>
         <source>Move the selected item down</source>
-        <translation>Μετακίνηση του επιλεγμένου στοιχείου προς τα κάτω</translation>
+        <translation type="vanished">Μετακίνηση του επιλεγμένου στοιχείου προς τα κάτω</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="450"/>
         <source>Move the selected item up</source>
-        <translation>Μετακίνηση του επιλεγμένου στοιχείου προς τα επάνω</translation>
+        <translation type="vanished">Μετακίνηση του επιλεγμένου στοιχείου προς τα επάνω</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="461"/>
         <source>Remove the current item from the list</source>
-        <translation>Αφαίρεση του στοιχείου από τη λίστα</translation>
+        <translation type="vanished">Αφαίρεση του στοιχείου από τη λίστα</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="472"/>
         <source>Add an item to the list</source>
-        <translation>Προσθήκη στοιχείου στη λίστα</translation>
+        <translation type="vanished">Προσθήκη στοιχείου στη λίστα</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="498"/>
         <source>Automatically update the System Clock with NTP servers:</source>
-        <translation>Αυτόματη ενημέρωση του ρολογιού συστήματος από τους διακομιστές NTP:</translation>
+        <translation type="vanished">Αυτόματη ενημέρωση του ρολογιού συστήματος από τους διακομιστές NTP:</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="505"/>
         <source>Immediately update the system clock with NTP servers.</source>
-        <translation>Άμεση ενημέρωση του ρολογιού συστήματος από τους διακομιστές NTP.</translation>
+        <translation type="vanished">Άμεση ενημέρωση του ρολογιού συστήματος από τους διακομιστές NTP.</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="508"/>
         <source>Update Now</source>
-        <translation>Ενημέρωση τώρα</translation>
+        <translation type="vanished">Ενημέρωση τώρα</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="520"/>
-        <source>List of NTP servers to use.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="536"/>
         <source>Type</source>
-        <translation>Τύπος</translation>
+        <translation type="vanished">Τύπος</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="541"/>
-        <source>Address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="546"/>
-        <source>Options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="270"/>
         <source>Reading...</source>
-        <translation>Ανάγνωση...</translation>
+        <translation type="vanished">Ανάγνωση...</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="284"/>
         <source>Adjusting...</source>
-        <translation>Ρύθμιση...</translation>
+        <translation type="vanished">Ρύθμιση...</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="296"/>
-        <location filename="../datetime.cpp" line="303"/>
         <source>System Clock</source>
-        <translation>Ρολόι συστήματος</translation>
+        <translation type="vanished">Ρολόι συστήματος</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="309"/>
         <source>The %1 time was transferred to the %2.</source>
-        <translation>Η ώρα %1 μεταφέρθηκε στο %2.</translation>
+        <translation type="vanished">Η ώρα %1 μεταφέρθηκε στο %2.</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="312"/>
         <source>The %1 time could not be transferred to the %2.</source>
-        <translation>Η ώρα %1 δεν μεταφέρθηκε στο %2.</translation>
+        <translation type="vanished">Η ώρα %1 δεν μεταφέρθηκε στο %2.</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="352"/>
         <source>Updating...</source>
-        <translation>Ενημέρωση...</translation>
+        <translation type="vanished">Ενημέρωση...</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="365"/>
         <source>The system clock was updated successfully.</source>
-        <translation>Το ρολόι συστήματος ενημερώθηκε με επιτυχία.</translation>
+        <translation type="vanished">Το ρολόι συστήματος ενημερώθηκε με επιτυχία.</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="367"/>
         <source>The system clock could not be updated.</source>
-        <translation>Το ρολόι συστήματος δεν ενημερώθηκε.</translation>
+        <translation type="vanished">Το ρολόι συστήματος δεν ενημερώθηκε.</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="369"/>
         <source>None of the NTP servers on the list are currently enabled.</source>
-        <translation>Κανένας από τους διακομιστές NTP της λίστας δεν είναι ενεργοποιημένος.</translation>
+        <translation type="vanished">Κανένας από τους διακομιστές NTP της λίστας δεν είναι ενεργοποιημένος.</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="603"/>
-        <source>About MX Date &amp; Time</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="604"/>
-        <source>Version: </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="605"/>
-        <source>GUI program for setting the time and date in MX Linux</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="607"/>
-        <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="608"/>
-        <location filename="../datetime.cpp" line="622"/>
         <source>License</source>
-        <translation>Άδεια</translation>
+        <translation type="vanished">Άδεια</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="609"/>
-        <source>Changelog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="610"/>
         <source>Cancel</source>
-        <translation>Ακύρωση</translation>
+        <translation type="vanished">Ακύρωση</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="636"/>
         <source>&amp;Close</source>
-        <translation>&amp;Κλείσιμο</translation>
+        <translation type="vanished">&amp;Κλείσιμο</translation>
+    </message>
+</context>
+<context>
+    <name>MainWindow</name>
+    <message>
+        <location filename="../mainwindow.ui" line="26"/>
+        <source>MX Network Assistant</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="654"/>
-        <source>MX Date &amp; Time Help</source>
-        <translation type="unfinished"/>
+        <location filename="../mainwindow.ui" line="86"/>
+        <source>About...</source>
+        <translation type="unfinished">Περί...</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="109"/>
+        <source>Help</source>
+        <translation type="unfinished">Βοήθεια</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="177"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">&amp;Κλείσιμο</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="184"/>
+        <source>Alt+C</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="219"/>
+        <source>Status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="225"/>
+        <source>IP address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="261"/>
+        <source>Hardware detected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="280"/>
+        <source>Enable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="303"/>
+        <location filename="../mainwindow.ui" line="593"/>
+        <location filename="../mainwindow.ui" line="706"/>
+        <source>Re-scan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="372"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="377"/>
+        <source>Interface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="382"/>
+        <source>Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="387"/>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="392"/>
+        <source>Vendor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="397"/>
+        <source>Product</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="405"/>
+        <source>Disable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="419"/>
+        <source>Active interface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="435"/>
+        <source>WiFi status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="457"/>
+        <source>Unblocks all soft/hard blocked wireless devices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="460"/>
+        <source>Unblock WiFi Devices</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="492"/>
+        <source>Linux drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="504"/>
+        <source>Associated Linux drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="513"/>
+        <source>Load Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="576"/>
+        <source>Unload Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="613"/>
+        <location filename="../mainwindow.cpp" line="841"/>
+        <source>Block Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="632"/>
+        <source>Windows drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="638"/>
+        <source>Available Windows drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="672"/>
+        <source>Remove Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="683"/>
+        <source>Add Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="724"/>
+        <source>About NDISwrapper</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="736"/>
+        <source>Install NDISwrapper</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="747"/>
+        <source>In order to use Windows drivers you need first to install NDISwrapper</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="763"/>
+        <source>Uninstall NDISwrapper</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="795"/>
+        <source>Net diagnostics</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="807"/>
+        <source>Ping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="813"/>
+        <location filename="../mainwindow.ui" line="930"/>
+        <source>Target URL:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="823"/>
+        <source>Packets</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="865"/>
+        <location filename="../mainwindow.ui" line="985"/>
+        <source>Start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="882"/>
+        <location filename="../mainwindow.ui" line="1002"/>
+        <source>Clear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="896"/>
+        <location filename="../mainwindow.ui" line="1016"/>
+        <source>Cancel</source>
+        <translation type="unfinished">Ακύρωση</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="924"/>
+        <source>Traceroute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="940"/>
+        <source>Hops</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="96"/>
+        <source>IP address from router:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="97"/>
+        <source>External IP address:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="135"/>
+        <location filename="../mainwindow.cpp" line="150"/>
+        <source>Interface: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="136"/>
+        <location filename="../mainwindow.cpp" line="151"/>
+        <source>Driver: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="137"/>
+        <location filename="../mainwindow.cpp" line="152"/>
+        <source>Description: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="138"/>
+        <location filename="../mainwindow.cpp" line="153"/>
+        <source>Product: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="139"/>
+        <location filename="../mainwindow.cpp" line="154"/>
+        <source>Vendor: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="140"/>
+        <location filename="../mainwindow.cpp" line="155"/>
+        <source>Enabled: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="208"/>
+        <location filename="../mainwindow.cpp" line="222"/>
+        <location filename="../mainwindow.cpp" line="236"/>
+        <source>&amp;Copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="224"/>
+        <location filename="../mainwindow.cpp" line="238"/>
+        <source>Ctrl+C</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="211"/>
+        <location filename="../mainwindow.cpp" line="225"/>
+        <location filename="../mainwindow.cpp" line="239"/>
+        <source>Copy &amp;All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="213"/>
+        <location filename="../mainwindow.cpp" line="227"/>
+        <location filename="../mainwindow.cpp" line="241"/>
+        <source>Ctrl+A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="272"/>
+        <location filename="../mainwindow.cpp" line="289"/>
+        <source>Traceroute not installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="273"/>
+        <source>Traceroute is not installed, do you want to install it now?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="280"/>
+        <source>Traceroute hasn&apos;t been installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="281"/>
+        <source>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="290"/>
+        <source>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="296"/>
+        <location filename="../mainwindow.cpp" line="336"/>
+        <source>No destination host</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="296"/>
+        <location filename="../mainwindow.cpp" line="336"/>
+        <source>Please fill in the destination host field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="450"/>
+        <source>Loaded Drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="458"/>
+        <source>Unloaded Drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="471"/>
+        <source>Blocked Drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="490"/>
+        <source>Blocked Broadcom Drivers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="511"/>
+        <source>Ndiswrapper is not installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="523"/>
+        <source>driver installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="531"/>
+        <source> and in use by </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="538"/>
+        <source>. Alternate driver: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="609"/>
+        <source>Driver removed from blocklist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="610"/>
+        <source>Driver removed from blocklist.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="616"/>
+        <source>Module blocked</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="773"/>
+        <source>Installation successful</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="776"/>
+        <source>Error detected, could not compile ndiswrapper driver.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="779"/>
+        <source>Error detected, could not install ndiswrapper.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="791"/>
+        <source>Error encountered while removing Ndiswrapper</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="838"/>
+        <source>Unblock Driver</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="877"/>
+        <source>enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="880"/>
+        <source>disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="883"/>
+        <source>WiFi hardware switch is off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="891"/>
+        <source>Locate the Windows driver you want to add</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="891"/>
+        <source>Windows installation information file (*.inf)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="920"/>
+        <source>*.sys file not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="920"/>
+        <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="929"/>
+        <source>sys file reference not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="930"/>
+        <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="949"/>
+        <source>Ndiswrapper driver removed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="957"/>
+        <source>%1 Help</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="968"/>
+        <source>Could not unlock devices.
+WiFi device(s) might already be unlocked.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="970"/>
+        <source>WiFi devices unlocked.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="983"/>
+        <source>About %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="984"/>
+        <source>Version: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="985"/>
+        <source>Program for troubleshooting and configuring network for MX Linux</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="987"/>
+        <source>Copyright (c) MEPIS LLC and MX Linux</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="988"/>
+        <source>%1 License</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1011"/>
+        <source>Driver loaded successfully</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1026"/>
+        <source>Driver unloaded successfully</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <location filename="../about.cpp" line="50"/>
+        <source>License</source>
+        <translation type="unfinished">Άδεια</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="51"/>
+        <location filename="../about.cpp" line="60"/>
+        <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="52"/>
+        <source>Cancel</source>
+        <translation type="unfinished">Ακύρωση</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="70"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">&amp;Κλείσιμο</translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="56"/>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="57"/>
+        <source>You seem to be logged in as root, please log out and log in as normal user to use this program.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="632"/>
+        <source>Could not load </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="656"/>
+        <source>Could not unload </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
