@@ -187,7 +187,7 @@
     <message>
         <location filename="../datetime.ui" line="546"/>
         <source>Options</source>
-        <translation type="unfinished"/>
+        <translation>Alternativer</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="270"/>
@@ -243,7 +243,7 @@
     <message>
         <location filename="../datetime.cpp" line="604"/>
         <source>Version: </source>
-        <translation type="unfinished"/>
+        <translation>Versjon:</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="605"/>

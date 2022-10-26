@@ -243,7 +243,7 @@
     <message>
         <location filename="../datetime.cpp" line="604"/>
         <source>Version: </source>
-        <translation type="unfinished"/>
+        <translation>Phiên bản:</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="605"/>
@@ -253,7 +253,7 @@
     <message>
         <location filename="../datetime.cpp" line="607"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished"/>
+        <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="608"/>
@@ -264,7 +264,7 @@
     <message>
         <location filename="../datetime.cpp" line="609"/>
         <source>Changelog</source>
-        <translation type="unfinished"/>
+        <translation>Nhật kí thay đổi</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="610"/>
