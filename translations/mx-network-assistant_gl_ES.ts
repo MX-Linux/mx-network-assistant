@@ -10,7 +10,7 @@
     <message>
         <location filename="../datetime.ui" line="26"/>
         <source>Close</source>
-        <translation type="unfinished"/>
+        <translation>Cerrar</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="40"/>
@@ -52,7 +52,7 @@
     <message>
         <location filename="../datetime.ui" line="290"/>
         <source>Obtain information from the Hardware Clock and present it in the box below.</source>
-        <translation type="unfinished"/>
+        <translation>Obter información do reloxio do equipamento e exhibila na caixa abaixo.</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="293"/>
@@ -67,7 +67,7 @@
     <message>
         <location filename="../datetime.ui" line="306"/>
         <source>Drift Adjust</source>
-        <translation type="unfinished"/>
+        <translation>Corrixir o desvío</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="329"/>
@@ -87,12 +87,12 @@
     <message>
         <location filename="../datetime.ui" line="348"/>
         <source>Immediately set the Hardware Clock to match the current time registered by the System Clock.</source>
-        <translation type="unfinished"/>
+        <translation>Definir inmediatamente o reloxo do hardware de modo a ter a mesma hora exhibida no reloxo do sistema.</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="351"/>
         <source>System Clock to Hardware Clock</source>
-        <translation type="unfinished"/>
+        <translation>Reloxo do sistema para reloxo do hardware</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="361"/>
@@ -107,12 +107,12 @@
     <message>
         <location filename="../datetime.ui" line="374"/>
         <source>Time zone for the Hardware Clock</source>
-        <translation type="unfinished"/>
+        <translation>Zona horaria para o reloxo do equipamento</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="380"/>
         <source>Local time</source>
-        <translation type="unfinished"/>
+        <translation>Hora local</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="383"/>
@@ -172,7 +172,7 @@
     <message>
         <location filename="../datetime.ui" line="520"/>
         <source>List of NTP servers to use.</source>
-        <translation type="unfinished"/>
+        <translation>Lista dos servidores NTP a usar.</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="536"/>
@@ -182,12 +182,12 @@
     <message>
         <location filename="../datetime.ui" line="541"/>
         <source>Address</source>
-        <translation type="unfinished"/>
+        <translation>Enderezo</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="546"/>
         <source>Options</source>
-        <translation type="unfinished"/>
+        <translation>Opcións</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="270"/>
@@ -238,22 +238,22 @@
     <message>
         <location filename="../datetime.cpp" line="603"/>
         <source>About MX Date &amp; Time</source>
-        <translation type="unfinished"/>
+        <translation>Sobre MX Data &amp; Hora</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="604"/>
         <source>Version: </source>
-        <translation type="unfinished"/>
+        <translation>Versión</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="605"/>
         <source>GUI program for setting the time and date in MX Linux</source>
-        <translation type="unfinished"/>
+        <translation>Programa con interface gráfica para definir a Data e a Hora no MX Linux</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="607"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished"/>
+        <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="608"/>
@@ -264,7 +264,7 @@
     <message>
         <location filename="../datetime.cpp" line="609"/>
         <source>Changelog</source>
-        <translation type="unfinished"/>
+        <translation>Rexistro dos cambios</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="610"/>
@@ -279,7 +279,7 @@
     <message>
         <location filename="../datetime.cpp" line="654"/>
         <source>MX Date &amp; Time Help</source>
-        <translation type="unfinished"/>
+        <translation>Axuda do MX Data &amp; Hora</translation>
     </message>
 </context>
 </TS>

@@ -10,7 +10,7 @@
     <message>
         <location filename="../datetime.ui" line="26"/>
         <source>Close</source>
-        <translation type="unfinished"/>
+        <translation>Isara</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="40"/>
@@ -187,7 +187,7 @@
     <message>
         <location filename="../datetime.ui" line="546"/>
         <source>Options</source>
-        <translation type="unfinished"/>
+        <translation>Mga pagpipilian</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="270"/>
@@ -243,7 +243,7 @@
     <message>
         <location filename="../datetime.cpp" line="604"/>
         <source>Version: </source>
-        <translation type="unfinished"/>
+        <translation>Bersyon: </translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="605"/>
@@ -253,7 +253,7 @@
     <message>
         <location filename="../datetime.cpp" line="607"/>
         <source>Copyright (c) MX Linux</source>
-        <translation type="unfinished"/>
+        <translation>Karapatan (c) MX Linux</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="608"/>
@@ -264,7 +264,7 @@
     <message>
         <location filename="../datetime.cpp" line="609"/>
         <source>Changelog</source>
-        <translation type="unfinished"/>
+        <translation>Ulat na mga pagbabago</translation>
     </message>
     <message>
         <location filename="../datetime.cpp" line="610"/>
