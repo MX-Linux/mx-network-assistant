@@ -1,3 +1,9 @@
+mx-network-assistant (22.10.01) mx; urgency=medium
+
+  * update translations 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 26 Oct 2022 20:03:41 -0400
+
 mx-network-assistant (22.8.01) mx; urgency=medium
 
   * Fix: launching documents from Help (fixes a problem in Plasma)
