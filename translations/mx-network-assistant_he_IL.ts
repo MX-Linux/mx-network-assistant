@@ -1,285 +1,565 @@
 <?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="he_IL">
 <context>
-    <name>MXDateTime</name>
+    <name>MainWindow</name>
     <message>
-        <location filename="../datetime.ui" line="20"/>
-        <location filename="../datetime.cpp" line="604"/>
-        <source>MX Date &amp; Time</source>
-        <translation>התאריך והשעה של MX</translation>
+        <location filename="../mainwindow.ui" line="26"/>
+        <source>MX Network Assistant</source>
+        <translation>מסייע הרשת MX</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="26"/>
-        <source>Close</source>
-        <translation>סגירה</translation>
+        <location filename="../mainwindow.ui" line="86"/>
+        <source>About...</source>
+        <translation>על אודות…</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="40"/>
+        <location filename="../mainwindow.ui" line="109"/>
         <source>Help</source>
         <translation>עזרה</translation>
     </message>
     <message>
-        <location filename="../datetime.ui" line="73"/>
-        <source>Apply</source>
-        <translation>החלה</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="100"/>
-        <source>About...</source>
-        <translation>על אודות...</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="124"/>
-        <source>Date &amp;&amp; Time</source>
-        <translation>תאריך &amp;ושעה</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="192"/>
-        <source>H:mm:ss</source>
-        <translation>H:mm:ss</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="278"/>
-        <location filename="../datetime.cpp" line="296"/>
-        <location filename="../datetime.cpp" line="303"/>
-        <source>Hardware Clock</source>
-        <translation>שעון חומרה</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="284"/>
-        <source>Hardware Clock tools</source>
-        <translation>כלי שעון חומרה</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="290"/>
-        <source>Obtain information from the Hardware Clock and present it in the box below.</source>
-        <translation>לקבל מידע משעון החומרה ולהציג אותו בתיבה שלהלן.</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="293"/>
-        <source>Read the Hardware Clock</source>
-        <translation>קריאה שעון החומרה</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="303"/>
-        <source>Apply systematic drift corrections to the Hardware Clock.</source>
-        <translation>החלת תיקוני סטייה מערכתיים לשעון החומרה.</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="306"/>
-        <source>Drift Adjust</source>
-        <translation>התאמת סטייה</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="329"/>
-        <source>Time transfer</source>
-        <translation>העברת זמן</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="335"/>
-        <source>Immediately set the System Clock to match the current time registered by the Hardware Clock.</source>
-        <translation>לכוון את שעון המערכת מול השעה הנוכחית שנרשמה בשעון החומרה מיידית.</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="338"/>
-        <source>Hardware Clock to System Clock</source>
-        <translation>שעון החומרה לשעון המערכת</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="348"/>
-        <source>Immediately set the Hardware Clock to match the current time registered by the System Clock.</source>
-        <translation>לכוון את שעון החומרה מול השעה הנוכחית שנרשמה בשעון המערכת מיידית.</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="351"/>
-        <source>System Clock to Hardware Clock</source>
-        <translation>שעון המערכת לשעון החומרה</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="361"/>
-        <source>Update the drift factor for the Hardware Clock when it is being set.</source>
-        <translation>לעדכן את מקדם הסטייה לשעון החומרה בעת הכיוון.</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="364"/>
-        <source>Update the drift</source>
-        <translation>עדכון הסטייה</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="374"/>
-        <source>Time zone for the Hardware Clock</source>
-        <translation>אזור הזמן לשעון החומרה</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="380"/>
-        <source>Local time</source>
-        <translation>שעה מקומית</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="383"/>
-        <source>Local</source>
-        <translation>מקומי</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="390"/>
-        <source>Universally Coordinated Time (or Greenwich Meridian Time)</source>
-        <translation>זמן אוניברסלי מתואם (או שעון גריניץ׳)</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="393"/>
-        <source>UTC</source>
-        <translation>UTC</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="433"/>
-        <source>Network Time</source>
-        <translation>שעון</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="439"/>
-        <source>Move the selected item down</source>
-        <translation>העברת הפריט הנבחר למטה</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="450"/>
-        <source>Move the selected item up</source>
-        <translation>העברת הפריט הנבחר למעלה</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="461"/>
-        <source>Remove the current item from the list</source>
-        <translation>הסרת הפריט הנוכחי מהרשימה</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="472"/>
-        <source>Add an item to the list</source>
-        <translation>הוספת פריט לרשימה</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="498"/>
-        <source>Automatically update the System Clock with NTP servers:</source>
-        <translation>לעדכן את שעון המערכת אוטומטית משרתי NTP:</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="505"/>
-        <source>Immediately update the system clock with NTP servers.</source>
-        <translation>לעדכן את שעון המערכת מיידית מול שרתי NTP.</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="508"/>
-        <source>Update Now</source>
-        <translation>לעדכן כעת</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="520"/>
-        <source>List of NTP servers to use.</source>
-        <translation>רשימת שרתי NTP לשימוש.</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="536"/>
-        <source>Type</source>
-        <translation>סוג</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="541"/>
-        <source>Address</source>
-        <translation>כתובת</translation>
-    </message>
-    <message>
-        <location filename="../datetime.ui" line="546"/>
-        <source>Options</source>
-        <translation>אפשרויות</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="270"/>
-        <source>Reading...</source>
-        <translation>מתבצעת קריאה…</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="284"/>
-        <source>Adjusting...</source>
-        <translation>מתבצע כוונון…</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="296"/>
-        <location filename="../datetime.cpp" line="303"/>
-        <source>System Clock</source>
-        <translation>שעון מערכת</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="309"/>
-        <source>The %1 time was transferred to the %2.</source>
-        <translation>השעה %1 הועברה אל %2.</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="312"/>
-        <source>The %1 time could not be transferred to the %2.</source>
-        <translation>לא ניתן להעביר את השעה %1 אל %2.</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="352"/>
-        <source>Updating...</source>
-        <translation>מתבצע עדכון…</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="365"/>
-        <source>The system clock was updated successfully.</source>
-        <translation>שעון המערכת עודכן בהצלחה.</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="367"/>
-        <source>The system clock could not be updated.</source>
-        <translation>שעון המערכת לא עודכן.</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="369"/>
-        <source>None of the NTP servers on the list are currently enabled.</source>
-        <translation>אף אחד משרתי ה־NTP ברשימה מופעלים.</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="603"/>
-        <source>About MX Date &amp; Time</source>
-        <translation>על אודות התאריך והשעה של MX</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="604"/>
-        <source>Version: </source>
-        <translation>גירסה:</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="605"/>
-        <source>GUI program for setting the time and date in MX Linux</source>
-        <translation>תכנית חזותית להגדרת השעה והתאריך ב־MX Linux.</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="607"/>
-        <source>Copyright (c) MX Linux</source>
-        <translation>זכויות היוצרים (c) שמורות ל־MX Linux</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="608"/>
-        <location filename="../datetime.cpp" line="622"/>
-        <source>License</source>
-        <translation>רשיון</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="609"/>
-        <source>Changelog</source>
-        <translation>יומן שינויים</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="610"/>
-        <source>Cancel</source>
-        <translation>ביטול</translation>
-    </message>
-    <message>
-        <location filename="../datetime.cpp" line="636"/>
+        <location filename="../mainwindow.ui" line="177"/>
         <source>&amp;Close</source>
         <translation>&amp;סגירה</translation>
     </message>
     <message>
-        <location filename="../datetime.cpp" line="654"/>
-        <source>MX Date &amp; Time Help</source>
-        <translation>עזרה בנושא התאריך והשעה של MX</translation>
+        <location filename="../mainwindow.ui" line="184"/>
+        <source>Alt+C</source>
+        <translation>Alt+C</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="219"/>
+        <source>Status</source>
+        <translation>מצב</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="225"/>
+        <source>IP address</source>
+        <translation>כתובת IP</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="261"/>
+        <source>Hardware detected</source>
+        <translation>זוהתה חומרה</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="280"/>
+        <source>Enable</source>
+        <translation>הפעלה</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="303"/>
+        <location filename="../mainwindow.ui" line="593"/>
+        <location filename="../mainwindow.ui" line="706"/>
+        <source>Re-scan</source>
+        <translation>סריקה מחדש</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="372"/>
+        <source>Enabled</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="377"/>
+        <source>Interface</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="382"/>
+        <source>Driver</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="387"/>
+        <source>Description</source>
+        <translation>תיאור</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="392"/>
+        <source>Vendor</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="397"/>
+        <source>Product</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="405"/>
+        <source>Disable</source>
+        <translation>השבתה</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="419"/>
+        <source>Active interface</source>
+        <translation>מנשק פעיל</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="435"/>
+        <source>WiFi status</source>
+        <translation>מצב רשת אלחוטית</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="457"/>
+        <source>Unblocks all soft/hard blocked wireless devices</source>
+        <translation>משחררת את החסימות הרכות/קשות של ההתקנים האלחוטיים</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="460"/>
+        <source>Unblock WiFi Devices</source>
+        <translation>שחרור התקני רשת אלחוטית</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="492"/>
+        <source>Linux drivers</source>
+        <translation>מנהלי התקנים של לינוקס</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="504"/>
+        <source>Associated Linux drivers</source>
+        <translation>מנהלי התקנים משויכים של לינוקס</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="513"/>
+        <source>Load Driver</source>
+        <translation>טעינת מנהל התקן</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="576"/>
+        <source>Unload Driver</source>
+        <translation>פריקת מנהל התקן</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="613"/>
+        <location filename="../mainwindow.cpp" line="841"/>
+        <source>Block Driver</source>
+        <translation>חסימת מנהל התקן</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="632"/>
+        <source>Windows drivers</source>
+        <translation>מנהלי התקנים ל־Windows</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="638"/>
+        <source>Available Windows drivers</source>
+        <translation>מנהלי התקנים זמינים ל־Windows</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="672"/>
+        <source>Remove Driver</source>
+        <translation>הסרת מנהל התקן</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="683"/>
+        <source>Add Driver</source>
+        <translation>הוספת מנהל התקן</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="724"/>
+        <source>About NDISwrapper</source>
+        <translation>על NDISwrapper</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="736"/>
+        <source>Install NDISwrapper</source>
+        <translation>התקנת NDISwrapper</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="747"/>
+        <source>In order to use Windows drivers you need first to install NDISwrapper</source>
+        <translation>כדי להשתמש במנהלי התקנים שיועדו ל־Windows עליך להתקין את NDISwrapper תחילה</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="763"/>
+        <source>Uninstall NDISwrapper</source>
+        <translation>הסרת NDISwrapper</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="795"/>
+        <source>Net diagnostics</source>
+        <translation>ניתוח הרשת</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="807"/>
+        <source>Ping</source>
+        <translation>פינג</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="813"/>
+        <location filename="../mainwindow.ui" line="930"/>
+        <source>Target URL:</source>
+        <translation>כתובת יעד:</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="823"/>
+        <source>Packets</source>
+        <translation>מנות נתונים</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="865"/>
+        <location filename="../mainwindow.ui" line="985"/>
+        <source>Start</source>
+        <translation>התחלה</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="882"/>
+        <location filename="../mainwindow.ui" line="1002"/>
+        <source>Clear</source>
+        <translation>מחיקה</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="896"/>
+        <location filename="../mainwindow.ui" line="1016"/>
+        <source>Cancel</source>
+        <translation>ביטול</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="924"/>
+        <source>Traceroute</source>
+        <translation>מעקב נתיב</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="940"/>
+        <source>Hops</source>
+        <translation>נק׳ אמצע</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="96"/>
+        <source>IP address from router:</source>
+        <translation>כתובת ה־IP מהנתב:</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="97"/>
+        <source>External IP address:</source>
+        <translation>כתובת IP חיצונית:</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="135"/>
+        <location filename="../mainwindow.cpp" line="150"/>
+        <source>Interface: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="136"/>
+        <location filename="../mainwindow.cpp" line="151"/>
+        <source>Driver: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="137"/>
+        <location filename="../mainwindow.cpp" line="152"/>
+        <source>Description: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="138"/>
+        <location filename="../mainwindow.cpp" line="153"/>
+        <source>Product: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="139"/>
+        <location filename="../mainwindow.cpp" line="154"/>
+        <source>Vendor: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="140"/>
+        <location filename="../mainwindow.cpp" line="155"/>
+        <source>Enabled: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="208"/>
+        <location filename="../mainwindow.cpp" line="222"/>
+        <location filename="../mainwindow.cpp" line="236"/>
+        <source>&amp;Copy</source>
+        <translation>ה&amp;עתקה</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="224"/>
+        <location filename="../mainwindow.cpp" line="238"/>
+        <source>Ctrl+C</source>
+        <translation>Ctrl+C</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="211"/>
+        <location filename="../mainwindow.cpp" line="225"/>
+        <location filename="../mainwindow.cpp" line="239"/>
+        <source>Copy &amp;All</source>
+        <translation>העתקה של ה&amp;כול</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="213"/>
+        <location filename="../mainwindow.cpp" line="227"/>
+        <location filename="../mainwindow.cpp" line="241"/>
+        <source>Ctrl+A</source>
+        <translation>Ctrl+A</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="272"/>
+        <location filename="../mainwindow.cpp" line="289"/>
+        <source>Traceroute not installed</source>
+        <translation>Traceroute (מעקב נתיב) לא מותקן</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="273"/>
+        <source>Traceroute is not installed, do you want to install it now?</source>
+        <translation>Traceroute (מעקב נתיב) לא מותקן, להתקין אותו כעת?</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="280"/>
+        <source>Traceroute hasn&apos;t been installed</source>
+        <translation>Traceroute (מעקב נתיב) לא הותקן</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="281"/>
+        <source>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</source>
+        <translation>לא ניתן להתקין את Traceroute (מעקב נתיב). יתכן שזה קורה כיוון שזאת הפעלה מתקליטור חי או שאין לך גישה למאגרי התכנה.</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="290"/>
+        <source>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</source>
+        <translation>Traceroute (מעקב נתיב) אינו מותקן ולא זוהה חיבור לאינטרנט ולכן גם לא ניתן להתקין אותו</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="296"/>
+        <location filename="../mainwindow.cpp" line="336"/>
+        <source>No destination host</source>
+        <translation>אין מארח יעד</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="296"/>
+        <location filename="../mainwindow.cpp" line="336"/>
+        <source>Please fill in the destination host field</source>
+        <translation>נא למלא את שדה מארח היעד</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="450"/>
+        <source>Loaded Drivers</source>
+        <translation>מנהלי התקנים שנטענו</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="458"/>
+        <source>Unloaded Drivers</source>
+        <translation>מנהלי התקנים שלא נטענו</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="471"/>
+        <source>Blocked Drivers</source>
+        <translation>מנהלי התקנים חסומים</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="490"/>
+        <source>Blocked Broadcom Drivers</source>
+        <translation>מנהלי התקנים חסומים של Broadcom</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="511"/>
+        <source>Ndiswrapper is not installed</source>
+        <translation>Ndiswrapper לא מותקן</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="523"/>
+        <source>driver installed</source>
+        <translation>מנהל ההתקן הותקן</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="531"/>
+        <source> and in use by </source>
+        <translation>ובשימוש של</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="538"/>
+        <source>. Alternate driver: </source>
+        <translation>. מנהל התקן חלופי: </translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="609"/>
+        <source>Driver removed from blocklist</source>
+        <translation>מנהל ההתקן הוסר מרשימת החסימה</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="610"/>
+        <source>Driver removed from blocklist.</source>
+        <translation>מנהל ההתקן הוסר מרשימת החסימה.</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="616"/>
+        <source>Module blocked</source>
+        <translation>המודול נחסם</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="773"/>
+        <source>Installation successful</source>
+        <translation>ההתקנה הצליחה</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="776"/>
+        <source>Error detected, could not compile ndiswrapper driver.</source>
+        <translation>זוהתה שגיאה, לא ניתן להדר את מנהל ההתקן עם ndiswrapper.</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="779"/>
+        <source>Error detected, could not install ndiswrapper.</source>
+        <translation>זוהתה שגיאה, לא ניתן להתקין את ndiswrapper.</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="791"/>
+        <source>Error encountered while removing Ndiswrapper</source>
+        <translation>אירעה שגיאה בעת הסרת Ndiswrapper</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="838"/>
+        <source>Unblock Driver</source>
+        <translation>שחרור חסימת מנהל התקן</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="877"/>
+        <source>enabled</source>
+        <translation>מופעל</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="880"/>
+        <source>disabled</source>
+        <translation>מושבת</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="883"/>
+        <source>WiFi hardware switch is off</source>
+        <translation>בורר החומרה של הרשת האלחוטית כבוי</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="891"/>
+        <source>Locate the Windows driver you want to add</source>
+        <translation>נא לאתר את מנהל ההתקן של Windows שברצונך להוסיף</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="891"/>
+        <source>Windows installation information file (*.inf)</source>
+        <translation>קובץ פרטי התקנה של Windows‏ (‎*.inf)</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="920"/>
+        <source>*.sys file not found</source>
+        <translation>לא נמצא קובץ ‎*.sys</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="920"/>
+        <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
+        <translation>קובצי ה־‎*.sys חייבים להיות באותו המקום יחד עם קובץ ה־‎*.inf. לא ניתן למצוא את %1</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="929"/>
+        <source>sys file reference not found</source>
+        <translation>ההפניה לקובץ ה־sys לא נמצאה</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="930"/>
+        <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
+        <translation>לא ניתן להגדיר מה הוא קובץ ה־sys עבור מנהל ההתקן הנתון לאחר פענוח קובץ ה־inf</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="949"/>
+        <source>Ndiswrapper driver removed.</source>
+        <translation>מנהל ההתקן עם Ndiswrapper הוסר.</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="957"/>
+        <source>%1 Help</source>
+        <translation>עזרה עבור %1</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="968"/>
+        <source>Could not unlock devices.
+WiFi device(s) might already be unlocked.</source>
+        <translation>לא ניתן לשחרר התקנים.
+התקני הרשת האלחוטית כנראה כבר משוחררים.</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="970"/>
+        <source>WiFi devices unlocked.</source>
+        <translation>התקני הרשת האלחוטית שוחררו.</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="983"/>
+        <source>About %1</source>
+        <translation>על אודות %1</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="984"/>
+        <source>Version: </source>
+        <translation>גרסה:</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="985"/>
+        <source>Program for troubleshooting and configuring network for MX Linux</source>
+        <translation>תכנית לטיפול בתקלות ולהגדרת הרשת עבור MX Linux</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="987"/>
+        <source>Copyright (c) MEPIS LLC and MX Linux</source>
+        <translation>זכויות היוצרים (c) שמורות ל־MEPIS LLC ול־MX Linux</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="988"/>
+        <source>%1 License</source>
+        <translation>רישיון של %1</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1011"/>
+        <source>Driver loaded successfully</source>
+        <translation>מנהל ההתקן נטען</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1026"/>
+        <source>Driver unloaded successfully</source>
+        <translation>מנהל ההתקן נפרק</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <location filename="../about.cpp" line="50"/>
+        <source>License</source>
+        <translation>רישיון</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="51"/>
+        <location filename="../about.cpp" line="60"/>
+        <source>Changelog</source>
+        <translation>יומן שינויים</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="52"/>
+        <source>Cancel</source>
+        <translation>ביטול</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="70"/>
+        <source>&amp;Close</source>
+        <translation>&amp;סגירה</translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="56"/>
+        <source>Error</source>
+        <translation>שגיאה</translation>
+    </message>
+    <message>
+        <location filename="../main.cpp" line="57"/>
+        <source>You seem to be logged in as root, please log out and log in as normal user to use this program.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="632"/>
+        <source>Could not load </source>
+        <translation>לא ניתן לטעון</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="656"/>
+        <source>Could not unload </source>
+        <translation>לא ניתן לפרוק</translation>
     </message>
 </context>
 </TS>
