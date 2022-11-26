@@ -1,5 +1,5 @@
-QT       += core gui widgets
-CONFIG   += c++1z
+QT       += widgets
+CONFIG   += release warn_on c++1z
 
 # The following define makes your compiler warn you if you use any
 # feature of Qt which has been marked as deprecated (the exact warnings
@@ -67,7 +67,6 @@ SOURCES += main.cpp \
     mainwindow.cpp \
     about.cpp \
     cmd.cpp
-CONFIG += release warn_on thread qt c++11
 
 RESOURCES += \
     images.qrc
