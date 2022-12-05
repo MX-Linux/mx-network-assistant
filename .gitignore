@@ -31,4 +31,7 @@
 *.out
 *.app
 
+# Transifex ignore
+.tx/
+
 mx-network-assistant
