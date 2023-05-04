@@ -436,7 +436,8 @@ void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
         = cmd.getCmdOut(QStringLiteral("find /lib/modules/$(uname -r)/kernel/drivers/net -name *.ko"))
               .split(QStringLiteral("\n"));
     completeKernelNetModules = completeKernelNetModules.replaceInStrings(QStringLiteral(".ko"), QLatin1String(""));
-    completeKernelNetModules = completeKernelNetModules.replaceInStrings(QRegExp("[\\w|\\.|-]*/"), QLatin1String(""));
+    completeKernelNetModules
+        = completeKernelNetModules.replaceInStrings(QRegularExpression("[\\w|\\.|-]*/"), QLatin1String(""));
     // Those three kernel modules are in the "misc" section we add them manually
     // To the filter list for convenience
     completeKernelNetModules << QStringLiteral("ndiswrapper");
@@ -669,25 +670,23 @@ bool MainWindow::removeModule(const QString &module)
 
 bool MainWindow::removeStart(const QString &module)
 {
-    QFile inputModules(QStringLiteral("/etc/modules"));
-    QFile outputModules(QStringLiteral("/etc/modules"));
-    if (!inputModules.open(QFile::ReadOnly | QFile::Text))
+    QFile modulesFile("/etc/modules");
+    if (!modulesFile.open(QIODevice::ReadWrite | QIODevice::Text))
         return false;
 
-    QString s;
+    QString inputString;
     QString outputString;
-    while (!inputModules.atEnd()) {
-        s = inputModules.readLine();
+    QTextStream in(&modulesFile);
+    while (!in.atEnd()) {
+        QString line = in.readLine();
         const QString expr = QStringLiteral("^\\s*(%1)\\s*").arg(module);
-        if (!s.contains(QRegExp(expr)))
-            outputString += s;
-        outputModules.write(s.toUtf8());
+        if (!line.contains(QRegularExpression(expr)))
+            outputString += line + "\n";
     }
-    inputModules.close();
-    if (!outputModules.open(QFile::WriteOnly | QFile::Text))
-        return false;
-    outputModules.write(outputString.toUtf8());
-    outputModules.close();
+
+    QTextStream out(&modulesFile);
+    out << outputString;
+    modulesFile.close();
     return true;
 }
 
@@ -828,7 +827,7 @@ void MainWindow::updateDriverStatus()
     while (!InputBlockList.atEnd()) {
         s = InputBlockList.readLine();
         QString expr = QStringLiteral("^\\s*(blacklist)\\s*(%1)\\s*").arg(driver);
-        if (s.contains(QRegExp(expr))) {
+        if (s.contains(QRegularExpression(expr))) {
             driverBlocklisted = true;
             break;
         }
@@ -836,7 +835,7 @@ void MainWindow::updateDriverStatus()
     while (!inputBroadcomBlocklist.atEnd()) {
         s = inputBroadcomBlocklist.readLine();
         QString expr = QStringLiteral("^\\s*(blacklist)\\s*(%1)\\s*").arg(driver);
-        if (s.contains(QRegExp(expr))) {
+        if (s.contains(QRegularExpression(expr))) {
             driverBlocklisted = true;
             break;
         }
@@ -854,16 +853,9 @@ void MainWindow::updateDriverStatus()
 bool MainWindow::checkSysFileExists(const QDir &searchPath, const QString &fileName, Qt::CaseSensitivity cs)
 {
     const QStringList fileList = searchPath.entryList(QStringList() << QStringLiteral("*.SYS"));
-    bool found = false;
-    auto it = fileList.constBegin();
-    while (it != fileList.constEnd()) {
-        if ((*it).contains(fileName, cs)) {
-            found = true;
-            break;
-        }
-        ++it;
-    }
-    return found;
+    const auto it = std::find_if(fileList.cbegin(), fileList.cend(),
+                                 [&](const QString &file) { return file.contains(fileName, cs); });
+    return it != fileList.cend();
 }
 
 bool MainWindow::checkWifiAvailable()
