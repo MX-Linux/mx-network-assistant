@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="ca">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ca">
 <context>
     <name>MainWindow</name>
     <message>
@@ -51,22 +53,22 @@
         <location filename="../mainwindow.ui" line="593"/>
         <location filename="../mainwindow.ui" line="706"/>
         <source>Re-scan</source>
-        <translation>Re.explora</translation>
+        <translation>Re-explora</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="372"/>
         <source>Enabled</source>
-        <translation type="unfinished"/>
+        <translation>Activat</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="377"/>
         <source>Interface</source>
-        <translation type="unfinished"/>
+        <translation>Interfície</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="382"/>
         <source>Driver</source>
-        <translation type="unfinished"/>
+        <translation>Controlador</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="387"/>
@@ -76,12 +78,12 @@
     <message>
         <location filename="../mainwindow.ui" line="392"/>
         <source>Vendor</source>
-        <translation type="unfinished"/>
+        <translation>Fabricant</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="397"/>
         <source>Product</source>
-        <translation type="unfinished"/>
+        <translation>Producte</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="405"/>
@@ -130,7 +132,7 @@
     </message>
     <message>
         <location filename="../mainwindow.ui" line="613"/>
-        <location filename="../mainwindow.cpp" line="841"/>
+        <location filename="../mainwindow.cpp" line="847"/>
         <source>Block Driver</source>
         <translation>Bloca controlador</translation>
     </message>
@@ -224,214 +226,214 @@
         <translation>Salts </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="96"/>
+        <location filename="../mainwindow.cpp" line="98"/>
         <source>IP address from router:</source>
         <translation>Adreça IP de l&apos;encaminador: </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="97"/>
+        <location filename="../mainwindow.cpp" line="99"/>
         <source>External IP address:</source>
         <translation>Adreça IP externa: </translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="135"/>
-        <location filename="../mainwindow.cpp" line="150"/>
+        <location filename="../mainwindow.cpp" line="148"/>
         <source>Interface: %1</source>
-        <translation type="unfinished"/>
+        <translation>Interfície: %1</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="135"/>
+        <location filename="../mainwindow.cpp" line="149"/>
+        <source>Driver: %1</source>
+        <translation>Controlador: %1</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="136"/>
+        <location filename="../mainwindow.cpp" line="150"/>
+        <source>Description: %1</source>
+        <translation>Descripció: %1</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="137"/>
         <location filename="../mainwindow.cpp" line="151"/>
-        <source>Driver: %1</source>
-        <translation type="unfinished"/>
+        <source>Product: %1</source>
+        <translation>Producte: %1</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="137"/>
         <location filename="../mainwindow.cpp" line="152"/>
-        <source>Description: %1</source>
-        <translation type="unfinished"/>
+        <source>Vendor: %1</source>
+        <translation>Fabricant: %1</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="138"/>
         <location filename="../mainwindow.cpp" line="153"/>
-        <source>Product: %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="139"/>
-        <location filename="../mainwindow.cpp" line="154"/>
-        <source>Vendor: %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="140"/>
-        <location filename="../mainwindow.cpp" line="155"/>
         <source>Enabled: %1</source>
-        <translation type="unfinished"/>
+        <translation>Activat: %1</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="206"/>
+        <location filename="../mainwindow.cpp" line="220"/>
+        <location filename="../mainwindow.cpp" line="234"/>
+        <source>&amp;Copy</source>
+        <translation>&amp;Còpia </translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="208"/>
         <location filename="../mainwindow.cpp" line="222"/>
         <location filename="../mainwindow.cpp" line="236"/>
-        <source>&amp;Copy</source>
-        <translation>&amp;Còpia </translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="210"/>
-        <location filename="../mainwindow.cpp" line="224"/>
-        <location filename="../mainwindow.cpp" line="238"/>
         <source>Ctrl+C</source>
         <translation>Ctrl+C</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="209"/>
+        <location filename="../mainwindow.cpp" line="223"/>
+        <location filename="../mainwindow.cpp" line="237"/>
+        <source>Copy &amp;All</source>
+        <translation>Copi&amp;a Tot </translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="211"/>
         <location filename="../mainwindow.cpp" line="225"/>
         <location filename="../mainwindow.cpp" line="239"/>
-        <source>Copy &amp;All</source>
-        <translation>Copi&amp;a Tot </translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="213"/>
-        <location filename="../mainwindow.cpp" line="227"/>
-        <location filename="../mainwindow.cpp" line="241"/>
         <source>Ctrl+A</source>
         <translation>Ctrl+A</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="272"/>
-        <location filename="../mainwindow.cpp" line="289"/>
+        <location filename="../mainwindow.cpp" line="264"/>
+        <location filename="../mainwindow.cpp" line="282"/>
         <source>Traceroute not installed</source>
         <translation>Traceroute no està instal·lat </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="273"/>
+        <location filename="../mainwindow.cpp" line="265"/>
         <source>Traceroute is not installed, do you want to install it now?</source>
         <translation>El traceroute no està instal·lat, voleu fer-ho ara? </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="280"/>
+        <location filename="../mainwindow.cpp" line="272"/>
         <source>Traceroute hasn&apos;t been installed</source>
         <translation>El traceroute no s&apos;ha instal·lat </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="281"/>
+        <location filename="../mainwindow.cpp" line="273"/>
         <source>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</source>
         <translation>El traceroute no es pot instal·lar. Això vol dir que esteu usant el CD autònom o no podeu accedir al dipòsit de programari. </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="290"/>
+        <location filename="../mainwindow.cpp" line="283"/>
         <source>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</source>
         <translation>El traceroute no està instal·lat i no s&apos;ha detectat cap connexió a internet, o sigui que no es pot instal·lar. </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="296"/>
-        <location filename="../mainwindow.cpp" line="336"/>
+        <location filename="../mainwindow.cpp" line="290"/>
+        <location filename="../mainwindow.cpp" line="329"/>
         <source>No destination host</source>
         <translation>No hi ha amfitrió de destinació </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="296"/>
-        <location filename="../mainwindow.cpp" line="336"/>
+        <location filename="../mainwindow.cpp" line="290"/>
+        <location filename="../mainwindow.cpp" line="329"/>
         <source>Please fill in the destination host field</source>
         <translation>Si us plau, ompliu el camp d&apos;amfitrió de destinació </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="450"/>
+        <location filename="../mainwindow.cpp" line="454"/>
         <source>Loaded Drivers</source>
         <translation>Controladors carregats</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="458"/>
+        <location filename="../mainwindow.cpp" line="462"/>
         <source>Unloaded Drivers</source>
         <translation>Controladors descarregats</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="471"/>
+        <location filename="../mainwindow.cpp" line="475"/>
         <source>Blocked Drivers</source>
         <translation>Controladors blocats</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="490"/>
+        <location filename="../mainwindow.cpp" line="494"/>
         <source>Blocked Broadcom Drivers</source>
         <translation>Controladors Broadcom blocats</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="511"/>
+        <location filename="../mainwindow.cpp" line="515"/>
         <source>Ndiswrapper is not installed</source>
         <translation>No s&apos;ha instal·lat NDISwrapper </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="523"/>
+        <location filename="../mainwindow.cpp" line="527"/>
         <source>driver installed</source>
         <translation>controlador instal·lat </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="531"/>
+        <location filename="../mainwindow.cpp" line="536"/>
         <source> and in use by </source>
         <translation>i usat per </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="538"/>
+        <location filename="../mainwindow.cpp" line="543"/>
         <source>. Alternate driver: </source>
         <translation>. Controlador alternatiu: </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="609"/>
+        <location filename="../mainwindow.cpp" line="614"/>
         <source>Driver removed from blocklist</source>
         <translation>Controlador eliminat de la llista negra</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="610"/>
+        <location filename="../mainwindow.cpp" line="614"/>
         <source>Driver removed from blocklist.</source>
         <translation>Controlador eliminat de la llista negra</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="616"/>
+        <location filename="../mainwindow.cpp" line="620"/>
         <source>Module blocked</source>
         <translation>Mòdul blocat</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="773"/>
+        <location filename="../mainwindow.cpp" line="780"/>
         <source>Installation successful</source>
         <translation>Instal·lació acabada amb èxit </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="776"/>
+        <location filename="../mainwindow.cpp" line="782"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
         <translation>S&apos;ha detectat un error, no es pot compilar el ndiswrapper. </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="779"/>
+        <location filename="../mainwindow.cpp" line="785"/>
         <source>Error detected, could not install ndiswrapper.</source>
         <translation>S&apos;ha detectat un error, no es pot instal·lar ndiswrapper. </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="791"/>
+        <location filename="../mainwindow.cpp" line="797"/>
         <source>Error encountered while removing Ndiswrapper</source>
         <translation>S&apos;ha trobat un error en eliminar Ndiswrapper </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="838"/>
+        <location filename="../mainwindow.cpp" line="844"/>
         <source>Unblock Driver</source>
-        <translation>Contolador desblocat</translation>
+        <translation>Controlador desblocat</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="877"/>
+        <location filename="../mainwindow.cpp" line="876"/>
         <source>enabled</source>
         <translation>activat</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="880"/>
+        <location filename="../mainwindow.cpp" line="879"/>
         <source>disabled</source>
         <translation>desactivat</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="883"/>
+        <location filename="../mainwindow.cpp" line="882"/>
         <source>WiFi hardware switch is off</source>
         <translation>L&apos;interruptor de WiFi per maquinari està apagat</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="891"/>
+        <location filename="../mainwindow.cpp" line="890"/>
         <source>Locate the Windows driver you want to add</source>
         <translation>Localitzeu el controlador de Windows que voleu afegir </translation>
     </message>
@@ -441,79 +443,79 @@
         <translation>Fitxer d&apos;informació d&apos;instal·lació Windows (*.inf) </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="920"/>
+        <location filename="../mainwindow.cpp" line="921"/>
         <source>*.sys file not found</source>
         <translation>No trobo el fitxer *.sys </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="920"/>
+        <location filename="../mainwindow.cpp" line="922"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
         <translation>Els fitxers *.sys han d&apos;estar al mateix lloc que els *.inf. No trobo el fitxer %1 </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="929"/>
+        <location filename="../mainwindow.cpp" line="933"/>
         <source>sys file reference not found</source>
         <translation>No trobo el fitxer de referència sys </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="930"/>
+        <location filename="../mainwindow.cpp" line="934"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
         <translation>El fitxer sys per al controlador triat no es pot determinar després d&apos;analitzar el fitxer inf </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="949"/>
+        <location filename="../mainwindow.cpp" line="948"/>
         <source>Ndiswrapper driver removed.</source>
         <translation>S&apos;ha eliminat el controlador ndiswrapper </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="957"/>
+        <location filename="../mainwindow.cpp" line="956"/>
         <source>%1 Help</source>
         <translation>Ajuda de %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="968"/>
+        <location filename="../mainwindow.cpp" line="965"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
         <translation>No es poden desbloquejar els dispositius.
-El(s) dispositiu(s) WiFi potser ja estan desbloquejats. </translation>
+El(s) dispositiu(s) wifi potser ja estan desbloquejats. </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="970"/>
+        <location filename="../mainwindow.cpp" line="967"/>
         <source>WiFi devices unlocked.</source>
-        <translation>Dispositius WiFi desbloquejats. </translation>
+        <translation>Dispositius wifi desbloquejats. </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="983"/>
+        <location filename="../mainwindow.cpp" line="978"/>
         <source>About %1</source>
         <translation>Quant a %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="984"/>
+        <location filename="../mainwindow.cpp" line="979"/>
         <source>Version: </source>
         <translation>Versió: </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="985"/>
+        <location filename="../mainwindow.cpp" line="981"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
         <translation>Programa per a resolució de problemes i configuració de xarxa de MX Linux </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="987"/>
+        <location filename="../mainwindow.cpp" line="983"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
         <translation>Copyright (c) MEPIS LLC i MX Linux </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="988"/>
+        <location filename="../mainwindow.cpp" line="984"/>
         <source>%1 License</source>
         <translation>Llicència de %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1011"/>
+        <location filename="../mainwindow.cpp" line="1003"/>
         <source>Driver loaded successfully</source>
         <translation>Controlador carregat amb èxit </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1026"/>
+        <location filename="../mainwindow.cpp" line="1018"/>
         <source>Driver unloaded successfully</source>
         <translation>Controlador descarregat amb èxit </translation>
     </message>
@@ -521,43 +523,43 @@ El(s) dispositiu(s) WiFi potser ja estan desbloquejats. </translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../about.cpp" line="50"/>
+        <location filename="../about.cpp" line="52"/>
         <source>License</source>
         <translation>Llicència</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="51"/>
-        <location filename="../about.cpp" line="60"/>
+        <location filename="../about.cpp" line="53"/>
+        <location filename="../about.cpp" line="62"/>
         <source>Changelog</source>
         <translation>Registre de canvis</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="52"/>
+        <location filename="../about.cpp" line="54"/>
         <source>Cancel</source>
         <translation>Cancel·la</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="70"/>
+        <location filename="../about.cpp" line="74"/>
         <source>&amp;Close</source>
         <translation>Tan&amp;ca </translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="56"/>
+        <location filename="../main.cpp" line="64"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="57"/>
+        <location filename="../main.cpp" line="65"/>
         <source>You seem to be logged in as root, please log out and log in as normal user to use this program.</source>
         <translation>Sembla que esteu connectat com a administrador, si us plau sortiu i connecteu-vos com a usuari normal per a usar aquest programa.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="632"/>
+        <location filename="../mainwindow.cpp" line="637"/>
         <source>Could not load </source>
         <translation>No es pot carregar </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="656"/>
+        <location filename="../mainwindow.cpp" line="661"/>
         <source>Could not unload </source>
         <translation>No es pot descarregar </translation>
     </message>

@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="hi">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="hi">
 <context>
     <name>MainWindow</name>
     <message>
@@ -56,17 +58,17 @@
     <message>
         <location filename="../mainwindow.ui" line="372"/>
         <source>Enabled</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="377"/>
         <source>Interface</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="382"/>
         <source>Driver</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="387"/>
@@ -76,12 +78,12 @@
     <message>
         <location filename="../mainwindow.ui" line="392"/>
         <source>Vendor</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="397"/>
         <source>Product</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="405"/>
@@ -130,7 +132,7 @@
     </message>
     <message>
         <location filename="../mainwindow.ui" line="613"/>
-        <location filename="../mainwindow.cpp" line="841"/>
+        <location filename="../mainwindow.cpp" line="847"/>
         <source>Block Driver</source>
         <translation>ड्राइवर अवरुद्ध करें</translation>
     </message>
@@ -224,214 +226,214 @@
         <translation>अंतरण संख्या</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="96"/>
+        <location filename="../mainwindow.cpp" line="98"/>
         <source>IP address from router:</source>
         <translation>रूटर से आईपी पता :</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="97"/>
+        <location filename="../mainwindow.cpp" line="99"/>
         <source>External IP address:</source>
         <translation>बाह्य आईपी पता :</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="135"/>
-        <location filename="../mainwindow.cpp" line="150"/>
+        <location filename="../mainwindow.cpp" line="148"/>
         <source>Interface: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="135"/>
+        <location filename="../mainwindow.cpp" line="149"/>
+        <source>Driver: %1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="136"/>
+        <location filename="../mainwindow.cpp" line="150"/>
+        <source>Description: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="137"/>
         <location filename="../mainwindow.cpp" line="151"/>
-        <source>Driver: %1</source>
-        <translation type="unfinished"/>
+        <source>Product: %1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="137"/>
         <location filename="../mainwindow.cpp" line="152"/>
-        <source>Description: %1</source>
-        <translation type="unfinished"/>
+        <source>Vendor: %1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="138"/>
         <location filename="../mainwindow.cpp" line="153"/>
-        <source>Product: %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="139"/>
-        <location filename="../mainwindow.cpp" line="154"/>
-        <source>Vendor: %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="140"/>
-        <location filename="../mainwindow.cpp" line="155"/>
         <source>Enabled: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="206"/>
+        <location filename="../mainwindow.cpp" line="220"/>
+        <location filename="../mainwindow.cpp" line="234"/>
+        <source>&amp;Copy</source>
+        <translation>कॉपी (&amp;C)</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="208"/>
         <location filename="../mainwindow.cpp" line="222"/>
         <location filename="../mainwindow.cpp" line="236"/>
-        <source>&amp;Copy</source>
-        <translation>कॉपी (&amp;C)</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="210"/>
-        <location filename="../mainwindow.cpp" line="224"/>
-        <location filename="../mainwindow.cpp" line="238"/>
         <source>Ctrl+C</source>
         <translation>Ctrl+C</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="209"/>
+        <location filename="../mainwindow.cpp" line="223"/>
+        <location filename="../mainwindow.cpp" line="237"/>
+        <source>Copy &amp;All</source>
+        <translation>सभी कॉपी करें (&amp;A)</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="211"/>
         <location filename="../mainwindow.cpp" line="225"/>
         <location filename="../mainwindow.cpp" line="239"/>
-        <source>Copy &amp;All</source>
-        <translation>सभी कॉपी करें (&amp;A)</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="213"/>
-        <location filename="../mainwindow.cpp" line="227"/>
-        <location filename="../mainwindow.cpp" line="241"/>
         <source>Ctrl+A</source>
         <translation>Ctrl+A</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="272"/>
-        <location filename="../mainwindow.cpp" line="289"/>
+        <location filename="../mainwindow.cpp" line="264"/>
+        <location filename="../mainwindow.cpp" line="282"/>
         <source>Traceroute not installed</source>
         <translation>ट्रेस-रूट इंस्टॉल नहीं है</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="273"/>
+        <location filename="../mainwindow.cpp" line="265"/>
         <source>Traceroute is not installed, do you want to install it now?</source>
         <translation>ट्रेस-रूट इंस्टॉल नहीं है, क्या आप अभी इंस्टॉल करना चाहते हैं?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="280"/>
+        <location filename="../mainwindow.cpp" line="272"/>
         <source>Traceroute hasn&apos;t been installed</source>
         <translation>ट्रेस-रूट इंस्टॉल विफल</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="281"/>
+        <location filename="../mainwindow.cpp" line="273"/>
         <source>Traceroute cannot be installed. This may mean you are using the LiveCD or you are unable to reach the software repository,</source>
         <translation>ट्रेस-रूट इंस्टॉल विफल। संभवतः आप लाइव सीडी उपयोग कर रहे हैं या फिर सॉफ्टवेयर पैकेज-संग्रह अभी अनुपलब्ध है,</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="290"/>
+        <location filename="../mainwindow.cpp" line="283"/>
         <source>Traceroute is not installed and no Internet connection could be detected so it cannot be installed</source>
         <translation>ट्रेस-रूट इंस्टॉल नहीं है व कोई इंटरनेट कनेक्शन भी मौजूद नहीं है अतः इंस्टॉल संभव नहीं है</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="296"/>
-        <location filename="../mainwindow.cpp" line="336"/>
+        <location filename="../mainwindow.cpp" line="290"/>
+        <location filename="../mainwindow.cpp" line="329"/>
         <source>No destination host</source>
         <translation>कोई लक्ष्य होस्ट नहीं</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="296"/>
-        <location filename="../mainwindow.cpp" line="336"/>
+        <location filename="../mainwindow.cpp" line="290"/>
+        <location filename="../mainwindow.cpp" line="329"/>
         <source>Please fill in the destination host field</source>
         <translation>कृपया संबंधित स्थान पर लक्ष्य होस्ट दर्ज करें</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="450"/>
+        <location filename="../mainwindow.cpp" line="454"/>
         <source>Loaded Drivers</source>
         <translation>ड्राइवर लोड हैं</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="458"/>
+        <location filename="../mainwindow.cpp" line="462"/>
         <source>Unloaded Drivers</source>
         <translation>ड्राइवर लोड नहीं हैं</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="471"/>
+        <location filename="../mainwindow.cpp" line="475"/>
         <source>Blocked Drivers</source>
         <translation>अवरुद्ध ड्राइवर</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="490"/>
+        <location filename="../mainwindow.cpp" line="494"/>
         <source>Blocked Broadcom Drivers</source>
         <translation>अवरुद्ध ब्रॉडकॉम ड्राइवर</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="511"/>
+        <location filename="../mainwindow.cpp" line="515"/>
         <source>Ndiswrapper is not installed</source>
         <translation>NDISwrapper इंस्टॉल नहीं है</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="523"/>
+        <location filename="../mainwindow.cpp" line="527"/>
         <source>driver installed</source>
         <translation>ड्राइवर इंस्टॉल है</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="531"/>
+        <location filename="../mainwindow.cpp" line="536"/>
         <source> and in use by </source>
         <translation>व इस द्वारा प्रयुक्त</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="538"/>
+        <location filename="../mainwindow.cpp" line="543"/>
         <source>. Alternate driver: </source>
         <translation>वैकल्पिक ड्राइवर :</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="609"/>
+        <location filename="../mainwindow.cpp" line="614"/>
         <source>Driver removed from blocklist</source>
         <translation>ड्राइवर को अवरुद्ध सूची से हटाया गया</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="610"/>
+        <location filename="../mainwindow.cpp" line="614"/>
         <source>Driver removed from blocklist.</source>
         <translation>ड्राइवर को अवरुद्ध सूची से हटाया गया।</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="616"/>
+        <location filename="../mainwindow.cpp" line="620"/>
         <source>Module blocked</source>
         <translation>अनुखंड अवरुद्ध</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="773"/>
+        <location filename="../mainwindow.cpp" line="780"/>
         <source>Installation successful</source>
         <translation>इंस्टॉल प्रक्रिया सफल</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="776"/>
+        <location filename="../mainwindow.cpp" line="782"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
         <translation>त्रुटि हुई, Ndiswrapper ड्राइवर संयोजन विफल।</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="779"/>
+        <location filename="../mainwindow.cpp" line="785"/>
         <source>Error detected, could not install ndiswrapper.</source>
         <translation>त्रुटि हुई, Ndiswrapper ड्राइवर इंस्टॉल विफल।</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="791"/>
+        <location filename="../mainwindow.cpp" line="797"/>
         <source>Error encountered while removing Ndiswrapper</source>
         <translation>Ndiswrapper हटाते समय त्रुटि</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="838"/>
+        <location filename="../mainwindow.cpp" line="844"/>
         <source>Unblock Driver</source>
         <translation>ड्राइवर हेतु अवरोध हटाएँ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="877"/>
+        <location filename="../mainwindow.cpp" line="876"/>
         <source>enabled</source>
         <translation>सक्रिय</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="880"/>
+        <location filename="../mainwindow.cpp" line="879"/>
         <source>disabled</source>
         <translation>निष्क्रिय</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="883"/>
+        <location filename="../mainwindow.cpp" line="882"/>
         <source>WiFi hardware switch is off</source>
         <translation>वाईफाई हार्डवेयर बटन बंद है</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="891"/>
+        <location filename="../mainwindow.cpp" line="890"/>
         <source>Locate the Windows driver you want to add</source>
         <translation>जोड़ने हेतु इच्छित विंडोज ड्राइवर का स्थान निर्दिष्ट करें</translation>
     </message>
@@ -441,79 +443,79 @@
         <translation>विंडोज इंस्टॉल सूचना फाइल (*.inf)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="920"/>
+        <location filename="../mainwindow.cpp" line="921"/>
         <source>*.sys file not found</source>
         <translation>*.sys फाइल प्राप्ति विफल</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="920"/>
+        <location filename="../mainwindow.cpp" line="922"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
         <translation>*.sys फाइलें का *.inf फाइल युक्त स्थान पर होना आवश्यक है। %1 प्राप्ति विफल</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="929"/>
+        <location filename="../mainwindow.cpp" line="933"/>
         <source>sys file reference not found</source>
         <translation>sys फाइल संबंधी सूचना प्राप्ति विफल</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="930"/>
+        <location filename="../mainwindow.cpp" line="934"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
         <translation>inf फाइल प्राप्यता उपरांत निर्दिष्ट ड्राइवर हेतु sys फाइल की प्राप्ति विफल </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="949"/>
+        <location filename="../mainwindow.cpp" line="948"/>
         <source>Ndiswrapper driver removed.</source>
         <translation>Ndiswrapper ड्राइवर हटाया गया।</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="957"/>
+        <location filename="../mainwindow.cpp" line="956"/>
         <source>%1 Help</source>
         <translation>%1 सहायता</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="968"/>
+        <location filename="../mainwindow.cpp" line="965"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
         <translation>उपकरणों से लॉक हटाना विफल।
 संभवतः वाईफाई उपकरण पहले से ही लॉक नहीं है।</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="970"/>
+        <location filename="../mainwindow.cpp" line="967"/>
         <source>WiFi devices unlocked.</source>
         <translation>वाईफाई उपकरणों से लॉक हटाया गया।</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="983"/>
+        <location filename="../mainwindow.cpp" line="978"/>
         <source>About %1</source>
         <translation>%1 के बारे में</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="984"/>
+        <location filename="../mainwindow.cpp" line="979"/>
         <source>Version: </source>
         <translation>संस्करण :</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="985"/>
+        <location filename="../mainwindow.cpp" line="981"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
         <translation>एमएक्स लिनक्स में नेटवर्क के समस्या निवारण व विन्यास हेतु प्रोग्राम</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="987"/>
+        <location filename="../mainwindow.cpp" line="983"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
         <translation>कॉपीराइट (c) मेपिस एलएलसी व एमएक्स लिनक्स</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="988"/>
+        <location filename="../mainwindow.cpp" line="984"/>
         <source>%1 License</source>
         <translation>%1 लाइसेंस</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1011"/>
+        <location filename="../mainwindow.cpp" line="1003"/>
         <source>Driver loaded successfully</source>
         <translation>ड्राइवर लोड करना सफल</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1026"/>
+        <location filename="../mainwindow.cpp" line="1018"/>
         <source>Driver unloaded successfully</source>
         <translation>ड्राइवर लोड से हटाना सफल</translation>
     </message>
@@ -521,43 +523,43 @@ WiFi device(s) might already be unlocked.</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../about.cpp" line="50"/>
+        <location filename="../about.cpp" line="52"/>
         <source>License</source>
         <translation>लाइसेंस</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="51"/>
-        <location filename="../about.cpp" line="60"/>
+        <location filename="../about.cpp" line="53"/>
+        <location filename="../about.cpp" line="62"/>
         <source>Changelog</source>
         <translation>बदलाव सूची</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="52"/>
+        <location filename="../about.cpp" line="54"/>
         <source>Cancel</source>
         <translation>रद्द करें</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="70"/>
+        <location filename="../about.cpp" line="74"/>
         <source>&amp;Close</source>
         <translation>बंद करें (&amp;C)</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="56"/>
+        <location filename="../main.cpp" line="64"/>
         <source>Error</source>
         <translation>त्रुटि</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="57"/>
+        <location filename="../main.cpp" line="65"/>
         <source>You seem to be logged in as root, please log out and log in as normal user to use this program.</source>
         <translation>प्रतीत होता है कि आप रुट के रूप में लॉगिन हैं, प्रोग्राम उपयोग करने हेतु लॉगआउट कर सामान्य उपयोक्ता के रूप में लॉगिन करें।</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="632"/>
+        <location filename="../mainwindow.cpp" line="637"/>
         <source>Could not load </source>
         <translation>लोड करना विफल</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="656"/>
+        <location filename="../mainwindow.cpp" line="661"/>
         <source>Could not unload </source>
         <translation>लोड से हटाना विफल</translation>
     </message>
