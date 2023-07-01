@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Sat, 01 Jul 2023 19:23:56 -0400
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: i386
+Version: 23.7
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (23.7) mx; urgency=medium
+ .
+   * Refresh translations
+   * Update policy file
+Checksums-Sha1:
+ 54ae180f43f669dadfff207cbc578c22538c61dd 10119 mx-network-assistant_23.7_i386.buildinfo
+ f3e0631ebcdc402f2db1ed5440dc6f406866790c 244992 mx-network-assistant_23.7_i386.deb
+Checksums-Sha256:
+ 619cadc190b557a1cc86ea0557fe3d45ff66838d0a2436ed3d31b57a02cf98fc 10119 mx-network-assistant_23.7_i386.buildinfo
+ a15e134ae1a263d241ed7a0bb6c44c1c7d2668350230280b813280bea35e3653 244992 mx-network-assistant_23.7_i386.deb
+Files:
+ d840fdce50dbbb0096e05fa1a1b120fa 10119 admin optional mx-network-assistant_23.7_i386.buildinfo
+ 00010c8e675135e2cbe3b989e60a5e8d 244992 admin optional mx-network-assistant_23.7_i386.deb
