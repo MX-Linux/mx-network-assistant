@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 01 Jul 2023 19:23:56 -0400
+Source: mx-network-assistant
+Architecture: source
+Version: 23.7
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Changes:
+ mx-network-assistant (23.7) mx; urgency=medium
+ .
+   * Refresh translations
+   * Update policy file
+Checksums-Sha1:
+ f6350718832e7dd376930ae02d115a4f8c2c58b9 1227 mx-network-assistant_23.7.dsc
+ dffb391197ae6e7364a5d33dd11cc97f17643913 207004 mx-network-assistant_23.7.tar.xz
+ 9a1d078f5af38666a24fd8b8df30c9151dc7b67d 10812 mx-network-assistant_23.7_amd64.buildinfo
+Checksums-Sha256:
+ 3ec2332a9df09bf0373d86a6302c78ca9b804bc653d0ae4f2934c86e20e87f64 1227 mx-network-assistant_23.7.dsc
+ abf9c33abe4a999700d2f200b9423fc328dd67fe99056e55dbc7caf8e8df462a 207004 mx-network-assistant_23.7.tar.xz
+ eea8d3736a7e2850acb62c914bcd3b291825e7f7c4d808e97bcfa0e31fc0e7cf 10812 mx-network-assistant_23.7_amd64.buildinfo
+Files:
+ 6fb543686c789db527fc742a0cf26653 1227 admin optional mx-network-assistant_23.7.dsc
+ cb81e9ffa1dde528a41d4894e8c3879c 207004 admin optional mx-network-assistant_23.7.tar.xz
+ 5710b76afb5a1a8f81ff1e7a8a6bf2b8 10812 admin optional mx-network-assistant_23.7_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmSgt/YTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumAbMB/91zbONfhPX0QmG8JN0THh5lM0ttP+5
+Ok+FjpSooZO2kA57MYPEXmsH/aiIsxgkQ9OpcmrC0q34fxxmjBToPn+ookPO388a
+7IYrKM7N7egspnYxIFCH9MwLyOBPi+yZmk58qcXzLzlwHfWNhLLYOMo0+CaTNpQr
+7UcTtFh5c3Ayb6sNtjPLL1Y3NwFGDgeGFtwPCaXbCkSeDHyBsv/T3PJtSs3f4Zwg
+cD4BcVoz1y8WBVJDwQwBVDNl/tfj0REBIabSpJaUa9kEvcWn8YKRTOpfW58j+Typ
+f4xblqI4Gpkcid/WOv9qj0Gkkz2EtTpQr5gOyR6TuCKemP212Aw1GOHx
+=ToBT
+-----END PGP SIGNATURE-----
