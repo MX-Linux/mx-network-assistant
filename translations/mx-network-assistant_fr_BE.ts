@@ -46,7 +46,7 @@
     <message>
         <location filename="../mainwindow.ui" line="280"/>
         <source>Enable</source>
-        <translation>Active</translation>
+        <translation>Activer</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="303"/>

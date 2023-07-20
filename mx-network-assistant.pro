@@ -41,7 +41,6 @@ TRANSLATIONS += translations/mx-network-assistant_af.ts \
                 translations/mx-network-assistant_fil.ts \
                 translations/mx-network-assistant_fi.ts \
                 translations/mx-network-assistant_fr_BE.ts \
-                translations/mx-network-assistant_fr_FR.ts \
                 translations/mx-network-assistant_fr.ts \
                 translations/mx-network-assistant_fy.ts \
                 translations/mx-network-assistant_ga.ts \

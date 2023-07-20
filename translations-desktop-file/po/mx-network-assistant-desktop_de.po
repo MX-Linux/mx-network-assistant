@@ -24,7 +24,7 @@ msgstr ""
 #. The desktop entry name will be displayed within the menu.
 #: desktop-in/mx-network-assistant.desktop.in:4
 msgid "MX Network Assistant"
-msgstr "MX-Netzwerkassistent"
+msgstr "MX-Netzwerk-Assistent"
 
 #. # The desktop entry comment will be shown within the menu.
 #: desktop-in/mx-network-assistant.desktop.in:6

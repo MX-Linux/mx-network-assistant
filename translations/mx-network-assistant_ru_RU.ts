@@ -16,7 +16,7 @@
     <message>
         <location filename="../mainwindow.ui" line="109"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Помощь</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="177"/>
@@ -545,7 +545,7 @@ WiFi device(s) might already be unlocked.</source>
     <message>
         <location filename="../main.cpp" line="64"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="65"/>

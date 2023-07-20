@@ -213,7 +213,7 @@
         <location filename="../mainwindow.ui" line="896"/>
         <location filename="../mainwindow.ui" line="1016"/>
         <source>Cancel</source>
-        <translation>Отменить</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="924"/>
