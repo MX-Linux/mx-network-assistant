@@ -169,12 +169,12 @@
     <message>
         <location filename="../mainwindow.ui" line="747"/>
         <source>In order to use Windows drivers you need first to install NDISwrapper</source>
-        <translation>Windows sürücülerini kullanabilmek için önce NDISwrapper&apos;ı kurmanız gerek.</translation>
+        <translation>Windows sürücülerini kullanabilmek için önce NDISwrapper’ı kurmanız gerek.</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="763"/>
         <source>Uninstall NDISwrapper</source>
-        <translation>NDISwrapper&apos;ı kaldır</translation>
+        <translation>NDISwrapper’ı kaldır</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="795"/>

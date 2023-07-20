@@ -6,7 +6,7 @@
     <message>
         <location filename="../mainwindow.ui" line="26"/>
         <source>MX Network Assistant</source>
-        <translation>MX-Netzwerkassistent</translation>
+        <translation>MX-Netzwerk-Assistent</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="86"/>
@@ -551,7 +551,7 @@ WiFi-Gerät(e) könnten bereits entsperrt sein.</translation>
     <message>
         <location filename="../main.cpp" line="65"/>
         <source>You seem to be logged in as root, please log out and log in as normal user to use this program.</source>
-        <translation>Sie sind als Benutzer “root” am System angemeldet. Bitte melden sie sich ab und dann als normaler Benutzer wieder an, um dieses Programm zu verwenden.</translation>
+        <translation>Sie sind als Administrator am System angemeldet. Bitte melden sie sich ab und dann als normaler Benutzer wieder an, um dieses Programm zu verwenden.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="635"/>
