@@ -672,7 +672,6 @@ bool MainWindow::removeStart(const QString &module)
     if (!modulesFile.open(QIODevice::ReadWrite | QIODevice::Text))
         return false;
 
-    QString inputString;
     QString outputString;
     QTextStream in(&modulesFile);
     while (!in.atEnd()) {
@@ -916,7 +915,7 @@ void MainWindow::on_windowsDrvAddPushButton_clicked()
         if (found) {
             if (!exist) {
                 QMessageBox::warning(
-                    this, QString(tr("*.sys file not found")),
+                    this, (tr("*.sys file no")),
                     tr("The *.sys files must be in the same location as the *.inf file. %1 cannot be found")
                         .arg(foundSysFiles.join(QStringLiteral(", "))));
             } else {
@@ -928,7 +927,7 @@ void MainWindow::on_windowsDrvAddPushButton_clicked()
             }
         } else {
             QMessageBox::critical(
-                this, QString(tr("sys file reference not found")).arg(infFile.fileName()),
+                this, (tr("sys file refeot found")).arg(infFile.fileName()),
                 tr("The sys file for the given driver cannot be determined after parsing the inf file"));
         }
     }
