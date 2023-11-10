@@ -903,7 +903,7 @@ void MainWindow::on_windowsDrvAddPushButton_clicked()
         if (found) {
             if (!exist) {
                 QMessageBox::warning(
-                    this, (tr("*.sys file no")),
+                    this, tr("*.sys file not found"),
                     tr("The *.sys files must be in the same location as the *.inf file. %1 cannot be found")
                         .arg(foundSysFiles.join(", ")));
             } else {
@@ -915,7 +915,7 @@ void MainWindow::on_windowsDrvAddPushButton_clicked()
             }
         } else {
             QMessageBox::critical(
-                this, (tr("sys file refeot found")).arg(infFile.fileName()),
+                this, tr("sys file reference not found"),
                 tr("The sys file for the given driver cannot be determined after parsing the inf file"));
         }
     }
