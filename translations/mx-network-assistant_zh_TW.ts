@@ -5,46 +5,55 @@
     <name>MainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="26"/>
+        <location filename="../ui_mainwindow.h" line="794"/>
         <source>MX Network Assistant</source>
         <translation>MX 網路助理</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="86"/>
+        <location filename="../ui_mainwindow.h" line="795"/>
         <source>About...</source>
         <translation>關於……</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="109"/>
+        <location filename="../ui_mainwindow.h" line="799"/>
         <source>Help</source>
         <translation>說明</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="177"/>
+        <location filename="../ui_mainwindow.h" line="801"/>
         <source>&amp;Close</source>
         <translation>關閉（&amp;C）</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="184"/>
+        <location filename="../ui_mainwindow.h" line="803"/>
         <source>Alt+C</source>
         <translation>Alt+C</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="219"/>
+        <location filename="../ui_mainwindow.h" line="827"/>
         <source>Status</source>
         <translation>狀態</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="225"/>
+        <location filename="../ui_mainwindow.h" line="805"/>
         <source>IP address</source>
         <translation>IP 位址</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="261"/>
+        <location filename="../ui_mainwindow.h" line="808"/>
         <source>Hardware detected</source>
         <translation>偵測到硬體</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="280"/>
+        <location filename="../ui_mainwindow.h" line="809"/>
         <source>Enable</source>
         <translation>使用</translation>
     </message>
@@ -52,176 +61,216 @@
         <location filename="../mainwindow.ui" line="303"/>
         <location filename="../mainwindow.ui" line="593"/>
         <location filename="../mainwindow.ui" line="706"/>
+        <location filename="../ui_mainwindow.h" line="810"/>
+        <location filename="../ui_mainwindow.h" line="831"/>
+        <location filename="../ui_mainwindow.h" line="837"/>
         <source>Re-scan</source>
         <translation>重新掃描</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="372"/>
+        <location filename="../ui_mainwindow.h" line="817"/>
         <source>Enabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="377"/>
+        <location filename="../ui_mainwindow.h" line="816"/>
         <source>Interface</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="382"/>
+        <location filename="../ui_mainwindow.h" line="815"/>
         <source>Driver</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="387"/>
+        <location filename="../ui_mainwindow.h" line="814"/>
         <source>Description</source>
         <translation>簡介</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="392"/>
+        <location filename="../ui_mainwindow.h" line="813"/>
         <source>Vendor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="397"/>
+        <location filename="../ui_mainwindow.h" line="812"/>
         <source>Product</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="405"/>
+        <location filename="../ui_mainwindow.h" line="818"/>
         <source>Disable</source>
         <translation>不用</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="419"/>
+        <location filename="../ui_mainwindow.h" line="819"/>
         <source>Active interface</source>
         <translation>使用中介面</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="435"/>
+        <location filename="../ui_mainwindow.h" line="821"/>
         <source>WiFi status</source>
         <translation>WiFi 狀態</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="457"/>
+        <location filename="../ui_mainwindow.h" line="824"/>
         <source>Unblocks all soft/hard blocked wireless devices</source>
         <translation>所有停用的無線設備，不論是可重新啟用或不可重新啟用者，皆取消停用</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="460"/>
+        <location filename="../ui_mainwindow.h" line="826"/>
         <source>Unblock WiFi Devices</source>
         <translation>將所有 WiFi 設備取消停用</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="492"/>
+        <location filename="../ui_mainwindow.h" line="833"/>
         <source>Linux drivers</source>
         <translation>Linux 的驅動程式</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="504"/>
+        <location filename="../ui_mainwindow.h" line="828"/>
         <source>Associated Linux drivers</source>
         <translation>相關的 Linux 驅動程式</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="513"/>
+        <location filename="../ui_mainwindow.h" line="829"/>
         <source>Load Driver</source>
         <translation>載入驅動程式</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="576"/>
+        <location filename="../ui_mainwindow.h" line="830"/>
         <source>Unload Driver</source>
         <translation>卸載驅動程式</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="613"/>
         <location filename="../mainwindow.cpp" line="832"/>
+        <location filename="../ui_mainwindow.h" line="832"/>
         <source>Block Driver</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="632"/>
+        <location filename="../ui_mainwindow.h" line="842"/>
         <source>Windows drivers</source>
         <translation>Windows 的驅動程式</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="638"/>
+        <location filename="../ui_mainwindow.h" line="834"/>
         <source>Available Windows drivers</source>
         <translation>可取用之 Windows 驅動程式</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="672"/>
+        <location filename="../ui_mainwindow.h" line="835"/>
         <source>Remove Driver</source>
         <translation>移除驅動程式</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="683"/>
+        <location filename="../ui_mainwindow.h" line="836"/>
         <source>Add Driver</source>
         <translation>新増驅動程式</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="724"/>
+        <location filename="../ui_mainwindow.h" line="838"/>
         <source>About NDISwrapper</source>
         <translation>關於 NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="736"/>
+        <location filename="../ui_mainwindow.h" line="839"/>
         <source>Install NDISwrapper</source>
         <translation>安裝 NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="747"/>
+        <location filename="../ui_mainwindow.h" line="840"/>
         <source>In order to use Windows drivers you need first to install NDISwrapper</source>
         <translation>欲使用 Windows 的驅動程式，必須先安裝 NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="763"/>
+        <location filename="../ui_mainwindow.h" line="841"/>
         <source>Uninstall NDISwrapper</source>
         <translation>移除 NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="795"/>
+        <location filename="../ui_mainwindow.h" line="855"/>
         <source>Net diagnostics</source>
         <translation>網路狀態診斷</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="807"/>
+        <location filename="../ui_mainwindow.h" line="843"/>
         <source>Ping</source>
         <translation>Ping</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="813"/>
         <location filename="../mainwindow.ui" line="933"/>
+        <location filename="../ui_mainwindow.h" line="844"/>
+        <location filename="../ui_mainwindow.h" line="850"/>
         <source>Target URL:</source>
         <translation>目標 URL：</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="823"/>
+        <location filename="../ui_mainwindow.h" line="845"/>
         <source>Packets</source>
         <translation>封包數</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="868"/>
         <location filename="../mainwindow.ui" line="991"/>
+        <location filename="../ui_mainwindow.h" line="846"/>
+        <location filename="../ui_mainwindow.h" line="852"/>
         <source>Start</source>
         <translation>開始</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="885"/>
         <location filename="../mainwindow.ui" line="1008"/>
+        <location filename="../ui_mainwindow.h" line="847"/>
+        <location filename="../ui_mainwindow.h" line="853"/>
         <source>Clear</source>
         <translation>清除</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="899"/>
         <location filename="../mainwindow.ui" line="1022"/>
+        <location filename="../ui_mainwindow.h" line="848"/>
+        <location filename="../ui_mainwindow.h" line="854"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="927"/>
+        <location filename="../ui_mainwindow.h" line="849"/>
         <source>Traceroute</source>
         <translation>Traceroute</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="943"/>
+        <location filename="../ui_mainwindow.h" line="851"/>
         <source>Hops</source>
         <translation>中繼點</translation>
     </message>
@@ -444,17 +493,8 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="906"/>
-        <source>*.sys file no</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="918"/>
-        <source>sys file refeot found</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>*.sys file not found</source>
-        <translation type="vanished">找不到 *.sys 檔</translation>
+        <translation>找不到 *.sys 檔</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="907"/>
@@ -462,8 +502,9 @@
         <translation>*.sys 檔的位置必須和 *.inf 檔相同。找不到 %1 。</translation>
     </message>
     <message>
+        <location filename="../mainwindow.cpp" line="918"/>
         <source>sys file reference not found</source>
-        <translation type="vanished">找不到指涉 sys 檔的內容</translation>
+        <translation>找不到指涉 sys 檔的內容</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="919"/>

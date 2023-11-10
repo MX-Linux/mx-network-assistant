@@ -5,46 +5,55 @@
     <name>MainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="26"/>
+        <location filename="../ui_mainwindow.h" line="794"/>
         <source>MX Network Assistant</source>
         <translation>Asistent Rrjeti MX</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="86"/>
+        <location filename="../ui_mainwindow.h" line="795"/>
         <source>About...</source>
         <translation>Mbi…</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="109"/>
+        <location filename="../ui_mainwindow.h" line="799"/>
         <source>Help</source>
         <translation>Ndihmë</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="177"/>
+        <location filename="../ui_mainwindow.h" line="801"/>
         <source>&amp;Close</source>
         <translation>&amp;Mbylle</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="184"/>
+        <location filename="../ui_mainwindow.h" line="803"/>
         <source>Alt+C</source>
         <translation>Alt+C</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="219"/>
+        <location filename="../ui_mainwindow.h" line="827"/>
         <source>Status</source>
         <translation>Gjendje</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="225"/>
+        <location filename="../ui_mainwindow.h" line="805"/>
         <source>IP address</source>
         <translation>Adresë IP</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="261"/>
+        <location filename="../ui_mainwindow.h" line="808"/>
         <source>Hardware detected</source>
         <translation>U pikas hardware</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="280"/>
+        <location filename="../ui_mainwindow.h" line="809"/>
         <source>Enable</source>
         <translation>Aktivizoje</translation>
     </message>
@@ -52,176 +61,216 @@
         <location filename="../mainwindow.ui" line="303"/>
         <location filename="../mainwindow.ui" line="593"/>
         <location filename="../mainwindow.ui" line="706"/>
+        <location filename="../ui_mainwindow.h" line="810"/>
+        <location filename="../ui_mainwindow.h" line="831"/>
+        <location filename="../ui_mainwindow.h" line="837"/>
         <source>Re-scan</source>
         <translation>Riskano</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="372"/>
+        <location filename="../ui_mainwindow.h" line="817"/>
         <source>Enabled</source>
         <translation>Aktivizuar</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="377"/>
+        <location filename="../ui_mainwindow.h" line="816"/>
         <source>Interface</source>
         <translation>Ndërfaqe</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="382"/>
+        <location filename="../ui_mainwindow.h" line="815"/>
         <source>Driver</source>
         <translation>Përudhës</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="387"/>
+        <location filename="../ui_mainwindow.h" line="814"/>
         <source>Description</source>
         <translation>Përshkrim</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="392"/>
+        <location filename="../ui_mainwindow.h" line="813"/>
         <source>Vendor</source>
         <translation>Tregtues</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="397"/>
+        <location filename="../ui_mainwindow.h" line="812"/>
         <source>Product</source>
         <translation>Produkt</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="405"/>
+        <location filename="../ui_mainwindow.h" line="818"/>
         <source>Disable</source>
         <translation>Çaktivizoje</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="419"/>
+        <location filename="../ui_mainwindow.h" line="819"/>
         <source>Active interface</source>
         <translation>Ndërfaqe aktive</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="435"/>
+        <location filename="../ui_mainwindow.h" line="821"/>
         <source>WiFi status</source>
         <translation>Gjendje WiFi</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="457"/>
+        <location filename="../ui_mainwindow.h" line="824"/>
         <source>Unblocks all soft/hard blocked wireless devices</source>
         <translation>Zhbllokon krejt pajisjet pa fill të bllokuara fizikisht apo përmes software-i</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="460"/>
+        <location filename="../ui_mainwindow.h" line="826"/>
         <source>Unblock WiFi Devices</source>
         <translation>Zhblloko Pajisje WiFi</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="492"/>
+        <location filename="../ui_mainwindow.h" line="833"/>
         <source>Linux drivers</source>
         <translation>Përudhës Linux</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="504"/>
+        <location filename="../ui_mainwindow.h" line="828"/>
         <source>Associated Linux drivers</source>
         <translation>Përudhës të ndryshëm Linux</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="513"/>
+        <location filename="../ui_mainwindow.h" line="829"/>
         <source>Load Driver</source>
         <translation>Ngarko Përudhës</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="576"/>
+        <location filename="../ui_mainwindow.h" line="830"/>
         <source>Unload Driver</source>
         <translation>Shngarko Përudhës</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="613"/>
         <location filename="../mainwindow.cpp" line="832"/>
+        <location filename="../ui_mainwindow.h" line="832"/>
         <source>Block Driver</source>
         <translation>Blloko Përudhës</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="632"/>
+        <location filename="../ui_mainwindow.h" line="842"/>
         <source>Windows drivers</source>
         <translation>Përudhës për Windows</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="638"/>
+        <location filename="../ui_mainwindow.h" line="834"/>
         <source>Available Windows drivers</source>
         <translation>Përudhës të gatshëm për Windows</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="672"/>
+        <location filename="../ui_mainwindow.h" line="835"/>
         <source>Remove Driver</source>
         <translation>Hiqni Përudhës</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="683"/>
+        <location filename="../ui_mainwindow.h" line="836"/>
         <source>Add Driver</source>
         <translation>Shtoni Përudhës</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="724"/>
+        <location filename="../ui_mainwindow.h" line="838"/>
         <source>About NDISwrapper</source>
         <translation>Mbi NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="736"/>
+        <location filename="../ui_mainwindow.h" line="839"/>
         <source>Install NDISwrapper</source>
         <translation>Instalo NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="747"/>
+        <location filename="../ui_mainwindow.h" line="840"/>
         <source>In order to use Windows drivers you need first to install NDISwrapper</source>
         <translation>Që të mund të përdoren përudhës Windows, së pari duhet të instaloni NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="763"/>
+        <location filename="../ui_mainwindow.h" line="841"/>
         <source>Uninstall NDISwrapper</source>
         <translation>Çinstalo NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="795"/>
+        <location filename="../ui_mainwindow.h" line="855"/>
         <source>Net diagnostics</source>
         <translation>Diagnostikime rrjeti</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="807"/>
+        <location filename="../ui_mainwindow.h" line="843"/>
         <source>Ping</source>
         <translation>Ping</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="813"/>
         <location filename="../mainwindow.ui" line="933"/>
+        <location filename="../ui_mainwindow.h" line="844"/>
+        <location filename="../ui_mainwindow.h" line="850"/>
         <source>Target URL:</source>
         <translation>URL e synuar:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="823"/>
+        <location filename="../ui_mainwindow.h" line="845"/>
         <source>Packets</source>
         <translation>Pakete</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="868"/>
         <location filename="../mainwindow.ui" line="991"/>
+        <location filename="../ui_mainwindow.h" line="846"/>
+        <location filename="../ui_mainwindow.h" line="852"/>
         <source>Start</source>
         <translation>Nise</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="885"/>
         <location filename="../mainwindow.ui" line="1008"/>
+        <location filename="../ui_mainwindow.h" line="847"/>
+        <location filename="../ui_mainwindow.h" line="853"/>
         <source>Clear</source>
         <translation>Spastroje</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="899"/>
         <location filename="../mainwindow.ui" line="1022"/>
+        <location filename="../ui_mainwindow.h" line="848"/>
+        <location filename="../ui_mainwindow.h" line="854"/>
         <source>Cancel</source>
         <translation>Anuloje</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="927"/>
+        <location filename="../ui_mainwindow.h" line="849"/>
         <source>Traceroute</source>
         <translation>Traceroute</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="943"/>
+        <location filename="../ui_mainwindow.h" line="851"/>
         <source>Hops</source>
         <translation type="unfinished"></translation>
     </message>
@@ -444,17 +493,8 @@
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="906"/>
-        <source>*.sys file no</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="918"/>
-        <source>sys file refeot found</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>*.sys file not found</source>
-        <translation type="vanished">S’u gjet kartelë *.sys</translation>
+        <translation>S’u gjet kartelë *.sys</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="907"/>
@@ -462,8 +502,9 @@
         <translation>Kartela *.sys duhet të gjendet në të njëjtin vend me kartelën *.inf. S’gjendet dot %1</translation>
     </message>
     <message>
+        <location filename="../mainwindow.cpp" line="918"/>
         <source>sys file reference not found</source>
-        <translation type="vanished">s’u gjet referencë kartele sys</translation>
+        <translation>s’u gjet referencë kartele sys</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="919"/>
