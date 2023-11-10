@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 09 Nov 2023 21:54:14 -0500
+Source: mx-network-assistant
+Architecture: source
+Version: 23.11
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Changes:
+ mx-network-assistant (23.11) mx; urgency=medium
+ .
+   * Run program as normal user and elevate only when running specific commands
+Checksums-Sha1:
+ c04d2335b55ca6f7f0e079a971024be935a853d6 1234 mx-network-assistant_23.11.dsc
+ f86764870482dd187f532dd8528c57adb924dc98 1631468 mx-network-assistant_23.11.tar.xz
+ 83a587ddf0539012a3f85e27c8037f02f07bcfab 10542 mx-network-assistant_23.11_amd64.buildinfo
+Checksums-Sha256:
+ dc5f24a6bd5252e36f494def1687339ce1da052dba418f45515b9b287449c1d3 1234 mx-network-assistant_23.11.dsc
+ c95e4964ec63d3557711af08077b4e4c0a37730f38c9930d65468b9c41601ef2 1631468 mx-network-assistant_23.11.tar.xz
+ c91de09f6620bbcb91af17a6222f069d7c76c3ec95d48bb901ece9bd606d92af 10542 mx-network-assistant_23.11_amd64.buildinfo
+Files:
+ 85dce6b89446962b003327e5a220e8b6 1234 admin optional mx-network-assistant_23.11.dsc
+ 8db35a9bc348911840487a95c1c492a0 1631468 admin optional mx-network-assistant_23.11.tar.xz
+ c9961c337b9666115bdac9fbb1b331c8 10542 admin optional mx-network-assistant_23.11_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmVNvXYTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumN4jB/9NKIdYr7XXKubLzLLnRViRz4+UPOgB
+HumkeZ+bimFOwVBhr22wbE5MpzbRJFv6HIhUOYVT2QvHnUfU8zwxB0UOtPnYoUhk
+Ayp4s6xFd4fTYAsO/S7LKoJsw+Rxt8gUKC00r2U0vez7SXoa1jPPi2C4uKFioIOe
+sSV+1aOJSuTlm0xtCbOx2fTiAE3TYMGcmORo6/HctAjHAqnJtgOHbyI+zi+L49c/
+JBxwFrTj4//1yeqnu6uKmy6cQpjZ9kNEmmfzYW0IU582ampK8qhsRkvTPjhXG1Z1
+kkuKO3/3VDsjGKGV++XFqwlmgdaUTav54m18JTGUVBc9+PumQ8yJwZB3
+=Pz7U
+-----END PGP SIGNATURE-----

@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 09 Nov 2023 21:54:14 -0500
+Source: mx-network-assistant
+Binary: mx-network-assistant
+Architecture: source amd64
+Version: 23.11
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-network-assistant - MX program for network troubleshooting and configuration
+Changes:
+ mx-network-assistant (23.11) mx; urgency=medium
+ .
+   * Run program as normal user and elevate only when running specific commands
+Checksums-Sha1:
+ c04d2335b55ca6f7f0e079a971024be935a853d6 1234 mx-network-assistant_23.11.dsc
+ f86764870482dd187f532dd8528c57adb924dc98 1631468 mx-network-assistant_23.11.tar.xz
+ 83a587ddf0539012a3f85e27c8037f02f07bcfab 10542 mx-network-assistant_23.11_amd64.buildinfo
+ a728a5c373c518fa33519bd534c3dc001d19ea91 240232 mx-network-assistant_23.11_amd64.deb
+Checksums-Sha256:
+ dc5f24a6bd5252e36f494def1687339ce1da052dba418f45515b9b287449c1d3 1234 mx-network-assistant_23.11.dsc
+ c95e4964ec63d3557711af08077b4e4c0a37730f38c9930d65468b9c41601ef2 1631468 mx-network-assistant_23.11.tar.xz
+ c91de09f6620bbcb91af17a6222f069d7c76c3ec95d48bb901ece9bd606d92af 10542 mx-network-assistant_23.11_amd64.buildinfo
+ f0cef269da6d8403450099aff932bd94c4f457ca3784c73e69c6fd84558879f8 240232 mx-network-assistant_23.11_amd64.deb
+Files:
+ 85dce6b89446962b003327e5a220e8b6 1234 admin optional mx-network-assistant_23.11.dsc
+ 8db35a9bc348911840487a95c1c492a0 1631468 admin optional mx-network-assistant_23.11.tar.xz
+ c9961c337b9666115bdac9fbb1b331c8 10542 admin optional mx-network-assistant_23.11_amd64.buildinfo
+ f716e00609f374aad3a7f68e21dc553c 240232 admin optional mx-network-assistant_23.11_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCgAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAmVNvXUTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumAGnCACdpi3vRaeQB0MnJs8Ac8CLioRoYZOf
+IMJS6gKErMxkwwDUVE4hGmIX1/NkEIOiM9+nX2Noggy1Z0E6IR6PvpjgvoNqtmlY
++d4nQSj3Ehu4J5WchmIbmtDmAzPfu4ZIyLn8sa1d5HB4JFBPmIN1rHsVIX46LX1v
+Nq4lzcZwfub/LDAHpIGrEpUr/sn6M9NmsRSjHYR81FO69rX33McvXLsmVw+RrDAr
+MLG5afc1OSobg8/ApanfzCyI1VlwjI4HUSyjDBNYsSHilRu5L76TO85Vk4pPCkzH
+N8qLk9pHjSa/YYhv0Poqf/vpI/xBMsyiCn1VTK7xDpIaF7E5gLiMt7op
+=OJ7f
+-----END PGP SIGNATURE-----
