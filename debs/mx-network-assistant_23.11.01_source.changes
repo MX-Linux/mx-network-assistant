@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Thu, 16 Nov 2023 15:49:08 -0500
+Source: mx-network-assistant
+Architecture: source
+Version: 23.11.01
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Changes:
+ mx-network-assistant (23.11.01) mx; urgency=medium
+ .
+   * Fix: ownership for /etc/modules
+Checksums-Sha1:
+ d48f77d2a7dd93ea3363ce6e0d0351388192b5e2 681 mx-network-assistant_23.11.01.dsc
+ 50b2436c4c2a62cf523be94bfc954650dc7f18b5 205368 mx-network-assistant_23.11.01.tar.xz
+ 7354edaa002d37986a14b45b725e081632b518cc 10181 mx-network-assistant_23.11.01_arm64.buildinfo
+Checksums-Sha256:
+ 7e47413ea880d754cdfc61303ce5547446d6f0c51b4ffa67e17e9befe26fc467 681 mx-network-assistant_23.11.01.dsc
+ 2588c96993bf3c600dc61e34bd857af73dcaab808eed1fd744b42b545b80e2c3 205368 mx-network-assistant_23.11.01.tar.xz
+ e9a5deb60de0fd088b21a013fe1dfa58ae982c55a2ce916dd7ee2ca3e7a340e8 10181 mx-network-assistant_23.11.01_arm64.buildinfo
+Files:
+ 56eacf14889d85af8f67aa8a5584ebe4 681 admin optional mx-network-assistant_23.11.01.dsc
+ 54dd8f8ad0a299f83d332c5558ed858e 205368 admin optional mx-network-assistant_23.11.01.tar.xz
+ 449eda3399d343c63dfeabc074956cca 10181 admin optional mx-network-assistant_23.11.01_arm64.buildinfo
