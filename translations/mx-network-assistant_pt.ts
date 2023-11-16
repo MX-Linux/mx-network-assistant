@@ -5,55 +5,46 @@
     <name>MainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="26"/>
-        <location filename="../ui_mainwindow.h" line="794"/>
         <source>MX Network Assistant</source>
         <translation>MX Assistente de Redes</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="86"/>
-        <location filename="../ui_mainwindow.h" line="795"/>
         <source>About...</source>
         <translation>Sobre...</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="109"/>
-        <location filename="../ui_mainwindow.h" line="799"/>
         <source>Help</source>
         <translation>Ajuda</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="177"/>
-        <location filename="../ui_mainwindow.h" line="801"/>
         <source>&amp;Close</source>
         <translation>&amp;Fechar</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="184"/>
-        <location filename="../ui_mainwindow.h" line="803"/>
         <source>Alt+C</source>
         <translation>Alt+C</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="219"/>
-        <location filename="../ui_mainwindow.h" line="827"/>
         <source>Status</source>
         <translation>Estado</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="225"/>
-        <location filename="../ui_mainwindow.h" line="805"/>
         <source>IP address</source>
         <translation>Endereço IP</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="261"/>
-        <location filename="../ui_mainwindow.h" line="808"/>
         <source>Hardware detected</source>
         <translation>Dispositivo detectado</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="280"/>
-        <location filename="../ui_mainwindow.h" line="809"/>
         <source>Enable</source>
         <translation>Activar</translation>
     </message>
@@ -61,216 +52,176 @@
         <location filename="../mainwindow.ui" line="303"/>
         <location filename="../mainwindow.ui" line="593"/>
         <location filename="../mainwindow.ui" line="706"/>
-        <location filename="../ui_mainwindow.h" line="810"/>
-        <location filename="../ui_mainwindow.h" line="831"/>
-        <location filename="../ui_mainwindow.h" line="837"/>
         <source>Re-scan</source>
         <translation>Voltar a procurar</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="372"/>
-        <location filename="../ui_mainwindow.h" line="817"/>
         <source>Enabled</source>
         <translation>Ativado</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="377"/>
-        <location filename="../ui_mainwindow.h" line="816"/>
         <source>Interface</source>
         <translation>Interface</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="382"/>
-        <location filename="../ui_mainwindow.h" line="815"/>
         <source>Driver</source>
         <translation>Controlador</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="387"/>
-        <location filename="../ui_mainwindow.h" line="814"/>
         <source>Description</source>
         <translation>Descrição</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="392"/>
-        <location filename="../ui_mainwindow.h" line="813"/>
         <source>Vendor</source>
         <translation>Fornecedor</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="397"/>
-        <location filename="../ui_mainwindow.h" line="812"/>
         <source>Product</source>
         <translation>Produto</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="405"/>
-        <location filename="../ui_mainwindow.h" line="818"/>
         <source>Disable</source>
         <translation>Desativar</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="419"/>
-        <location filename="../ui_mainwindow.h" line="819"/>
         <source>Active interface</source>
         <translation>Interface activa</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="435"/>
-        <location filename="../ui_mainwindow.h" line="821"/>
         <source>WiFi status</source>
         <translation>Estado do Wi-Fi</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="457"/>
-        <location filename="../ui_mainwindow.h" line="824"/>
         <source>Unblocks all soft/hard blocked wireless devices</source>
         <translation>Desbloqueia todos os dispositivos sem fios (wireless) bloqueados por software ou no equipamento (soft/hard blocked)</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="460"/>
-        <location filename="../ui_mainwindow.h" line="826"/>
         <source>Unblock WiFi Devices</source>
         <translation>Desbloquear Dispositivos Wi-Fi</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="492"/>
-        <location filename="../ui_mainwindow.h" line="833"/>
         <source>Linux drivers</source>
         <translation>Controladores Linux</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="504"/>
-        <location filename="../ui_mainwindow.h" line="828"/>
         <source>Associated Linux drivers</source>
         <translation>Controladores Linux associados</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="513"/>
-        <location filename="../ui_mainwindow.h" line="829"/>
         <source>Load Driver</source>
         <translation>Carregar controlador</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="576"/>
-        <location filename="../ui_mainwindow.h" line="830"/>
         <source>Unload Driver</source>
         <translation>Descarregar controlador</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="613"/>
-        <location filename="../mainwindow.cpp" line="832"/>
-        <location filename="../ui_mainwindow.h" line="832"/>
+        <location filename="../mainwindow.cpp" line="834"/>
         <source>Block Driver</source>
         <translation>Bloquear controlador</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="632"/>
-        <location filename="../ui_mainwindow.h" line="842"/>
         <source>Windows drivers</source>
         <translation>Controladores do Windows</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="638"/>
-        <location filename="../ui_mainwindow.h" line="834"/>
         <source>Available Windows drivers</source>
         <translation>Controladores Windows disponíveis</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="672"/>
-        <location filename="../ui_mainwindow.h" line="835"/>
         <source>Remove Driver</source>
         <translation>Remover controlador</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="683"/>
-        <location filename="../ui_mainwindow.h" line="836"/>
         <source>Add Driver</source>
         <translation>Adicionar controlador</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="724"/>
-        <location filename="../ui_mainwindow.h" line="838"/>
         <source>About NDISwrapper</source>
         <translation>Sobre o NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="736"/>
-        <location filename="../ui_mainwindow.h" line="839"/>
         <source>Install NDISwrapper</source>
         <translation>Instalar o NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="747"/>
-        <location filename="../ui_mainwindow.h" line="840"/>
         <source>In order to use Windows drivers you need first to install NDISwrapper</source>
         <translation>Para usar controladores Windows é necessário instalar primeiro o NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="763"/>
-        <location filename="../ui_mainwindow.h" line="841"/>
         <source>Uninstall NDISwrapper</source>
         <translation>Desinstalar o NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="795"/>
-        <location filename="../ui_mainwindow.h" line="855"/>
         <source>Net diagnostics</source>
         <translation>Diagnósticos de rede</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="807"/>
-        <location filename="../ui_mainwindow.h" line="843"/>
         <source>Ping</source>
         <translation>Ping</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="813"/>
         <location filename="../mainwindow.ui" line="933"/>
-        <location filename="../ui_mainwindow.h" line="844"/>
-        <location filename="../ui_mainwindow.h" line="850"/>
         <source>Target URL:</source>
         <translation>URL alvo:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="823"/>
-        <location filename="../ui_mainwindow.h" line="845"/>
         <source>Packets</source>
         <translation>Pacotes</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="868"/>
         <location filename="../mainwindow.ui" line="991"/>
-        <location filename="../ui_mainwindow.h" line="846"/>
-        <location filename="../ui_mainwindow.h" line="852"/>
         <source>Start</source>
         <translation>Iniciar</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="885"/>
         <location filename="../mainwindow.ui" line="1008"/>
-        <location filename="../ui_mainwindow.h" line="847"/>
-        <location filename="../ui_mainwindow.h" line="853"/>
         <source>Clear</source>
         <translation>Limpar</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="899"/>
         <location filename="../mainwindow.ui" line="1022"/>
-        <location filename="../ui_mainwindow.h" line="848"/>
-        <location filename="../ui_mainwindow.h" line="854"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="927"/>
-        <location filename="../ui_mainwindow.h" line="849"/>
         <source>Traceroute</source>
         <translation>Traceroute</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="943"/>
-        <location filename="../ui_mainwindow.h" line="851"/>
         <source>Hops</source>
         <translation>Saltos (Hops)</translation>
     </message>
@@ -442,129 +393,129 @@
         <translation>Módulo bloqueado</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="762"/>
+        <location filename="../mainwindow.cpp" line="764"/>
         <source>Installation successful</source>
         <translation>Instalação bem sucedida</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="764"/>
+        <location filename="../mainwindow.cpp" line="766"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
         <translation>Detectado um erro; não foi possível compilar o controlador do NDISwrapper.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="767"/>
+        <location filename="../mainwindow.cpp" line="769"/>
         <source>Error detected, could not install ndiswrapper.</source>
         <translation>Detectado um erro; não foi possível instalar o NDISwrapper.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="779"/>
+        <location filename="../mainwindow.cpp" line="781"/>
         <source>Error encountered while removing Ndiswrapper</source>
         <translation>Detectado um erro ao remover o NDISwrapper</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="829"/>
+        <location filename="../mainwindow.cpp" line="831"/>
         <source>Unblock Driver</source>
         <translation>Desbloquear controlador</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="861"/>
+        <location filename="../mainwindow.cpp" line="863"/>
         <source>enabled</source>
         <translation>activado</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="864"/>
+        <location filename="../mainwindow.cpp" line="866"/>
         <source>disabled</source>
         <translation>desactivado</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="867"/>
+        <location filename="../mainwindow.cpp" line="869"/>
         <source>WiFi hardware switch is off</source>
         <translation>O interruptor de Wi-Fi do computador está desligado</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="874"/>
+        <location filename="../mainwindow.cpp" line="876"/>
         <source>Locate the Windows driver you want to add</source>
         <translation>Localizar o controlador (driver) Windows a adicionar</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="875"/>
+        <location filename="../mainwindow.cpp" line="877"/>
         <source>Windows installation information file (*.inf)</source>
         <translation>Ficheiro de informação sobre a instalação Windows (*.inf)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="906"/>
+        <location filename="../mainwindow.cpp" line="908"/>
         <source>*.sys file not found</source>
         <translation>Não foi encontrado o ficheiro *.sys</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="907"/>
+        <location filename="../mainwindow.cpp" line="909"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
         <translation>Os ficheiros *.sys têm que estar no mesmo local que o ficheiro *.inf. Não foi encontrado o ficheiro %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="918"/>
+        <location filename="../mainwindow.cpp" line="920"/>
         <source>sys file reference not found</source>
         <translation>Não foi encontrada a referência do ficheiro sys</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="919"/>
+        <location filename="../mainwindow.cpp" line="921"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
         <translation>A análise sintáctica (parsing) ao ficheiro inf não permitiu determinar qual é o ficheiro sys para o controlador em questão</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="936"/>
+        <location filename="../mainwindow.cpp" line="938"/>
         <source>Ndiswrapper driver removed.</source>
         <translation>O controlador do NDISwrapper foi removido.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="944"/>
+        <location filename="../mainwindow.cpp" line="946"/>
         <source>%1 Help</source>
         <translation>Ajuda do %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="956"/>
+        <location filename="../mainwindow.cpp" line="958"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
         <translation>Não foi possível desbloquear os dispositivos.
 O(s) dispositivo(s) Wi-FI podem já estar desbloqueados.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="958"/>
+        <location filename="../mainwindow.cpp" line="960"/>
         <source>WiFi devices unlocked.</source>
         <translation>Dispositivos Wi-FI desbloqueados</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="973"/>
+        <location filename="../mainwindow.cpp" line="975"/>
         <source>About %1</source>
         <translation>Sobre o %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="974"/>
+        <location filename="../mainwindow.cpp" line="976"/>
         <source>Version: </source>
         <translation>Versão: </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="976"/>
+        <location filename="../mainwindow.cpp" line="978"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
         <translation>Programa do MX para resolução de problemas e configuração de rede</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="978"/>
+        <location filename="../mainwindow.cpp" line="980"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
         <translation>Direitos de autor (c) MEPIS LLC e MX Linux</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="979"/>
+        <location filename="../mainwindow.cpp" line="981"/>
         <source>%1 License</source>
         <translation>Licença do %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1005"/>
+        <location filename="../mainwindow.cpp" line="1007"/>
         <source>Driver loaded successfully</source>
         <translation>Controlador carregado com êxito</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1020"/>
+        <location filename="../mainwindow.cpp" line="1022"/>
         <source>Driver unloaded successfully</source>
         <translation>Controlador descarregado com êxito</translation>
     </message>

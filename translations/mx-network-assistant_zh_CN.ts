@@ -5,55 +5,46 @@
     <name>MainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="26"/>
-        <location filename="../ui_mainwindow.h" line="794"/>
         <source>MX Network Assistant</source>
         <translation>MX 网络助手</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="86"/>
-        <location filename="../ui_mainwindow.h" line="795"/>
         <source>About...</source>
         <translation>关于…</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="109"/>
-        <location filename="../ui_mainwindow.h" line="799"/>
         <source>Help</source>
         <translation>帮助</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="177"/>
-        <location filename="../ui_mainwindow.h" line="801"/>
         <source>&amp;Close</source>
         <translation>关闭(&amp;C)</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="184"/>
-        <location filename="../ui_mainwindow.h" line="803"/>
         <source>Alt+C</source>
         <translation>Alt+C</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="219"/>
-        <location filename="../ui_mainwindow.h" line="827"/>
         <source>Status</source>
         <translation>状态</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="225"/>
-        <location filename="../ui_mainwindow.h" line="805"/>
         <source>IP address</source>
         <translation>IP 地址</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="261"/>
-        <location filename="../ui_mainwindow.h" line="808"/>
         <source>Hardware detected</source>
         <translation>硬件检测</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="280"/>
-        <location filename="../ui_mainwindow.h" line="809"/>
         <source>Enable</source>
         <translation>启动</translation>
     </message>
@@ -61,216 +52,176 @@
         <location filename="../mainwindow.ui" line="303"/>
         <location filename="../mainwindow.ui" line="593"/>
         <location filename="../mainwindow.ui" line="706"/>
-        <location filename="../ui_mainwindow.h" line="810"/>
-        <location filename="../ui_mainwindow.h" line="831"/>
-        <location filename="../ui_mainwindow.h" line="837"/>
         <source>Re-scan</source>
         <translation>重新扫描</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="372"/>
-        <location filename="../ui_mainwindow.h" line="817"/>
         <source>Enabled</source>
         <translation>已启用</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="377"/>
-        <location filename="../ui_mainwindow.h" line="816"/>
         <source>Interface</source>
         <translation>接口</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="382"/>
-        <location filename="../ui_mainwindow.h" line="815"/>
         <source>Driver</source>
         <translation>驱动程序</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="387"/>
-        <location filename="../ui_mainwindow.h" line="814"/>
         <source>Description</source>
         <translation>具体描述</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="392"/>
-        <location filename="../ui_mainwindow.h" line="813"/>
         <source>Vendor</source>
         <translation>供应商</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="397"/>
-        <location filename="../ui_mainwindow.h" line="812"/>
         <source>Product</source>
         <translation>产品</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="405"/>
-        <location filename="../ui_mainwindow.h" line="818"/>
         <source>Disable</source>
         <translation>停用</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="419"/>
-        <location filename="../ui_mainwindow.h" line="819"/>
         <source>Active interface</source>
         <translation>主动接口</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="435"/>
-        <location filename="../ui_mainwindow.h" line="821"/>
         <source>WiFi status</source>
         <translation>WiFi状态</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="457"/>
-        <location filename="../ui_mainwindow.h" line="824"/>
         <source>Unblocks all soft/hard blocked wireless devices</source>
         <translation>启用所有 软/硬 禁用无线设备</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="460"/>
-        <location filename="../ui_mainwindow.h" line="826"/>
         <source>Unblock WiFi Devices</source>
         <translation>启用 WiFi 设备</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="492"/>
-        <location filename="../ui_mainwindow.h" line="833"/>
         <source>Linux drivers</source>
         <translation>Linux 驱动</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="504"/>
-        <location filename="../ui_mainwindow.h" line="828"/>
         <source>Associated Linux drivers</source>
         <translation>相关 Linux 驱动</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="513"/>
-        <location filename="../ui_mainwindow.h" line="829"/>
         <source>Load Driver</source>
         <translation>加载驱动</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="576"/>
-        <location filename="../ui_mainwindow.h" line="830"/>
         <source>Unload Driver</source>
         <translation>停用驱动</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="613"/>
-        <location filename="../mainwindow.cpp" line="832"/>
-        <location filename="../ui_mainwindow.h" line="832"/>
+        <location filename="../mainwindow.cpp" line="834"/>
         <source>Block Driver</source>
         <translation>禁用驱动</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="632"/>
-        <location filename="../ui_mainwindow.h" line="842"/>
         <source>Windows drivers</source>
         <translation>Windows 驱动</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="638"/>
-        <location filename="../ui_mainwindow.h" line="834"/>
         <source>Available Windows drivers</source>
         <translation>可用的 Windows 驱动</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="672"/>
-        <location filename="../ui_mainwindow.h" line="835"/>
         <source>Remove Driver</source>
         <translation>移除驱动</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="683"/>
-        <location filename="../ui_mainwindow.h" line="836"/>
         <source>Add Driver</source>
         <translation>添加驱动</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="724"/>
-        <location filename="../ui_mainwindow.h" line="838"/>
         <source>About NDISwrapper</source>
         <translation>关于 NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="736"/>
-        <location filename="../ui_mainwindow.h" line="839"/>
         <source>Install NDISwrapper</source>
         <translation>安装 NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="747"/>
-        <location filename="../ui_mainwindow.h" line="840"/>
         <source>In order to use Windows drivers you need first to install NDISwrapper</source>
         <translation>若要使用 Windows 驱动，您需要先安装 NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="763"/>
-        <location filename="../ui_mainwindow.h" line="841"/>
         <source>Uninstall NDISwrapper</source>
         <translation>卸载 NDISwrapper</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="795"/>
-        <location filename="../ui_mainwindow.h" line="855"/>
         <source>Net diagnostics</source>
         <translation>网络诊断</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="807"/>
-        <location filename="../ui_mainwindow.h" line="843"/>
         <source>Ping</source>
         <translation>Ping</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="813"/>
         <location filename="../mainwindow.ui" line="933"/>
-        <location filename="../ui_mainwindow.h" line="844"/>
-        <location filename="../ui_mainwindow.h" line="850"/>
         <source>Target URL:</source>
         <translation>目标URL：</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="823"/>
-        <location filename="../ui_mainwindow.h" line="845"/>
         <source>Packets</source>
         <translation>数据包</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="868"/>
         <location filename="../mainwindow.ui" line="991"/>
-        <location filename="../ui_mainwindow.h" line="846"/>
-        <location filename="../ui_mainwindow.h" line="852"/>
         <source>Start</source>
         <translation>开始</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="885"/>
         <location filename="../mainwindow.ui" line="1008"/>
-        <location filename="../ui_mainwindow.h" line="847"/>
-        <location filename="../ui_mainwindow.h" line="853"/>
         <source>Clear</source>
         <translation>清除</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="899"/>
         <location filename="../mainwindow.ui" line="1022"/>
-        <location filename="../ui_mainwindow.h" line="848"/>
-        <location filename="../ui_mainwindow.h" line="854"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="927"/>
-        <location filename="../ui_mainwindow.h" line="849"/>
         <source>Traceroute</source>
         <translation>Traceroute</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="943"/>
-        <location filename="../ui_mainwindow.h" line="851"/>
         <source>Hops</source>
         <translation>跃点数</translation>
     </message>
@@ -442,129 +393,129 @@
         <translation>已禁用的模块</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="762"/>
+        <location filename="../mainwindow.cpp" line="764"/>
         <source>Installation successful</source>
         <translation>安装成功</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="764"/>
+        <location filename="../mainwindow.cpp" line="766"/>
         <source>Error detected, could not compile ndiswrapper driver.</source>
         <translation>检测到错误，无法编译 ndiswrapper 驱动程序。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="767"/>
+        <location filename="../mainwindow.cpp" line="769"/>
         <source>Error detected, could not install ndiswrapper.</source>
         <translation>检测到错误，无法安装 ndiswrapper。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="779"/>
+        <location filename="../mainwindow.cpp" line="781"/>
         <source>Error encountered while removing Ndiswrapper</source>
         <translation>删除 Ndiswrapper 时遇到错误</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="829"/>
+        <location filename="../mainwindow.cpp" line="831"/>
         <source>Unblock Driver</source>
         <translation>解除禁用的驱动程序</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="861"/>
+        <location filename="../mainwindow.cpp" line="863"/>
         <source>enabled</source>
         <translation>已启用</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="864"/>
+        <location filename="../mainwindow.cpp" line="866"/>
         <source>disabled</source>
         <translation>未启用</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="867"/>
+        <location filename="../mainwindow.cpp" line="869"/>
         <source>WiFi hardware switch is off</source>
         <translation>WiFi硬件开关是关闭的</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="874"/>
+        <location filename="../mainwindow.cpp" line="876"/>
         <source>Locate the Windows driver you want to add</source>
         <translation>找到你要添加的 Windows 驱动程序</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="875"/>
+        <location filename="../mainwindow.cpp" line="877"/>
         <source>Windows installation information file (*.inf)</source>
         <translation>Windows 安装信息文件 (*.inf)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="906"/>
+        <location filename="../mainwindow.cpp" line="908"/>
         <source>*.sys file not found</source>
         <translation>未找到*.sys文件</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="907"/>
+        <location filename="../mainwindow.cpp" line="909"/>
         <source>The *.sys files must be in the same location as the *.inf file. %1 cannot be found</source>
         <translation>*.sys 文件必须与 *.inf 文件位于同一位置。找不到 %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="918"/>
+        <location filename="../mainwindow.cpp" line="920"/>
         <source>sys file reference not found</source>
         <translation>未找到 sys 文件引用</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="919"/>
+        <location filename="../mainwindow.cpp" line="921"/>
         <source>The sys file for the given driver cannot be determined after parsing the inf file</source>
         <translation>解析 inf 文件后无法确定给定驱动程序的 sys 文件</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="936"/>
+        <location filename="../mainwindow.cpp" line="938"/>
         <source>Ndiswrapper driver removed.</source>
         <translation>Ndiswrapper 驱动程序已删除。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="944"/>
+        <location filename="../mainwindow.cpp" line="946"/>
         <source>%1 Help</source>
         <translation>%1 帮助</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="956"/>
+        <location filename="../mainwindow.cpp" line="958"/>
         <source>Could not unlock devices.
 WiFi device(s) might already be unlocked.</source>
         <translation>无法解锁设备。
 WiFi 设备可能已经被解锁</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="958"/>
+        <location filename="../mainwindow.cpp" line="960"/>
         <source>WiFi devices unlocked.</source>
         <translation>WiFi 设备已解锁。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="973"/>
+        <location filename="../mainwindow.cpp" line="975"/>
         <source>About %1</source>
         <translation>关于 %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="974"/>
+        <location filename="../mainwindow.cpp" line="976"/>
         <source>Version: </source>
         <translation>版本：</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="976"/>
+        <location filename="../mainwindow.cpp" line="978"/>
         <source>Program for troubleshooting and configuring network for MX Linux</source>
         <translation>用于 MX Linux 的故障排除和网络配置程序</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="978"/>
+        <location filename="../mainwindow.cpp" line="980"/>
         <source>Copyright (c) MEPIS LLC and MX Linux</source>
         <translation>MEPIS LLC 和 MX Linux 版权所有 (c)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="979"/>
+        <location filename="../mainwindow.cpp" line="981"/>
         <source>%1 License</source>
         <translation>%1 许可证</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1005"/>
+        <location filename="../mainwindow.cpp" line="1007"/>
         <source>Driver loaded successfully</source>
         <translation>驱动成功加载</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1020"/>
+        <location filename="../mainwindow.cpp" line="1022"/>
         <source>Driver unloaded successfully</source>
         <translation>驱动成功停用</translation>
     </message>

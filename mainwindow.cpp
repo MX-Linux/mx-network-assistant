@@ -681,6 +681,8 @@ bool MainWindow::removeStart(const QString &module)
     modulesFile.close();
     tempFile.close();
     Cmd().runAsRoot("mv " + tempFile.fileName() + " " + modulesFile.fileName());
+    Cmd().runAsRoot("chown root: " + modulesFile.fileName(), true);
+    Cmd().runAsRoot("chmod +r " + modulesFile.fileName(), true);
     return true;
 }
 
