@@ -10,21 +10,23 @@ DEFINES += QT_DEPRECATED_WARNINGS
 TEMPLATE = app
 TARGET = mx-network-assistant
 
-TRANSLATIONS += translations/mx-network-assistant_en.ts
-
-FORMS += \
-    mainwindow.ui
 HEADERS += \
+    common.h \
     mainwindow.h \
-    version.h \
     about.h \
     cmd.h
+
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
     about.cpp \
     cmd.cpp
 
+FORMS += \
+    mainwindow.ui
+
 RESOURCES += \
     images.qrc
 
+TRANSLATIONS += \
+    translations/mx-network-assistant_en.ts
