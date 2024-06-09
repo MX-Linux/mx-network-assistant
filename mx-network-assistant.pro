@@ -1,5 +1,5 @@
 QT       += widgets
-CONFIG   += release warn_on c++1z
+CONFIG   += release warn_on c++17
 
 # The following define makes your compiler warn you if you use any
 # feature of Qt which has been marked as deprecated (the exact warnings
