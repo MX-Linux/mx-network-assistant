@@ -936,7 +936,7 @@ void MainWindow::on_windowsDrvRemovePushButton_clicked()
 void MainWindow::on_generalHelpPushButton_clicked()
 {
     const QString url {"/usr/share/doc/mx-network-assistant/mx-network-assistant.html"};
-    displayDoc(url, tr("%1 Help").arg(windowTitle()));
+    displayHelpDoc(url, tr("%1 Help").arg(windowTitle()));
 }
 
 void MainWindow::on_tabWidget_currentChanged()
