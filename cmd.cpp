@@ -15,7 +15,7 @@ Cmd::Cmd(QObject *parent)
 {
 }
 
-QString Cmd::getOut(const QString &cmd, bool quiet)
+QString Cmd::getOut(const QString &cmd, QuietMode quiet)
 {
     QString output;
     run(cmd, quiet);
@@ -23,20 +23,21 @@ QString Cmd::getOut(const QString &cmd, bool quiet)
     return output;
 }
 
-QString Cmd::getOutAsRoot(const QString &program, const QStringList &args, bool quiet, bool suppressStderr)
+QString Cmd::getOutAsRoot(const QString &program, const QStringList &args, QuietMode quiet, StderrMode stderrMode)
 {
     QString output;
-    procAsRoot(program, args, &output, nullptr, quiet, suppressStderr);
+    procAsRoot(program, args, &output, nullptr, quiet, stderrMode);
     return output;
 }
 
-bool Cmd::proc(const QString &program, const QStringList &args, QString *output, const QByteArray *input, bool quiet)
+bool Cmd::proc(const QString &program, const QStringList &args, QString *output, const QByteArray *input,
+               QuietMode quiet)
 {
     if (state() != QProcess::NotRunning) {
         qDebug() << "Process already running:" << QProcess::program() << arguments();
         return false;
     }
-    if (!quiet) {
+    if (quiet == QuietMode::No) {
         qDebug() << program << args;
     }
 
@@ -57,7 +58,7 @@ bool Cmd::proc(const QString &program, const QStringList &args, QString *output,
     return (exitStatus() == QProcess::NormalExit && exitCode() == 0);
 }
 
-bool Cmd::helperProc(const QStringList &helperArgs, QString *output, const QByteArray *input, bool quiet)
+bool Cmd::helperProc(const QStringList &helperArgs, QString *output, const QByteArray *input, QuietMode quiet)
 {
     const bool isRoot = (getuid() == 0);
     if (!isRoot && elevate.isEmpty()) {
@@ -74,32 +75,32 @@ bool Cmd::helperProc(const QStringList &helperArgs, QString *output, const QByte
 }
 
 bool Cmd::procAsRoot(const QString &program, const QStringList &args, QString *output, const QByteArray *input,
-                     bool quiet, bool suppressStderr)
+                     QuietMode quiet, StderrMode stderrMode)
 {
     QStringList helperArgs {"exec", program};
-    if (suppressStderr) {
+    if (stderrMode == StderrMode::Suppress) {
         helperArgs << "--quiet-stderr";
     }
     helperArgs += args;
     return helperProc(helperArgs, output, input, quiet);
 }
 
-bool Cmd::run(const QString &cmd, bool quiet)
+bool Cmd::run(const QString &cmd, QuietMode quiet)
 {
     return proc("/bin/bash", {"-c", cmd}, nullptr, nullptr, quiet);
 }
 
-bool Cmd::runAsRoot(const QString &program, const QStringList &args, bool quiet, bool suppressStderr)
+bool Cmd::runAsRoot(const QString &program, const QStringList &args, QuietMode quiet, StderrMode stderrMode)
 {
-    return procAsRoot(program, args, nullptr, nullptr, quiet, suppressStderr);
+    return procAsRoot(program, args, nullptr, nullptr, quiet, stderrMode);
 }
 
-bool Cmd::appendLineAsRoot(const QString &path, const QString &line, bool quiet)
+bool Cmd::appendLineAsRoot(const QString &path, const QString &line, QuietMode quiet)
 {
     return helperProc({"append-line", path, line}, nullptr, nullptr, quiet);
 }
 
-bool Cmd::writeFileAsRoot(const QString &path, const QByteArray &content, bool quiet)
+bool Cmd::writeFileAsRoot(const QString &path, const QByteArray &content, QuietMode quiet)
 {
     QTemporaryFile tempFile;
     if (!tempFile.open()) {

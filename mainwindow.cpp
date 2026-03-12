@@ -511,7 +511,8 @@ void MainWindow::on_windowsDrvDiagnosePushButton_clicked()
         QMessageBox::warning(this, windowTitle(), tr("Ndiswrapper is not installed"));
         return;
     }
-    QStringList queryResult = Cmd().getOutAsRoot("ndiswrapper", {"-l"}, false, true).split("\n");
+    QStringList queryResult
+        = Cmd().getOutAsRoot("ndiswrapper", {"-l"}, QuietMode::No, StderrMode::Suppress).split("\n");
 
     if (queryResult.size() == 1 && queryResult.at(0).isEmpty()) {
         return;
