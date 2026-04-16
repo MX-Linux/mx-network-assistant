@@ -84,7 +84,20 @@ void MainWindow::refresh()
         // hwUnblock->setVisible(out != "Can't open RFKILL control device: No such file or directory");
         labelRouterIP->setText(tr("IP address from router:") + " " + getIPfromRouter());
         labelIP->setText(tr("External IP address:") + " " + getIP());
-        labelInterface->setText(Cmd().getOut("ip route | grep ^default | grep -Po '(?<=dev )(\\S+)'"));
+        {
+            QString iface;
+            static const QRegularExpression devRx(QStringLiteral("\\bdev\\s+(\\S+)"));
+            for (const QString &line : Cmd().getOut("ip route").split('\n', Qt::SkipEmptyParts)) {
+                if (line.startsWith("default")) {
+                    const auto m = devRx.match(line);
+                    if (m.hasMatch()) {
+                        iface = m.captured(1);
+                        break;
+                    }
+                }
+            }
+            labelInterface->setText(iface);
+        }
         checkWifiAvailable();
         checkWifiEnabled();
         break;
@@ -253,7 +266,7 @@ void MainWindow::tracerouteFinished()
 
 void MainWindow::on_tracerouteButton_clicked()
 {
-    if (!Cmd().run("dpkg -s traceroute | grep -q '^Status: install ok installed'")) {
+    if (!Cmd().getOut("dpkg -s traceroute", QuietMode::Yes).contains("Status: install ok installed")) {
         if (internetConnection) {
             setCursor(QCursor(Qt::WaitCursor));
             int ret = QMessageBox::information(this, tr("Traceroute not installed"),
@@ -262,7 +275,7 @@ void MainWindow::on_tracerouteButton_clicked()
             if (ret == QMessageBox::Yes) {
                 cmd.runAsRoot("apt-get", {"install", "-qq", "traceroute"});
                 setCursor(QCursor(Qt::ArrowCursor));
-                if (!Cmd().run("dpkg -s traceroute | grep -q '^Status: install ok installed'")) {
+                if (!Cmd().getOut("dpkg -s traceroute", QuietMode::Yes).contains("Status: install ok installed")) {
                     QMessageBox::critical(this, tr("Traceroute hasn't been installed"),
                                           tr("Traceroute cannot be installed. This may mean you are using the LiveCD "
                                              "or you are unable to reach the software repository,"),
@@ -843,7 +856,10 @@ bool MainWindow::checkSysFileExists(const QDir &searchPath, const QString &fileN
 
 bool MainWindow::checkWifiAvailable()
 {
-    if (Cmd().run("lspci | grep -Ei 'wireless|wifi'")) {
+    const QString lspciOut = Cmd().getOut("lspci", QuietMode::Yes);
+    static const QRegularExpression wifiRx(QStringLiteral("wireless|wifi"),
+                                            QRegularExpression::CaseInsensitiveOption);
+    if (wifiRx.match(lspciOut).hasMatch()) {
         groupWifi->show();
         return true;
     } else {
@@ -985,7 +1001,22 @@ QString MainWindow::getIP()
 
 QString MainWindow::getIPfromRouter()
 {
-    return Cmd().getOut("ip a | awk '/127.0.0.1/ {next} /inet / {print $2}' | cut -d/ -f1").trimmed();
+    const QString out = Cmd().getOut("ip a");
+    QStringList ips;
+    for (const QString &raw : out.split('\n', Qt::SkipEmptyParts)) {
+        const QString line = raw.trimmed();
+        if (!line.startsWith("inet ")) {
+            continue;
+        }
+        if (line.contains("127.0.0.1")) {
+            continue;
+        }
+        const QString addr = line.section(' ', 1, 1, QString::SectionSkipEmpty).section('/', 0, 0);
+        if (!addr.isEmpty()) {
+            ips << addr;
+        }
+    }
+    return ips.join('\n').trimmed();
 }
 
 void MainWindow::on_linuxDrvLoad_clicked()
