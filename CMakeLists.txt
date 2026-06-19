@@ -136,7 +136,6 @@ target_link_libraries(helper
 # Set compiler flags
 target_compile_options(mx-network-assistant PRIVATE
     -Wpedantic
-    -pedantic
     -Werror=return-type
     -Werror=switch
     -Werror=uninitialized
@@ -145,7 +144,6 @@ target_compile_options(mx-network-assistant PRIVATE
 
 target_compile_options(helper PRIVATE
     -Wpedantic
-    -pedantic
     -Werror=return-type
     -Werror=switch
     -Werror=uninitialized
