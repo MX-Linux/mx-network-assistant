@@ -117,7 +117,13 @@ void printError(const QString &message)
         process.write(input);
     }
     process.closeWriteChannel();
-    process.waitForFinished(-1);
+    if (!process.waitForFinished(60000)) {
+        process.kill();
+        process.waitForFinished(5000);
+        result.standardError = QString("Command %1 timed out").arg(program).toUtf8();
+        result.exitCode = 124;
+        return result;
+    }
 
     result.exitCode = process.exitCode();
     result.exitStatus = process.exitStatus();
