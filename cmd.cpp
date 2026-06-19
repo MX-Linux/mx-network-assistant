@@ -23,6 +23,13 @@ QString Cmd::getOut(const QString &cmd, QuietMode quiet)
     return output;
 }
 
+QString Cmd::getOut(const QString &program, const QStringList &args, QuietMode quiet)
+{
+    QString output;
+    proc(program, args, &output, nullptr, quiet);
+    return output;
+}
+
 QString Cmd::getOutAsRoot(const QString &program, const QStringList &args, QuietMode quiet, StderrMode stderrMode)
 {
     QString output;
@@ -88,6 +95,11 @@ bool Cmd::procAsRoot(const QString &program, const QStringList &args, QString *o
 bool Cmd::run(const QString &cmd, QuietMode quiet)
 {
     return proc("/bin/bash", {"-c", cmd}, nullptr, nullptr, quiet);
+}
+
+bool Cmd::run(const QString &program, const QStringList &args, QuietMode quiet)
+{
+    return proc(program, args, nullptr, nullptr, quiet);
 }
 
 bool Cmd::runAsRoot(const QString &program, const QStringList &args, QuietMode quiet, StderrMode stderrMode)

@@ -26,6 +26,7 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QMenu>
+#include <QProcessEnvironment>
 #include <QScreen>
 #include <QSysInfo>
 
@@ -87,7 +88,7 @@ void MainWindow::refresh()
         {
             QString iface;
             static const QRegularExpression devRx(QStringLiteral("\\bdev\\s+(\\S+)"));
-            for (const QString &line : Cmd().getOut("ip route").split('\n', Qt::SkipEmptyParts)) {
+            for (const QString &line : Cmd().getOut("ip", {"route"}).split('\n', Qt::SkipEmptyParts)) {
                 if (line.startsWith("default")) {
                     const auto m = devRx.match(line);
                     if (m.hasMatch()) {
@@ -266,7 +267,7 @@ void MainWindow::tracerouteFinished()
 
 void MainWindow::on_tracerouteButton_clicked()
 {
-    if (!Cmd().getOut("dpkg -s traceroute", QuietMode::Yes).contains("Status: install ok installed")) {
+    if (!Cmd().getOut("dpkg", {"-s", "traceroute"}, QuietMode::Yes).contains("Status: install ok installed")) {
         if (internetConnection) {
             setCursor(QCursor(Qt::WaitCursor));
             int ret = QMessageBox::information(this, tr("Traceroute not installed"),
@@ -275,7 +276,7 @@ void MainWindow::on_tracerouteButton_clicked()
             if (ret == QMessageBox::Yes) {
                 cmd.runAsRoot("apt-get", {"install", "-qq", "traceroute"});
                 setCursor(QCursor(Qt::ArrowCursor));
-                if (!Cmd().getOut("dpkg -s traceroute", QuietMode::Yes).contains("Status: install ok installed")) {
+                if (!Cmd().getOut("dpkg", {"-s", "traceroute"}, QuietMode::Yes).contains("Status: install ok installed")) {
                     QMessageBox::critical(this, tr("Traceroute hasn't been installed"),
                                           tr("Traceroute cannot be installed. This may mean you are using the LiveCD "
                                              "or you are unable to reach the software repository,"),
@@ -301,7 +302,7 @@ void MainWindow::on_tracerouteButton_clicked()
 
         QString program = "traceroute";
         QStringList arguments;
-        arguments << tracerouteHostEdit->text() << QStringLiteral("-m %1").arg(traceHopsNumber->value());
+        arguments << QStringLiteral("-m") << QString::number(traceHopsNumber->value()) << tracerouteHostEdit->text();
 
         if (traceProc->state() != QProcess::NotRunning) {
             traceProc->kill();
@@ -345,7 +346,7 @@ void MainWindow::on_pingButton_clicked()
         setCursor(QCursor(Qt::WaitCursor));
         QString program = "ping";
         QStringList arguments;
-        arguments << QStringLiteral("-c %1").arg(pingPacketNumber->value()) << "-W 5" << pingHostEdit->text();
+        arguments << QStringLiteral("-c") << QString::number(pingPacketNumber->value()) << QStringLiteral("-W") << QStringLiteral("5") << pingHostEdit->text();
 
         if (pingProc->state() != QProcess::NotRunning) {
             pingProc->kill();
@@ -371,7 +372,11 @@ void MainWindow::show()
 void MainWindow::on_hwDiagnosePushButton_clicked()
 {
     hwList->clear();
-    const QString out = Cmd().getOut("LANG=C lshw -disable IDE -disable SCSI -class network -json").trimmed();
+    Cmd cmd;
+    QProcessEnvironment env = QProcessEnvironment::systemEnvironment();
+    env.insert("LANG", "C");
+    cmd.setProcessEnvironment(env);
+    const QString out = cmd.getOut("lshw", {"-disable", "IDE", "-disable", "SCSI", "-class", "network", "-json"}).trimmed();
     const auto &jsonDoc = QJsonDocument::fromJson(out.toUtf8());
     const auto &jsonArray = jsonDoc.array();
     for (const auto &item : jsonArray) {
@@ -435,7 +440,7 @@ void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
 {
     linuxDrvList->clear();
     loadedModules.clear();
-    const QStringList loadedKernelModules = Cmd().getOut("lsmod").trimmed().split("\n");
+    const QStringList loadedKernelModules = Cmd().getOut("lsmod", {}).trimmed().split("\n");
     const QString kernelModulesDir = QString("/lib/modules/%1/kernel/drivers/net").arg(QSysInfo::kernelVersion());
     QStringList completeKernelNetModules = Cmd().getOutAsRoot("find", {kernelModulesDir, "-name", "*.ko"})
                                                .trimmed()
@@ -643,7 +648,7 @@ bool MainWindow::loadModule(const QString &module)
             QString msg = QObject::tr("Could not load ");
             msg += module;
             QMessageBox::information(this, windowTitle(), msg);
-            Cmd().runAsRoot("pkill", {"wpa_supplicant"});
+            Cmd().runAsRoot("service", {"wpa_supplicant", "stop"});
             Cmd().runAsRoot("service", {"network-manager", "start"});
             return false;
         }
@@ -651,7 +656,7 @@ bool MainWindow::loadModule(const QString &module)
     if (!loadedModules.contains(module)) {
         loadedModules.append(module);
     }
-    Cmd().runAsRoot("pkill", {"wpa_supplicant"});
+    Cmd().runAsRoot("service", {"wpa_supplicant", "stop"});
     Cmd().runAsRoot("service", {"network-manager", "start"});
     return true;
 }
@@ -856,7 +861,7 @@ bool MainWindow::checkSysFileExists(const QDir &searchPath, const QString &fileN
 
 bool MainWindow::checkWifiAvailable()
 {
-    const QString lspciOut = Cmd().getOut("lspci", QuietMode::Yes);
+    const QString lspciOut = Cmd().getOut("lspci", {}, QuietMode::Yes);
     static const QRegularExpression wifiRx(QStringLiteral("wireless|wifi"),
                                             QRegularExpression::CaseInsensitiveOption);
     if (wifiRx.match(lspciOut).hasMatch()) {
@@ -871,10 +876,10 @@ bool MainWindow::checkWifiAvailable()
 bool MainWindow::checkWifiEnabled()
 {
     hwUnblock->hide();
-    if (Cmd().getOut("nmcli -t --fields WIFI r").trimmed() == "enabled") {
+    if (Cmd().getOut("nmcli", {"-t", "--fields", "WIFI", "r"}).trimmed() == "enabled") {
         labelWifi->setText(tr("enabled"));
         return true;
-    } else if (Cmd().getOut("nmcli -t --fields WIFI-HW r").trimmed() == "enabled") {
+    } else if (Cmd().getOut("nmcli", {"-t", "--fields", "WIFI-HW", "r"}).trimmed() == "enabled") {
         labelWifi->setText(tr("disabled"));
         hwUnblock->show();
     } else {
@@ -992,7 +997,7 @@ void MainWindow::on_buttonAbout_clicked()
 
 QString MainWindow::getIP()
 {
-    QString ip = Cmd().getOut("wget -qO - icanhazip.com").trimmed();
+    QString ip = Cmd().getOut("wget", {"-qO-", "icanhazip.com"}).trimmed();
     if (!ip.isEmpty()) {
         internetConnection = true;
     }
@@ -1001,7 +1006,7 @@ QString MainWindow::getIP()
 
 QString MainWindow::getIPfromRouter()
 {
-    const QString out = Cmd().getOut("ip a");
+    const QString out = Cmd().getOut("ip", {"a"});
     QStringList ips;
     for (const QString &raw : out.split('\n', Qt::SkipEmptyParts)) {
         const QString line = raw.trimmed();

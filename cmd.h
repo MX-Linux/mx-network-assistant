@@ -14,6 +14,8 @@ public:
     explicit Cmd(QObject *parent = nullptr);
 
     [[nodiscard]] QString getOut(const QString &cmd, QuietMode quiet = QuietMode::No);
+    [[nodiscard]] QString getOut(const QString &program, const QStringList &args,
+                                 QuietMode quiet = QuietMode::No);
     [[nodiscard]] QString getOutAsRoot(const QString &program, const QStringList &args = {},
                                        QuietMode quiet = QuietMode::No,
                                        StderrMode stderrMode = StderrMode::Inherit);
@@ -23,6 +25,7 @@ public:
                     const QByteArray *input = nullptr, QuietMode quiet = QuietMode::No,
                     StderrMode stderrMode = StderrMode::Inherit);
     bool run(const QString &cmd, QuietMode quiet = QuietMode::No);
+    bool run(const QString &program, const QStringList &args, QuietMode quiet = QuietMode::No);
     bool runAsRoot(const QString &program, const QStringList &args = {}, QuietMode quiet = QuietMode::No,
                    StderrMode stderrMode = StderrMode::Inherit);
     bool appendLineAsRoot(const QString &path, const QString &line, QuietMode quiet = QuietMode::No);
