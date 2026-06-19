@@ -392,20 +392,20 @@ void MainWindow::on_hwDiagnosePushButton_clicked()
         } else {
             icon = QIcon::fromTheme(QStringLiteral("network-server-database"));
         }
-        auto *tree_item = new QTreeWidgetItem();
-        tree_item->setIcon(
+        auto *treeItem = new QTreeWidgetItem();
+        treeItem->setIcon(
             Col::Enabled,
             isDisabled ? QIcon::fromTheme(QStringLiteral("emblem-unreadable"), QIcon(":/icons/emblem-unreadable.svg"))
                        : QIcon::fromTheme(QStringLiteral("emblem-checked"), QIcon(":/icons/emblem-checked.svg")));
-        tree_item->setData(Col::Enabled, Qt::UserRole, !isDisabled);
+        treeItem->setData(Col::Enabled, Qt::UserRole, !isDisabled);
 
-        tree_item->setIcon(Col::Interface, icon);
-        tree_item->setText(Col::Interface, name);
-        tree_item->setText(Col::Description, desc);
-        tree_item->setText(Col::Product, product + version);
-        tree_item->setText(Col::Vendor, vendor);
-        tree_item->setText(Col::Driver, driver);
-        hwList->addTopLevelItem(tree_item);
+        treeItem->setIcon(Col::Interface, icon);
+        treeItem->setText(Col::Interface, name);
+        treeItem->setText(Col::Description, desc);
+        treeItem->setText(Col::Product, product + version);
+        treeItem->setText(Col::Vendor, vendor);
+        treeItem->setText(Col::Driver, driver);
+        hwList->addTopLevelItem(treeItem);
     }
     for (int i = 0; i < hwList->columnCount(); ++i) {
         hwList->resizeColumnToContents(i);
