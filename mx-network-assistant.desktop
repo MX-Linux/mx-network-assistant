@@ -149,5 +149,5 @@ Comment=Network configuration and troubleshooting
 Exec=mx-network-assistant
 Icon=mx-network-assistant
 NoDisplay=false
-Categories=System;MX-Setup;
+Categories=System;X-MX-Setup;
 Type=Application
