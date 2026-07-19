@@ -2,6 +2,6 @@ help/*				usr/share/doc/mx-network-assistant
 icons/mx-network-assistant.png	usr/share/icons/hicolor/48x48/apps
 icons/mx-network-assistant.svg	usr/share/icons/hicolor/scalable/apps
 mx-network-assistant.desktop	usr/share/applications
-scripts/*.policy		usr/share/polkit-1/actions
-obj-*/helper			usr/lib/mx-network-assistant
+obj-*/*.policy		usr/share/polkit-1/actions
+obj-*/helper			usr/libexec/mx-network-assistant
 obj-*/*.qm			usr/share/mx-network-assistant/locale
