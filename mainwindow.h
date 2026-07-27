@@ -1,6 +1,6 @@
 /*
    Copyright (C) 2003-2010 by Warren Woodford
-   Copyright (C) 2014-2023 by Adrian <adrian@mxlinux.org>
+   Copyright (C) 2014-2026 by Adrian <adrian@mxlinux.org>
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
