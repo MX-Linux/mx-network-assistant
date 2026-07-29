@@ -741,7 +741,7 @@ void MainWindow::on_uninstallNdiswrapper_clicked()
     installOutputEdit->show();
     const int height = 600;
     const int width = 800;
-    installOutputEdit->resize(height, width);
+    installOutputEdit->resize(width, height);
     // center output window
     QRect screenGeometry = QApplication::primaryScreen()->geometry();
     const int x = (screenGeometry.width() - installOutputEdit->width()) / 2;
