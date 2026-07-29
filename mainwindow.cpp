@@ -169,7 +169,7 @@ void MainWindow::linuxDrvListToClipboard()
 
 void MainWindow::linuxDrvListFullToClipboard()
 {
-    if (hwList->topLevelItemCount() > 0) {
+    if (linuxDrvList->count() > 0) {
         auto *clipboard = QApplication::clipboard();
         QString elementList;
         for (int i = 0; i < linuxDrvList->count(); i++) {
@@ -182,7 +182,7 @@ void MainWindow::linuxDrvListFullToClipboard()
 
 void MainWindow::windowsDrvListToClipboard()
 {
-    if (linuxDrvList->currentRow() != -1) {
+    if (windowsDrvList->currentRow() != -1) {
         auto *clipboard = QApplication::clipboard();
         auto *currentElement = windowsDrvList->currentItem();
         clipboard->setText(currentElement->text());
@@ -191,7 +191,7 @@ void MainWindow::windowsDrvListToClipboard()
 
 void MainWindow::windowsDrvListFullToClipboard()
 {
-    if (hwList->topLevelItemCount() > 0) {
+    if (windowsDrvList->count() > 0) {
         auto *clipboard = QApplication::clipboard();
         QString elementList;
         for (int i = 0; i < windowsDrvList->count(); i++) {
