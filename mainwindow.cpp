@@ -713,7 +713,6 @@ bool MainWindow::installModule(const QString &module)
 void MainWindow::on_installNdiswrapper_clicked()
 {
     setCursor(QCursor(Qt::BusyCursor));
-    cmd.runAsRoot("apt-get", {"update"});
     installOutputEdit->clear();
     installOutputEdit->show();
     const int height = 600;
@@ -730,14 +729,14 @@ void MainWindow::on_installNdiswrapper_clicked()
     disconnect(&cmd, &QProcess::readyReadStandardOutput, nullptr, nullptr);
     connect(&cmd, &QProcess::readyReadStandardOutput, this, &MainWindow::writeInstallOutput);
     disconnect(&cmd, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), nullptr, nullptr);
-    connect(&cmd, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), this, &MainWindow::aptUpdateFinished);
+    cmd.runAsRoot("apt-get", {"update"});
+    aptUpdateFinished();
 }
 
 void MainWindow::on_uninstallNdiswrapper_clicked()
 {
     setCursor(QCursor(Qt::BusyCursor));
     removeModule("ndiswrapper");
-    cmd.runAsRoot("apt-get", {"purge", "-y", "ndiswrapper-utils-1.9", "ndiswrapper-dkms", "ndiswrapper-common"});
     installOutputEdit->clear();
     installOutputEdit->show();
     const int height = 600;
@@ -754,17 +753,17 @@ void MainWindow::on_uninstallNdiswrapper_clicked()
     disconnect(&cmd, &QProcess::readyReadStandardOutput, nullptr, nullptr);
     connect(&cmd, &QProcess::readyReadStandardOutput, this, &MainWindow::writeInstallOutput);
     disconnect(&cmd, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), nullptr, nullptr);
-    connect(&cmd, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), this,
-            &MainWindow::uninstallNdisFinished);
+    const bool success
+        = cmd.runAsRoot("apt-get", {"purge", "-y", "ndiswrapper-utils-1.9", "ndiswrapper-dkms",
+                                    "ndiswrapper-common"});
+    uninstallNdisFinished(success ? 0 : 1);
 }
 
 void MainWindow::aptUpdateFinished()
 {
-    cmd.runAsRoot("apt-get", {"install", "-y", "ndiswrapper-utils-1.9", "ndiswrapper-dkms"});
-    disconnect(&cmd, &QProcess::readyReadStandardOutput, nullptr, nullptr);
-    connect(&cmd, &QProcess::readyReadStandardOutput, this, &MainWindow::writeInstallOutput);
-    disconnect(&cmd, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), nullptr, nullptr);
-    connect(&cmd, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished), this, &MainWindow::installFinished);
+    const bool success
+        = cmd.runAsRoot("apt-get", {"install", "-y", "ndiswrapper-utils-1.9", "ndiswrapper-dkms"});
+    installFinished(success ? 0 : 1);
 }
 
 void MainWindow::installFinished(int errorCode)
