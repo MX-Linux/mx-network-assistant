@@ -1,0 +1,23 @@
+.TH MX-NETWORK-ASSISTANT 1 "August 2026" "mx-network-assistant 26.03" "User Commands"
+.SH NAME
+mx-network-assistant \- network configuration and troubleshooting tool for MX Linux
+.SH SYNOPSIS
+.B mx-network-assistant
+.SH DESCRIPTION
+.B mx-network-assistant
+is a graphical tool for configuring and troubleshooting network connections
+in MX Linux, including wired, wireless, and driver-related (e.g. Ndiswrapper,
+Broadcom) settings.
+.PP
+Operations requiring administrative privileges are performed through a
+PolicyKit-protected helper.
+.SH FILES
+.TP
+.I /usr/libexec/mx-network-assistant/helper
+Privileged helper used for system network changes.
+.TP
+.I /usr/share/polkit-1/actions/org.mxlinux.pkexec.mxna-helper.policy
+PolicyKit policy for the privileged helper.
+.SH AUTHORS
+.B mx-network-assistant
+is maintained by the MX Linux project.
