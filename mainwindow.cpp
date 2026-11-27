@@ -477,12 +477,12 @@ void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
     }
 
     QFile inputBlockList("/etc/modprobe.d/blacklist.conf");
-    inputBlockList.open(QFile::ReadOnly | QFile::Text);
+    const bool blocklistOpen = inputBlockList.open(QFile::ReadOnly | QFile::Text);
 
     QString driver;
     QString s;
     // Add blocklisted modules to the list
-    while (!inputBlockList.atEnd()) {
+    while (blocklistOpen && !inputBlockList.atEnd()) {
         if (inputBlockList.pos() == 0) {
             new QListWidgetItem("---------" + tr("Blocked Drivers") + " --------", linuxDrvList);
         }
@@ -501,8 +501,8 @@ void MainWindow::on_linuxDrvDiagnosePushButton_clicked()
 
     // Add blocklisted modules from /etc/modprobe.d/broadcom-sta-dkms.conf
     QFile inputBroadcomBlocklist("/etc/modprobe.d/broadcom-sta-dkms.conf");
-    inputBroadcomBlocklist.open(QFile::ReadOnly | QFile::Text);
-    while (!inputBroadcomBlocklist.atEnd()) {
+    const bool broadcomBlocklistOpen = inputBroadcomBlocklist.open(QFile::ReadOnly | QFile::Text);
+    while (broadcomBlocklistOpen && !inputBroadcomBlocklist.atEnd()) {
         if (inputBroadcomBlocklist.pos() == 0) {
             new QListWidgetItem("---------" + tr("Blocked Broadcom Drivers") + "--------", linuxDrvList);
         }
@@ -812,8 +812,8 @@ void MainWindow::updateDriverStatus()
     driverBlocklisted = false;
     QFile inputBlockList("/etc/modprobe.d/blacklist.conf");
     QFile inputBroadcomBlocklist("/etc/modprobe.d/broadcom-sta-dkms.conf");
-    inputBlockList.open(QFile::ReadOnly | QFile::Text);
-    inputBroadcomBlocklist.open(QFile::ReadOnly | QFile::Text);
+    const bool blocklistOpen = inputBlockList.open(QFile::ReadOnly | QFile::Text);
+    const bool broadcomBlocklistOpen = inputBroadcomBlocklist.open(QFile::ReadOnly | QFile::Text);
 
     QString driver;
 
@@ -824,7 +824,7 @@ void MainWindow::updateDriverStatus()
     }
 
     QString s;
-    while (!inputBlockList.atEnd()) {
+    while (blocklistOpen && !inputBlockList.atEnd()) {
         s = inputBlockList.readLine();
         QString expr = QStringLiteral("^\\s*(blacklist)\\s*(%1)\\s*").arg(driver);
         if (s.contains(QRegularExpression(expr))) {
@@ -832,7 +832,7 @@ void MainWindow::updateDriverStatus()
             break;
         }
     }
-    while (!inputBroadcomBlocklist.atEnd()) {
+    while (broadcomBlocklistOpen && !inputBroadcomBlocklist.atEnd()) {
         s = inputBroadcomBlocklist.readLine();
         QString expr = QStringLiteral("^\\s*(blacklist)\\s*(%1)\\s*").arg(driver);
         if (s.contains(QRegularExpression(expr))) {
@@ -894,7 +894,11 @@ void MainWindow::on_windowsDrvAddPushButton_clicked()
     if (!infFileName.isEmpty()) {
         // Search in the inf file the name of the .sys file
         QFile infFile(infFileName);
-        infFile.open(QFile::ReadOnly | QFile::Text);
+        if (!infFile.open(QFile::ReadOnly | QFile::Text)) {
+            QMessageBox::warning(this, windowTitle(),
+                                 tr("Could not open %1.\n%2").arg(infFileName, infFile.errorString()));
+            return;
+        }
 
         QString s;
         bool found = false;
